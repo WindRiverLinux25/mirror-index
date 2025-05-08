@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-04-28T00:04:06+0000",
+            "updated": "2025-05-08T00:05:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-26T02:04:22+0000",
-            "vcs_last_commit": "2025-04-13T19:04:25+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:22+0000",
-            "vcs_last_rev": "b5cae423259de6610e5ee3b9a784be779bfa8614",
+            "updated": "2025-05-08T06:05:10+0000",
+            "vcs_last_commit": "2025-05-08T01:05:13+0000",
+            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
+            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -670,10 +670,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-04-28T16:04:22+0000",
-            "vcs_last_commit": "2025-04-28T00:04:07+0000",
-            "vcs_last_fetch": "2025-04-28T16:04:22+0000",
-            "vcs_last_rev": "798f2afb6fe990ebd7d83197fcc5868fd4458178",
+            "updated": "2025-05-08T07:05:29+0000",
+            "vcs_last_commit": "2025-05-08T07:05:57+0000",
+            "vcs_last_fetch": "2025-05-08T07:05:29+0000",
+            "vcs_last_rev": "6a2e5c7c23ba380b3c7a84a98dde8e9b3f5761fc",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -685,13 +685,13 @@
             "id": 1037172,
             "layer": 32,
             "local_path": "",
-            "updated": "2025-04-26T02:04:14+0000",
-            "vcs_last_commit": "2025-04-22T19:04:45+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:14+0000",
-            "vcs_last_rev": "ab7cd5f0630947426de79bd7be668ff6ff7a0a6f",
+            "updated": "2025-05-07T07:05:46+0000",
+            "vcs_last_commit": "2025-05-07T05:05:01+0000",
+            "vcs_last_fetch": "2025-05-07T07:05:46+0000",
+            "vcs_last_rev": "4417642c759a8c1070272cfa73b0a105f3d7e716",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 42596
+            "yp_compatible_version": 44204
         }
     ],
     "layerDependencies": [
@@ -839,7 +839,21 @@
             "id": 127408,
             "layerbranch": 1037172,
             "name": "default",
-            "updated": "2025-04-26T02:04:14+0000"
+            "updated": "2025-05-05T22:05:48+0000"
+        },
+        {
+            "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
+            "id": 127940,
+            "layerbranch": 1037172,
+            "name": "feature/intel-persistent-memory",
+            "updated": "2025-05-05T22:05:48+0000"
+        },
+        {
+            "description": "Add QAT drivers to the image",
+            "id": 127941,
+            "layerbranch": 1037172,
+            "name": "feature/intel-qat",
+            "updated": "2025-05-05T22:05:48+0000"
         }
     ]
 }
