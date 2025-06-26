@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,13 +647,28 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "intel-qat",
+            "id": 1037143,
+            "layer": 193,
+            "local_path": "",
+            "updated": "2025-06-22T23:06:15+0000",
+            "vcs_last_commit": "2025-06-22T21:06:13+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:15+0000",
+            "vcs_last_rev": "47c85b6b8068c55f7417cd38e6c3609b7f833fc3",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44209
         },
         {
             "actual_branch": "",
@@ -655,10 +677,10 @@
             "id": 1037156,
             "layer": 166,
             "local_path": "",
-            "updated": "2025-04-26T02:04:04+0000",
-            "vcs_last_commit": "2025-04-06T19:04:02+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:04+0000",
-            "vcs_last_rev": "e98daea51fc613317a422dddff1f985d5a8e35d4",
+            "updated": "2025-06-22T23:06:56+0000",
+            "vcs_last_commit": "2025-06-02T18:06:48+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:56+0000",
+            "vcs_last_rev": "9ac9145926936d770d2b64a2790919e89db152f1",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 44207
@@ -670,10 +692,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-05-08T07:05:29+0000",
-            "vcs_last_commit": "2025-05-08T07:05:57+0000",
-            "vcs_last_fetch": "2025-05-08T07:05:29+0000",
-            "vcs_last_rev": "6a2e5c7c23ba380b3c7a84a98dde8e9b3f5761fc",
+            "updated": "2025-06-25T21:06:35+0000",
+            "vcs_last_commit": "2025-06-25T20:06:52+0000",
+            "vcs_last_fetch": "2025-06-25T21:06:35+0000",
+            "vcs_last_rev": "96f6ed385ea58d4865afb71f4f61227a950c9b39",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -685,10 +707,10 @@
             "id": 1037172,
             "layer": 32,
             "local_path": "",
-            "updated": "2025-05-07T07:05:46+0000",
-            "vcs_last_commit": "2025-05-07T05:05:01+0000",
-            "vcs_last_fetch": "2025-05-07T07:05:46+0000",
-            "vcs_last_rev": "4417642c759a8c1070272cfa73b0a105f3d7e716",
+            "updated": "2025-06-25T21:06:18+0000",
+            "vcs_last_commit": "2025-06-25T21:06:13+0000",
+            "vcs_last_fetch": "2025-06-25T21:06:18+0000",
+            "vcs_last_rev": "8fd4aa118499cae45b268862e7143a899a1f2ad4",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -708,8 +730,14 @@
             "required": true
         },
         {
+            "dependency": 193,
+            "id": 146091,
+            "layerbranch": 1037172,
+            "required": true
+        },
+        {
             "dependency": 49,
-            "id": 142726,
+            "id": 146092,
             "layerbranch": 1037172,
             "required": true
         }
@@ -745,7 +773,7 @@
             "name": "intel-x86",
             "status": "P",
             "summary": "Common Intel x86 BSP",
-            "updated": "2018-05-30T22:05:07+0000",
+            "updated": "2025-05-20T23:05:10+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/intel-x86",
             "vcs_web_commit_url": "",
@@ -790,15 +818,34 @@
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
+        },
+        {
+            "collection": "intel-qat",
+            "comparison": false,
+            "description": "The Intel QuickAssist Adapter family provides customers with a scalable, flexible, and extendable way to offer Intel QuickAssist Technology crypto acceleration and compression capabilities to their existing product lines.",
+            "id": 193,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-intel-qat",
+            "status": "P",
+            "summary": "intel qat layer",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-qat",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
         }
     ],
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 98360,
+            "id": 101816,
             "layerbranch": 1037172,
             "name": "intel-x86-64",
-            "updated": "2025-04-26T02:04:14+0000"
+            "updated": "2025-06-25T09:06:41+0000"
         }
     ],
     "recipes": [
@@ -811,7 +858,7 @@
             "filename": "tmon_1.0.bb",
             "filepath": "recipes-kernel/tmon",
             "homepage": "",
-            "id": 2225367,
+            "id": 2277593,
             "inherits": "",
             "layerbranch": 1037172,
             "license": "GPL-2.0-only",
@@ -823,37 +870,44 @@
             "section": "base",
             "srcrev": "",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2025-04-26T02:04:14+0000"
+            "updated": "2025-06-25T09:06:41+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Install \"require\" features together such as: edac/kdump/intel-qat/intel-sst ... to rootfs or image.",
-            "id": 127407,
+            "id": 129922,
             "layerbranch": 1037172,
             "name": "feature/intel-x86-dev",
-            "updated": "2025-04-26T02:04:14+0000"
+            "updated": "2025-06-25T09:06:41+0000"
         },
         {
-            "description": "",
-            "id": 127408,
+            "description": "Install intel-speed-select to rootfs",
+            "id": 129923,
             "layerbranch": 1037172,
-            "name": "default",
-            "updated": "2025-05-05T22:05:48+0000"
-        },
-        {
-            "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
-            "id": 127940,
-            "layerbranch": 1037172,
-            "name": "feature/intel-persistent-memory",
-            "updated": "2025-05-05T22:05:48+0000"
+            "name": "feature/intel-sst",
+            "updated": "2025-06-25T09:06:41+0000"
         },
         {
             "description": "Add QAT drivers to the image",
-            "id": 127941,
+            "id": 129924,
             "layerbranch": 1037172,
             "name": "feature/intel-qat",
-            "updated": "2025-05-05T22:05:48+0000"
+            "updated": "2025-06-25T09:06:41+0000"
+        },
+        {
+            "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
+            "id": 129925,
+            "layerbranch": 1037172,
+            "name": "feature/intel-persistent-memory",
+            "updated": "2025-06-25T09:06:41+0000"
+        },
+        {
+            "description": "",
+            "id": 129926,
+            "layerbranch": 1037172,
+            "name": "default",
+            "updated": "2025-06-25T09:06:41+0000"
         }
     ]
 }

@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-04-26T02:04:51+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:51+0000",
-            "vcs_last_rev": "c93cf2f40173483dfe2872208ce205c67cf47b1d",
+            "updated": "2025-06-22T22:06:50+0000",
+            "vcs_last_commit": "2025-06-19T23:06:27+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:50+0000",
+            "vcs_last_rev": "6484aee8c5f90500eb3d047af41c3bf8b6802307",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -670,10 +677,10 @@
             "id": 1037132,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-04-26T02:04:14+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:14+0000",
-            "vcs_last_rev": "23b2c743ad91e02811114e2e38f3e9d84c70f253",
+            "updated": "2025-06-22T22:06:41+0000",
+            "vcs_last_commit": "2025-06-11T23:06:31+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:41+0000",
+            "vcs_last_rev": "4d33d2a7a49a4e796b817509dae77578a694e361",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44206
@@ -685,10 +692,10 @@
             "id": 1037144,
             "layer": 349,
             "local_path": "",
-            "updated": "2025-04-26T02:04:16+0000",
-            "vcs_last_commit": "2025-04-08T19:04:22+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:16+0000",
-            "vcs_last_rev": "ccfcdb3f53e03b592257b536c0dd643729b7230e",
+            "updated": "2025-06-22T23:06:16+0000",
+            "vcs_last_commit": "2025-06-02T18:06:47+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:16+0000",
+            "vcs_last_rev": "abc63d0b4dfbe9ed7f6a0533cba60491bb54adb7",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44206
@@ -815,7 +822,7 @@
             "section": "base",
             "srcrev": "b5f91f8e4113396f0a5f090d6a52d676271caf48",
             "summary": "",
-            "updated": "2025-04-26T02:04:12+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -838,7 +845,7 @@
             "section": "base",
             "srcrev": "a697e6a2238224a89e5cf53fb86fd4808b1b9133",
             "summary": "",
-            "updated": "2025-04-26T02:04:13+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +868,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:13+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -884,7 +891,7 @@
             "section": "base",
             "srcrev": "e36baa302922ea3c7131b302c2996bd2051ee5c4",
             "summary": "",
-            "updated": "2025-04-26T02:04:13+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -907,7 +914,7 @@
             "section": "base",
             "srcrev": "e36baa302922ea3c7131b302c2996bd2051ee5c4",
             "summary": "",
-            "updated": "2025-04-26T02:04:14+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -930,7 +937,7 @@
             "section": "base",
             "srcrev": "e36baa302922ea3c7131b302c2996bd2051ee5c4",
             "summary": "",
-            "updated": "2025-04-26T02:04:14+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -953,7 +960,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An AST unparser for Python",
-            "updated": "2025-04-26T02:04:15+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -976,7 +983,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The ml_dtypes is a stand-alone implementation of several NumPy dtype extensions used in machine learning libraries",
-            "updated": "2025-04-26T02:04:15+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -999,7 +1006,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The AST-based Python refactoring library",
-            "updated": "2025-04-26T02:04:16+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "native",
@@ -1022,7 +1029,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A tensor contraction order optimizer",
-            "updated": "2025-04-26T02:04:16+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1045,7 +1052,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:16+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1068,7 +1075,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:16+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         }
     ],
     "wrtemplates": []

@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037143,
             "layer": 193,
             "local_path": "",
-            "updated": "2025-04-26T02:04:03+0000",
-            "vcs_last_commit": "2025-04-03T00:04:41+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:03+0000",
-            "vcs_last_rev": "ccc9316d692331686c923d8eccd26faeb5299c0e",
+            "updated": "2025-06-22T23:06:15+0000",
+            "vcs_last_commit": "2025-06-22T21:06:13+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:15+0000",
+            "vcs_last_rev": "47c85b6b8068c55f7417cd38e6c3609b7f833fc3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44209
@@ -720,7 +727,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "QATzip is a user space library built on top of the Intel QAT user space library, to offload the compression and decompression requests to the Intel Chipset Series.",
-            "filename": "qatzip_1.1.2.bb",
+            "filename": "qatzip_1.2.1.bb",
             "filepath": "recipes-extended/qatzip",
             "homepage": "https://github.com/intel/QATzip",
             "id": 2224163,
@@ -731,11 +738,11 @@
             "pn": "qatzip",
             "pr": "r0",
             "provides": "qatzip ",
-            "pv": "1.1.2",
+            "pv": "1.2.1",
             "section": "base",
-            "srcrev": "fdee557b5bb640827758f121102dcf3583292b7a",
+            "srcrev": "6d0cfe51892ea6fe93da73326b1d987905e197c8",
             "summary": "",
-            "updated": "2025-04-26T02:04:02+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -743,7 +750,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Intel(r) QuickAssist Technology API",
-            "filename": "qat17_4.24.0-00005.bb",
+            "filename": "qat17_4.28.0-00004.bb",
             "filepath": "recipes-extended/qat",
             "homepage": "https://www.intel.com/content/www/us/en/developer/topic-technology/open/quick-assist-technology/overview.html",
             "id": 2224164,
@@ -754,11 +761,11 @@
             "pn": "qat17",
             "pr": "r0",
             "provides": "qat17  virtual/qat",
-            "pv": "4.24.0-00005",
+            "pv": "4.28.0-00004",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:03+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -766,7 +773,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Intel(r) QuickAssist Technology API",
-            "filename": "qat20_1.1.50-00003.bb",
+            "filename": "qat20_1.2.30-00090.bb",
             "filepath": "recipes-extended/qat",
             "homepage": "https://www.intel.com/content/www/us/en/developer/topic-technology/open/quick-assist-technology/overview.html",
             "id": 2224165,
@@ -777,11 +784,11 @@
             "pn": "qat20",
             "pr": "r0",
             "provides": "qat20  virtual/qat",
-            "pv": "1.1.50-00003",
+            "pv": "1.2.30-00090",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:03+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -789,7 +796,7 @@
             "bugtracker": "",
             "configopts": " systemdsystemunitdir=/lib/systemd/system cross_compiling=yes ",
             "description": "Intel QuickAssist Technology Library (QATlib)",
-            "filename": "qatlib_24.02.0.bb",
+            "filename": "qatlib_24.09.0.bb",
             "filepath": "recipes-extended/qatlib",
             "homepage": "https://github.com/intel/qatlib",
             "id": 2224166,
@@ -800,11 +807,11 @@
             "pn": "qatlib",
             "pr": "r0",
             "provides": "qatlib  virtual/qat",
-            "pv": "24.02.0",
+            "pv": "24.09.0",
             "section": "base",
-            "srcrev": "61178382110a5b93898e2a1d07c84aac9c695362",
+            "srcrev": "a9e5fcf212fcb9241b38a3a105c95b1f5b3593db",
             "summary": "",
-            "updated": "2025-04-26T02:04:03+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         }
     ],
     "wrtemplates": []

@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037157,
             "layer": 474,
             "local_path": "",
-            "updated": "2025-04-26T02:04:24+0000",
-            "vcs_last_commit": "2025-04-11T06:04:38+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:24+0000",
-            "vcs_last_rev": "ca5c51e25c82ed48bfaa432cac13ae061468c256",
+            "updated": "2025-06-22T23:06:24+0000",
+            "vcs_last_commit": "2025-05-15T04:05:25+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:24+0000",
+            "vcs_last_rev": "b62c99afa408f89b797afc9424e31262abda9a32",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44205
@@ -670,13 +677,13 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-04-26T02:04:43+0000",
-            "vcs_last_commit": "2025-03-27T19:03:57+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:43+0000",
-            "vcs_last_rev": "f634b70c12e30afd675f68fe651dd24772c06ba8",
+            "updated": "2025-06-25T21:06:53+0000",
+            "vcs_last_commit": "2025-06-25T19:06:39+0000",
+            "vcs_last_fetch": "2025-06-25T21:06:53+0000",
+            "vcs_last_rev": "c311c1d06f698ddec23f789a90c1bb4797aee1c2",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44188
         }
     ],
     "layerDependencies": [
@@ -693,8 +700,14 @@
             "required": true
         },
         {
+            "dependency": 11,
+            "id": 145528,
+            "layerbranch": 1037164,
+            "required": false
+        },
+        {
             "dependency": 7,
-            "id": 142699,
+            "id": 145529,
             "layerbranch": 1037164,
             "required": false
         }
@@ -761,136 +774,150 @@
     "machines": [
         {
             "description": " zynqmp-generic devices",
-            "id": 98340,
+            "id": 101281,
             "layerbranch": 1037164,
             "name": "zynqmp-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98341,
+            "id": 101282,
             "layerbranch": 1037164,
             "name": "versal-ai-core-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
+        },
+        {
+            "description": " a common AMD filesystem for devices with cortexa78 w/o mali",
+            "id": 101283,
+            "layerbranch": 1037164,
+            "name": "amd-cortexa78-common",
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98342,
+            "id": 101284,
             "layerbranch": 1037164,
             "name": "zynqmp-cg-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98343,
+            "id": 101285,
             "layerbranch": 1037164,
             "name": "zynqmp-eg-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": " versal-generic devices",
-            "id": 98344,
+            "id": 101286,
             "layerbranch": 1037164,
             "name": "versal-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98345,
+            "id": 101287,
             "layerbranch": 1037164,
             "name": "versal-ai-edge-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98346,
+            "id": 101288,
             "layerbranch": 1037164,
             "name": "versal-hbm-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
-            "description": " a common Versal filesystem devices",
-            "id": 98347,
+            "description": " versal-2ve-2vm-generic boards.",
+            "id": 101289,
             "layerbranch": 1037164,
-            "name": "versal-common",
-            "updated": "2025-04-26T02:04:26+0000"
+            "name": "versal-2ve-2vm-generic",
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
-            "description": " a common versal-net filesystem devices",
-            "id": 98348,
+            "description": " a common AMD filesystem for devices with cortexa53 and w/o mali400",
+            "id": 101290,
             "layerbranch": 1037164,
-            "name": "versal-net-common",
-            "updated": "2025-04-26T02:04:26+0000"
+            "name": "amd-cortexa53-common",
+            "updated": "2025-06-22T23:06:53+0000"
+        },
+        {
+            "description": " a common AMD filesystem for devices with cortexa72",
+            "id": 101291,
+            "layerbranch": 1037164,
+            "name": "amd-cortexa72-common",
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": " zynq-generic devices",
-            "id": 98349,
+            "id": 101292,
             "layerbranch": 1037164,
             "name": "zynq-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98350,
+            "id": 101293,
             "layerbranch": 1037164,
             "name": "versal-premium-generic",
-            "updated": "2025-04-26T02:04:26+0000"
-        },
-        {
-            "description": " a common ZynqMP (MPSOC) filesystem devices w/ mali400",
-            "id": 98351,
-            "layerbranch": 1037164,
-            "name": "zynqmp-mali-common",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": " versal-net-generic devices",
-            "id": 98352,
+            "id": 101294,
             "layerbranch": 1037164,
             "name": "versal-net-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
+        },
+        {
+            "description": " a common AMD filesystem for devices with cortexa78 and malig78",
+            "id": 101295,
+            "layerbranch": 1037164,
+            "name": "amd-cortexa78-mali-common",
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98353,
+            "id": 101296,
             "layerbranch": 1037164,
             "name": "zynqmp-dr-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
+        },
+        {
+            "description": " a common AMD filesystem for devices with cortexa9 (thumb, hard float and neon)",
+            "id": 101297,
+            "layerbranch": 1037164,
+            "name": "amd-cortexa9thf-neon-common",
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98354,
+            "id": 101298,
             "layerbranch": 1037164,
             "name": "versal-prime-generic",
-            "updated": "2025-04-26T02:04:26+0000"
-        },
-        {
-            "description": " a common ZynqMP (MPSOC) filesystem devices w/o mali400",
-            "id": 98355,
-            "layerbranch": 1037164,
-            "name": "zynqmp-common",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": "",
-            "id": 98356,
+            "id": 101299,
             "layerbranch": 1037164,
             "name": "zynqmp-ev-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "description": " microblaze-generic devices",
-            "id": 98357,
+            "id": 101300,
             "layerbranch": 1037164,
             "name": "microblaze-generic",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
-            "description": " a common Zynq7 filesystem devices",
-            "id": 98358,
+            "description": " a common AMD filesystem for devices with cortexa53 and mali400",
+            "id": 101301,
             "layerbranch": 1037164,
-            "name": "zynq-common",
-            "updated": "2025-04-26T02:04:26+0000"
+            "name": "amd-cortexa53-mali-common",
+            "updated": "2025-06-22T23:06:53+0000"
         }
     ],
     "recipes": [
@@ -915,15 +942,15 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-16T02:06:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr     --bindir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.1.0+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-softmmu,arm-softmmu,microblaze-softmmu,microblazeel-softmmu,riscv32-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr     --bindir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-system-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-softmmu,arm-softmmu,microblaze-softmmu,microblazeel-softmmu,riscv32-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
-            "filename": "qemu-xilinx-system-native_8.1.0.bb",
+            "filename": "qemu-xilinx-system-native_8.2.7.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "https://github.com/xilinx/qemu/",
             "id": 2225131,
@@ -934,11 +961,11 @@
             "pn": "qemu-xilinx-system-native",
             "pr": "r0",
             "provides": "qemu-xilinx-system-native  qemu-system-native",
-            "pv": "8.1.0+git",
+            "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "01482fa113dcbfa785feb7d513df50d15ec4c5df",
+            "srcrev": "b05c9752662eb4b8120a57454a323445d78d1463",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2025-04-26T02:04:27+0000"
+            "updated": "2025-06-16T02:06:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -961,30 +988,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Building and installing flash strip utility",
-            "updated": "2025-04-26T02:04:27+0000"
-        },
-        {
-            "bbclassextend": "nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/qemu-8.1.2=/usr/src/debug/qemu/8.1.2  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/qemu-8.1.2=/usr/src/debug/qemu/8.1.2  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/build=/usr/src/debug/qemu/8.1.2  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/build=/usr/src/debug/qemu/8.1.2  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/qemu-8.1.2=/usr/src/debug/qemu/8.1.2  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/qemu-8.1.2=/usr/src/debug/qemu/8.1.2  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/build=/usr/src/debug/qemu/8.1.2  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/build=/usr/src/debug/qemu/8.1.2  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu/8.1.2/recipe-sysroot-native= '     --disable-download     --disable-docs     --host-cc='gcc '      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
-            "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
-            "filename": "qemu_8.1.2.bb",
-            "filepath": "recipes-devtools/qemu",
-            "homepage": "http://qemu.org",
-            "id": 2225133,
-            "inherits": "pkgconfig ptest python3-dir python3native systemd update-rc.d",
-            "layerbranch": 1037164,
-            "license": "GPL-2.0-only & LGPL-2.1-only",
-            "pe": "",
-            "pn": "qemu",
-            "pr": "r0",
-            "provides": "qemu ",
-            "pv": "8.1.2",
-            "section": "base",
-            "srcrev": "",
-            "summary": "Fast open source processor emulator",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-16T02:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1007,15 +1011,15 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helper scripts for executing a multi-arch instance of Xilinx QEMU",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-16T02:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr     --bindir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpbnpb_pqh/tmp/work/x86_64-linux/qemu-xilinx-native/8.1.0+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-linux-user,arm-linux-user,microblaze-linux-user,microblazeel-linux-user,riscv32-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr     --bindir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -L/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp5o72js5w/tmp/work/x86_64-linux/qemu-xilinx-native/8.2.7+git/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=aarch64-linux-user,arm-linux-user,microblaze-linux-user,microblazeel-linux-user,riscv32-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
-            "filename": "qemu-xilinx-native_8.1.0.bb",
+            "filename": "qemu-xilinx-native_8.2.7.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "https://github.com/xilinx/qemu/",
             "id": 2225135,
@@ -1026,19 +1030,19 @@
             "pn": "qemu-xilinx-native",
             "pr": "r0",
             "provides": "qemu-xilinx-native  qemu-native",
-            "pv": "8.1.0+git",
+            "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "01482fa113dcbfa785feb7d513df50d15ec4c5df",
+            "srcrev": "b05c9752662eb4b8120a57454a323445d78d1463",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-16T02:06:21+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu-xilinx     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.1.0+git  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.1.0+git  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/build=/usr/src/debug/qemu-xilinx/8.1.0+git  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/build=/usr/src/debug/qemu-xilinx/8.1.0+git  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.1.0+git  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.1.0+git  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/build=/usr/src/debug/qemu-xilinx/8.1.0+git  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/build=/usr/src/debug/qemu-xilinx/8.1.0+git  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/qemu-xilinx/8.1.0+git/recipe-sysroot-native= '     --disable-download     --disable-docs     --host-cc='gcc '      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=aarch64-linux-user,aarch64-softmmu,arm-linux-user,arm-softmmu,microblaze-linux-user,microblaze-softmmu,microblazeel-linux-user,microblazeel-softmmu,riscv32-linux-user,riscv32-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu-xilinx     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.2.7+git  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.2.7+git  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/build=/usr/src/debug/qemu-xilinx/8.2.7+git  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/build=/usr/src/debug/qemu-xilinx/8.2.7+git  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.2.7+git  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/sources-unpack/git=/usr/src/debug/qemu-xilinx/8.2.7+git  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/build=/usr/src/debug/qemu-xilinx/8.2.7+git  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/build=/usr/src/debug/qemu-xilinx/8.2.7+git  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/qemu-xilinx/8.2.7+git/recipe-sysroot-native= '     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --enable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=aarch64-linux-user,aarch64-softmmu,arm-linux-user,arm-softmmu,microblaze-linux-user,microblaze-softmmu,microblazeel-linux-user,microblazeel-softmmu,riscv32-linux-user,riscv32-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
-            "filename": "qemu-xilinx_8.1.0.bb",
+            "filename": "qemu-xilinx_8.2.7.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "https://github.com/xilinx/qemu/",
             "id": 2225136,
@@ -1049,11 +1053,11 @@
             "pn": "qemu-xilinx",
             "pr": "r0",
             "provides": "qemu-xilinx  qemu",
-            "pv": "8.1.0+git",
+            "pv": "8.2.7+git",
             "section": "base",
-            "srcrev": "01482fa113dcbfa785feb7d513df50d15ec4c5df",
+            "srcrev": "b05c9752662eb4b8120a57454a323445d78d1463",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-16T02:06:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1061,7 +1065,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "qemu-devicetrees_2024.2.bb",
+            "filename": "qemu-devicetrees_2025.1.bb",
             "filepath": "recipes-devtools/qemu",
             "homepage": "https://github.com/xilinx/qemu-devicetrees/",
             "id": 2225137,
@@ -1072,11 +1076,11 @@
             "pn": "qemu-devicetrees",
             "pr": "r0",
             "provides": "qemu-devicetrees ",
-            "pv": "2024.2+git",
+            "pv": "2025.1+git",
             "section": "base",
-            "srcrev": "a6eeb7ec0fdb765ab0057d95eb6201d97359eff9",
+            "srcrev": "0d471f25f9eb338247efc5d3dea5115cc7e86fef",
             "summary": "Xilinx's hardware device trees required for QEMU",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-16T02:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1122,19 +1126,19 @@
             "section": "base",
             "srcrev": "75c0198636f8997967ba00df5077cd21350f68ce",
             "summary": "Powerful and Lightweight Python Tree Data Structure",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-16T02:06:12+0000"
         },
         {
-            "bbclassextend": " native",
+            "bbclassextend": " native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": "-DPYBIND11_TEST=OFF ",
             "description": "",
             "filename": "python3-pybind11_2.13.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 2225140,
-            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
+            "inherits": "cmake python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
             "layerbranch": 1037164,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1142,10 +1146,10 @@
             "pr": "r0",
             "provides": "python3-pybind11 ",
             "pv": "2.13.1",
-            "section": "devel/python",
-            "srcrev": "",
+            "section": "base",
+            "srcrev": "941f45bcb51457884fa1afd6e24a67377d70f75c",
             "summary": "Seamless operability between C++11 and Python",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:39+0000"
         },
         {
             "bbclassextend": " native",
@@ -1245,7 +1249,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Building and installing bootgen, a Xilinx tool that lets you stitch binary files together and generate device boot images",
-            "filename": "bootgen_2024.2.bb",
+            "filename": "bootgen_2025.1.bb",
             "filepath": "recipes-devtools/bootgen",
             "homepage": "",
             "id": 2225145,
@@ -1256,11 +1260,11 @@
             "pn": "bootgen",
             "pr": "r0",
             "provides": "bootgen ",
-            "pv": "2024.2",
+            "pv": "2025.1",
             "section": "base",
-            "srcrev": "6f448fece5d999985128fd454ae047e065a5e45d",
+            "srcrev": "7a2efe227896df91e57f7d4bd32a7a60c2b1afde",
             "summary": "Building and installing bootgen",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1283,13 +1287,13 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "Xilinx Platform Headers",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/dfx-mgr/2023.2/recipe-sysroot \t\t ",
+            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/dfx-mgr/2023.2/recipe-sysroot \t\t ",
             "description": "Xilinx Runtime User Space Libraries and Binaries",
             "filename": "dfx-mgr_2023.2.bb",
             "filepath": "recipes-bsp/dfx-mgr",
@@ -1306,13 +1310,13 @@
             "section": "base",
             "srcrev": "898fe38023d15d54402c788bcbca67a29eb2dc3d",
             "summary": "Xilinx dfx-mgr libraries",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/dfx-mgr/2023.1/recipe-sysroot \t\t ",
+            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/dfx-mgr/2023.1/recipe-sysroot \t\t ",
             "description": "Xilinx Runtime User Space Libraries and Binaries",
             "filename": "dfx-mgr_2023.1.bb",
             "filepath": "recipes-bsp/dfx-mgr",
@@ -1329,13 +1333,13 @@
             "section": "base",
             "srcrev": "5918fb3406d828693cca484b77229ffd031b5dc4",
             "summary": "Xilinx dfx-mgr libraries",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/dfx-mgr/1.0/recipe-sysroot \t\t ",
+            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/dfx-mgr/1.0/recipe-sysroot \t\t ",
             "description": "Xilinx Runtime User Space Libraries and Binaries",
             "filename": "dfx-mgr_1.0.bb",
             "filepath": "recipes-bsp/dfx-mgr",
@@ -1352,13 +1356,13 @@
             "section": "base",
             "srcrev": "bc06691eb35d7f0acb7c2508b6d050d77b0264a0",
             "summary": "Xilinx dfx-mgr libraries",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/dfx-mgr/2024.1/recipe-sysroot \t\t ",
+            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/dfx-mgr/2024.1/recipe-sysroot \t\t ",
             "description": "Xilinx Runtime User Space Libraries and Binaries",
             "filename": "dfx-mgr_2024.1.bb",
             "filepath": "recipes-bsp/dfx-mgr",
@@ -1375,13 +1379,13 @@
             "section": "base",
             "srcrev": "ec70363a2a878737057995f922a9460d18aafa26",
             "summary": "Xilinx dfx-mgr libraries",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmpbnpb_pqh/tmp/work/core2-32-oe-linux/dfx-mgr/2024.2/recipe-sysroot \t\t ",
+            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmp5o72js5w/tmp/work/core2-32-oe-linux/dfx-mgr/2024.2/recipe-sysroot \t\t ",
             "description": "Xilinx Runtime User Space Libraries and Binaries",
             "filename": "dfx-mgr_2024.2.bb",
             "filepath": "recipes-bsp/dfx-mgr",
@@ -1396,9 +1400,9 @@
             "provides": "dfx-mgr ",
             "pv": "2024.2",
             "section": "base",
-            "srcrev": "839e8e646c54a63326e36c48a7bd879f5e8efa31",
+            "srcrev": "fd6fb8e0c90c0b66e8f840ccaf484159e1b4008d",
             "summary": "Xilinx dfx-mgr libraries",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1442,9 +1446,9 @@
             "provides": "u-boot-xlnx virtual/bootloader",
             "pv": "2024.01-xilinx-v2024.1+git",
             "section": "bootloaders",
-            "srcrev": "fbed1010e50d75e7d25acc1c2d09e1c34cb7e882",
+            "srcrev": "20b67799856b578b1c79f29575448421c86b6161",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-16T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1467,7 +1471,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot uEnv.txt SD boot environment generation for Zynq targets",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1488,9 +1492,9 @@
             "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools",
             "pv": "2024.01-xilinx-v2024.2+git",
             "section": "bootloaders",
-            "srcrev": "7f6ec94aac7eacfec07bd45c83a6d17df4b7d383",
+            "srcrev": "20b67799856b578b1c79f29575448421c86b6161",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-16T02:06:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1513,7 +1517,7 @@
             "section": "bootloaders",
             "srcrev": "1689570b68dd3827e527a520805aa0bb7f58ee09",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-16T02:06:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1534,9 +1538,9 @@
             "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools",
             "pv": "2024.01-xilinx-v2024.1+git",
             "section": "bootloaders",
-            "srcrev": "fbed1010e50d75e7d25acc1c2d09e1c34cb7e882",
+            "srcrev": "20b67799856b578b1c79f29575448421c86b6161",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-16T02:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1559,7 +1563,7 @@
             "section": "bootloaders",
             "srcrev": "2b54ad6f1d278c419b927d10db2edf323d844578",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-16T02:06:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1582,7 +1586,7 @@
             "section": "bootloaders",
             "srcrev": "2b54ad6f1d278c419b927d10db2edf323d844578",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-16T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1605,7 +1609,7 @@
             "section": "bootloaders",
             "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-16T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1628,7 +1632,7 @@
             "section": "bootloaders",
             "srcrev": "1689570b68dd3827e527a520805aa0bb7f58ee09",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-16T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1649,9 +1653,9 @@
             "provides": "u-boot-xlnx virtual/bootloader",
             "pv": "2024.01-xilinx-v2024.2+git",
             "section": "bootloaders",
-            "srcrev": "7f6ec94aac7eacfec07bd45c83a6d17df4b7d383",
+            "srcrev": "20b67799856b578b1c79f29575448421c86b6161",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1674,14 +1678,14 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot scripts for Xilinx devices",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Recipe to extract pmc_cdo for qemu usage",
+            "description": "Recipe to extract boot_files for qemu usage",
             "filename": "extract-cdo_1.0.bb",
             "filepath": "recipes-bsp/cdo",
             "homepage": "",
@@ -1697,7 +1701,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-15T22:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1720,7 +1724,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "PMU ROM for QEMU",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1743,7 +1747,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Install user script to support fpga-manager",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1766,7 +1770,7 @@
             "section": "devel",
             "srcrev": "56af0110186dfd546c58d96ff1d2f4f2d91f7724",
             "summary": "Xilinx AI Engine FAL(Functional Abstraction Layer)",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1789,7 +1793,7 @@
             "section": "libs",
             "srcrev": "8845d962e5b30b576c87dcf6635fb84a90ef1e36",
             "summary": "Xilinx AI Engine runtime",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1812,7 +1816,7 @@
             "section": "devel",
             "srcrev": "84debe5d22c144fb09269b8410df4cb8a6aa3b2a",
             "summary": "Xilinx AI Engine FAL(Functional Abstraction Layer)",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1835,7 +1839,7 @@
             "section": "libs",
             "srcrev": "56af0110186dfd546c58d96ff1d2f4f2d91f7724",
             "summary": "Xilinx AI Engine runtime",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-16T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1858,7 +1862,7 @@
             "section": "libs",
             "srcrev": "84debe5d22c144fb09269b8410df4cb8a6aa3b2a",
             "summary": "Xilinx AI Engine runtime",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-16T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1881,7 +1885,7 @@
             "section": "devel",
             "srcrev": "8845d962e5b30b576c87dcf6635fb84a90ef1e36",
             "summary": "Xilinx AI Engine FAL(Functional Abstraction Layer)",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1927,7 +1931,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates boot.bin using bootgen tool",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-23T16:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1996,7 +2000,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2019,7 +2023,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2042,7 +2046,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "Xilinx BSP device trees",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2065,7 +2069,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2088,7 +2092,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2111,7 +2115,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2134,7 +2138,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2157,7 +2161,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2180,7 +2184,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2203,7 +2207,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-15T22:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2226,7 +2230,7 @@
             "section": "base",
             "srcrev": "52c1d83c72a2b2e85d256411a199ed1baed12ae1",
             "summary": "Xilinx libdfx library",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2249,7 +2253,7 @@
             "section": "base",
             "srcrev": "52c1d83c72a2b2e85d256411a199ed1baed12ae1",
             "summary": "Xilinx libdfx library",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2272,7 +2276,7 @@
             "section": "base",
             "srcrev": "f2b7bbca9d6936141024becfb92266600eeefc2b",
             "summary": "Xilinx libdfx library",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-16T02:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2295,7 +2299,7 @@
             "section": "base",
             "srcrev": "c8275891ead62b3dfce68c00cf466715f0ac75f1",
             "summary": "Xilinx libdfx library",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2318,7 +2322,7 @@
             "section": "base",
             "srcrev": "af8d735fae286e7bc94c830a86c960598a4ac014",
             "summary": "Xilinx libdfx library",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-16T02:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2341,7 +2345,7 @@
             "section": "base",
             "srcrev": "4f82b6134e7b43722616c855e5016d42a3ea26d2",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-16T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2364,7 +2368,7 @@
             "section": "base",
             "srcrev": "c9b71dc96f3f18ca94cad590612aae3224c8c84d",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-16T02:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2387,11 +2391,11 @@
             "section": "base",
             "srcrev": "6be857cb66300fb21e3f61308e4197911c8ac30d",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-16T02:06:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " \t--without-random-device \t--with-systemdsystemunitdir=/lib/systemd/system \t  --without-encryption",
             "description": "   FreeIPMI provides in-band and out-of-band IPMI software based on the IPMI   v1.5/2.0 specification. The IPMI specification defines a set of interfaces   for platform management and is implemented by a number vendors for system   management. The features of IPMI that most users will be interested in are   sensor monitoring, system event monitoring, power control, and   serial-over-LAN (SOL). The FreeIPMI tools and libraries listed below should   provide users with the ability to access and utilize these and many other   features. A number of useful features for large HPC or cluster environments   have also been implemented into FreeIPMI. ",
@@ -2410,7 +2414,7 @@
             "section": "base",
             "srcrev": "816a69eb15a9034351381211d9cd15de81da10c7",
             "summary": "Tools and libraries for IPMI",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2418,7 +2422,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image update is used to update alternate images on compatible firmware.",
-            "filename": "image-update_1.3.bb",
+            "filename": "image-update_1.5.bb",
             "filepath": "recipes-apps/image-update",
             "homepage": "",
             "id": 2225196,
@@ -2429,11 +2433,11 @@
             "pn": "image-update",
             "pr": "r0",
             "provides": "image-update ",
-            "pv": "1.3",
+            "pv": "1.5",
             "section": "base",
-            "srcrev": "1bd7d7405b484d808176c6e711691a846c18b4f0",
+            "srcrev": "aa56986dc060e86b0cb0b3334ff902242e855809",
             "summary": "Image update is used to update alternate image on compatible firmware. \tIf the current image is ImageA, ImageB will get updated and vice versa. \tUsage: image_update <Input Image File>",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-16T02:06:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2479,7 +2483,7 @@
             "section": "base",
             "srcrev": "87ea8f4c5ac52fcbc465f41e681fc77aaee9a285",
             "summary": "RAFT python application",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-16T02:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2502,7 +2506,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "OpenAMP Device Tree Overlay for Xilinx devices.",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-16T02:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2617,7 +2621,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-15T22:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2625,7 +2629,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Out-of-tree HDMI 2.1 FMC kernel modules provider for aarch64 devices",
-            "filename": "kernel-module-hdmi21_2024.2.bb",
+            "filename": "kernel-module-hdmi21_2025.1.bb",
             "filepath": "recipes-kernel/hdmi21",
             "homepage": "",
             "id": 2225205,
@@ -2636,11 +2640,11 @@
             "pn": "kernel-module-hdmi21",
             "pr": "r0",
             "provides": "kernel-module-hdmi21 ",
-            "pv": "2024.2",
-            "section": "PETALINUX/modules",
-            "srcrev": "26a1d40723c58783f7aedba028a208ab9410df5f",
+            "pv": "2025.1",
+            "section": "kernel/modules",
+            "srcrev": "5699556f9b03fd0a7c97ad2f970137b3e06c3bc5",
             "summary": "Xilinx HDMI 2.1 FMC linux kernel module",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-16T02:06:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2663,7 +2667,7 @@
             "section": "bootloader",
             "srcrev": "",
             "summary": "Device tree lopper - lops",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-16T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2686,7 +2690,7 @@
             "section": "kernel/modules",
             "srcrev": "e20942b256e6fb18eaef919c7441f65ad8afcf43",
             "summary": "Xilinx DisplayPort Linux Kernel module",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-16T02:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2709,7 +2713,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Udev rules files for Linux drivers",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-16T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2717,7 +2721,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Out-of-tree HDMI kernel modules provider for MPSoC EG/EV devices",
-            "filename": "kernel-module-hdmi_6.6.40.bb",
+            "filename": "kernel-module-hdmi_6.12.0.bb",
             "filepath": "recipes-kernel/hdmi",
             "homepage": "",
             "id": 2225209,
@@ -2728,34 +2732,11 @@
             "pn": "kernel-module-hdmi",
             "pr": "r0",
             "provides": "kernel-module-hdmi ",
-            "pv": "6.6.40+git",
+            "pv": "6.12.0+git",
             "section": "kernel/modules",
-            "srcrev": "4bb89eb3f3062eac8de1aa2b7e64d7f861e18caa",
+            "srcrev": "4ea62416d6dddaf5a2948f9ebf626f4b4234d77f",
             "summary": "Xilinx HDMI Linux Kernel module",
-            "updated": "2025-04-26T02:04:40+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Xilinx Kernel",
-            "filename": "linux-xlnx-dev.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "https://www.yoctoproject.org/",
-            "id": 2225210,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-simpleimage kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
-            "layerbranch": 1037164,
-            "license": "GPL-2.0-with-Linux-syscall-note",
-            "pe": "",
-            "pn": "linux-xlnx-dev",
-            "pr": "r0",
-            "provides": "linux-xlnx-dev  virtual/kernel",
-            "pv": "5.15++git",
-            "section": "kernel",
-            "srcrev": "84fb0cc65aae5970471cbc54b0c89009b9b904af",
-            "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-16T02:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2778,7 +2759,7 @@
             "section": "kernel",
             "srcrev": "2b7f6f70a62a52a467bed030a27c2ada879106e9",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-16T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2801,7 +2782,7 @@
             "section": "kernel",
             "srcrev": "9c55be2d8a90a240912c9b85814ac962c86b382b",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-16T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2824,7 +2805,7 @@
             "section": "kernel",
             "srcrev": "9299ac26ca514a0ccd9f6ae01f50e816d7e79dfa",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-16T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2847,7 +2828,7 @@
             "section": "kernel",
             "srcrev": "3af4295e00efdced3e8c6973606a7de55f6bf7dc",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-16T02:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2870,7 +2851,7 @@
             "section": "kernel",
             "srcrev": "c290f8af9e388f37e509ecb111a1b64572b7c225",
             "summary": "TI Bluetooth firmware files for use with Linux kernel",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-16T02:06:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2893,7 +2874,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) libraries",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-16T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2916,7 +2897,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) - minimal native build for xclbinutil",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-16T02:06:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2939,7 +2920,7 @@
             "section": "base",
             "srcrev": "2c7ff250504589bd1f934010e37bdcef86afaa54",
             "summary": "Xilinx Runtime(XRT) libraries",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2962,7 +2943,7 @@
             "section": "base",
             "srcrev": "2c7ff250504589bd1f934010e37bdcef86afaa54",
             "summary": "Xilinx Runtime(XRT) - minimal native build for xclbinutil",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2985,10 +2966,10 @@
             "section": "base",
             "srcrev": "64c933573e7e50a8aba939a74209590c2b739e8b",
             "summary": "Xilinx Runtime(XRT) libraries",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:15+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
+            "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "  \t\t-DCMAKE_BUILD_TYPE=Release \t\t-DCMAKE_EXPORT_COMPILE_COMANDS=ON \t\t-DXRT_LIBDFX=true \t\t -DXRT_AIE_BUILD=true ",
@@ -3008,7 +2989,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) libraries",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3031,7 +3012,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) - minimal native build for xclbinutil",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3054,7 +3035,7 @@
             "section": "base",
             "srcrev": "2c7ff250504589bd1f934010e37bdcef86afaa54",
             "summary": "Xilinx Runtime(XRT) driver module",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3077,7 +3058,7 @@
             "section": "base",
             "srcrev": "64c933573e7e50a8aba939a74209590c2b739e8b",
             "summary": "Xilinx Runtime(XRT) driver module",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-16T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3100,7 +3081,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) driver module",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-16T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3123,7 +3104,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Xilinx Runtime(XRT) driver module",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-16T02:06:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3146,7 +3127,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-15T22:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3238,7 +3219,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-15T22:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -3262,6 +3243,1501 @@
             "srcrev": "",
             "summary": "",
             "updated": "2025-04-26T02:04:43+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "python3-frugy_git.bb",
+            "filepath": "dynamic-layers/meta-python/recipes-devtools/python",
+            "homepage": "https://github.com/MicroTCA-Tech-Lab/frugy",
+            "id": 2267437,
+            "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "python3-frugy",
+            "pr": "r0",
+            "provides": "python3-frugy ",
+            "pv": "git",
+            "section": "base",
+            "srcrev": "799d61a092a317947e5965170d96286cbe1eacf2",
+            "summary": "Python 3.3+'s frugy for Python 2.6, 2.7, 3.2.",
+            "updated": "2025-06-15T22:06:21+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "python3-macaddress_2.0.2.bb",
+            "filepath": "dynamic-layers/meta-python/recipes-devtools/python",
+            "homepage": "https://github.com/mentalisttraceur/python-macaddress",
+            "id": 2267438,
+            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1037164,
+            "license": "BSD-0-Clause",
+            "pe": "",
+            "pn": "python3-macaddress",
+            "pr": "r0",
+            "provides": "python3-macaddress ",
+            "pv": "2.0.2",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "Python 3.3+'s macaddress for Python 2.6, 2.7, 3.2.",
+            "updated": "2025-06-15T22:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libmetal-xlnx_v2025.1.bb",
+            "filepath": "dynamic-layers/openamp-layer/recipes-openamp/libmetal",
+            "homepage": "",
+            "id": 2267439,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "",
+            "pe": "",
+            "pn": "libmetal-xlnx",
+            "pr": "r0",
+            "provides": "libmetal-xlnx ",
+            "pv": "v2025.1+git",
+            "section": "base",
+            "srcrev": "50559a720099471bdbb22c3e93604a32c9ac7790",
+            "summary": "",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "open-amp-xlnx_v2025.1.bb",
+            "filepath": "dynamic-layers/openamp-layer/recipes-openamp/open-amp",
+            "homepage": "",
+            "id": 2267440,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "",
+            "pe": "",
+            "pn": "open-amp-xlnx",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "open-amp-xlnx-echo_v2025.1.bb",
+            "filepath": "dynamic-layers/openamp-layer/recipes-openamp/rpmsg-examples",
+            "homepage": "",
+            "id": 2267441,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "",
+            "pe": "",
+            "pn": "open-amp-xlnx-echo",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "open-amp-xlnx-matrix_v2025.1.bb",
+            "filepath": "dynamic-layers/openamp-layer/recipes-openamp/rpmsg-examples",
+            "homepage": "",
+            "id": 2267442,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "",
+            "pe": "",
+            "pn": "open-amp-xlnx-matrix",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "open-amp-xlnx-proxy_v2025.1.bb",
+            "filepath": "dynamic-layers/openamp-layer/recipes-openamp/rpmsg-examples",
+            "homepage": "",
+            "id": 2267443,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "",
+            "pe": "",
+            "pn": "open-amp-xlnx-proxy",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "raft_2024.2.bb",
+            "filepath": "recipes-apps/raft",
+            "homepage": "",
+            "id": 2267444,
+            "inherits": "systemd update-rc.d",
+            "layerbranch": 1037164,
+            "license": "MIT & BSD-3-Clause",
+            "pe": "",
+            "pn": "raft",
+            "pr": "r0",
+            "provides": "raft ",
+            "pv": "2024.2",
+            "section": "base",
+            "srcrev": "ed65c678fb02d92f2623a749649e37a18427f0de",
+            "summary": "RAFT python application",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "This library provides APIs for the runtime support of the Xilinx AI Engine IP",
+            "filename": "ai-engine-driver_3.3.bb",
+            "filepath": "recipes-bsp/ai-engine",
+            "homepage": "",
+            "id": 2267445,
+            "inherits": "features_check",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "ai-engine-driver",
+            "pr": "r0",
+            "provides": "ai-engine-driver libxaiengine",
+            "pv": "3.3",
+            "section": "libs",
+            "srcrev": "ae24c8ede049906323510693f37e6167a963fd0e",
+            "summary": "Xilinx AI Engine runtime",
+            "updated": "2025-06-16T02:06:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "This library provides APIs for the runtime support of the Xilinx AI Engine IP",
+            "filename": "ai-engine-driver_3.7.bb",
+            "filepath": "recipes-bsp/ai-engine",
+            "homepage": "",
+            "id": 2267446,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "ai-engine-driver",
+            "pr": "r0",
+            "provides": "ai-engine-driver libxaiengine",
+            "pv": "3.7",
+            "section": "libs",
+            "srcrev": "2ec684582282ea480149af131a781689cbc4ff6e",
+            "summary": "Xilinx AI Engine runtime",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DWITH_TESTS=OFF  -DWITH_EXAMPLES=OFF",
+            "description": "AIE FAL provides functional abstraction APIs for runtime support of Xilinx AI Engine IP",
+            "filename": "aiefal_1.4.bb",
+            "filepath": "recipes-bsp/ai-engine",
+            "homepage": "",
+            "id": 2267447,
+            "inherits": "cmake features_check pkgconfig",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "aiefal",
+            "pr": "r0",
+            "provides": "aiefal aiefal",
+            "pv": "1.4",
+            "section": "devel",
+            "srcrev": "ae24c8ede049906323510693f37e6167a963fd0e",
+            "summary": "Xilinx AI Engine FAL(Functional Abstraction Layer)",
+            "updated": "2025-06-16T02:06:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-DWITH_TESTS=OFF  -DFAL_LINUX=ON  -DWITH_EXAMPLES=OFF",
+            "description": "AIE FAL provides functional abstraction APIs for runtime support of Xilinx AI Engine IP",
+            "filename": "aiefal_1.8.bb",
+            "filepath": "recipes-bsp/ai-engine",
+            "homepage": "",
+            "id": 2267448,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "aiefal",
+            "pr": "r0",
+            "provides": "aiefal aiefal",
+            "pv": "1.8",
+            "section": "devel",
+            "srcrev": "2ec684582282ea480149af131a781689cbc4ff6e",
+            "summary": "Xilinx AI Engine FAL(Functional Abstraction Layer)",
+            "updated": "2025-06-15T22:06:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_2.6-xilinx-v2022.1.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 2267449,
+            "inherits": "deploy image-artifact-names",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware virtual/arm-trusted-firmware",
+            "pv": "2.6-xilinx-v2022.1+git",
+            "section": "base",
+            "srcrev": "67ca59c67f542322554d78820bf9ddaa736d6a84",
+            "summary": "",
+            "updated": "2025-06-16T02:06:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_2.6-xilinx-v2022.2.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 2267450,
+            "inherits": "deploy image-artifact-names",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware virtual/arm-trusted-firmware",
+            "pv": "2.6-xilinx-v2022.2+git",
+            "section": "base",
+            "srcrev": "0897efd45ccad29a3dbab610578c70e3a52b2caa",
+            "summary": "",
+            "updated": "2025-06-16T02:06:19+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Base pdi unique id file - text format",
+            "filename": "base-pdi-unique-id_1.0.bb",
+            "filepath": "recipes-bsp/base-pdi",
+            "homepage": "",
+            "id": 2267451,
+            "inherits": "deploy image-artifact-names",
+            "layerbranch": 1037164,
+            "license": "MIT",
+            "pe": "",
+            "pn": "base-pdi-unique-id",
+            "pr": "r0",
+            "provides": "base-pdi-unique-id ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "The BIF file for bootbin requires a Base pdi unique id file in a text format",
+            "updated": "2025-06-15T22:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Recipe to deploy cdo files from System Device Tree Directory",
+            "filename": "cdo-deploy_1.0.bb",
+            "filepath": "recipes-bsp/cdo",
+            "homepage": "",
+            "id": 2267452,
+            "inherits": "deploy",
+            "layerbranch": 1037164,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "cdo-deploy",
+            "pr": "r0",
+            "provides": "cdo-deploy ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-15T22:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "                 -DCMAKE_SYSROOT:PATH=/tmp/tmp89lys51j/tmp/work/core2-32-oe-linux/dfx-mgr/2025.1/recipe-sysroot \t\t ",
+            "description": "Xilinx Runtime User Space Libraries and Binaries",
+            "filename": "dfx-mgr_2025.1.bb",
+            "filepath": "recipes-bsp/dfx-mgr",
+            "homepage": "",
+            "id": 2267453,
+            "inherits": "cmake systemd update-rc.d",
+            "layerbranch": 1037164,
+            "license": "MIT",
+            "pe": "",
+            "pn": "dfx-mgr",
+            "pr": "r0",
+            "provides": "dfx-mgr ",
+            "pv": "2025.1",
+            "section": "base",
+            "srcrev": "4c4e8762cbec18e964b77f9fc8d3534eaf35183b",
+            "summary": "Xilinx dfx-mgr libraries",
+            "updated": "2025-06-15T22:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Application Security Unit",
+            "filename": "asufw.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267454,
+            "inherits": "deploy",
+            "layerbranch": 1037164,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "asufw",
+            "pr": "r0",
+            "provides": "asufw virtual/asu",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Application Security Unit for Versal_2ve_2vm devices",
+            "updated": "2025-06-15T22:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "Xilinx libdfx Library and headers",
+            "filename": "libdfx_2025.1.bb",
+            "filepath": "recipes-bsp/libdfx",
+            "homepage": "",
+            "id": 2267455,
+            "inherits": "cmake",
+            "layerbranch": 1037164,
+            "license": "MIT & GPL-2.0-or-later",
+            "pe": "",
+            "pn": "libdfx",
+            "pr": "r0",
+            "provides": "libdfx ",
+            "pv": "2025.1",
+            "section": "base",
+            "srcrev": "af8d735fae286e7bc94c830a86c960598a4ac014",
+            "summary": "Xilinx libdfx library",
+            "updated": "2025-06-15T22:06:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "fiptool - Trusted Firmware tool for packaging",
+            "filename": "fiptool-native_2.12.0.bb",
+            "filepath": "recipes-bsp/trusted-firmware-a",
+            "homepage": "",
+            "id": 2267456,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "fiptool-native",
+            "pr": "r0",
+            "provides": "fiptool-native ",
+            "pv": "2.12.0",
+            "section": "base",
+            "srcrev": "4ec2948fe3f65dba2f19e691e702f7de2949179c",
+            "summary": "",
+            "updated": "2025-06-22T23:06:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Trusted Firmware-A tests(aka TFTF)",
+            "filename": "tf-a-tests_2.12.0.bb",
+            "filepath": "recipes-bsp/trusted-firmware-a",
+            "homepage": "",
+            "id": 2267457,
+            "inherits": "deploy",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause & NCSA",
+            "pe": "",
+            "pn": "tf-a-tests",
+            "pr": "r0",
+            "provides": "tf-a-tests ",
+            "pv": "2.12.0",
+            "section": "base",
+            "srcrev": "6a113621a9efdc143e9270b1789046cd7d9cdfb1",
+            "summary": "",
+            "updated": "2025-06-22T23:06:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Trusted Firmware-A",
+            "filename": "trusted-firmware-a_2.12.0-xilinx-v2025.1.bb",
+            "filepath": "recipes-bsp/trusted-firmware-a",
+            "homepage": "",
+            "id": 2267458,
+            "inherits": "deploy image-artifact-names",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause & BSD-3-Clause & MIT & Apache-2.0",
+            "pe": "",
+            "pn": "trusted-firmware-a",
+            "pr": "r0",
+            "provides": "trusted-firmware-a virtual/arm-trusted-firmware",
+            "pv": "2.12.0-xilinx-v2025.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-22T23:06:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Trusted Firmware-A",
+            "filename": "trusted-firmware-a_2.12.0.bb",
+            "filepath": "recipes-bsp/trusted-firmware-a",
+            "homepage": "",
+            "id": 2267459,
+            "inherits": "deploy",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause & BSD-3-Clause & MIT & Apache-2.0",
+            "pe": "",
+            "pn": "trusted-firmware-a",
+            "pr": "r0",
+            "provides": "trusted-firmware-a ",
+            "pv": "2.12.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-22T23:06:48+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-tools-xlnx_2021.01-xilinx-v2022.1.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2267460,
+            "inherits": "pkgconfig python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-tools-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage  u-boot-tools",
+            "pv": "2021.01-xilinx-v2022.1+git",
+            "section": "bootloaders",
+            "srcrev": "91ad7924e7f59584d597353e1bb86794341e0a7e",
+            "summary": "U-Boot bootloader tools",
+            "updated": "2025-06-16T02:06:20+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-tools-xlnx_2022.01-xilinx-v2022.2.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2267461,
+            "inherits": "pkgconfig python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-tools-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage  u-boot-tools",
+            "pv": "2022.01-xilinx-v2022.2+git",
+            "section": "bootloaders",
+            "srcrev": "b31476685debf5512ed0d4e8000fa5167a22f530",
+            "summary": "U-Boot bootloader tools",
+            "updated": "2025-06-16T02:06:20+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-tools-xlnx_2025.01-xilinx-v2025.1.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2267462,
+            "inherits": "pkgconfig python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-tools-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools u-boot-tools-xlnx-mkfwumdata",
+            "pv": "2025.01-xilinx-v2025.1+git",
+            "section": "bootloaders",
+            "srcrev": "a09d2660433d3d1ade6a14a82b21a13c2bbb3821",
+            "summary": "U-Boot bootloader tools",
+            "updated": "2025-06-16T02:06:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-xlnx_2021.01-xilinx-v2022.1.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2267463,
+            "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign xilinx-platform-init",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-xlnx virtual/bootloader",
+            "pv": "2021.01-xilinx-v2022.1+git",
+            "section": "bootloaders",
+            "srcrev": "91ad7924e7f59584d597353e1bb86794341e0a7e",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2025-06-16T02:06:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-xlnx_2022.01-xilinx-v2022.2.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2267464,
+            "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign xilinx-platform-init",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-xlnx virtual/bootloader",
+            "pv": "2022.01-xilinx-v2022.2+git",
+            "section": "bootloaders",
+            "srcrev": "b31476685debf5512ed0d4e8000fa5167a22f530",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2025-06-16T02:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
+            "filename": "u-boot-xlnx_2025.01-xilinx-v2025.1.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2267465,
+            "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign xilinx-platform-init",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-xlnx virtual/bootloader",
+            "pv": "2025.01-xilinx-v2025.1+git",
+            "section": "bootloaders",
+            "srcrev": "a09d2660433d3d1ade6a14a82b21a13c2bbb3821",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2025-06-16T02:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx X11 packages superset",
+            "filename": "packagegroup-xilinx-x11.bb",
+            "filepath": "recipes-core/packagegroups",
+            "homepage": "",
+            "id": 2267466,
+            "inherits": "packagegroup",
+            "layerbranch": 1037164,
+            "license": "",
+            "pe": "",
+            "pn": "packagegroup-xilinx-x11",
+            "pr": "r0",
+            "provides": "packagegroup-xilinx-x11 ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-15T22:06:25+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " --disable-all-programs --enable-libuuid  --enable-nls",
+            "description": "Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.",
+            "filename": "util-linux-libuuid_2.40.4.bb",
+            "filepath": "recipes-core/util-linux",
+            "homepage": "https://en.wikipedia.org/wiki/Util-linux",
+            "id": 2267467,
+            "inherits": "autotools gettext pkgconfig siteinfo",
+            "layerbranch": 1037164,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "util-linux-libuuid",
+            "pr": "r0",
+            "provides": "util-linux-libuuid ",
+            "pv": "2.40.4",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A suite of basic system administration utilities",
+            "updated": "2025-06-22T23:06:49+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "-Ddocs=false ",
+            "description": "Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.",
+            "filename": "util-linux_2.40.4.bb",
+            "filepath": "recipes-core/util-linux",
+            "homepage": "https://en.wikipedia.org/wiki/Util-linux",
+            "id": 2267468,
+            "inherits": "autotools bash-completion gettext gtk-doc manpages pkgconfig ptest python3-dir python3native qemu siteinfo systemd update-alternatives",
+            "layerbranch": 1037164,
+            "license": "GPL-1.0-or-later & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause-UC & MIT",
+            "pe": "",
+            "pn": "util-linux",
+            "pr": "r0",
+            "provides": "util-linux ",
+            "pv": "2.40.4",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A suite of basic system administration utilities",
+            "updated": "2025-06-22T23:06:49+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "wic Image Manipulator",
+            "filename": "wic_0.2.0.bb",
+            "filepath": "recipes-core/wic",
+            "homepage": "",
+            "id": 2267469,
+            "inherits": "python3-dir python3native python3targetconfig python_pep517 python_poetry_core setuptools3-base",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "wic",
+            "pr": "r0",
+            "provides": "wic ",
+            "pv": "0.2.0",
+            "section": "console/utils",
+            "srcrev": "a5fec5ef73a34266003e48257666f3fa47d9e4c2",
+            "summary": "",
+            "updated": "2025-06-15T22:06:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "nativesdk-qemu-xilinx-multiarch-helper_1.0.bb",
+            "filepath": "recipes-devtools/qemu",
+            "homepage": "",
+            "id": 2267470,
+            "inherits": "nativesdk",
+            "layerbranch": 1037164,
+            "license": "MIT",
+            "pe": "",
+            "pn": "nativesdk-qemu-xilinx-multiarch-helper",
+            "pr": "r0",
+            "provides": "nativesdk-qemu-xilinx-multiarch-helper",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "SDK Helper scripts for executing a multi-arch instance of AMD QEMU",
+            "updated": "2025-06-15T22:06:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "nativesdk-qemuboot-tool_1.0.bb",
+            "filepath": "recipes-devtools/qemuboot-tool",
+            "homepage": "",
+            "id": 2267471,
+            "inherits": "nativesdk",
+            "layerbranch": 1037164,
+            "license": "MIT",
+            "pe": "",
+            "pn": "nativesdk-qemuboot-tool",
+            "pr": "r0",
+            "provides": "nativesdk-qemuboot-tool",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "helper script to adjust and merge multiple qemuboot.conf files",
+            "updated": "2025-06-25T21:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Out-of-tree DisplayPort(DP) kernel modules provider for aarch64 devices",
+            "filename": "kernel-module-dp_6.12.0.bb",
+            "filepath": "recipes-kernel/dp",
+            "homepage": "",
+            "id": 2267472,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "kernel-module-dp",
+            "pr": "r0",
+            "provides": "kernel-module-dp ",
+            "pv": "6.12.0+git",
+            "section": "kernel/modules",
+            "srcrev": "5cceb0fdd414b7a453066a57cc693ac8c0532fca",
+            "summary": "Xilinx DisplayPort Linux Kernel module",
+            "updated": "2025-06-15T22:06:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Firmware binaries provider for ISP",
+            "filename": "isp-firmware_1.0.bb",
+            "filepath": "recipes-kernel/isp",
+            "homepage": "",
+            "id": 2267473,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "isp-firmware",
+            "pr": "r0",
+            "provides": "isp-firmware ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Firmware for ISP",
+            "updated": "2025-06-25T21:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ISP Media Server application and required shared libraries.",
+            "filename": "isp-media-server_1.0.bb",
+            "filepath": "recipes-kernel/isp",
+            "homepage": "",
+            "id": 2267474,
+            "inherits": "",
+            "layerbranch": 1037164,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "isp-media-server",
+            "pr": "r0",
+            "provides": "isp-media-server ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "ISP Media Server and Libraries",
+            "updated": "2025-06-25T21:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Versal2 Image Signal Processor (ISP) out-of-tree kernel modules provider for aarch64 devices",
+            "filename": "kernel-module-isp_6.12.0.bb",
+            "filepath": "recipes-kernel/isp",
+            "homepage": "",
+            "id": 2267475,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "kernel-module-isp",
+            "pr": "r0",
+            "provides": "kernel-module-isp ",
+            "pv": "6.12.0+git",
+            "section": "kernel/modules",
+            "srcrev": "9ff4093620996a795b912a25fe08c55b263aa7f2",
+            "summary": "Xilinx Versal2 ISP linux kernel module",
+            "updated": "2025-06-15T22:06:27+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx Kernel",
+            "filename": "linux-xlnx_5.15-v2022.1.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 2267476,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-simpleimage kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-with-Linux-syscall-note",
+            "pe": "",
+            "pn": "linux-xlnx",
+            "pr": "r0",
+            "provides": "linux-xlnx  virtual/kernel",
+            "pv": "5.15.19+git",
+            "section": "kernel",
+            "srcrev": "75872fda9ad270b611ee6ae2433492da1e22b688",
+            "summary": "Linux kernel",
+            "updated": "2025-06-16T02:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx Kernel",
+            "filename": "linux-xlnx_5.15-v2022.2.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 2267477,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-simpleimage kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-with-Linux-syscall-note",
+            "pe": "",
+            "pn": "linux-xlnx",
+            "pr": "r0",
+            "provides": "linux-xlnx  virtual/kernel",
+            "pv": "5.15.36+git",
+            "section": "kernel",
+            "srcrev": "19984dd147fa7fbb7cb14b17400263ad0925c189",
+            "summary": "Linux kernel",
+            "updated": "2025-06-16T02:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx Kernel",
+            "filename": "linux-xlnx_6.12.10-v2025.1.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 2267478,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-simpleimage kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-with-Linux-syscall-note",
+            "pe": "",
+            "pn": "linux-xlnx",
+            "pr": "r0",
+            "provides": "linux-xlnx  virtual/kernel",
+            "pv": "6.12.10+git",
+            "section": "kernel",
+            "srcrev": "0a0f70e531c7c36d7ab42b374286b67b9fc2c660",
+            "summary": "Linux kernel",
+            "updated": "2025-06-16T02:06:21+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_USE_PKGCONFIG=ON     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'   -DCFG_ENABLE_SYSTEMD=On -DSYSTEMD_UNIT_DIR=/lib/systemd/system/  -DCFG_ENABLE_UDEV=On -DUDEV_UDEV_DIR=/lib/udev/rules.d/  -DCFG_TEE_GROUP=tee -DCFG_TEEPRIV_GROUP=teepriv ",
+            "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
+            "filename": "optee-client_4.2.0-xlnx-v2024.2.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267479,
+            "inherits": "cmake pkgconfig systemd update-rc.d useradd useradd_base",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-client",
+            "pr": "r0",
+            "provides": "optee-client ",
+            "pv": "4.2.0-xlnx-v2024.2",
+            "section": "base",
+            "srcrev": "3eac340a781c00ccd61b151b0e9c22a8c6e9f9f0",
+            "summary": "OP-TEE Client API",
+            "updated": "2025-06-22T23:06:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_USE_PKGCONFIG=ON     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'   -DCFG_ENABLE_SYSTEMD=On -DSYSTEMD_UNIT_DIR=/lib/systemd/system/  -DCFG_ENABLE_UDEV=On -DUDEV_UDEV_DIR=/lib/udev/rules.d/  -DCFG_TEE_GROUP=tee -DCFG_TEEPRIV_GROUP=teepriv ",
+            "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
+            "filename": "optee-client_4.5.0-xlnx-v2025.1.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267480,
+            "inherits": "cmake pkgconfig systemd update-rc.d useradd useradd_base",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-client",
+            "pr": "r0",
+            "provides": "optee-client ",
+            "pv": "4.5.0-xlnx-v2025.1",
+            "section": "base",
+            "srcrev": "6486773583b5983af8250a47cf07eca938e0e422",
+            "summary": "OP-TEE Client API",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Sample Applications",
+            "filename": "optee-examples_4.5.0-xlnx-v2025.1.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://github.com/linaro-swg/optee_examples",
+            "id": 2267481,
+            "inherits": "python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-examples",
+            "pr": "r0",
+            "provides": "optee-examples ",
+            "pv": "4.5.0-xlnx-v2025.1",
+            "section": "base",
+            "srcrev": "5306d2c7c618bb4a91df17a2d5d79ae4701af4a3",
+            "summary": "OP-TEE examples",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OP-TEE TA devkit for build TAs",
+            "filename": "optee-os-tadevkit_4.2.0-xlnx-v2024.2.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267482,
+            "inherits": "deploy python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os-tadevkit",
+            "pr": "r0",
+            "provides": "optee-os-tadevkit ",
+            "pv": "4.2.0-xlnx-v2024.2",
+            "section": "base",
+            "srcrev": "72af0f51b5604abbf177e767cf8fef6d2a9ecb16",
+            "summary": "OP-TEE Trusted OS TA devkit",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OP-TEE TA devkit for build TAs",
+            "filename": "optee-os-tadevkit_4.5.0-xlnx-v2025.1.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267483,
+            "inherits": "deploy python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os-tadevkit",
+            "pr": "r0",
+            "provides": "optee-os-tadevkit ",
+            "pv": "4.5.0-xlnx-v2025.1",
+            "section": "base",
+            "srcrev": "ccf217901e380f470dabbe29cfa5073ef068e0d4",
+            "summary": "OP-TEE Trusted OS TA devkit",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Trusted side of the TEE",
+            "filename": "optee-os_4.2.0-xlnx-v2024.2.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267484,
+            "inherits": "deploy python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os",
+            "pr": "r0",
+            "provides": "optee-os ",
+            "pv": "4.2.0-xlnx-v2024.2",
+            "section": "base",
+            "srcrev": "72af0f51b5604abbf177e767cf8fef6d2a9ecb16",
+            "summary": "OP-TEE Trusted OS",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Trusted side of the TEE",
+            "filename": "optee-os_4.5.0-xlnx-v2025.1.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267485,
+            "inherits": "deploy python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os",
+            "pr": "r0",
+            "provides": "optee-os ",
+            "pv": "4.5.0-xlnx-v2025.1",
+            "section": "base",
+            "srcrev": "ccf217901e380f470dabbe29cfa5073ef068e0d4",
+            "summary": "OP-TEE Trusted OS",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Test suite",
+            "filename": "optee-test_4.2.0-xlnx-v2024.2.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267486,
+            "inherits": "deploy ptest python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause & GPL-2.0-only",
+            "pe": "",
+            "pn": "optee-test",
+            "pr": "r0",
+            "provides": "optee-test ",
+            "pv": "4.2.0-xlnx-v2024.2",
+            "section": "base",
+            "srcrev": "526d5bac1b65f907f67c05cd07beca72fbab88dd",
+            "summary": "OP-TEE sanity testsuite",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Test suite",
+            "filename": "optee-test_4.5.0-xlnx-v2025.1.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2267487,
+            "inherits": "deploy ptest python3-dir python3native",
+            "layerbranch": 1037164,
+            "license": "BSD-2-Clause & GPL-2.0-only",
+            "pe": "",
+            "pn": "optee-test",
+            "pr": "r0",
+            "provides": "optee-test ",
+            "pv": "4.5.0-xlnx-v2025.1",
+            "section": "base",
+            "srcrev": "a1739a182ebbf0500e54cd313e5591079c36f968",
+            "summary": "OP-TEE sanity testsuite",
+            "updated": "2025-06-22T23:06:51+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "bmap-writer is a command-line utility designed to efficiently write disk images     to storage devices using block mapping (BMAP). It serves as     a lightweight alternative to the Yocto BMAP tool,     bmap-writer is C++ based does not require Python and focuses solely on writing an image.",
+            "filename": "bmap-writer_git.bb",
+            "filepath": "recipes-support/bmap-writer",
+            "homepage": "https://github.com/embetrix/bmap-writer",
+            "id": 2267488,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "bmap-writer",
+            "pr": "r0",
+            "provides": "bmap-writer ",
+            "pv": "git",
+            "section": "console/utils",
+            "srcrev": "cd94d9f1fee34215bd761d05838bc7b4dbebfacc",
+            "summary": "bmaptool alternative written in C++",
+            "updated": "2025-06-22T23:06:52+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "           -Ddefault_library=both  ",
+            "description": "",
+            "filename": "libtinyxml2_10.0.0.bb",
+            "filepath": "recipes-support/libtinyxml2",
+            "homepage": "https://leethomason.github.io/tinyxml2",
+            "id": 2267489,
+            "inherits": "meson meson-routines ptest python3-dir python3native qemu siteinfo",
+            "layerbranch": 1037164,
+            "license": "Zlib",
+            "pe": "",
+            "pn": "libtinyxml2",
+            "pr": "r0",
+            "provides": "libtinyxml2 ",
+            "pv": "10.0.0",
+            "section": "libs",
+            "srcrev": "321ea883b7190d4e85cae5512a12e5eaa8f8731f",
+            "summary": "TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs",
+            "updated": "2025-06-22T23:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "  -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMANDS=ON ",
+            "description": "Native build of xclbinutil using XRT codebase",
+            "filename": "xclbinutil-native_202510.2.19.0.bb",
+            "filepath": "recipes-xrt/xrt",
+            "homepage": "",
+            "id": 2267490,
+            "inherits": "cmake native nopackages pkgconfig relocatable",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later & Apache-2.0 & MIT",
+            "pe": "",
+            "pn": "xclbinutil-native",
+            "pr": "r0",
+            "provides": "xclbinutil-native ",
+            "pv": "202510.2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Xilinx Runtime(XRT) - minimal native build for xclbinutil",
+            "updated": "2025-06-15T22:06:29+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "  \t\t-DCMAKE_BUILD_TYPE=Release \t\t-DCMAKE_EXPORT_COMPILE_COMANDS=ON \t\t ",
+            "description": "Xilinx Runtime User Space Libraries and headers",
+            "filename": "xrt_202210.2.13.479.bb",
+            "filepath": "recipes-xrt/xrt",
+            "homepage": "",
+            "id": 2267491,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later & Apache-2.0",
+            "pe": "",
+            "pn": "xrt",
+            "pr": "r0",
+            "provides": "xrt ",
+            "pv": "202210.2.13.479",
+            "section": "base",
+            "srcrev": "5e92a513c6950e79638b1a879ddb882da34fc683",
+            "summary": "Xilinx Runtime(XRT) libraries",
+            "updated": "2025-06-16T02:06:14+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "  \t\t-DCMAKE_BUILD_TYPE=Release \t\t-DCMAKE_EXPORT_COMPILE_COMANDS=ON \t\t ",
+            "description": "Xilinx Runtime User Space Libraries and headers",
+            "filename": "xrt_202220.2.14.0.bb",
+            "filepath": "recipes-xrt/xrt",
+            "homepage": "",
+            "id": 2267492,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later & Apache-2.0",
+            "pe": "",
+            "pn": "xrt",
+            "pr": "r0",
+            "provides": "xrt ",
+            "pv": "202220.2.14.0",
+            "section": "base",
+            "srcrev": "43926231f7183688add2dccfd391b36a1f000bea",
+            "summary": "Xilinx Runtime(XRT) libraries",
+            "updated": "2025-06-16T02:06:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "  \t\t-DCMAKE_BUILD_TYPE=Release \t\t-DCMAKE_EXPORT_COMPILE_COMANDS=ON \t\t-DXRT_LIBDFX=true \t\t -DXRT_AIE_BUILD=true ",
+            "description": "Xilinx Runtime User Space Libraries and headers",
+            "filename": "xrt_202510.2.19.0.bb",
+            "filepath": "recipes-xrt/xrt",
+            "homepage": "",
+            "id": 2267493,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later & Apache-2.0 & MIT",
+            "pe": "",
+            "pn": "xrt",
+            "pr": "r0",
+            "provides": "xrt ",
+            "pv": "202510.2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Xilinx Runtime(XRT) libraries",
+            "updated": "2025-06-15T22:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx Runtime driver module provides memory management and compute unit schedule",
+            "filename": "zocl_202210.2.13.479.bb",
+            "filepath": "recipes-xrt/zocl",
+            "homepage": "",
+            "id": 2267494,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPLv2 & Apache-2.0",
+            "pe": "",
+            "pn": "zocl",
+            "pr": "r0",
+            "provides": "zocl ",
+            "pv": "202210.2.13.479",
+            "section": "base",
+            "srcrev": "5e92a513c6950e79638b1a879ddb882da34fc683",
+            "summary": "Xilinx Runtime(XRT) driver module",
+            "updated": "2025-06-16T02:06:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx Runtime driver module provides memory management and compute unit schedule",
+            "filename": "zocl_202220.2.14.0.bb",
+            "filepath": "recipes-xrt/zocl",
+            "homepage": "",
+            "id": 2267495,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later & Apache-2.0",
+            "pe": "",
+            "pn": "zocl",
+            "pr": "r0",
+            "provides": "zocl ",
+            "pv": "202220.2.14.0",
+            "section": "base",
+            "srcrev": "43926231f7183688add2dccfd391b36a1f000bea",
+            "summary": "Xilinx Runtime(XRT) driver module",
+            "updated": "2025-06-16T02:06:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Xilinx Runtime driver module provides memory management and compute unit schedule",
+            "filename": "zocl_202510.2.19.0.bb",
+            "filepath": "recipes-xrt/zocl",
+            "homepage": "",
+            "id": 2267496,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1037164,
+            "license": "GPL-2.0-or-later & Apache-2.0",
+            "pe": "",
+            "pn": "zocl",
+            "pr": "r0",
+            "provides": "zocl  zocl",
+            "pv": "202510.2.19.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Xilinx Runtime(XRT) driver module",
+            "updated": "2025-06-15T22:06:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://sourceware.org/bugzilla/",
+            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpbjd83n11/tmp/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.43.1/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
+            "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
+            "filename": "binutils-crosssdk_2.43.1.bb",
+            "filepath": "recipes-devtools/binutils",
+            "homepage": "http://www.gnu.org/software/binutils/",
+            "id": 2272482,
+            "inherits": "autotools cross crosssdk gettext multilib_header nopackages pkgconfig relocatable siteinfo texinfo update-alternatives",
+            "layerbranch": 1037164,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "binutils-crosssdk-x86_64-oesdk-linux",
+            "pr": "r0",
+            "provides": "binutils-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-binutils",
+            "pv": "2.43.1",
+            "section": "devel",
+            "srcrev": "b82e2250574ef00faf7fcb1e95e14f22b1fa85af",
+            "summary": "GNU binary utilities",
+            "updated": "2025-06-22T23:06:53+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://sourceware.org/bugzilla/",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/                 --enable-install-libbfd                 --enable-install-libiberty                 --enable-shared                 --with-system-zlib                   --with-debuginfod --enable-nls",
+            "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
+            "filename": "binutils_2.43.1.bb",
+            "filepath": "recipes-devtools/binutils",
+            "homepage": "http://www.gnu.org/software/binutils/",
+            "id": 2272483,
+            "inherits": "autotools gettext multilib_header pkgconfig siteinfo texinfo update-alternatives",
+            "layerbranch": 1037164,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "binutils",
+            "pr": "r0",
+            "provides": "binutils ",
+            "pv": "2.43.1",
+            "section": "devel",
+            "srcrev": "b82e2250574ef00faf7fcb1e95e14f22b1fa85af",
+            "summary": "GNU binary utilities",
+            "updated": "2025-06-22T23:06:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://sourceware.org/bugzilla/",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpbjd83n11/tmp/work/x86_64-linux/binutils-cross-i686/2.43.1/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
+            "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
+            "filename": "binutils-cross_2.43.1.bb",
+            "filepath": "recipes-devtools/binutils",
+            "homepage": "http://www.gnu.org/software/binutils/",
+            "id": 2272484,
+            "inherits": "autotools cross gettext multilib_header nopackages pkgconfig relocatable siteinfo texinfo update-alternatives",
+            "layerbranch": 1037164,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "binutils-cross-i686",
+            "pr": "r0",
+            "provides": "binutils-cross-i686 virtual/i686-oe-linux-binutils",
+            "pv": "2.43.1",
+            "section": "devel",
+            "srcrev": "b82e2250574ef00faf7fcb1e95e14f22b1fa85af",
+            "summary": "GNU binary utilities",
+            "updated": "2025-06-22T23:06:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://sourceware.org/bugzilla/",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                    --enable-nls",
+            "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
+            "filename": "binutils-cross-testsuite_2.43.1.bb",
+            "filepath": "recipes-devtools/binutils",
+            "homepage": "http://www.gnu.org/software/binutils/",
+            "id": 2272485,
+            "inherits": "autotools gettext multilib_header nopackages pkgconfig siteinfo texinfo update-alternatives",
+            "layerbranch": 1037164,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "binutils-cross-testsuite",
+            "pr": "r0",
+            "provides": "binutils-cross-testsuite ",
+            "pv": "2.43.1",
+            "section": "devel",
+            "srcrev": "b82e2250574ef00faf7fcb1e95e14f22b1fa85af",
+            "summary": "GNU binary utilities",
+            "updated": "2025-06-22T23:06:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://sourceware.org/bugzilla/",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/core2-32-oe-linux                 --enable-poison-system-directories                   --enable-nls",
+            "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
+            "filename": "binutils-cross-canadian_2.43.1.bb",
+            "filepath": "recipes-devtools/binutils",
+            "homepage": "http://www.gnu.org/software/binutils/",
+            "id": 2272486,
+            "inherits": "autotools cross-canadian gettext multilib_header pkgconfig siteinfo texinfo update-alternatives",
+            "layerbranch": 1037164,
+            "license": "GPL-3.0-only",
+            "pe": "",
+            "pn": "binutils-cross-canadian-i686",
+            "pr": "r0",
+            "provides": "binutils-cross-canadian-i686 ",
+            "pv": "2.43.1",
+            "section": "devel",
+            "srcrev": "b82e2250574ef00faf7fcb1e95e14f22b1fa85af",
+            "summary": "GNU binary utilities (cross-canadian for i686 target)",
+            "updated": "2025-06-22T23:06:54+0000"
         }
     ],
     "wrtemplates": []

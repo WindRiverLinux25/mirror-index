@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-04-26T02:04:51+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:51+0000",
-            "vcs_last_rev": "c93cf2f40173483dfe2872208ce205c67cf47b1d",
+            "updated": "2025-06-22T22:06:50+0000",
+            "vcs_last_commit": "2025-06-19T23:06:27+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:50+0000",
+            "vcs_last_rev": "6484aee8c5f90500eb3d047af41c3bf8b6802307",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -670,10 +677,10 @@
             "id": 1037132,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-04-26T02:04:14+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:14+0000",
-            "vcs_last_rev": "23b2c743ad91e02811114e2e38f3e9d84c70f253",
+            "updated": "2025-06-22T22:06:41+0000",
+            "vcs_last_commit": "2025-06-11T23:06:31+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:41+0000",
+            "vcs_last_rev": "4d33d2a7a49a4e796b817509dae77578a694e361",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44206
@@ -685,10 +692,10 @@
             "id": 1037134,
             "layer": 16,
             "local_path": "",
-            "updated": "2025-04-26T02:04:12+0000",
-            "vcs_last_commit": "2025-03-31T14:03:08+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:12+0000",
-            "vcs_last_rev": "43052923fca9328ca11d9266840547e028f629f3",
+            "updated": "2025-06-22T22:06:47+0000",
+            "vcs_last_commit": "2025-05-17T10:05:50+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:47+0000",
+            "vcs_last_rev": "2169c9afcc0945045bea49f58011080942d4ddb4",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 44206
@@ -700,10 +707,10 @@
             "id": 1037151,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-04-26T02:04:48+0000",
-            "vcs_last_commit": "2025-04-25T00:04:42+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:48+0000",
-            "vcs_last_rev": "c8a5ed7e8bb38bec4b5f946c35cca29715d67689",
+            "updated": "2025-06-22T23:06:34+0000",
+            "vcs_last_commit": "2025-06-02T18:06:48+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:34+0000",
+            "vcs_last_rev": "f94a5f115c8c57325a63536e705cd0752ea5729b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44206
@@ -715,10 +722,10 @@
             "id": 1037158,
             "layer": 517,
             "local_path": "",
-            "updated": "2025-04-26T02:04:47+0000",
-            "vcs_last_commit": "2025-03-23T18:03:08+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:47+0000",
-            "vcs_last_rev": "aba79b4baa596f0aaa6bc9d89fba8001f8c8befb",
+            "updated": "2025-06-22T23:06:54+0000",
+            "vcs_last_commit": "2025-06-02T18:06:47+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:54+0000",
+            "vcs_last_rev": "7000d51dd86b1c2c8d6200875377ac64eaae1df1",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44206
@@ -875,23 +882,23 @@
     "machines": [
         {
             "description": "AWS x86-64 processer ec2 type",
-            "id": 98338,
+            "id": 101227,
             "layerbranch": 1037158,
             "name": "aws-ec2-x86-64",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "description": "AWS arm 64 processer ec2 type",
-            "id": 98339,
+            "id": 101228,
             "layerbranch": 1037158,
             "name": "aws-ec2-arm64",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         }
     ],
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "CloudWatch Agent enables you to collect and export host-level metrics and logs on instances running Linux or Windows server.",
@@ -910,11 +917,11 @@
             "section": "base",
             "srcrev": "01b3fbdbe2d2234a44b1219d4f71d11335b771f2",
             "summary": "Amazon CloudWatch Agent",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Push metrics and logs to CloudWatch from any system that can run Python",
@@ -933,13 +940,13 @@
             "section": "base",
             "srcrev": "9feebfa9facb6bfddade737de7a90bfbfd65cf6e",
             "summary": "amazon cloudwatch publisher",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2-samples-fleet-provisoning/1.0/recipe-sysroot/usr/lib/cmake     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DBUILD_SHARED_LIBS=ON     -DCMAKE_BUILD_TYPE=Release  ",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2-samples-fleet-provisoning/1.0/recipe-sysroot/usr/lib/cmake     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DBUILD_SHARED_LIBS=ON     -DCMAKE_BUILD_TYPE=Release  ",
             "description": "The AWS IoT Device SDK for C++ v2 provides MQTT APIs for C++ applications samples",
             "filename": "aws-iot-device-sdk-cpp-v2-samples-fleet-provisoning.bb",
             "filepath": "recipes-sdk/aws-iot-device-sdk-cpp-v2",
@@ -956,13 +963,13 @@
             "section": "base",
             "srcrev": "0a3ddbc93410f3c2fe0af56dab07f38e982f5cba",
             "summary": "AWS IoT Device SDK for C++ v2 samples",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2/1.35.1/recipe-sysroot/usr/lib/cmake     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2/1.35.1/recipe-sysroot/usr/lib/cmake     -DBUILD_TESTING=OFF     -DCMAKE_BUILD_TYPE=Release     -DUSE_OPENSSL=ON    -DBUILD_DEPS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "description": "The AWS IoT Device SDK for C++ v2 provides MQTT APIs for C++ applications",
             "filename": "aws-iot-device-sdk-cpp-v2_1.35.1.bb",
             "filepath": "recipes-sdk/aws-iot-device-sdk-cpp-v2",
@@ -979,13 +986,13 @@
             "section": "base",
             "srcrev": "0a3ddbc93410f3c2fe0af56dab07f38e982f5cba",
             "summary": "AWS IoT Device SDK for C++ v2",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2-samples-mqtt5-pubsub/1.0/recipe-sysroot/usr/lib/cmake     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DBUILD_SHARED_LIBS=ON     -DCMAKE_BUILD_TYPE=Release   -DCMAKE_BUILD_TYPE=RelWithDebInfo",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-iot-device-sdk-cpp-v2-samples-mqtt5-pubsub/1.0/recipe-sysroot/usr/lib/cmake     -DBUILD_DEPS=OFF     -DBUILD_TESTING=OFF     -DBUILD_SHARED_LIBS=ON     -DCMAKE_BUILD_TYPE=Release   -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "description": "The AWS IoT Device SDK for C++ v2 provides MQTT APIs for C++ applications samples",
             "filename": "aws-iot-device-sdk-cpp-v2-samples-mqtt5-pubsub.bb",
             "filepath": "recipes-sdk/aws-iot-device-sdk-cpp-v2",
@@ -1002,7 +1009,7 @@
             "section": "base",
             "srcrev": "0a3ddbc93410f3c2fe0af56dab07f38e982f5cba",
             "summary": "AWS IoT Device SDK for C++ v2 samples",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1010,7 +1017,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Python bindings for the AWS Common Runtime",
-            "filename": "aws-crt-python_0.25.1.bb",
+            "filename": "aws-crt-python_0.27.2.bb",
             "filepath": "recipes-sdk/aws-crt-python",
             "homepage": "https://github.com/awslabs/aws-crt-python",
             "id": 2224799,
@@ -1021,11 +1028,11 @@
             "pn": "aws-crt-python",
             "pr": "r0",
             "provides": "aws-crt-python ",
-            "pv": "0.25.1",
+            "pv": "0.27.2",
             "section": "base",
-            "srcrev": "68b2c082186c6f0bbca2b6dcb392502944efcc61",
+            "srcrev": "0157faf2fdb7bcb7eb2f84bcdbc7c67faff18c6a",
             "summary": "AWS CRT Python",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1033,7 +1040,7 @@
             "bugtracker": "",
             "configopts": "     -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release     -DBUILD_SHARED_LIBS=ON   -DBUILD_SHARED_LIBS=ON",
             "description": "Core c99 package for AWS SDK for C. Includes cross-platform primitives, configuration, data structures, and error handling.",
-            "filename": "aws-c-common_0.12.1.bb",
+            "filename": "aws-c-common_0.12.3.bb",
             "filepath": "recipes-sdk/aws-c-common",
             "homepage": "https://github.com/awslabs/aws-c-common",
             "id": 2224800,
@@ -1044,19 +1051,19 @@
             "pn": "aws-c-common",
             "pr": "r0",
             "provides": "aws-c-common aws/crt-c-common",
-            "pv": "0.12.1",
+            "pv": "0.12.3",
             "section": "base",
-            "srcrev": "d80b00560f0ebb441538b3ab40192a242afeaa80",
+            "srcrev": "aaa2f11ed609e3f888efd9bf745e810b45b13a38",
             "summary": "AWS C Common",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DDISABLE_PERL=ON     -DDISABLE_GO=ON   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It \u0456s based on code from the Google BoringSSL project and the OpenSSL project.",
-            "filename": "aws-lc_1.48.5.bb",
+            "filename": "aws-lc_1.52.1.bb",
             "filepath": "recipes-sdk/aws-lc",
             "homepage": "https://github.com/awslabs/aws-lc",
             "id": 2224801,
@@ -1067,19 +1074,19 @@
             "pn": "aws-lc",
             "pr": "r0",
             "provides": "aws-lc  aws/lc",
-            "pv": "1.48.5",
+            "pv": "1.52.1",
             "section": "base",
-            "srcrev": "8a9ebcfdcf8bb4a685ca83646265ea0aab85c3c8",
+            "srcrev": "d6ade6ae1537adfff53c0f0489b99ba1a111f0cc",
             "summary": "AWS libcrypto (AWS-LC)",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     -DBUILD_DEPS=OFF     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-sdk-cpp/1.11.529/recipe-sysroot/usr/lib/cmake   -DPULSEAUDIO=TRUE -DBUILD_SHARED_LIBS=ON -DENABLE_TESTING=OFF -DAUTORUN_UNIT_TESTS=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo",
+            "configopts": "     -DBUILD_DEPS=OFF     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-sdk-cpp/1.11.573/recipe-sysroot/usr/lib/cmake   -DPULSEAUDIO=TRUE -DBUILD_SHARED_LIBS=ON -DENABLE_TESTING=OFF -DAUTORUN_UNIT_TESTS=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "description": "AWS C++ SDK and ptest",
-            "filename": "aws-sdk-cpp_1.11.529.bb",
+            "filename": "aws-sdk-cpp_1.11.573.bb",
             "filepath": "recipes-sdk/aws-sdk-cpp",
             "homepage": "https://github.com/aws/aws-sdk-cpp",
             "id": 2224802,
@@ -1090,19 +1097,19 @@
             "pn": "aws-sdk-cpp",
             "pr": "r0",
             "provides": "aws-sdk-cpp ",
-            "pv": "1.11.529",
+            "pv": "1.11.573",
             "section": "base",
-            "srcrev": "a2bc8e504f460da274cf3ee706158226587b6ae3",
+            "srcrev": "da2294c22df30bbcfba777898017400284bb4ddd",
             "summary": "AWS C++ SDK",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-auth/0.8.7/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-auth/0.8.7/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-auth/0.8.7/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-auth/0.9.0/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-auth/0.9.0/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-auth/0.9.0/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C99 library implementation of AWS client-side authentication: standard credentials providers and signing.",
-            "filename": "aws-c-auth_0.8.7.bb",
+            "filename": "aws-c-auth_0.9.0.bb",
             "filepath": "recipes-sdk/aws-c-auth",
             "homepage": "https://github.com/awslabs/aws-c-auth",
             "id": 2224803,
@@ -1113,19 +1120,19 @@
             "pn": "aws-c-auth",
             "pr": "r0",
             "provides": "aws-c-auth  aws/crt-c-auth",
-            "pv": "0.8.7",
+            "pv": "0.9.0",
             "section": "base",
-            "srcrev": "e0bd58d172cdc78d62eff5728437790d06fcce50",
+            "srcrev": "cd9d6afcd42035d49bb2d0d3bef24b9faed57773",
             "summary": "AWS C Auth",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-s3/0.7.13/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-s3/0.7.13/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-s3/0.7.13/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-s3/0.8.0/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-s3/0.8.0/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-s3/0.8.0/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.",
-            "filename": "aws-c-s3_0.7.13.bb",
+            "filename": "aws-c-s3_0.8.0.bb",
             "filepath": "recipes-sdk/aws-c-s3",
             "homepage": "https://github.com/awslabs/aws-c-s3",
             "id": 2224804,
@@ -1136,15 +1143,15 @@
             "pn": "aws-c-s3",
             "pr": "r0",
             "provides": "aws-c-s3  aws/crt-c-s3",
-            "pv": "0.7.13",
+            "pv": "0.8.0",
             "section": "base",
-            "srcrev": "169842b7e2f81d71d0719d4a77f9c3e186512f99",
+            "srcrev": "52c90d39dab19a36e06d746a8c795060632619e2",
             "summary": "AWS C S3",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DAWS_IOT_ENDPOINT=your-iot-endpoint     -DBROKER_ENDPOINT=localhost     -DCLIENT_CERT_PATH=/etc     -DCLIENT_PRIVATE_KEY_PATH=/etc     -DINSTALL_TO_SYSTEM=1     -DROOT_CA_CERT_PATH=/etc     -DTHING_NAME=your-registered-thing-name       -DBUILD_DEMOS=OFF  -DBUILD_TESTS=OFF ",
             "description": "SDK for connecting to AWS IoT from a device using embedded C",
@@ -1163,7 +1170,7 @@
             "section": "base",
             "srcrev": "da99638ec373c791a45557b0cd91fc20968d492d",
             "summary": "AWS IoT Device SDK for Embedded C",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1171,7 +1178,7 @@
             "bugtracker": "",
             "configopts": " -DUNSAFE_TREAT_WARNINGS_AS_ERRORS=OFF   -DS2N_ADDRESS_SANITIZER=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "description": "s2n is a C99 implementation of the TLS/SSL protocols that is designed to be simple, small, fast, and with security as a priority.",
-            "filename": "s2n_1.5.14.bb",
+            "filename": "s2n_1.5.19.bb",
             "filepath": "recipes-sdk/s2n",
             "homepage": "https://github.com/aws/s2n-tls",
             "id": 2224806,
@@ -1182,19 +1189,19 @@
             "pn": "s2n",
             "pr": "r0",
             "provides": "s2n  aws/s2n",
-            "pv": "1.5.14",
+            "pv": "1.5.19",
             "section": "base",
-            "srcrev": "4ed4f1a658b70559ec4a18e91d1319daa14b0610",
+            "srcrev": "92f7827c8487eb2a99b443aec6ee7d1df031b1bf",
             "summary": "s2n",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-sdkutils/0.2.3/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-sdkutils/0.2.3/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-sdkutils/0.2.3/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-sdkutils/0.2.4/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-sdkutils/0.2.4/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-sdkutils/0.2.4/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "No description or website provided. ",
-            "filename": "aws-c-sdkutils_0.2.3.bb",
+            "filename": "aws-c-sdkutils_0.2.4.bb",
             "filepath": "recipes-sdk/aws-c-sdkutils",
             "homepage": "https://github.com/awslabs/aws-c-sdkutils",
             "id": 2224807,
@@ -1205,19 +1212,19 @@
             "pn": "aws-c-sdkutils",
             "pr": "r0",
             "provides": "aws-c-sdkutils  aws/c-sdkutils",
-            "pv": "0.2.3",
+            "pv": "0.2.4",
             "section": "base",
-            "srcrev": "ba6a28fab7ed5d7f1b3b1d12eb672088be093824",
+            "srcrev": "f678bda9e21f7217e4bbf35e0d1ea59540687933",
             "summary": "AWS C SDKUTILS",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-checksums/0.2.3/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-checksums/0.2.3/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-checksums/0.2.3/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-checksums/0.2.7/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-checksums/0.2.7/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-checksums/0.2.7/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "Cross-Platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations. C interface with language bindings for each of our SDKs",
-            "filename": "aws-checksums_0.2.3.bb",
+            "filename": "aws-checksums_0.2.7.bb",
             "filepath": "recipes-sdk/aws-checksums",
             "homepage": "https://github.com/awslabs/aws-checksums",
             "id": 2224808,
@@ -1228,19 +1235,19 @@
             "pn": "aws-checksums",
             "pr": "r0",
             "provides": "aws-checksums  aws/checksums",
-            "pv": "0.2.3",
+            "pv": "0.2.7",
             "section": "base",
-            "srcrev": "fb8bd0b8cff00c8c24a35d601fce1b4c611df6da",
+            "srcrev": "9978ba2c33a7a259c1a6bd0f62abe26827d03b85",
             "summary": "AWS Checksums",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-cal/0.8.7/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-cal/0.8.7/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-cal/0.8.7/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-cal/0.9.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-cal/0.9.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-cal/0.9.1/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "AWS Crypto Abstraction Layer: Cross-Platform, C99 wrapper for cryptography primitives.",
-            "filename": "aws-c-cal_0.8.7.bb",
+            "filename": "aws-c-cal_0.9.1.bb",
             "filepath": "recipes-sdk/aws-c-cal",
             "homepage": "https://github.com/awslabs/aws-c-cal",
             "id": 2224809,
@@ -1251,17 +1258,17 @@
             "pn": "aws-c-cal",
             "pr": "r0",
             "provides": "aws-c-cal  aws/crt-c-cal",
-            "pv": "0.8.7",
+            "pv": "0.9.1",
             "section": "base",
-            "srcrev": "d59c198db17c42a48e3ee105d12357f5a9efecf3",
+            "srcrev": "938d0fea30d8476a7cf260278d636404682a28d4",
             "summary": "AWS C Cal",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-compression/0.3.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-compression/0.3.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-compression/0.3.1/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-compression/0.3.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-compression/0.3.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-compression/0.3.1/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "This is a cross-platform C99 implementation of compression algorithms such as gzip, and huffman encoding/decoding. Currently only huffman is implemented.",
             "filename": "aws-c-compression_0.3.1.bb",
             "filepath": "recipes-sdk/aws-c-compression",
@@ -1278,13 +1285,13 @@
             "section": "base",
             "srcrev": "f951ab2b819fc6993b6e5e6cfef64b1a1554bfc8",
             "summary": "AWS C Compression",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TEST_DEPS=OFF     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-event-stream/0.5.4/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-event-stream/0.5.4/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-event-stream/0.5.4/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DBUILD_TEST_DEPS=OFF     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-event-stream/0.5.4/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-event-stream/0.5.4/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-event-stream/0.5.4/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C99 implementation of the vnd.amazon.event-stream content-type.",
             "filename": "aws-c-event-stream_0.5.4.bb",
             "filepath": "recipes-sdk/aws-c-event-stream",
@@ -1301,15 +1308,15 @@
             "section": "base",
             "srcrev": "9312b052583183b98526aaeb91e5c72ec3db9627",
             "summary": "AWS C Event Stream",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-crt-cpp/0.31.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-crt-cpp/0.31.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-crt-cpp/0.31.1/recipe-sysroot/usr/lib\"     -DBUILD_DEPS=OFF      -DCMAKE_BUILD_TYPE=Release  -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-crt-cpp/0.32.5/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-crt-cpp/0.32.5/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-crt-cpp/0.32.5/recipe-sysroot/usr/lib\"     -DUSE_OPENSSL=ON      -DCMAKE_BUILD_TYPE=Release  -DBUILD_DEPS=ON -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++.",
-            "filename": "aws-crt-cpp_0.31.1.bb",
+            "filename": "aws-crt-cpp_0.32.5.bb",
             "filepath": "recipes-sdk/aws-crt-cpp",
             "homepage": "https://github.com/awslabs/aws-crt-cpp",
             "id": 2224812,
@@ -1320,19 +1327,19 @@
             "pn": "aws-crt-cpp",
             "pr": "r0",
             "provides": "aws-crt-cpp  aws/crt-cpp",
-            "pv": "0.31.1",
+            "pv": "0.32.5",
             "section": "base",
-            "srcrev": "4c48d1ec9894c44c11265e5c7b059ee35df6e797",
+            "srcrev": "78c4031387b5be86837e336730f4ef4ab6144815",
             "summary": "AWS CRT CPP",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-mqtt/0.12.2/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-mqtt/0.12.2/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-mqtt/0.12.2/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TEST_DEPS=OFF -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-mqtt/0.13.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-mqtt/0.13.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-mqtt/0.13.1/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TEST_DEPS=OFF -DBUILD_TESTING=OFF",
             "description": "C99 implementation of the MQTT 3.1.1 specification.",
-            "filename": "aws-c-mqtt_0.12.2.bb",
+            "filename": "aws-c-mqtt_0.13.1.bb",
             "filepath": "recipes-sdk/aws-c-mqtt",
             "homepage": "https://github.com/awslabs/aws-c-mqtt",
             "id": 2224813,
@@ -1343,19 +1350,19 @@
             "pn": "aws-c-mqtt",
             "pr": "r0",
             "provides": "aws-c-mqtt  aws/crt-c-mqtt",
-            "pv": "0.12.2",
+            "pv": "0.13.1",
             "section": "base",
-            "srcrev": "f0cc34cb6f54e050275e3c859594c62776d46d83",
+            "srcrev": "3ac506507679a86677f8875dcc07589b63907863",
             "summary": "AWS C MQTT",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-io/0.17.0/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-io/0.17.0/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-io/0.17.0/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-io/0.19.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-io/0.19.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-io/0.19.1/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "aws-c-io is an event driven framework for implementing application protocols. It is built on top of cross-platform abstractions that allow you as a developer to think only about the state machine and API for your protocols.",
-            "filename": "aws-c-io_0.17.0.bb",
+            "filename": "aws-c-io_0.19.1.bb",
             "filepath": "recipes-sdk/aws-c-io",
             "homepage": "https://github.com/awslabs/aws-c-io",
             "id": 2224814,
@@ -1366,17 +1373,17 @@
             "pn": "aws-c-io",
             "pr": "r0",
             "provides": "aws-c-io  aws/crt-c-io",
-            "pv": "0.17.0",
+            "pv": "0.19.1",
             "section": "base",
-            "srcrev": "318f7e57e7871e5b0d48a281cc5dcb7f79ccecdd",
+            "srcrev": "689dee3cb8dbd8a6906431d154a3695f7688c056",
             "summary": "AWS C IO",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-iot/0.2.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-iot/0.2.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-iot/0.2.1/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-iot/0.2.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-iot/0.2.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-iot/0.2.1/recipe-sysroot/usr/lib\"   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C99 implementation of AWS IoT cloud services integration with devices",
             "filename": "aws-c-iot_0.2.1.bb",
             "filepath": "recipes-sdk/aws-c-iot",
@@ -1393,7 +1400,7 @@
             "section": "base",
             "srcrev": "9f0c152ed76af1a45d99fb98286707aa23c728af",
             "summary": "AWS C IoT",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1416,15 +1423,15 @@
             "section": "base",
             "srcrev": "9518299b90b5979bae2140ed69123c809fdd1609",
             "summary": "AWS IoT Device SDK v2 for Python",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DBUILD_TEST_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_MODULE_PATH=/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-http/0.9.5/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-http/0.9.5/recipe-sysroot/usr/lib/cmake;/tmp/tmp7bqeqynd/tmp/work/core2-32-oe-linux/aws-c-http/0.9.5/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DBUILD_TEST_DEPS=OFF     -DBUILD_TESTING=OFF     -DCMAKE_MODULE_PATH=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-http/0.10.1/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=\"/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-http/0.10.1/recipe-sysroot/usr/lib/cmake;/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/aws-c-http/0.10.1/recipe-sysroot/usr/lib\"     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C99 implementation of the HTTP/1.1 and HTTP/2 specifications",
-            "filename": "aws-c-http_0.9.5.bb",
+            "filename": "aws-c-http_0.10.1.bb",
             "filepath": "recipes-sdk/aws-c-http",
             "homepage": "https://github.com/awslabs/aws-c-http",
             "id": 2224817,
@@ -1435,15 +1442,15 @@
             "pn": "aws-c-http",
             "pr": "r0",
             "provides": "aws-c-http  aws/crt-c-http",
-            "pv": "0.9.5",
+            "pv": "0.10.1",
             "section": "base",
-            "srcrev": "e3a9cabc664630120df25c28ec710199b8e8b15b",
+            "srcrev": "3eedf1ef8c6874cd941dbde794a6ab3bd979e181",
             "summary": "AWS C HTTP",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DBUILD_DEPENDENCIES=OFF     -DBUILD_JNI=OFF     -DBUILD_STATIC=OFF     -DBUILD_DEPENDENCIES=OFF     -DBUILD_OPENSSL_PLATFORM=OFF     -DCODE_COVERAGE=OFF     -DCOMPILER_WARNINGS=OFF     -DADDRESS_SANITIZER=OFF     -DMEMORY_SANITIZER=OFF     -DTHREAD_SANITIZER=OFF     -DUNDEFINED_BEHAVIOR_SANITIZER=OFF     -DBUILD_TEST=OFF     -DBUILD_SHARED_LIBS=ON     -DCMAKE_BUILD_TYPE=Release       -DBUILD_GSTREAMER_PLUGIN=ON",
             "description": "Amazon Kinesis Video Streams Producer SDK for C/C++ makes it easy to build an on-device application that securely connects to a video stream, and reliably publishes video and other media data to Kinesis Video Streams. It takes care of all the underlying tasks required to package the frames and fragments generated by the device's media pipeline. The SDK also handles stream creation, token rotation for secure and uninterrupted streaming, processing acknowledgements returned by Kinesis Video Streams, and other tasks.",
@@ -1462,11 +1469,11 @@
             "section": "base",
             "srcrev": "7acf272672ced72bbbad85fe39d366deca57280e",
             "summary": "Amazon Kinesis Video Streams CPP Producer",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-22T23:06:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DBUILD_DEPENDENCIES=OFF     -DCODE_COVERAGE=OFF     -DADDRESS_SANITIZER=OFF     -DMEMORY_SANITIZER=OFF     -DTHREAD_SANITIZER=OFF     -DUNDEFINED_BEHAVIOR_SANITIZER=OFF     -DDEBUG_HEAP=OFF     -DCOMPILER_WARNINGS=ON     -DALIGNED_MEMORY_MODEL=OFF     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_TEST=OFF",
             "description": "Platform independent code layer for KVS Producer SDK",
@@ -1485,11 +1492,11 @@
             "section": "base",
             "srcrev": "65e38dac9b30523d43a57bc009d679e627b58d9a",
             "summary": "Amazon Kinesis Video Streams PIC",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-22T23:06:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DBUILD_DEPENDENCIES=OFF     -DCODE_COVERAGE=OFF     -DBUILD_COMMON_LWS=ON     -DCOMPILER_WARNINGS=OFF     -DADDRESS_SANITIZER=OFF     -DMEMORY_SANITIZER=OFF     -DTHREAD_SANITIZER=OFF     -DUNDEFINED_BEHAVIOR_SANITIZER=OFF     -DDEBUG_HEAP=OFF     -DALIGNED_MEMORY_MODEL=OFF     -DCMAKE_BUILD_TYPE=Release   -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC=OFF -DBUILD_TEST=OFF",
             "description": "Amazon Kinesis Video Streams Producer SDK for C/C++ makes it easy to build an on-device application that securely connects to a video stream, and reliably publishes video and other media data to Kinesis Video Streams. It takes care of all the underlying tasks required to package the frames and fragments generated by the device's media pipeline. The SDK also handles stream creation, token rotation for secure and uninterrupted streaming, processing acknowledgements returned by Kinesis Video Streams, and other tasks.",
@@ -1508,11 +1515,11 @@
             "section": "base",
             "srcrev": "3e519b7670e39031375d227f983ad2cde888078e",
             "summary": "Amazon Kinesis Video Streams C Producer",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-06-22T23:06:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DBUILD_DEPENDENCIES=OFF     -DCODE_COVERAGE=OFF     -DADDRESS_SANITIZER=OFF     -DMEMORY_SANITIZER=OFF     -DTHREAD_SANITIZER=OFF     -DUNDEFINED_BEHAVIOR_SANITIZER=OFF     -DDEBUG_HEAP=OFF     -DCOMPILER_WARNINGS=OFF     -DALIGNED_MEMORY_MODEL=OFF     -DBUILD_TEST=OFF -DCMAKE_BUILD_TYPE=Release  -DCMAKE_SKIP_RPATH=1  -DBUILD_SHARED_LIBS=ON -DBUILD_SAMPLE=OFF -DBUILD_TEST=OFF",
             "description": "Pure C WebRTC Client for Amazon Kinesis Video Streams",
@@ -1531,7 +1538,7 @@
             "section": "base",
             "srcrev": "339f24ff4eb03d430d11d0ba6bf63e7946fbfbd8",
             "summary": "Amazon Kinesis Video Streams WebRTC",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-22T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1539,7 +1546,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The low-level, core functionality of boto3 and the AWS CLI.",
-            "filename": "python3-botocore_1.37.16.bb",
+            "filename": "python3-botocore_1.37.38.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/botocore",
             "id": 2224822,
@@ -1550,15 +1557,15 @@
             "pn": "python3-botocore",
             "pr": "r0",
             "provides": "python3-botocore ",
-            "pv": "1.37.16",
+            "pv": "1.37.38",
             "section": "base",
-            "srcrev": "bb68e8d8e1baa3ac2d77f1dfc70a97146bf80db4",
+            "srcrev": "2a882881e2f02f8959df7b551978005854f8f5dd",
             "summary": "python3 botocore",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-22T23:06:50+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order.",
@@ -1577,7 +1584,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "YAML parser/emitter",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-22T23:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1585,7 +1592,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Amazon S3 Transfer Manager for Python",
-            "filename": "python3-s3transfer_0.11.4.bb",
+            "filename": "python3-s3transfer_0.13.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/s3transfer",
             "id": 2224824,
@@ -1596,15 +1603,15 @@
             "pn": "python3-s3transfer",
             "pr": "r0",
             "provides": "python3-s3transfer ",
-            "pv": "0.11.4",
+            "pv": "0.13.0",
             "section": "base",
-            "srcrev": "9d0a34082f1994f17fb91be350f138e278b0335b",
+            "srcrev": "90a897be1a2be87e7a9b46bf4b1c12df81a4daf0",
             "summary": "python3 s3 transfer",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
@@ -1623,7 +1630,7 @@
             "section": "base",
             "srcrev": "6f2ad7ca0cdde53751bab29cbc10bcc965bb4387",
             "summary": "Python HTTP library",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1631,7 +1638,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2.",
-            "filename": "python3-boto3_1.37.16.bb",
+            "filename": "python3-boto3_1.37.38.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/boto3",
             "id": 2224826,
@@ -1642,19 +1649,19 @@
             "pn": "python3-boto3",
             "pr": "r0",
             "provides": "python3-boto3 ",
-            "pv": "1.37.16",
+            "pv": "1.37.38",
             "section": "base",
-            "srcrev": "e8a1214f765daf059ee5944f3c0914438b68e4c7",
+            "srcrev": "3f98cd0ed5dc41957e2303a3473b1249b8f4a7c4",
             "summary": "Python Boto3",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK).",
-            "filename": "corretto-21-bin_21.0.6.7.1.bb",
+            "filename": "corretto-21-bin_21.0.7.6.1.bb",
             "filepath": "recipes-devtools/amazon-corretto",
             "homepage": "https://github.com/corretto/corretto-21",
             "id": 2224827,
@@ -1665,19 +1672,19 @@
             "pn": "corretto-21-bin",
             "pr": "r0",
             "provides": "corretto-21-bin ",
-            "pv": "21.0.6.7.1",
+            "pv": "21.0.7.6.1",
             "section": "base",
             "srcrev": "",
             "summary": "Amazon Corretto 21",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK).",
-            "filename": "corretto-11-bin_11.0.26.4.1.bb",
+            "filename": "corretto-11-bin_11.0.27.6.1.bb",
             "filepath": "recipes-devtools/amazon-corretto",
             "homepage": "https://github.com/corretto/corretto-11",
             "id": 2224828,
@@ -1688,19 +1695,19 @@
             "pn": "corretto-11-bin",
             "pr": "r0",
             "provides": "corretto-11-bin ",
-            "pv": "11.0.26.4.1",
+            "pv": "11.0.27.6.1",
             "section": "base",
             "srcrev": "",
             "summary": "Amazon Corretto 11",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK).",
-            "filename": "corretto-8-bin_8.442.06.1.bb",
+            "filename": "corretto-8-bin_8.452.09.1.bb",
             "filepath": "recipes-devtools/amazon-corretto",
             "homepage": "https://github.com/corretto/corretto-8",
             "id": 2224829,
@@ -1711,19 +1718,19 @@
             "pn": "corretto-8-bin",
             "pr": "r0",
             "provides": "corretto-8-bin ",
-            "pv": "8.442.06.1",
+            "pv": "8.452.09.1",
             "section": "base",
             "srcrev": "",
             "summary": "Amazon Corretto 8",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK).",
-            "filename": "corretto-17-bin_17.0.14.7.1.bb",
+            "filename": "corretto-17-bin_17.0.15.6.1.bb",
             "filepath": "recipes-devtools/amazon-corretto",
             "homepage": "https://github.com/corretto/corretto-17",
             "id": 2224830,
@@ -1734,15 +1741,15 @@
             "pn": "corretto-17-bin",
             "pr": "r0",
             "provides": "corretto-17-bin ",
-            "pv": "17.0.14.7.1",
+            "pv": "17.0.15.6.1",
             "section": "base",
             "srcrev": "",
             "summary": "Amazon Corretto 17",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:51+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  -DBUILD_TESTS=OFF",
             "description": "When devices are deployed behind restricted firewalls at remote sites, you need a way to gain access to those device for troubleshooting, configuration updates, and other operational tasks. Secure tunneling helps customers establish bidirectional communication to remote devices over a secure connection that is managed by AWS IoT. Secure tunneling does not require updates to your existing inbound firewall rule, so you can keep the same security level provided by firewall rules at a remote site. ",
@@ -1759,13 +1766,13 @@
             "provides": "aws-iot-securetunneling-localproxy ",
             "pv": "git",
             "section": "base",
-            "srcrev": "ae6a6754517aaf6e82580d832de158db5581ad62",
+            "srcrev": "feb59e268c8f4f1c7450f3a510963e84cc397ac7",
             "summary": "AWS Iot Secure Tunneling local proxy reference C++ implementation",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "AWS IoT Greengrass Nucleus - Binary Distribution - demo mode",
@@ -1784,15 +1791,15 @@
             "section": "base",
             "srcrev": "",
             "summary": "greengrass-bin demo",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " -DFETCHCONTENT_FULLY_DISCONNECTED=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DGGL_LOG_LEVEL=DEBUG  -DGGL_SYSTEMD_SYSTEM_USER=ggcore -DGGL_SYSTEMD_SYSTEM_GROUP=ggcore -DGGL_SYSTEMD_SYSTEM_DIR=/lib/systemd/system",
+            "configopts": "     -DFETCHCONTENT_SOURCE_DIR_CORE_MQTT=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/greengrass-lite/2.1.0/sources-unpack/git/thirdparty/core_mqtt     -DFETCHCONTENT_SOURCE_DIR_BACKOFF_ALGORITHM=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/greengrass-lite/2.1.0/sources-unpack/git/thirdparty/backoff_algorithm     -DFETCHCONTENT_SOURCE_DIR_AWS_SIGV4=/tmp/tmp1k5t8fnw/tmp/work/core2-32-oe-linux/greengrass-lite/2.1.0/sources-unpack/git/thirdparty/aws_sigv4      -DCMAKE_BUILD_TYPE=RelWithDebInfo -DGGL_LOG_LEVEL=DEBUG  -DBUILD_TESTING=OFF -DGGL_SYSTEMD_SYSTEM_USER=ggcore -DGGL_SYSTEMD_SYSTEM_GROUP=ggcore -DGGL_SYSTEMD_SYSTEM_DIR=/lib/systemd/system",
             "description": "AWS IoT Greengrass runtime for constrained devices",
-            "filename": "greengrass-lite_2.0.2.bb",
+            "filename": "greengrass-lite_2.1.0.bb",
             "filepath": "recipes-iot/aws-iot-greengrass",
             "homepage": "https://github.com/aws-greengrass/aws-greengrass-lite",
             "id": 2224833,
@@ -1803,19 +1810,19 @@
             "pn": "greengrass-lite",
             "pr": "r0",
             "provides": "greengrass-lite ",
-            "pv": "2.0.2",
+            "pv": "2.1.0",
             "section": "base",
-            "srcrev": "4f6b025c63b780418110cc12b77d4a7d73b7b4a6",
+            "srcrev": "",
             "summary": "AWS IoT Greengrass lite",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "The Greengrass nucleus component provides functionality for device side orchestration of deployments and lifecycle management for execution of Greengrass components and applications.",
-            "filename": "greengrass-bin_2.14.0.bb",
+            "filename": "greengrass-bin_2.14.1.bb",
             "filepath": "recipes-iot/aws-iot-greengrass",
             "homepage": "https://github.com/aws-greengrass/aws-greengrass-nucleus",
             "id": 2224834,
@@ -1826,19 +1833,19 @@
             "pn": "greengrass-bin",
             "pr": "r0",
             "provides": "greengrass-bin ",
-            "pv": "2.14.0",
+            "pv": "2.14.1",
             "section": "base",
             "srcrev": "",
             "summary": "AWS IoT Greengrass Nucleus - Binary Distribution",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DFWE_AWS_SDK_SHARED_LIBS=ON   -DPULSEAUDIO=FALSE -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "description": "AWS IoT FleetWise is a service that makes it easy for Automotive OEMs, Fleet operators, Independent Software vendors (ISVs) to collect, store, organize, and monitor data from vehicles at scale.",
-            "filename": "aws-iot-fleetwise-edge_1.2.1.bb",
+            "filename": "aws-iot-fleetwise-edge_1.3.1.bb",
             "filepath": "recipes-iot/aws-iot-fleetwise",
             "homepage": "https://github.com/aws/aws-iot-fleetwise-edge",
             "id": 2224835,
@@ -1849,42 +1856,42 @@
             "pn": "aws-iot-fleetwise-edge",
             "pr": "r0",
             "provides": "aws-iot-fleetwise-edge ",
-            "pv": "1.2.1",
+            "pv": "1.3.1",
             "section": "base",
-            "srcrev": "9c4d4be1857b7c5fd3687d7534c1b42f83f7354d",
+            "srcrev": "e650426256718fe446a65fd751a577ce0774598f",
             "summary": "AWS IoT FleetWise Edge Agent",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:52+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "     -DBUILD_SDK=OFF     -DBUILD_TEST_DEPS=ON     -DCMAKE_BUILD_TYPE=RelWithDebInfo     -DCMAKE_VERBOSE_MAKEFILE=ON     -DCMAKE_CXX_FLAGS_RELEASE=-s   -DEXCLUDE_DD=OFF -DEXCLUDE_SHADOW=OFF -DEXCLUDE_CONFIG_SHADOW=OFF -DEXCLUDE_SAMPLE_SHADOW=OFF -DEXCLUDE_FP=OFF -DEXCLUDE_JOBS=OFF -DEXCLUDE_PUBSUB=OFF -DEXCLUDE_SAMPLES=OFF -DEXCLUDE_ST=OFF -DBUILD_SHARED_LIBS=ON",
             "description": "The AWS IoT Device Client is free, open-source, modular software written in C++ that you can compile and install on your Embedded Linux based IoT devices to access AWS IoT Core, AWS IoT Device Management, and AWS IoT Device Defender features by default.",
-            "filename": "aws-iot-device-client_1.9.13.bb",
+            "filename": "aws-iot-device-client_1.10.1.bb",
             "filepath": "recipes-iot/aws-iot-device-client",
             "homepage": "https://github.com/awslabs/aws-iot-device-client",
             "id": 2224836,
-            "inherits": "cmake systemd",
+            "inherits": "cmake ptest systemd",
             "layerbranch": 1037158,
             "license": "Apache-2.0",
             "pe": "",
             "pn": "aws-iot-device-client",
             "pr": "r0",
             "provides": "aws-iot-device-client aws/aws-iot-device-client",
-            "pv": "1.9.13",
+            "pv": "1.10.1",
             "section": "base",
-            "srcrev": "b3a2ba12967bee183cba6af37dad1242c147fd9b",
+            "srcrev": "7f9547bca3e1a199f2824f4376e1782b082b226f",
             "summary": "AWS IoT Device Client",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Universal Command Line Interface for Amazon Web Services and ptest scripts v2",
-            "filename": "aws-cli-v2_2.24.22.bb",
+            "filename": "aws-cli-v2_2.27.25.bb",
             "filepath": "recipes-support/aws-cli-v2",
             "homepage": "https://github.com/aws/aws-cli/tree/v2",
             "id": 2224837,
@@ -1895,19 +1902,19 @@
             "pn": "aws-cli-v2",
             "pr": "r0",
             "provides": "aws-cli-v2 ",
-            "pv": "2.24.22",
+            "pv": "2.27.25",
             "section": "base",
-            "srcrev": "e3d16c72766e414a66a2210c4a8259e295085aa6",
+            "srcrev": "7dbd583b09b7903b1b65972def555407deb1fce6",
             "summary": "Universal Command Line Interface for Amazon Web Services v2",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "An agent to enable remote management of your EC2 instances, on-premises servers, or virtual machines (VMs).",
-            "filename": "amazon-ssm-agent_3.3.1957.0.bb",
+            "filename": "amazon-ssm-agent_3.3.2471.0.bb",
             "filepath": "recipes-support/amazon-ssm-agent",
             "homepage": "https://github.com/aws/amazon-ssm-agent",
             "id": 2224838,
@@ -1918,11 +1925,11 @@
             "pn": "amazon-ssm-agent",
             "pr": "r0",
             "provides": "amazon-ssm-agent ",
-            "pv": "3.3.1957.0",
+            "pv": "3.3.2471.0",
             "section": "base",
-            "srcrev": "b47799d07ddf776df1689165aedf21e68bbc3d0f",
+            "srcrev": "0a3ee4f12779a8ea44cce1276aed63a922d9da3f",
             "summary": "Amazon SSM Agent",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1930,7 +1937,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Universal Command Line Interface for Amazon Web Services and ptest scripts",
-            "filename": "aws-cli_1.38.16.bb",
+            "filename": "aws-cli_1.40.25.bb",
             "filepath": "recipes-support/aws-cli",
             "homepage": "https://github.com/aws/aws-cli",
             "id": 2224839,
@@ -1941,15 +1948,15 @@
             "pn": "aws-cli",
             "pr": "r0",
             "provides": "aws-cli ",
-            "pv": "1.38.16",
+            "pv": "1.40.25",
             "section": "base",
-            "srcrev": "1df1e34b4e28785d85fd3145a3f25eb5d4578f22",
+            "srcrev": "11d48789483b79220cf755559f28a276c682afa6",
             "summary": "Universal Command Line Interface for Amazon Web Services",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "An elegant periodic task executor ",
@@ -1968,11 +1975,11 @@
             "section": "base",
             "srcrev": "36ec5cbb133a6dcfb5316f59b5e11765c14e62c2",
             "summary": "Timeloop",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Process for starting Firecracker in production scenarios; applies a cgroup/namespace isolation barrier and then drops privileges.",
@@ -1991,11 +1998,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "jailer - Binary Distribution",
-            "updated": "2025-04-26T02:04:47+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Secure and fast microVMs for serverless computing.",
@@ -2014,7 +2021,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "firecracker - Binary Distribution",
-            "updated": "2025-04-26T02:04:47+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         }
     ],
     "wrtemplates": []

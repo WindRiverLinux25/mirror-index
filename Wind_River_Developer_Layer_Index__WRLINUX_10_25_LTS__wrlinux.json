@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,17 +634,17 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 15510,
+            "id": 15743,
             "layerbranch": 1037167,
             "name": "ostree",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:44+0000"
         }
     ],
     "layerBranches": [
@@ -648,10 +655,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -663,10 +670,10 @@
             "id": 1037138,
             "layer": 55,
             "local_path": "",
-            "updated": "2025-04-26T02:04:17+0000",
-            "vcs_last_commit": "2024-08-21T23:08:27+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:17+0000",
-            "vcs_last_rev": "672e3899f98940be22bcfe994a67626f7ccb261f",
+            "updated": "2025-06-22T23:06:26+0000",
+            "vcs_last_commit": "2025-06-09T07:06:25+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:26+0000",
+            "vcs_last_rev": "850b31f0e85944be0ac7995fad6318e628522fd6",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42596
@@ -678,10 +685,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-05-08T07:05:29+0000",
-            "vcs_last_commit": "2025-05-08T07:05:57+0000",
-            "vcs_last_fetch": "2025-05-08T07:05:29+0000",
-            "vcs_last_rev": "6a2e5c7c23ba380b3c7a84a98dde8e9b3f5761fc",
+            "updated": "2025-06-25T21:06:35+0000",
+            "vcs_last_commit": "2025-06-25T20:06:52+0000",
+            "vcs_last_fetch": "2025-06-25T21:06:35+0000",
+            "vcs_last_rev": "96f6ed385ea58d4865afb71f4f61227a950c9b39",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -843,7 +850,7 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2025-05-08T07:05:23+0000"
+            "updated": "2025-06-25T19:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -866,7 +873,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Boot svg files to tracing format",
-            "updated": "2025-05-08T07:05:23+0000"
+            "updated": "2025-06-25T19:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -889,7 +896,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2025-05-08T07:05:24+0000"
+            "updated": "2025-06-25T19:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -912,7 +919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2025-05-08T07:05:24+0000"
+            "updated": "2025-06-25T19:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -935,7 +942,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2025-05-08T07:05:24+0000"
+            "updated": "2025-06-25T19:06:18+0000"
         },
         {
             "bbclassextend": "",
@@ -958,7 +965,7 @@
             "section": "devel",
             "srcrev": "4a52d8c06635435b64e31a56eaf7ca5dc912a71d",
             "summary": "Boost.Build",
-            "updated": "2025-05-08T07:05:24+0000"
+            "updated": "2025-06-25T19:06:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -981,7 +988,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2025-05-08T07:05:25+0000"
+            "updated": "2025-06-25T19:06:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1004,7 +1011,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2025-05-08T07:05:25+0000"
+            "updated": "2025-06-25T19:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1027,7 +1034,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-05-08T07:05:26+0000"
+            "updated": "2025-06-25T19:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1057,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-05-08T07:05:26+0000"
+            "updated": "2025-06-25T19:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1073,7 +1080,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-05-08T07:05:26+0000"
+            "updated": "2025-06-25T19:06:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,7 +1103,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2025-05-08T07:05:26+0000"
+            "updated": "2025-06-25T19:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1119,7 +1126,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2025-05-08T07:05:27+0000"
+            "updated": "2025-06-25T19:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1142,7 +1149,7 @@
             "section": "x11",
             "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
             "summary": "Chromium Virtual Keyboard",
-            "updated": "2025-05-08T07:05:27+0000"
+            "updated": "2025-06-25T19:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1165,7 +1172,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Kiosk",
-            "updated": "2025-05-08T07:05:27+0000"
+            "updated": "2025-06-25T19:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1188,7 +1195,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs for NFS boot",
-            "updated": "2025-05-08T07:05:27+0000"
+            "updated": "2025-06-25T19:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1211,7 +1218,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2025-05-08T07:05:28+0000"
+            "updated": "2025-06-25T19:06:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1234,7 +1241,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-05-08T07:05:28+0000"
+            "updated": "2025-06-25T19:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1257,499 +1264,485 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-05-08T07:05:28+0000"
+            "updated": "2025-06-25T19:06:21+0000"
         }
     ],
     "wrtemplates": [
         {
-            "description": "Tune kernel options for reducing lantency for real-time kernel of host system",
-            "id": 127808,
+            "description": "Add openssl-fips to the image",
+            "id": 129437,
             "layerbranch": 1037167,
-            "name": "feature/rt-latency-host",
-            "updated": "2025-04-28T16:04:21+0000"
+            "name": "feature/openssl-fips",
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable archiver class and original src mode",
-            "id": 127809,
+            "id": 129438,
             "layerbranch": 1037167,
             "name": "feature/archiver",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add kiosk mode to chromium",
-            "id": 127810,
+            "id": 129439,
             "layerbranch": 1037167,
             "name": "feature/chromium-web-kiosk",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add aws to the filesystem",
-            "id": 127811,
+            "id": 129440,
             "layerbranch": 1037167,
             "name": "feature/aws",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add chromium to the image",
-            "id": 127812,
+            "id": 129441,
             "layerbranch": 1037167,
             "name": "feature/chromium",
-            "updated": "2025-04-28T16:04:21+0000"
-        },
-        {
-            "description": "Tune kernel options for real-time kernel for host system",
-            "id": 127813,
-            "layerbranch": 1037167,
-            "name": "feature/rt-tune-host",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add netplan to the image",
-            "id": 127814,
+            "id": 129442,
             "layerbranch": 1037167,
             "name": "feature/netplan",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add dev packages to image",
-            "id": 127815,
+            "id": 129443,
             "layerbranch": 1037167,
             "name": "feature/dev-pkgs",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Adds unit testing frameworks",
-            "id": 127816,
+            "id": 129444,
             "layerbranch": 1037167,
             "name": "feature/unit-test",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "install podman into image",
-            "id": 127817,
+            "id": 129445,
             "layerbranch": 1037167,
             "name": "feature/podman",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Adds qt6 to the image",
-            "id": 127818,
+            "id": 129446,
             "layerbranch": 1037167,
             "name": "feature/qt-essentials",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add LAPACK and LAPACKE to the image",
-            "id": 127819,
+            "id": 129447,
             "layerbranch": 1037167,
             "name": "feature/lapack",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add kubernetes to the image",
-            "id": 127820,
+            "id": 129448,
             "layerbranch": 1037167,
             "name": "feature/kubernetes",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
-            "id": 127821,
+            "id": 129449,
             "layerbranch": 1037167,
             "name": "feature/empty-kernel",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add valgrind to the image",
-            "id": 127822,
+            "id": 129450,
             "layerbranch": 1037167,
             "name": "feature/valgrind",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Instructs RPM to enforce package signature verification on the target.",
-            "id": 127823,
+            "id": 129451,
             "layerbranch": 1037167,
             "name": "feature/rpm-required-sig",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "install buildah into image",
-            "id": 127824,
+            "id": 129452,
             "layerbranch": 1037167,
             "name": "feature/buildah",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add docker-registry to the image",
-            "id": 127825,
+            "id": 129453,
             "layerbranch": 1037167,
             "name": "feature/container-registry",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Force users to update passwords when next time serial or graphical login",
-            "id": 127826,
+            "id": 129454,
             "layerbranch": 1037167,
             "name": "feature/passwd-expire",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add vsomeip to the image",
-            "id": 127827,
+            "id": 129455,
             "layerbranch": 1037167,
             "name": "feature/vsomeip",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Adds grpc to the image",
-            "id": 127828,
+            "id": 129456,
             "layerbranch": 1037167,
             "name": "feature/grpc",
-            "updated": "2025-04-28T16:04:21+0000"
-        },
-        {
-            "description": "Tune kernel options for real-time kernel for guest system",
-            "id": 127829,
-            "layerbranch": 1037167,
-            "name": "feature/rt-tune-guest",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable f2fs kernel options and user-space utility",
-            "id": 127830,
+            "id": 129457,
             "layerbranch": 1037167,
             "name": "feature/f2fstools",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable Xwayland image",
-            "id": 127831,
+            "id": 129458,
             "layerbranch": 1037167,
             "name": "feature/weston-demo",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable on-target software development",
-            "id": 127832,
+            "id": 129459,
             "layerbranch": 1037167,
             "name": "feature/target-toolchain",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127833,
+            "id": 129460,
             "layerbranch": 1037167,
             "name": "feature/tcpslice",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable DISABLE_STATIC option via no-static-libs.inc",
-            "id": 127834,
+            "id": 129461,
             "layerbranch": 1037167,
             "name": "feature/no-static-libs",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Preserve buildtime of packages.",
-            "id": 127835,
+            "id": 129462,
             "layerbranch": 1037167,
             "name": "feature/preserve-buildtime",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable dm-verity support",
-            "id": 127836,
+            "id": 129463,
             "layerbranch": 1037167,
             "name": "feature/dm-verity",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127837,
+            "id": 129464,
             "layerbranch": 1037167,
             "name": "feature/ostree",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add tensorflow to the image",
-            "id": 127838,
+            "id": 129465,
             "layerbranch": 1037167,
             "name": "feature/tensorflow",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add gdbserver to image",
-            "id": 127839,
+            "id": 129466,
             "layerbranch": 1037167,
             "name": "feature/gdbserver",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable Data Plane Development Kit (DPDK)",
-            "id": 127840,
+            "id": 129467,
             "layerbranch": 1037167,
             "name": "feature/dpdk",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add on-target package management to image",
-            "id": 127841,
+            "id": 129468,
             "layerbranch": 1037167,
             "name": "feature/package-management",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable ipmi",
-            "id": 127842,
+            "id": 129469,
             "layerbranch": 1037167,
             "name": "feature/ipmi",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable common Managed Build Project (mbp) settings",
-            "id": 127843,
+            "id": 129470,
             "layerbranch": 1037167,
             "name": "feature/mbp-project",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add gdb and gdbserver to image",
-            "id": 127844,
+            "id": 129471,
             "layerbranch": 1037167,
             "name": "feature/gdb",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add opencv to the image",
-            "id": 127845,
+            "id": 129472,
             "layerbranch": 1037167,
             "name": "feature/opencv",
-            "updated": "2025-04-28T16:04:21+0000"
-        },
-        {
-            "description": "Tune kernel options for reducing lantency for real-time kernel of guest system",
-            "id": 127846,
-            "layerbranch": 1037167,
-            "name": "feature/rt-latency-guest",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add system and process monitoring utilities to the image",
-            "id": 127847,
+            "id": 129473,
             "layerbranch": 1037167,
             "name": "feature/system-stats",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add nftables to the image",
-            "id": 127848,
+            "id": 129474,
             "layerbranch": 1037167,
             "name": "feature/nftables",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127849,
+            "id": 129475,
             "layerbranch": 1037167,
             "name": "feature/ntp",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add libmbim to the image",
-            "id": 127850,
+            "id": 129476,
             "layerbranch": 1037167,
             "name": "feature/mbim",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127851,
+            "id": 129477,
             "layerbranch": 1037167,
             "name": "feature/posix_26",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable package-test functionality",
-            "id": 127852,
+            "id": 129478,
             "layerbranch": 1037167,
             "name": "feature/ptest",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127853,
+            "id": 129479,
             "layerbranch": 1037167,
             "name": "feature/ecryptfs",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "enable Distro Feature usrmerge",
-            "id": 127854,
+            "id": 129480,
             "layerbranch": 1037167,
             "name": "feature/usrmerge",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127855,
+            "id": 129481,
             "layerbranch": 1037167,
             "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2025-04-28T16:04:21+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add gcc-sanitizers to image",
-            "id": 127856,
+            "id": 129482,
             "layerbranch": 1037167,
             "name": "feature/gcc-sanitizers",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable systemd-bootchart and generate bootchart-*.svg and",
-            "id": 127857,
+            "id": 129483,
             "layerbranch": 1037167,
             "name": "feature/systemd-bootchart",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add docker-moby to the image",
-            "id": 127858,
+            "id": 129484,
             "layerbranch": 1037167,
             "name": "feature/docker-moby",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable net-snmp-support",
-            "id": 127859,
+            "id": 129485,
             "layerbranch": 1037167,
             "name": "feature/snmp",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127860,
+            "id": 129486,
             "layerbranch": 1037167,
             "name": "feature/gperftools",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Adds qt6 examples to the image",
-            "id": 127861,
+            "id": 129487,
             "layerbranch": 1037167,
             "name": "feature/qt-examples",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Kernel Hardening Features",
-            "id": 127862,
+            "id": 129488,
             "layerbranch": 1037167,
             "name": "feature/kernel-hardening",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable readonly-root filesystem",
-            "id": 127863,
+            "id": 129489,
             "layerbranch": 1037167,
             "name": "feature/readonly-root",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Install busybox to rootfs",
-            "id": 127864,
+            "id": 129490,
             "layerbranch": 1037167,
             "name": "feature/busybox",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add sftp-server and the OpenSSH SSH server to the image",
-            "id": 127865,
+            "id": 129491,
             "layerbranch": 1037167,
             "name": "feature/sftp-server",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127866,
+            "id": 129492,
             "layerbranch": 1037167,
             "name": "feature/chrony",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Instructs RPM to look for Armored PGP keys on the local disk when needed.",
-            "id": 127867,
+            "id": 129493,
             "layerbranch": 1037167,
             "name": "feature/rpm-local-keys",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Adds clang support in SDK",
-            "id": 127868,
+            "id": 129494,
             "layerbranch": 1037167,
             "name": "feature/clang-sdk",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Set the default syslog to sysklogd",
-            "id": 127869,
+            "id": 129495,
             "layerbranch": 1037167,
             "name": "feature/sysklogd",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "",
-            "id": 127870,
+            "id": 129496,
             "layerbranch": 1037167,
             "name": "feature/installer-support",
-            "updated": "2025-05-08T06:05:48+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Enable FORTRAN support from gcc",
-            "id": 127871,
+            "id": 129497,
             "layerbranch": 1037167,
             "name": "feature/fortran",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "use podman and skopeo to support cosign based signed container",
-            "id": 127872,
+            "id": 129498,
             "layerbranch": 1037167,
             "name": "feature/signed-container",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Adds additional qt6 modules to the image",
-            "id": 127873,
+            "id": 129499,
             "layerbranch": 1037167,
             "name": "feature/qt-addons",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add packagegroup-self-hosted to the image",
-            "id": 127874,
+            "id": 129500,
             "layerbranch": 1037167,
             "name": "feature/self-hosted",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Intel Open Visual Inference and Neural network Optimization (OpenVINO)",
-            "id": 127875,
+            "id": 129501,
             "layerbranch": 1037167,
             "name": "feature/openvino",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add nerdctl to the image",
-            "id": 127876,
+            "id": 129502,
             "layerbranch": 1037167,
             "name": "feature/nerdctl",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
         },
         {
             "description": "Add wireguard to the image",
-            "id": 127877,
+            "id": 129503,
             "layerbranch": 1037167,
             "name": "feature/wireguard",
-            "updated": "2025-04-28T16:04:22+0000"
+            "updated": "2025-06-22T23:06:43+0000"
+        },
+        {
+            "description": "Enable software_packageUrl field in SPDX 3.0 SBOM.",
+            "id": 129738,
+            "layerbranch": 1037167,
+            "name": "feature/purl",
+            "updated": "2025-06-25T02:06:17+0000"
         }
     ]
 }

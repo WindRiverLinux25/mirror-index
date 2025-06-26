@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-04-26T02:04:51+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:51+0000",
-            "vcs_last_rev": "c93cf2f40173483dfe2872208ce205c67cf47b1d",
+            "updated": "2025-06-22T22:06:50+0000",
+            "vcs_last_commit": "2025-06-19T23:06:27+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:50+0000",
+            "vcs_last_rev": "6484aee8c5f90500eb3d047af41c3bf8b6802307",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -670,10 +677,10 @@
             "id": 1037132,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-04-26T02:04:14+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:14+0000",
-            "vcs_last_rev": "23b2c743ad91e02811114e2e38f3e9d84c70f253",
+            "updated": "2025-06-22T22:06:41+0000",
+            "vcs_last_commit": "2025-06-11T23:06:31+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:41+0000",
+            "vcs_last_rev": "4d33d2a7a49a4e796b817509dae77578a694e361",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44206
@@ -685,9 +692,9 @@
             "id": 1037149,
             "layer": 562,
             "local_path": "",
-            "updated": "2025-04-26T02:04:39+0000",
+            "updated": "2025-06-22T23:06:57+0000",
             "vcs_last_commit": "2025-04-06T19:04:00+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:39+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:57+0000",
             "vcs_last_rev": "18a5fa734a2cfa06964b62fefd8ee435c49f3ee9",
             "vcs_subdir": "",
             "version": "5",
@@ -796,7 +803,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "build=cross_compile os=linux toolchain_prefix=' ' extra_cxx_flags='-fPIC -O2'  Werror=0 compress_kernels=0 cppthreads=1 debug=0 embed_kernels=1 examples=1 opencl=1 openmp=1 benchmark_tests=1 validation_tests=1  arch=x86_32 neon=0 estate=32",
             "description": "The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs.",
@@ -815,13 +822,13 @@
             "section": "base",
             "srcrev": "f44f09dfd263c2bb0238f4323e366a210e9d4aae",
             "summary": "The ARM Computer Vision and Machine Learning library",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpiwtcekoq/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.0.0/qemuwrapper                   -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpiwtcekoq/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.0.0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                   -DENABLE_SYSTEM_FLATBUFFERS=ON                   -DENABLE_SYSTEM_SNAPPY=ON                   -DFETCHCONTENT_BASE_DIR=\"/tmp/tmpiwtcekoq/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.0.0/git\"                   -DENABLE_INTEL_NPU=OFF                   -DPYTHON3_CONFIG=\"python3-config\"                   -DENABLE_OV_JAX_FRONTEND=OFF                      -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0",
+            "configopts": "                    -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmptiv26mem/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.0.0/qemuwrapper                   -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmptiv26mem/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.0.0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                   -DENABLE_SYSTEM_FLATBUFFERS=ON                   -DENABLE_SYSTEM_SNAPPY=ON                   -DFETCHCONTENT_BASE_DIR=\"/tmp/tmptiv26mem/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.0.0/git\"                   -DENABLE_INTEL_NPU=OFF                   -DPYTHON3_CONFIG=\"python3-config\"                   -DENABLE_OV_JAX_FRONTEND=OFF                      -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0",
             "description": "This toolkit allows developers to deploy pre-trained deep learning models through a high-level C++ Inference Engine API integrated with application logic.",
             "filename": "openvino-inference-engine_2025.0.0.bb",
             "filepath": "recipes-core/opencv",
@@ -838,7 +845,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OpenVINO(TM) Toolkit - Deep Learning Deployment Toolkit",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +868,7 @@
             "section": "base",
             "srcrev": "c5893b11ba0ffd24690c7143b66c10204b866d7a",
             "summary": "OpenVINO(TM) Toolkit - Open Model Zoo repository",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:57+0000"
         }
     ],
     "wrtemplates": []

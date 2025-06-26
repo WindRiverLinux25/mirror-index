@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037146,
             "layer": 381,
             "local_path": "",
-            "updated": "2025-04-26T02:04:45+0000",
-            "vcs_last_commit": "2025-04-13T19:04:23+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:45+0000",
-            "vcs_last_rev": "ee0100627a4917550e3b72a490c409b0d9af8bce",
+            "updated": "2025-06-22T23:06:01+0000",
+            "vcs_last_commit": "2025-06-02T18:06:48+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:01+0000",
+            "vcs_last_rev": "968431c4e3ac3d0c25cb1087213e6c72f50c00b6",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44205
@@ -715,114 +722,114 @@
     "machines": [
         {
             "description": " RaspberryPi Zero board (https://www.raspberrypi.org/blog/raspberry-pi-zero)",
-            "id": 98318,
+            "id": 101196,
             "layerbranch": 1037146,
             "name": "raspberrypi0",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi 4 in 64 bits mode",
-            "id": 98319,
+            "id": 101197,
             "layerbranch": 1037146,
             "name": "raspberrypi4-64",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi 5 in 64 bits mode",
-            "id": 98320,
+            "id": 101198,
             "layerbranch": 1037146,
             "name": "raspberrypi5",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi http://www.raspberrypi.org/ Board",
-            "id": 98321,
+            "id": 101199,
             "layerbranch": 1037146,
             "name": "raspberrypi",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi 2",
-            "id": 98322,
+            "id": 101200,
             "layerbranch": 1037146,
             "name": "raspberrypi2",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi 4 in 32 bit mode",
-            "id": 98323,
+            "id": 101201,
             "layerbranch": 1037146,
             "name": "raspberrypi4",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi 3 in 64 bits mode",
-            "id": 98324,
+            "id": 101202,
             "layerbranch": 1037146,
             "name": "raspberrypi3-64",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi Compute Module 3 (CM3)",
-            "id": 98325,
+            "id": 101203,
             "layerbranch": 1037146,
             "name": "raspberrypi-cm3",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi boards in 32 bit mode",
-            "id": 98326,
+            "id": 101204,
             "layerbranch": 1037146,
             "name": "raspberrypi-armv7",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi boards in 64 bit mode",
-            "id": 98327,
+            "id": 101205,
             "layerbranch": 1037146,
             "name": "raspberrypi-armv8",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 64 bits mode",
-            "id": 98328,
+            "id": 101206,
             "layerbranch": 1037146,
             "name": "raspberrypi0-2w-64",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi Zero  WiFi board (https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)",
-            "id": 98329,
+            "id": 101207,
             "layerbranch": 1037146,
             "name": "raspberrypi0-wifi",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi 3 in 32 bits mode",
-            "id": 98330,
+            "id": 101208,
             "layerbranch": 1037146,
             "name": "raspberrypi3",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi Compute Module (CM1)",
-            "id": 98331,
+            "id": 101209,
             "layerbranch": 1037146,
             "name": "raspberrypi-cm",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 32 bits mode",
-            "id": 98332,
+            "id": 101210,
             "layerbranch": 1037146,
             "name": "raspberrypi0-2w",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         }
     ],
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -841,11 +848,11 @@
             "section": "base",
             "srcrev": "b9c63214c535d7df2b0fa6743b7b3e508363c25a",
             "summary": "A collection of scripts and simple applications",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Tool to help debug / hack at the BCM283x GPIO",
@@ -864,11 +871,11 @@
             "section": "devel/libs",
             "srcrev": "22b44e4765b4b78dc5b22394fff484e353d5914d",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -887,11 +894,11 @@
             "section": "base",
             "srcrev": "e1460098eeca5ea573f92814691bb378e15530d9",
             "summary": "Platform detection for use by libraries like Adafruit-Blinka.",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:53+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Advanced GPIO for the Raspberry Pi. Extends RPi.GPIO with PWM, GPIO interrups, TCP socket interrupts, command line tools and more",
@@ -910,11 +917,11 @@
             "section": "devel/python",
             "srcrev": "be1942a69b2592ddacd9dc833d2668a19aafd8d2",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -933,11 +940,11 @@
             "section": "base",
             "srcrev": "383b615ce9ff5bbefdf77652799f380016fda353",
             "summary": "Pure python (i.e. no native extensions) access to Linux IO    including I2C and SPI. Drop in replacement for smbus and spidev modules.",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -956,11 +963,11 @@
             "section": "base",
             "srcrev": "d1e8ac7ad9dcd65ab83749db3e5c96ffee80ebb7",
             "summary": "CircuitPython data descriptor classes to represent hardware registers on I2C and SPI devices.",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "A module to control Raspberry Pi GPIO channels",
@@ -979,11 +986,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "RTIMULib is a C++ and Python library that makes it easy to use 9-dof and 10-dof IMUs with embedded Linux systems",
@@ -1002,11 +1009,11 @@
             "section": "devel/python",
             "srcrev": "b949681af69b45f0f7f4bb53b6770037b5b02178",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Package that provides access to GPIO and other IOfunctions on the Broadcom BCM 2835 chip, allowing access to theGPIO pins on the 26 pin IDE plug on the RPi board",
@@ -1025,11 +1032,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:54+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "This project enables PWM on the GPIO pins you request of a Raspberry Pi.",
@@ -1048,11 +1055,11 @@
             "section": "devel/libs",
             "srcrev": "fbba9a7dcef0f352a11f8a2a5f6cbc15b62c0829",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "This repository contains the rpi4 bootloader and scripts for updating it in the spi eeprom",
@@ -1071,7 +1078,7 @@
             "section": "base",
             "srcrev": "36e58db5c2a2656e553441f4f48f32227809105d",
             "summary": "Installation scripts and binaries for the Raspberry Pi 4 EEPROM",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1094,7 +1101,7 @@
             "section": "base",
             "srcrev": "6ac2d832c6c3b208e2669f50ec1abf2c20cb7ff4",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1117,7 +1124,7 @@
             "section": "base",
             "srcrev": "9f24f4bc2bdd07ffd158cfbb4bce88a2efc4c1f5",
             "summary": "",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1140,11 +1147,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "cmdline.txt file used to boot the kernel on a Raspberry Pi device",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1163,7 +1170,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GPIO shutdown bindings for SysV init",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1186,11 +1193,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot scripts for Raspberry Pi",
-            "updated": "2025-04-26T02:04:38+0000"
+            "updated": "2025-06-22T23:06:55+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Boot strap code that the GPU puts on memory to start running the boot loader",
@@ -1209,11 +1216,11 @@
             "section": "base",
             "srcrev": "439b6198a9b340de5998dd14a26a0d9d38a6bcac",
             "summary": "",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Raspberrypi firmware libraries required by picamera library",
@@ -1232,11 +1239,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Raspberrypi firmware libraries which are required by picamera library",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --disable-libsmbclient",
             "description": "This player was developed as a testbed for the XBMC Raspberry PI implementation and is quite handy to use standalone",
@@ -1255,13 +1262,13 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "A commandline OMX player for the Raspberry Pi",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "              --cross-prefix=i686-oe-linux-         --ld=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --cc=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --cxx=\"i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --arch=i686     --target-os=\"linux\"     --enable-cross-compile     --extra-cflags=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --extra-ldflags=\"-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native= \"     --sysroot=\"/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config   --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --enable-libdrm --disable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-pic --enable-postproc --enable-pthreads --enable-sand --disable-sdl2 --enable-shared --disable-libsnappy --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --disable-libvpx --enable-libx264 --enable-libxcb --enable-outdev=xv --enable-zlib",
+            "configopts": "              --cross-prefix=i686-oe-linux-         --ld=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --cc=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --cxx=\"i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --arch=i686     --target-os=\"linux\"     --enable-cross-compile     --extra-cflags=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --extra-ldflags=\"-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native= \"     --sysroot=\"/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config   --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --enable-libdrm --disable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-pic --enable-postproc --enable-pthreads --enable-sand --disable-sdl2 --enable-shared --disable-libsnappy --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --disable-libvpx --enable-libx264 --enable-libxcb --enable-outdev=xv --enable-zlib",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
             "filename": "rpidistro-ffmpeg_5.1.4.bb",
             "filepath": "recipes-multimedia/rpidistro-ffmpeg",
@@ -1278,11 +1285,11 @@
             "section": "libs",
             "srcrev": "1c363463c432c5ed492c7b759abb6e015b93b6b5",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "This package provides a pure Python interface to the Raspberry Pi camera module for Python 2.7 (or above) or Python 3.2 (or above).",
@@ -1301,11 +1308,11 @@
             "section": "base",
             "srcrev": "7e4f1d379d698c44501fb84b886fadf3fc164b70",
             "summary": "Python interface to the Raspberry Pi camera module",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:56+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1324,11 +1331,11 @@
             "section": "base",
             "srcrev": "2251bfc0501d0acfb96c0a43f4f2b4c6a10ca14e",
             "summary": "CircuitPython helper library provides higher level objects to control motors and servos.",
-            "updated": "2025-04-26T02:04:39+0000"
+            "updated": "2025-06-22T23:06:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1347,11 +1354,11 @@
             "section": "base",
             "srcrev": "2780c4102f4c23fbab252aa1198b61ba7e2d1b2c",
             "summary": "CircuitPython driver for motor, stepper, and servo based on PCA9685.",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1370,11 +1377,11 @@
             "section": "base",
             "srcrev": "dc688f354fe779c9267c208b99f310af87e79272",
             "summary": "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1393,11 +1400,11 @@
             "section": "base",
             "srcrev": "1bfe8005293205e2f7b2cc498ab5a946f1133b40",
             "summary": "CircuitPython bus device classes to manage bus sharing.",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1416,13 +1423,13 @@
             "section": "base",
             "srcrev": "8c1462b4129b21f6db156d1517abb017bb74b982",
             "summary": "CircuitPython helper library for DC & Stepper Motor FeatherWing, Shield, and Pi Hat kits.",
-            "updated": "2025-04-26T02:04:40+0000"
+            "updated": "2025-06-22T23:06:57+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-lua     --disable-screen     --disable-caca     --enable-vlm     --enable-tremor     --disable-aa     --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     --disable-css       --enable-a52 --enable-alsa --disable-dc1394 --enable-dv1394 --enable-dvbpsi --disable-dvdnav --enable-fluidsynth --enable-fontconfig --enable-freetype --enable-fribidi --disable-gles2 --disable-gst-decode --enable-harfbuzz --enable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmp3pigqmt0/tmp/work/core2-32-oe-linux/rpidistro-vlc/3.0.17/recipe-sysroot/usr --disable-mad --enable-omxil --enable-omxil-vout --enable-rpi-omxil --enable-mmal --enable-mmal-avcodec --disable-ncurses --enable-neon --enable-notify --disable-ogg --disable-opus --enable-png --disable-postproc --disable-pulse --disable-sftp --disable-speex --disable-svg --disable-svgdec --enable-udev --disable-upnp --enable-v4l2 --disable-vnc --disable-vorbis --disable-vpx --with-x --enable-xcb --enable-x264 --enable-nls",
+            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-lua     --disable-screen     --disable-caca     --enable-vlm     --enable-tremor     --disable-aa     --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     --disable-css       --enable-a52 --enable-alsa --disable-dc1394 --enable-dv1394 --enable-dvbpsi --disable-dvdnav --enable-fluidsynth --enable-fontconfig --enable-freetype --enable-fribidi --disable-gles2 --disable-gst-decode --enable-harfbuzz --enable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-vlc/3.0.17/recipe-sysroot/usr --disable-mad --enable-omxil --enable-omxil-vout --enable-rpi-omxil --enable-mmal --enable-mmal-avcodec --disable-ncurses --enable-neon --enable-notify --disable-ogg --disable-opus --enable-png --disable-postproc --disable-pulse --disable-sftp --disable-speex --disable-svg --disable-svgdec --enable-udev --disable-upnp --enable-v4l2 --disable-vnc --disable-vorbis --disable-vpx --with-x --enable-xcb --enable-x264 --enable-nls",
             "description": "Video player and streamer - davinci edition",
             "filename": "rpidistro-vlc_3.0.17.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/rpidistro-vlc",
@@ -1439,11 +1446,11 @@
             "section": "multimedia",
             "srcrev": "b276eb0d7bc3213363e97dbb681ef7c927be6c73",
             "summary": "",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "   -Denable_drm=true  -Denable_egl=false  -Denable_libav=false  -Denable_opencv=false  -Denable_qt=false  -Denable_tflite=false",
             "description": "This is a small suite of libcamera-based apps that aim to copy the functionality of the existing \\\"raspicam\\\" apps.",
@@ -1462,11 +1469,11 @@
             "section": "console/utils",
             "srcrev": "9ae39f85ae6bee9761c36b9b5b80d675bc1fa369",
             "summary": "A suite of libcamera-based apps",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:58+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1485,11 +1492,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python module to control the Raspberry Pi Sense HAT used in the Astro Pi mission",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:59+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Updated firmware files for RaspberryPi hardware. RPi-Distro obtains these directly from Cypress; they are not submitted to linux-firmware for general use.",
@@ -1508,11 +1515,11 @@
             "section": "kernel",
             "srcrev": "4b356e134e8333d073bd3802d767a825adec3807",
             "summary": "Linux kernel firmware files from Raspbian distribution",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:59+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Updated Bluetooth firmware files for RaspberryPi hardware. RPi-Distro obtains these directly from Cypress; they are not submitted to linux-firmware for general use.",
@@ -1531,7 +1538,7 @@
             "section": "kernel",
             "srcrev": "78d6a07730e2d20c035899521ab67726dc028e1c",
             "summary": "Linux kernel Bluetooth firmware files from Raspbian distribution",
-            "updated": "2025-04-26T02:04:41+0000"
+            "updated": "2025-06-22T23:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1696,7 +1703,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1715,11 +1722,11 @@
             "section": "graphics",
             "srcrev": "e2ee6faa0d01a5ece06bcc74a47f37d7e6837310",
             "summary": "Some examples using the DispmanX API on the Raspberry Pi",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FLAGS='-Wl,--no-as-needed'                  -DVMCS_INSTALL_PREFIX=/usr  ",
             "description": "This repository contains the source code for the ARM side libraries used on Raspberry Pi. These typically are installed in /opt/vc/lib and includes source for the ARM side code to interface to: EGL, mmal, GLESv2,vcos, openmaxil, vchiq_arm, bcm_host, WFC, OpenVG.",
@@ -1738,11 +1745,11 @@
             "section": "base",
             "srcrev": "cc1ca18fb0689b01cc2ca2aa4b400dcee624a213",
             "summary": "",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Graphics libraries for BCM2835.",
@@ -1761,11 +1768,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Graphics libraries for BCM2835.",
@@ -1784,11 +1791,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "RaspberryPi Test Packagegroup",
@@ -1807,11 +1814,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1830,7 +1837,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1853,11 +1860,11 @@
             "section": "base",
             "srcrev": "5ce3ef2b7f377c23fea440ca9df0e30f3f8447cf",
             "summary": "",
-            "updated": "2025-04-26T02:04:44+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "add udisk/udev rule to hide boot partition from udev",
@@ -1876,7 +1883,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1899,7 +1906,7 @@
             "section": "kernel",
             "srcrev": "fd4775bf90e037551532fc214a958074830bb80d",
             "summary": "Script to properly configure BT-HCI on Raspberry Pi",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:01+0000"
         }
     ],
     "wrtemplates": []

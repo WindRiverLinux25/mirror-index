@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,24 +634,24 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Xilinx Standalone Distro",
-            "id": 15465,
+            "id": 15748,
             "layerbranch": 1037170,
             "name": "xilinx-standalone-nolto",
-            "updated": "2025-04-26T02:04:50+0000"
+            "updated": "2025-06-22T23:06:31+0000"
         },
         {
             "description": "Xilinx Standalone Distro (lto)",
-            "id": 15466,
+            "id": 15749,
             "layerbranch": 1037170,
             "name": "xilinx-standalone",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-22T23:06:31+0000"
         }
     ],
     "layerBranches": [
@@ -655,10 +662,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -670,13 +677,13 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-04-26T02:04:43+0000",
-            "vcs_last_commit": "2025-03-27T19:03:57+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:43+0000",
-            "vcs_last_rev": "f634b70c12e30afd675f68fe651dd24772c06ba8",
+            "updated": "2025-06-25T21:06:53+0000",
+            "vcs_last_commit": "2025-06-25T19:06:39+0000",
+            "vcs_last_fetch": "2025-06-25T21:06:53+0000",
+            "vcs_last_rev": "c311c1d06f698ddec23f789a90c1bb4797aee1c2",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44188
         },
         {
             "actual_branch": "",
@@ -685,13 +692,13 @@
             "id": 1037170,
             "layer": 435,
             "local_path": "",
-            "updated": "2025-04-26T02:04:56+0000",
-            "vcs_last_commit": "2024-12-29T21:12:52+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:56+0000",
-            "vcs_last_rev": "a93e53c8da3000dff26672ba67e784f536fd432b",
+            "updated": "2025-06-22T23:06:31+0000",
+            "vcs_last_commit": "2025-06-16T00:06:15+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:31+0000",
+            "vcs_last_rev": "bc82ad76b4a9cede836c303f635c528664797bcb",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44188
         }
     ],
     "layerDependencies": [
@@ -790,7 +797,7 @@
             "section": "librfdc",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux rfdc library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -813,7 +820,7 @@
             "section": "librfdc",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux rfdc library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -836,7 +843,7 @@
             "section": "librfdc",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux rfdc library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -859,7 +866,7 @@
             "section": "librfdc",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux rfdc library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -882,7 +889,7 @@
             "section": "libdfeprach",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeprach library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -905,7 +912,7 @@
             "section": "libdfeprach",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeprach library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -928,7 +935,7 @@
             "section": "libdfeprach",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeprach library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-15T22:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -951,7 +958,7 @@
             "section": "libdfeprach",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeprach library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -974,7 +981,7 @@
             "section": "libdfeofdm",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-04-26T02:04:51+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -997,7 +1004,7 @@
             "section": "libdfeofdm",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1020,7 +1027,7 @@
             "section": "libdfeofdm",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1043,7 +1050,7 @@
             "section": "libdfeofdm",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-15T22:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1066,7 +1073,7 @@
             "section": "libdfeequ",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeequ library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1089,7 +1096,7 @@
             "section": "libdfeequ",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeequ library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-15T22:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1112,7 +1119,7 @@
             "section": "libdfeequ",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeequ library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1135,7 +1142,7 @@
             "section": "libdfeequ",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeequ library",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1158,7 +1165,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1181,7 +1188,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1204,7 +1211,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1227,7 +1234,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-04-26T02:04:52+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1250,7 +1257,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1273,7 +1280,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1289,14 +1296,14 @@
             "layerbranch": 1037170,
             "license": "MIT",
             "pe": "",
-            "pn": "embeddedsw-source-2023.2+git",
+            "pn": "embeddedsw-source-2023.2",
             "pr": "r0",
-            "provides": "embeddedsw-source-2023.2+git ",
+            "provides": "embeddedsw-source-2023.2 ",
             "pv": "2023.2+git",
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1319,7 +1326,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1342,7 +1349,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1358,14 +1365,14 @@
             "layerbranch": 1037170,
             "license": "MIT",
             "pe": "",
-            "pn": "embeddedsw-source-2024.1+git",
+            "pn": "embeddedsw-source-2024.1",
             "pr": "r0",
-            "provides": "embeddedsw-source-2024.1+git ",
+            "provides": "embeddedsw-source-2024.1 ",
             "pv": "2024.1+git",
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1381,14 +1388,14 @@
             "layerbranch": 1037170,
             "license": "MIT",
             "pe": "",
-            "pn": "embeddedsw-source-2023.1+git",
+            "pn": "embeddedsw-source-2023.1",
             "pr": "r0",
-            "provides": "embeddedsw-source-2023.1+git ",
+            "provides": "embeddedsw-source-2023.1 ",
             "pv": "2023.1+git",
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1411,7 +1418,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1434,7 +1441,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-04-26T02:04:53+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1457,7 +1464,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1480,7 +1487,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1503,7 +1510,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1526,7 +1533,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1549,7 +1556,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1572,7 +1579,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1588,14 +1595,14 @@
             "layerbranch": 1037170,
             "license": "MIT",
             "pe": "",
-            "pn": "embeddedsw-source-2024.2+git",
+            "pn": "embeddedsw-source-2024.2",
             "pr": "r0",
-            "provides": "embeddedsw-source-2024.2+git ",
+            "provides": "embeddedsw-source-2024.2 ",
             "pv": "2024.2+git",
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1618,7 +1625,7 @@
             "section": "libdfeccf",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeccf library",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1641,7 +1648,7 @@
             "section": "libdfeccf",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeccf library",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1664,7 +1671,7 @@
             "section": "libdfeccf",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeccf library",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1687,7 +1694,7 @@
             "section": "libdfeccf",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeccf library",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1710,7 +1717,7 @@
             "section": "librfclk",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux rfclk library",
-            "updated": "2025-04-26T02:04:54+0000"
+            "updated": "2025-06-15T22:06:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1733,7 +1740,7 @@
             "section": "librfclk",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux rfclk library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1756,7 +1763,7 @@
             "section": "librfclk",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux rfclk library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1779,7 +1786,7 @@
             "section": "librfclk",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux rfclk library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1802,7 +1809,7 @@
             "section": "libdfemix",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfemix library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1825,7 +1832,7 @@
             "section": "libdfemix",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfemix library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1848,7 +1855,7 @@
             "section": "libdfemix",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfemix library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1871,7 +1878,7 @@
             "section": "libdfemix",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfemix library",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-15T22:06:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1894,7 +1901,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1917,7 +1924,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1940,7 +1947,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1963,7 +1970,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-04-26T02:04:55+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1986,7 +1993,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2009,7 +2016,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2032,7 +2039,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2055,7 +2062,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2078,7 +2085,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2101,7 +2108,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2124,7 +2131,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -2147,7 +2154,674 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-04-26T02:04:56+0000"
+            "updated": "2025-06-16T02:06:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "rfdc-intr_2025.1.bb",
+            "filepath": "recipes-apps/rfdc-examples",
+            "homepage": "",
+            "id": 2267497,
+            "inherits": "features_check xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "rfdc-intr",
+            "pr": "r0",
+            "provides": "rfdc-intr ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Simple rfdc-intr application",
+            "updated": "2025-06-16T02:06:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "rfdc-read-write_2025.1.bb",
+            "filepath": "recipes-apps/rfdc-examples",
+            "homepage": "",
+            "id": 2267498,
+            "inherits": "features_check xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "rfdc-read-write",
+            "pr": "r0",
+            "provides": "rfdc-read-write ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Simple rfdc-read-write application",
+            "updated": "2025-06-16T02:06:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "rfdc-selftest_2025.1.bb",
+            "filepath": "recipes-apps/rfdc-examples",
+            "homepage": "",
+            "id": 2267499,
+            "inherits": "features_check xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "rfdc-selftest",
+            "pr": "r0",
+            "provides": "rfdc-selftest ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Simple rfdc-selftest application",
+            "updated": "2025-06-16T02:06:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Application Security Unit",
+            "filename": "asu-firmware_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267500,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "asu-firmware",
+            "pr": "r0",
+            "provides": "asu-firmware ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Application Security Unit for Versal 2ve 2vm devices",
+            "updated": "2025-06-15T22:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "embeddedsw-source_2022.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267501,
+            "inherits": "nopackages xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "embeddedsw-source-2022.1",
+            "pr": "r0",
+            "provides": "embeddedsw-source-2022.1 ",
+            "pv": "2022.1+git",
+            "section": "base",
+            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "embeddedsw-source_2022.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267502,
+            "inherits": "nopackages xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "embeddedsw-source-2022.2",
+            "pr": "r0",
+            "provides": "embeddedsw-source-2022.2 ",
+            "pv": "2022.2+git",
+            "section": "base",
+            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "embeddedsw-source_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267503,
+            "inherits": "nopackages xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "embeddedsw-source-2025.1",
+            "pr": "r0",
+            "provides": "embeddedsw-source-2025.1 ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "esw-conf_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267504,
+            "inherits": "xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "esw-conf",
+            "pr": "r0",
+            "provides": "esw-conf ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "First Stage Bootloader",
+            "filename": "fsbl-firmware_2022.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267505,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fsbl-firmware",
+            "pr": "r0",
+            "provides": "fsbl-firmware ",
+            "pv": "2022.1+git",
+            "section": "base",
+            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "First Stage Bootloader",
+            "filename": "fsbl-firmware_2022.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267506,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fsbl-firmware",
+            "pr": "r0",
+            "provides": "fsbl-firmware ",
+            "pv": "2022.2+git",
+            "section": "base",
+            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "First Stage Bootloader",
+            "filename": "fsbl-firmware_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267507,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "fsbl-firmware",
+            "pr": "r0",
+            "provides": "fsbl-firmware ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Platform Loader and Manager",
+            "filename": "plm-firmware_2022.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267508,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "plm-firmware",
+            "pr": "r0",
+            "provides": "plm-firmware ",
+            "pv": "2022.1+git",
+            "section": "base",
+            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
+            "summary": "Platform Loader and Manager for Versal devices",
+            "updated": "2025-06-15T22:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Platform Loader and Manager",
+            "filename": "plm-firmware_2022.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267509,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "plm-firmware",
+            "pr": "r0",
+            "provides": "plm-firmware ",
+            "pv": "2022.2+git",
+            "section": "base",
+            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
+            "summary": "Platform Loader and Manager for Versal devices",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Platform Loader and Manager",
+            "filename": "plm-firmware_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267510,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "plm-firmware",
+            "pr": "r0",
+            "provides": "plm-firmware ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Platform Loader and Manager for Versal devices",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "PMU Firmware",
+            "filename": "pmu-firmware_2022.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267511,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pmu-firmware",
+            "pr": "r0",
+            "provides": "pmu-firmware ",
+            "pv": "2022.1+git",
+            "section": "base",
+            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
+            "summary": "",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "PMU Firmware",
+            "filename": "pmu-firmware_2022.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267512,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pmu-firmware",
+            "pr": "r0",
+            "provides": "pmu-firmware ",
+            "pv": "2022.2+git",
+            "section": "base",
+            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
+            "summary": "",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "PMU Firmware",
+            "filename": "pmu-firmware_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267513,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "pmu-firmware",
+            "pr": "r0",
+            "provides": "pmu-firmware ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "psm-firmware_2022.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267514,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "psm-firmware",
+            "pr": "r0",
+            "provides": "psm-firmware ",
+            "pv": "2022.1+git",
+            "section": "base",
+            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
+            "summary": "PSM firmware for versal devices",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "psm-firmware_2022.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267515,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "psm-firmware",
+            "pr": "r0",
+            "provides": "psm-firmware ",
+            "pv": "2022.2+git",
+            "section": "base",
+            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
+            "summary": "PSM firmware for versal devices",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "psm-firmware_2025.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2267516,
+            "inherits": "deploy image-artifact-names xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "psm-firmware",
+            "pr": "r0",
+            "provides": "psm-firmware ",
+            "pv": "2025.1+git",
+            "section": "base",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "PSM firmware for versal devices",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libdfeccf_2025.1.bb",
+            "filepath": "recipes-bsp/libdfeccf",
+            "homepage": "",
+            "id": 2267517,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "libdfeccf",
+            "pr": "r0",
+            "provides": "libdfeccf libdfeccf",
+            "pv": "2025.1+git",
+            "section": "libdfeccf",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux dfeccf library",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libdfeequ_2025.1.bb",
+            "filepath": "recipes-bsp/libdfeequ",
+            "homepage": "",
+            "id": 2267518,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "libdfeequ",
+            "pr": "r0",
+            "provides": "libdfeequ libdfeequ",
+            "pv": "2025.1+git",
+            "section": "libdfeequ",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux dfeequ library",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libdfemix_2025.1.bb",
+            "filepath": "recipes-bsp/libdfemix",
+            "homepage": "",
+            "id": 2267519,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "libdfemix",
+            "pr": "r0",
+            "provides": "libdfemix libdfemix",
+            "pv": "2025.1+git",
+            "section": "libdfemix",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux dfemix library",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libdfeofdm_2025.1.bb",
+            "filepath": "recipes-bsp/libdfeofdm",
+            "homepage": "",
+            "id": 2267520,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "libdfeofdm",
+            "pr": "r0",
+            "provides": "libdfeofdm libdfeofdm",
+            "pv": "2025.1+git",
+            "section": "libdfeofdm",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux dfeofdm library",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libdfeprach_2025.1.bb",
+            "filepath": "recipes-bsp/libdfeprach",
+            "homepage": "",
+            "id": 2267521,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "libdfeprach",
+            "pr": "r0",
+            "provides": "libdfeprach libdfeprach",
+            "pv": "2025.1+git",
+            "section": "libdfeprach",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux dfeprach library",
+            "updated": "2025-06-15T22:06:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "librfclk_2025.1.bb",
+            "filepath": "recipes-bsp/librfclk",
+            "homepage": "",
+            "id": 2267522,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "librfclk",
+            "pr": "r0",
+            "provides": "librfclk librfclk",
+            "pv": "2025.1+git",
+            "section": "librfclk",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux rfclk library",
+            "updated": "2025-06-15T22:06:54+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "librfdc_2025.1.bb",
+            "filepath": "recipes-bsp/librfdc",
+            "homepage": "",
+            "id": 2267523,
+            "inherits": "features_check pkgconfig xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "librfdc",
+            "pr": "r0",
+            "provides": "librfdc librfdc",
+            "pv": "2025.1+git",
+            "section": "librfdc",
+            "srcrev": "c0aed2eff7a30f307238ec853fa8fbc45dcabdda",
+            "summary": "Linux rfdc library",
+            "updated": "2025-06-15T22:06:54+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "esw-conf_2024.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2272487,
+            "inherits": "xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "esw-conf",
+            "pr": "r0",
+            "provides": "esw-conf ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2025-06-22T23:06:31+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "esw-conf_2024.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2272488,
+            "inherits": "xlnx-embeddedsw",
+            "layerbranch": 1037170,
+            "license": "MIT",
+            "pe": "",
+            "pn": "esw-conf",
+            "pr": "r0",
+            "provides": "esw-conf ",
+            "pv": "2024.1+git",
+            "section": "base",
+            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "summary": "",
+            "updated": "2025-06-22T23:06:31+0000"
         }
     ],
     "wrtemplates": []

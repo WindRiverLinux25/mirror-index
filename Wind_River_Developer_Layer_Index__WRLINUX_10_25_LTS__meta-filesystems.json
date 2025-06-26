@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-04-26T02:04:51+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:51+0000",
-            "vcs_last_rev": "c93cf2f40173483dfe2872208ce205c67cf47b1d",
+            "updated": "2025-06-22T22:06:50+0000",
+            "vcs_last_commit": "2025-06-19T23:06:27+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:50+0000",
+            "vcs_last_rev": "6484aee8c5f90500eb3d047af41c3bf8b6802307",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -670,10 +677,10 @@
             "id": 1037151,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-04-26T02:04:48+0000",
-            "vcs_last_commit": "2025-04-25T00:04:42+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:48+0000",
-            "vcs_last_rev": "c8a5ed7e8bb38bec4b5f946c35cca29715d67689",
+            "updated": "2025-06-22T23:06:34+0000",
+            "vcs_last_commit": "2025-06-02T18:06:48+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:34+0000",
+            "vcs_last_rev": "f94a5f115c8c57325a63536e705cd0752ea5729b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44206
@@ -685,10 +692,10 @@
             "id": 1037160,
             "layer": 8,
             "local_path": "",
-            "updated": "2025-04-26T02:04:32+0000",
-            "vcs_last_commit": "2025-04-04T19:04:48+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:32+0000",
-            "vcs_last_rev": "39dfe8a24b01ac76def80a59392ca7b7b253b248",
+            "updated": "2025-06-22T23:06:11+0000",
+            "vcs_last_commit": "2025-04-16T18:04:05+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:11+0000",
+            "vcs_last_rev": "0d2d2d193a1619b6dbebaf335f1ef785478049e3",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 44206
@@ -815,7 +822,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XFS Filesystem Dump Utility",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -838,11 +845,11 @@
             "section": "base",
             "srcrev": "46da6c398e70635a296245851fcedbc56c35e824",
             "summary": "Set of GPL'ed utilities to ext2/ext3 filesystem.",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "As new exfat filesystem is merged into linux-5.7 kernel, exfatprogs is created as an official userspace utilities that contain all of the standard utilities for creating and fixing and debugging exfat filesystem in linux system. The goal of exfatprogs is to provide high performance and quality at the level of exfat utilities in windows. And this software is licensed under the GNU General Public License Version 2.",
@@ -861,7 +868,7 @@
             "section": "universe/otherosfs",
             "srcrev": "",
             "summary": "exFAT filesystem userspace utilities",
-            "updated": "2025-04-26T02:04:24+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -884,11 +891,11 @@
             "section": "base",
             "srcrev": "18c0a8454ca1cf8969170049f8c628d88627beec",
             "summary": "Tool to access UFS (Universal Flash Storage) devices",
-            "updated": "2025-04-26T02:04:24+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Maintenance tools for OverlayFS",
@@ -907,11 +914,11 @@
             "section": "base",
             "srcrev": "7a4a0c4f2c6c86aa46a40e3468e394fd4a237491",
             "summary": "",
-            "updated": "2025-04-26T02:04:25+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --disable-systemd",
             "description": "",
@@ -930,7 +937,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A command line Linux program which mounts and unmounts removable devices",
-            "updated": "2025-04-26T02:04:25+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -953,7 +960,7 @@
             "section": "base",
             "srcrev": "06c027abc6153c4a97cba5317844e8dcaaee3cf7",
             "summary": "Tools for Flash-Friendly File System (F2FS)",
-            "updated": "2025-04-26T02:04:25+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -976,11 +983,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "XFS Filesystem Utilities",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "INSTALL_USER=root INSTALL_GROUP=root ",
             "description": "",
@@ -999,11 +1006,11 @@
             "section": "base",
             "srcrev": "088e5bd4cb6d7295612430a56ae84ff5c8f54730",
             "summary": "File system QA test suite",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --enable-nls",
             "description": "bindfs is a FUSE filesystem for mounting a directory to another location, similarly to mount --bind.",
@@ -1022,11 +1029,11 @@
             "section": "base",
             "srcrev": "3f5e3cb1fcac5fb8034fa4712764317fab51ebe0",
             "summary": "A FUSE filesystem for mounting a directory to another location",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1045,11 +1052,11 @@
             "section": "base",
             "srcrev": "8f35db59ef83078f87879ec2828e0bb45719e0ef",
             "summary": "Tools for managing AUFS mounts",
-            "updated": "2025-04-26T02:04:26+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "This tool is designed to manipulate FAT filesystems, in order to explore, extract, repair, recover and forensic them. It currently supports FAT12, FAT16 and FAT32.",
@@ -1068,11 +1075,11 @@
             "section": "base",
             "srcrev": "99cb99fc86eb1601ac7ae27f5bba23add04d2543",
             "summary": "FAT filesystems explore, extract, repair, and forensic tool",
-            "updated": "2025-04-26T02:04:27+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1091,11 +1098,11 @@
             "section": "console/tools",
             "srcrev": "12da22087de2ec43f0fe5af1237389e94619c483",
             "summary": "Resize FAT partitions using libparted",
-            "updated": "2025-04-26T02:04:27+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "A set of scripts supplementing the btrfs filesystem and aims     to automate a few maintenance tasks. This means the scrub, balance, trim     or defragmentation.",
@@ -1114,7 +1121,7 @@
             "section": "base",
             "srcrev": "be42cb6267055d125994abd6927cf3a26deab74c",
             "summary": "Services for periodic btrfs maintenance tasks",
-            "updated": "2025-04-26T02:04:27+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1137,11 +1144,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Implementation of a fully functional filesystem in a userspace program",
-            "updated": "2025-04-26T02:04:27+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1160,11 +1167,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for libfuse2.",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-DLIB_SUFFIX= ",
             "description": "",
@@ -1183,11 +1190,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "PhysicsFS is a library to provide abstract access to various archives",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1206,11 +1213,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "User-space, libgpiod-based compatibility layer for linux GPIO sysfs interface.",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-22T23:06:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1229,11 +1236,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A fuse filesystem to access the contents of an iPhone or iPod Touch",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-22T23:06:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1252,13 +1259,13 @@
             "section": "console/network",
             "srcrev": "773f1853b043eeb64b7459f903a2c65bd096f9d9",
             "summary": "A FUSE based implemention of unionfs",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-22T23:06:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                  --with-fuseinclude=/tmp/tmphqok7cg0/tmp/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/include                  --with-fuselib=/tmp/tmphqok7cg0/tmp/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/lib                  --enable-owfs                  --enable-owhttpd                  --enable-w1                  --disable-swig                  --disable-owtcl                  --disable-owphp                  --disable-owpython                  --disable-owperl  ",
+            "configopts": "                  --with-fuseinclude=/tmp/tmpxdwwb24v/tmp/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/include                  --with-fuselib=/tmp/tmpxdwwb24v/tmp/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/lib                  --enable-owfs                  --enable-owhttpd                  --enable-w1                  --disable-swig                  --disable-owtcl                  --disable-owphp                  --disable-owpython                  --disable-owperl  ",
             "description": "OWFS is an easy way to use the powerful 1-wire system of Dallas/Maxim",
             "filename": "owfs_3.2p3.bb",
             "filepath": "recipes-filesystems/owfs",
@@ -1275,11 +1282,11 @@
             "section": "console/network",
             "srcrev": "3744375dfaa350e31c9b360eb1e1a517bbeb5c47",
             "summary": "1-Wire file system",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --with-libsecret=no",
             "description": "SMBNetFS is a Linux/FreeBSD filesystem that allow you to use                samba/microsoft network in the same manner as the network                neighborhood in Microsoft Windows. Please donate me to help                in SMBNetFS development.",
@@ -1298,11 +1305,11 @@
             "section": "base",
             "srcrev": "736d5e599df3bebce3450125118ac2e70358b0c9",
             "summary": "FUSE module for mounting an entire SMB/NMB network in a single directory",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "LogFS is a Linux log-structured and scalable flash file system, intended for use on large devices of flash memory. It is written by J\u00f6rn Engel and in part sponsored by the CE Linux Forum. LogFS is included in the mainline Linux kernel and was introduced in version 2.6.34, released on May 16, 2010.",
@@ -1321,11 +1328,11 @@
             "section": "base",
             "srcrev": "45b72c81ce3c6fa17ca19bafc207ea93e76312f4",
             "summary": "LogFS Programs: used to create LogFS file system",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:08+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1344,11 +1351,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to create an ISO-9660 filesystem",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:08+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--enable-pkg-check-modules ",
             "description": "",
@@ -1367,11 +1374,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "library and tool to create and burn ISO-9660 images",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:08+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1390,13 +1397,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to write an ISO-9660 file system to physical media",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "   --disable-pam --disable-systemd --enable-sysvinit     --disable-pyzfs     --with-linux=/tmp/tmphqok7cg0/tmp/work-shared/qemux86/kernel-source --with-linux-obj=/tmp/tmphqok7cg0/tmp/work-shared/qemux86/kernel-build-artifacts     --with-mounthelperdir=${base_sbin}     --with-udevdir=/lib/udev     --with-systemdunitdir=/lib/systemd/system     --with-systemdgeneratordir=/lib/systemd/system-generators     --with-systemdpresetdir=/lib/systemd/system-preset     --with-systemdmodulesloaddir=/etc/module-load.d     --without-dracutdir --enable-linux-builtin  --with-vendor=debian",
+            "configopts": "   --disable-pam --disable-systemd --enable-sysvinit     --disable-pyzfs     --with-linux=/tmp/tmpxdwwb24v/tmp/work-shared/qemux86/kernel-source --with-linux-obj=/tmp/tmpxdwwb24v/tmp/work-shared/qemux86/kernel-build-artifacts     --with-mounthelperdir=${base_sbin}     --with-udevdir=/lib/udev     --with-systemdunitdir=/lib/systemd/system     --with-systemdgeneratordir=/lib/systemd/system-generators     --with-systemdpresetdir=/lib/systemd/system-preset     --with-systemdmodulesloaddir=/etc/module-load.d     --without-dracutdir --enable-linux-builtin  --with-vendor=debian",
             "description": "OpenZFS on Linux and FreeBSD",
             "filename": "zfs_2.2.5.bb",
             "filepath": "recipes-filesystems/zfs",
@@ -1413,11 +1420,11 @@
             "section": "base",
             "srcrev": "33174af15112ed5c53299da2d28e763b0163f428",
             "summary": "OpenZFS on Linux and FreeBSD",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1436,11 +1443,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-filesystem packagegroups",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "19e7bb9b608b0c0dce2ee6f56fac75901bc69529",
             "configopts": " ",
             "description": "SIMPLE-MTPFS is a FUSE based filsystem for MTP devices connected via USB",
@@ -1459,7 +1466,7 @@
             "section": "base",
             "srcrev": "19e7bb9b608b0c0dce2ee6f56fac75901bc69529",
             "summary": "",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1482,11 +1489,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Recipe to trigger execution of all fast meta-filesystems ptest images.",
@@ -1505,11 +1512,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "mcextend:sshfs-fuse mcextend:e2tools",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": " Also including the ${MCNAME} ptest package.",
@@ -1528,11 +1535,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-filesystems ptest test image",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1551,11 +1558,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Recipe to trigger execution of all meta-filesystems ptest images.",
@@ -1574,11 +1581,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " sbindir=/sbin ",
             "description": "fuse-exfat is a read and write driver implementing the extended file allocation table as a filesystem in userspace. A mounthelper is provided under the name mount.exfat-fuse. ",
@@ -1597,11 +1604,11 @@
             "section": "universe/otherosfs",
             "srcrev": "",
             "summary": "read and write exFAT driver for FUSE",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1620,11 +1627,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "This is a filesystem client based on the HTTP using FUSE",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1643,7 +1650,7 @@
             "section": "console/network",
             "srcrev": "c91eb9a9a992f1a36c49a8e6f1146e45b5e1c8e7",
             "summary": "This is a filesystem client based on the SSH File Transfer Protocol using FUSE",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -1666,7 +1673,7 @@
             "section": "base",
             "srcrev": "613a901a229e8a701c18f003dd0aee18453e0670",
             "summary": "Yet Another Flash File System",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:11+0000"
         }
     ],
     "wrtemplates": []

@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,13 +647,13 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-04-26T02:04:43+0000",
-            "vcs_last_commit": "2025-03-27T19:03:57+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:43+0000",
-            "vcs_last_rev": "f634b70c12e30afd675f68fe651dd24772c06ba8",
+            "updated": "2025-06-25T21:06:53+0000",
+            "vcs_last_commit": "2025-06-25T19:06:39+0000",
+            "vcs_last_fetch": "2025-06-25T21:06:53+0000",
+            "vcs_last_rev": "c311c1d06f698ddec23f789a90c1bb4797aee1c2",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44188
         },
         {
             "actual_branch": "",
@@ -655,13 +662,13 @@
             "id": 1037165,
             "layer": 437,
             "local_path": "",
-            "updated": "2025-04-26T02:04:48+0000",
-            "vcs_last_commit": "2025-02-12T22:02:46+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:48+0000",
-            "vcs_last_rev": "6dbfa3762fdcfea100999a65ae83995cce650095",
+            "updated": "2025-06-22T23:06:09+0000",
+            "vcs_last_commit": "2025-06-22T19:06:50+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:09+0000",
+            "vcs_last_rev": "a63331a3a15dc884981354111219ee1ed4637890",
             "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44188
         }
     ],
     "layerDependencies": [

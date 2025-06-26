@@ -615,6 +615,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44210,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -627,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-05-08T00:05:05+0000",
+            "updated": "2025-06-26T00:06:05+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-08T06:05:10+0000",
-            "vcs_last_commit": "2025-05-08T01:05:13+0000",
-            "vcs_last_fetch": "2025-05-08T06:05:10+0000",
-            "vcs_last_rev": "d51e868930b6091d85cdf232a73a79f4e97f3f46",
+            "updated": "2025-06-25T20:06:05+0000",
+            "vcs_last_commit": "2025-06-25T02:06:48+0000",
+            "vcs_last_fetch": "2025-06-25T20:06:05+0000",
+            "vcs_last_rev": "f78eeefaa42e0e5baf70a89dca479ebba2b6d0fd",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-04-26T02:04:51+0000",
-            "vcs_last_commit": "2025-04-24T00:04:39+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:51+0000",
-            "vcs_last_rev": "c93cf2f40173483dfe2872208ce205c67cf47b1d",
+            "updated": "2025-06-22T22:06:50+0000",
+            "vcs_last_commit": "2025-06-19T23:06:27+0000",
+            "vcs_last_fetch": "2025-06-22T22:06:50+0000",
+            "vcs_last_rev": "6484aee8c5f90500eb3d047af41c3bf8b6802307",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -670,9 +677,9 @@
             "id": 1037135,
             "layer": 18,
             "local_path": "",
-            "updated": "2025-04-26T02:04:46+0000",
+            "updated": "2025-06-22T23:06:28+0000",
             "vcs_last_commit": "2025-04-13T11:04:57+0000",
-            "vcs_last_fetch": "2025-04-26T02:04:46+0000",
+            "vcs_last_fetch": "2025-06-22T23:06:28+0000",
             "vcs_last_rev": "784ca4b6584101e971b2d5d76ec7b716ad1301b5",
             "vcs_subdir": "",
             "version": null,
@@ -756,7 +763,7 @@
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "This is a small simple module which simplifies the manipulation of @INC at compile time. It is typically used to add extra directories to Perl's search path so that later 'use' or 'require' statements will find modules which are not located in the default search path.",
@@ -775,11 +782,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:19+0000"
+            "updated": "2025-06-22T23:06:02+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Libwhisker is a Perl module geared specificly for HTTP testing.",
@@ -798,11 +805,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:19+0000"
+            "updated": "2025-06-22T23:06:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -821,7 +828,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Lynis is a free and open source security and auditing tool.",
-            "updated": "2025-04-26T02:04:19+0000"
+            "updated": "2025-06-22T23:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -844,7 +851,7 @@
             "section": "base",
             "srcrev": "616d4363527acb61c6494a97f3ceb47ec90f65fd",
             "summary": "",
-            "updated": "2025-04-26T02:04:20+0000"
+            "updated": "2025-06-22T23:06:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -867,11 +874,11 @@
             "section": "base",
             "srcrev": "23a8ea3de3c4fd6017db4067675a81287177166e",
             "summary": "",
-            "updated": "2025-04-26T02:04:20+0000"
+            "updated": "2025-06-22T23:06:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "rootkit detector",
@@ -890,11 +897,11 @@
             "section": "security",
             "srcrev": "",
             "summary": "locally checks for signs of a rootkit",
-            "updated": "2025-04-26T02:04:20+0000"
+            "updated": "2025-06-22T23:06:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "   ",
             "description": "",
@@ -913,11 +920,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:20+0000"
+            "updated": "2025-06-22T23:06:03+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " -DCMAKE_BUILD_TYPE=Release -DOPTIMIZE=ON -DENABLE_JSON_SHARED=OFF                   -DCLAMAV_GROUP=clamav -DCLAMAV_USER=clamav                   -DENABLE_TESTS=OFF -DBUILD_SHARED_LIBS=ON                   -DDISABLE_MPOOL=ON -DENABLE_FRESHCLAM_DNS_FIX=ON                      -DENABLE_CLAMONACC=ON  -DENABLE_MILTER=OFF  -DENABLE_SYSTEMD=OFF -DENABLE_UNRAR=OFF",
             "description": "ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.",
@@ -936,11 +943,11 @@
             "section": "security",
             "srcrev": "563ba93052f3b7b46fb8725a65ee6299a9c332cf",
             "summary": "ClamAV anti-virus utility for Unix - command-line interface",
-            "updated": "2025-04-26T02:04:21+0000"
+            "updated": "2025-06-22T23:06:03+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Buck-Security is a security scanner for Debian and Ubuntu Linux. It runs a couple of important checks and helps you to harden your Linux system. This enables you to quickly overview the security status of your Linux system.",
@@ -959,11 +966,11 @@
             "section": "security",
             "srcrev": "",
             "summary": "Linux security scanner",
-            "updated": "2025-04-26T02:04:21+0000"
+            "updated": "2025-06-22T23:06:03+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "The checksec script is designed to test what standard Linux OS and PaX security features are being used.",
@@ -982,11 +989,11 @@
             "section": "security",
             "srcrev": "2753ebb89fcdc96433ae8a4c4e5a49214a845be2",
             "summary": "Linux system security checks",
-            "updated": "2025-04-26T02:04:21+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Smack scripts",
@@ -1005,11 +1012,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Smack test scripts",
-            "updated": "2025-04-26T02:04:21+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Server and client binaries used to test smack attributes on UDP sockets",
@@ -1028,11 +1035,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Binary used to test smack udp sockets",
-            "updated": "2025-04-26T02:04:21+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Server and client binaries used to test smack attributes on TCP sockets",
@@ -1051,11 +1058,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Binary used to test smack tcp sockets",
-            "updated": "2025-04-26T02:04:21+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Mmap binary used to test smack mmap attribute",
@@ -1074,11 +1081,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Mmap binary used to test smack mmap attribute",
-            "updated": "2025-04-26T02:04:22+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "   --without-systemdsystemunitdir",
             "description": "Selection of tools for developers working with Smack",
@@ -1097,11 +1104,11 @@
             "section": "Security/Access Control",
             "srcrev": "4a102c7584b39ce693995ffb65e0918a9df98dd8",
             "summary": "",
-            "updated": "2025-04-26T02:04:22+0000"
+            "updated": "2025-06-22T23:06:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "   --disable-man-pages --with-perl --with-python",
             "description": "user-space parser utility for AppArmor  This provides the system initialization scripts needed to use the  AppArmor Mandatory Access Control system, including the AppArmor Parser  which is required to convert AppArmor text profiles into machine-readable  policies that are loaded into the kernel for use with the AppArmor Linux  Security Module.",
@@ -1120,11 +1127,11 @@
             "section": "admin",
             "srcrev": "b4dfdf50f50ed1d64161424d036a2453645f0cfe",
             "summary": "AppArmor another MAC control system",
-            "updated": "2025-04-26T02:04:22+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "TOMOYO Linux is a Mandatory Access Control (MAC) implementation for Linux that can be used to increase the security of a system, while also being useful purely as a system analysis tool. \\nTo start via command line add: \\nsecurity=tomoyo TOMOYO_trigger=/usr/lib/systemd/systemd \\nTo initialize: \\n/usr/lib/ccs/init_policy",
@@ -1143,11 +1150,11 @@
             "section": "security",
             "srcrev": "",
             "summary": "Tomoyo",
-            "updated": "2025-04-26T02:04:22+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--disable-man --enable-busybox-workaround   --disable-apparmor  --disable-dbusproxy  --disable-chroot  --disable-file-transfer  --disable-firetunnel   --disable-network  --disable-private-home  --disable-suid  --disable-usertmpfs    --disable-userns  --disable-selinux  --enable-x11",
             "description": "Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces, seccomp-bpf and Linux capabilities.",
@@ -1166,11 +1173,11 @@
             "section": "base",
             "srcrev": "2551bc71f14052344666f3ca2ad67f5b798020b9",
             "summary": "Linux namespaces and seccomp-bpf sandbox",
-            "updated": "2025-04-26T02:04:22+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "CHIPSEC is a framework for analyzing the security                of PC platforms including hardware, system firmware                (BIOS/UEFI), and platform components.",
@@ -1189,11 +1196,11 @@
             "section": "base",
             "srcrev": "d8c2a606bf440c32196c6289a7a458f3ae3107cc",
             "summary": "CHIPSEC: Platform Security Assessment Framework",
-            "updated": "2025-04-26T02:04:22+0000"
+            "updated": "2025-06-22T23:06:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Aircrack-ng is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured. It implements the standard FMS attack along with some optimizations like KoreK attacks, as well as the PTW attack, thus making the attack much faster compared to other WEP cracking tools.",
@@ -1212,11 +1219,11 @@
             "section": "security",
             "srcrev": "",
             "summary": "Aircrack-ng is a set of tools for auditing wireless networks",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1235,11 +1242,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Tools used by redhat linux distribution for security checks",
@@ -1258,13 +1265,13 @@
             "section": "security",
             "srcrev": "",
             "summary": "redhat security tools",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--disable-pthreads --with-ssl-dir=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/libest/3.2.0/recipe-sysroot/usr/lib ",
+            "configopts": "--disable-pthreads --with-ssl-dir=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/libest/3.2.0/recipe-sysroot/usr/lib ",
             "description": "",
             "filename": "libest_3.2.0.bb",
             "filepath": "recipes-security/libest",
@@ -1281,11 +1288,11 @@
             "section": "base",
             "srcrev": "4ca02c6d7540f2b1bcea278a4fbe373daac7103b",
             "summary": "EST is used for secure certificate  enrollment and is compatible with Suite B certs (as well as RSA and DSA certificates)",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1304,11 +1311,11 @@
             "section": "base",
             "srcrev": "7c80c73c084ce9ea49a03b814dac7a82fd7b4c23",
             "summary": "low-level tool handling Linux filesystem encryption",
-            "updated": "2025-04-26T02:04:23+0000"
+            "updated": "2025-06-22T23:06:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1327,11 +1334,11 @@
             "section": "base",
             "srcrev": "e92098419c7ad82939e0483bc76df21eff705b80",
             "summary": "Resource Public Key Infrastructure (RPKI) daemon",
-            "updated": "2025-04-26T02:04:28+0000"
+            "updated": "2025-06-22T23:06:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "-Dtests=false  -Dglome-cli=false -Dpam-glome=false",
             "description": "GLOME is used to authorize serial console access to Linux machines",
@@ -1350,13 +1357,13 @@
             "section": "base",
             "srcrev": "48d28f82bd51ae4bccc84fbbee93c375b026596b",
             "summary": "GLOME Login Client",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --with-libnet-dir=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/isic/0.07/recipe-sysroot/usr/lib  ",
+            "configopts": " --with-libnet-dir=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/isic/0.07/recipe-sysroot/usr/lib  ",
             "description": "ISIC is a suite of utilities to exercise the stability of an IP Stack and its component stacks (TCP, UDP, ICMP et. al.)",
             "filename": "isic_0.07.bb",
             "filepath": "recipes-security/isic",
@@ -1373,11 +1380,11 @@
             "section": "security",
             "srcrev": "",
             "summary": "ISIC -- IP Stack Integrity Checker",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1396,11 +1403,11 @@
             "section": "base",
             "srcrev": "7c80c73c084ce9ea49a03b814dac7a82fd7b4c23",
             "summary": "fscrypt is a high-level tool for the management of Linux filesystem encryption",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "paxctl  is  a tool that allows PaX flags to be modified on a                per-binary basis. PaX is part of common  security-enhancing                 kernel  patches  and secure distributions, such as                GrSecurity or Adamantix and Hardened Gen-too, respectively.",
@@ -1419,13 +1426,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": " --with-libxml2=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/opendnssec/2.1.10/recipe-sysroot/usr --with-ldns=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/opendnssec/2.1.10/recipe-sysroot/usr                  --with-ssl=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/opendnssec/2.1.10/recipe-sysroot/usr   ",
+            "configopts": " --with-libxml2=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/opendnssec/2.1.10/recipe-sysroot/usr --with-ldns=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/opendnssec/2.1.10/recipe-sysroot/usr                  --with-ssl=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/opendnssec/2.1.10/recipe-sysroot/usr   ",
             "description": "",
             "filename": "opendnssec_2.1.10.bb",
             "filepath": "recipes-security/opendnssec",
@@ -1442,7 +1449,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OpenDNSSEC is a policy-based zone signer that automates the process of keeping track of DNSSEC keys and the signing of zones",
-            "updated": "2025-04-26T02:04:29+0000"
+            "updated": "2025-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1465,11 +1472,11 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Library of hashing algorithms.",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "Ncrack is designed for high-speed parallel testing of network devices for poor passwords.",
@@ -1488,11 +1495,11 @@
             "section": "security",
             "srcrev": "dc570e7e3cec1fb176c0168eaedc723084bd0426",
             "summary": "Network authentication cracking tool",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -1511,11 +1518,11 @@
             "section": "lib",
             "srcrev": "305907723a4e7ab2018e58040059ffb5e77db837",
             "summary": "A library for Microsoft compression formats",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " --enable-cswap --enable-fsck --enable-argv0switch  --with-libgcrypt --with-libintl-prefix --enable-luks --enable-nls  --without-systemd --enable-nls",
             "description": "",
@@ -1534,11 +1541,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux encrypted filesystem management tool",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--libdir=/lib ",
             "description": "",
@@ -1557,7 +1564,7 @@
             "section": "base",
             "srcrev": "962f353aac6cfc7b804547319db40f8b804f0b6c",
             "summary": "Google Authenticator PAM module",
-            "updated": "2025-04-26T02:04:30+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1580,7 +1587,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Dynamic hash table implementation",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1603,7 +1610,7 @@
             "section": "libs",
             "srcrev": "ada76bdaec665f70505f0b3aefe871b873e7c4b6",
             "summary": "Exports a gssapi interface which calls other gssapi libraries",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1626,11 +1633,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "The eCryptfs mount helper and support libraries",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:13+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "checksecurity is a simple package which will scan your system for several simple security holes.",
@@ -1649,11 +1656,11 @@
             "section": "security",
             "srcrev": "",
             "summary": "basic system security checks",
-            "updated": "2025-04-26T02:04:31+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Bastille Linux is a Hardening and Reporting/Auditing Program which enhances the security of a Linux box, by configuring daemons, system settings and firewalling.",
@@ -1672,11 +1679,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux hardening tool",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Nikto is an Open Source web server scanner which performs comprehensive tests against web servers",
@@ -1695,13 +1702,13 @@
             "section": "security",
             "srcrev": "f1bbd1a8756c076c8fd4f4dd0bc34a8ef215ae79",
             "summary": "web server scanner",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/lib/security     --with-xml-catalog-path=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/sssd/2.10.2/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run/sssd     --with-os=fedora     --with-sssd-user=sssd   --with-autofs    --without-kcm  --with-manpages=no  --with-libnl=no  --without-oidc-child  --without-python3-bindings python3dir=/usr/lib/python3.13/site-packages  --with-samba=no  --with-selinux=no  --with-ssh=no --with-sudo  --with-initscript=sysv --enable-nls",
+            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/lib/security     --with-xml-catalog-path=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/sssd/2.10.2/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run/sssd     --with-os=fedora     --with-sssd-user=sssd   --with-autofs    --without-kcm  --with-manpages=no  --with-libnl=no  --without-oidc-child  --without-python3-bindings python3dir=/usr/lib/python3.13/site-packages  --with-samba=no  --with-selinux=no  --with-ssh=no --with-sudo  --with-initscript=sysv --enable-nls",
             "description": "SSSD is a system security services daemon",
             "filename": "sssd_2.10.2.bb",
             "filepath": "dynamic-layers/networking-layer/recipes-security/sssd",
@@ -1718,7 +1725,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "system security services daemon",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1741,11 +1748,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:32+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "QR Code and Micro QR Code generator for Python 2 and Python 3",
@@ -1764,11 +1771,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Scripting support for flask",
@@ -1787,7 +1794,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1810,7 +1817,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1833,7 +1840,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1856,11 +1863,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:33+0000"
+            "updated": "2025-06-22T23:06:15+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "privacyIDEA is an open solution for strong two-factor authentication like OTP tokens, SMS, smartphones or SSH keys. Using privacyIDEA you can enhance your existing applications like local login (PAM, Windows Credential Provider), VPN, remote access, SSH connections, access to web sites or web portals with a second factor during authentication. Thus boosting the security of your existing applications.",
@@ -1879,11 +1886,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "identity, multifactor authentication (OTP), authorization, audit",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1902,11 +1909,11 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Add version info to file paths.",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Fail2Ban scans log files like /var/log/auth.log and bans IP addresses having too many failed login attempts. It does this by updating system firewall rules to reject new connections from those IP addresses, for a configurable amount of time. Fail2Ban comes out-of-the-box ready to read many standard log files, such as those for sshd and Apache, and is easy to configure to read any log file you choose, for any error you choose.",
@@ -1925,11 +1932,11 @@
             "section": "base",
             "srcrev": "ac62658c10f492911f8a0037a0bcf97c8521cd78",
             "summary": "Daemon to ban hosts that cause multiple authentication errors.",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "LKRG performs runtime integrity checking of the Linux kernel and detection of security vulnerability exploits against the kernel.",
@@ -1948,11 +1955,11 @@
             "section": "security",
             "srcrev": "5dc5cfea1f4dc8febdd5274d99e277c17df06acc",
             "summary": "Linux Kernel Runtime Guard",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Security packagegroup for Poky",
@@ -1971,11 +1978,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:34+0000"
+            "updated": "2025-06-22T23:06:16+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "A small image for building meta-security packages",
@@ -1994,11 +2001,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-22T23:06:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "A small image for building meta-security packages",
@@ -2017,11 +2024,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-22T23:06:17+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "A Serve side image for Security example ",
@@ -2040,7 +2047,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:35+0000"
+            "updated": "2025-06-22T23:06:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2063,11 +2070,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:18+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "A Client side Security example",
@@ -2086,13 +2093,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:18+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " INSTALL='install -p'   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/samhain-server/4.5.2/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/samhain-server/4.5.2/recipe-sysroot/usr/lib --with-ps-path=/bin/ps  --disable-selinux    ",
+            "configopts": " INSTALL='install -p'   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/samhain-server/4.5.2/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/samhain-server/4.5.2/recipe-sysroot/usr/lib --with-ps-path=/bin/ps  --disable-selinux    ",
             "description": "Provides file integrity checking and log file monitoring/analysis",
             "filename": "samhain-server.bb",
             "filepath": "recipes-ids/samhain",
@@ -2109,13 +2116,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:36+0000"
+            "updated": "2025-06-22T23:06:18+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " INSTALL='install -p'   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.2/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.2/recipe-sysroot/usr/lib --with-ps-path=/bin/ps  --disable-selinux    ",
+            "configopts": " INSTALL='install -p'   --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.2/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/samhain-standalone/4.5.2/recipe-sysroot/usr/lib --with-ps-path=/bin/ps  --disable-selinux    ",
             "description": "Provides file integrity checking and log file monitoring/analysis",
             "filename": "samhain-standalone.bb",
             "filepath": "recipes-ids/samhain",
@@ -2132,13 +2139,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " INSTALL='install -p'          --with-logserver=NULL         --with-port=49777            --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/samhain-client/4.5.2/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/samhain-client/4.5.2/recipe-sysroot/usr/lib --with-ps-path=/bin/ps  --disable-selinux    ",
+            "configopts": " INSTALL='install -p'          --with-logserver=NULL         --with-port=49777            --enable-posix-acl  ac_cv_header_auparse_h=no --enable-ipv6     --with-database=postgresql --enable-xml-log PGSQL_INC_DIR=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/samhain-client/4.5.2/recipe-sysroot/usr/include PGSQL_LIB_DIR=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/samhain-client/4.5.2/recipe-sysroot/usr/lib --with-ps-path=/bin/ps  --disable-selinux    ",
             "description": "Provides file integrity checking and log file monitoring/analysis",
             "filename": "samhain-client.bb",
             "filepath": "recipes-ids/samhain",
@@ -2155,11 +2162,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2178,13 +2185,13 @@
             "section": "security Monitor/Admin",
             "srcrev": "ebe480be4a5f3bb1d44be6a9a6c2755bd8ef7e71",
             "summary": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces.",
-            "updated": "2025-04-26T02:04:37+0000"
+            "updated": "2025-06-22T23:06:19+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "  --disable-debug     --disable-gccmarch-native     --enable-non-bundled-htp     --disable-suricata-update     --with-libhtp-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libhtp-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib       --with-libcap_ng-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libcap_ng-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libjansson-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libjansson-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libnet-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libnet-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib    --disable-nfqueue --with-libnspr-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libnspr-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libnss-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libnss-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libpcap-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libpcap-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libpcre2-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libpcre2-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --enable-python  --disable-unittests --with-libyaml-includes=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libyaml-libraries=/tmp/tmpkyf7ga6i/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib",
+            "configopts": "  --disable-debug     --disable-gccmarch-native     --enable-non-bundled-htp     --disable-suricata-update     --with-libhtp-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libhtp-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib       --with-libcap_ng-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libcap_ng-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libjansson-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libjansson-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libnet-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libnet-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib    --disable-nfqueue --with-libnspr-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libnspr-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libnss-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libnss-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libpcap-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libpcap-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --with-libpcre2-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libpcre2-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib --enable-python  --disable-unittests --with-libyaml-includes=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/include --with-libyaml-libraries=/tmp/tmpitugw9lz/tmp/work/core2-32-oe-linux/suricata/7.0.0/recipe-sysroot/usr/lib",
             "description": "",
             "filename": "suricata_7.0.0.bb",
             "filepath": "recipes-ids/suricata",
@@ -2201,11 +2208,11 @@
             "section": "security Monitor/Admin",
             "srcrev": "",
             "summary": "The Suricata Engine is an Open Source Next Generation Intrusion Detection and Prevention Engine",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:20+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": " ",
             "description": "",
@@ -2224,11 +2231,11 @@
             "section": "base",
             "srcrev": "bf797c759994015274f3bc31fe2bed278cce67ee",
             "summary": "A full platform to monitor and control your systems",
-            "updated": "2025-04-26T02:04:45+0000"
+            "updated": "2025-06-22T23:06:27+0000"
         },
         {
             "bbclassextend": "native",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "   --without-audit --with-capabilities --with-curl --with-e2fsattrs --with-gcrypt  --without-mhash --with-posix-acl --with-pthread  --without-selinux --with-xattr --with-zlib",
             "description": "",
@@ -2247,11 +2254,11 @@
             "section": "base",
             "srcrev": "",
             "summary": "Advanced Intrusion Detection Environment",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -2270,11 +2277,11 @@
             "section": "base",
             "srcrev": "73e0bbaf93070f4a640eb5a22212b5dcf26699de",
             "summary": "CrowdSec is a free, modern & collaborative behavior detection engine, coupled with a global IP reputation network.",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:28+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "--disable-openssl  --enable-static --sysconfdir=/etc/tripwire ",
             "description": "Open Source Tripwire\u00ae software is a security and data integrity tool useful for monitoring and alerting on specific file change(s) on a range of systems",
@@ -2293,7 +2300,7 @@
             "section": "security Monitor/Admin",
             "srcrev": "6e64a9e5b70a909ec439bc5a099e3fcf38c614b0",
             "summary": "Tripwire: A system integrity assessment tool (IDS)",
-            "updated": "2025-04-26T02:04:46+0000"
+            "updated": "2025-06-22T23:06:28+0000"
         }
     ],
     "wrtemplates": []
