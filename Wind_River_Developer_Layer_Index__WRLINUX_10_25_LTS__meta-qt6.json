@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-02T00:07:05+0000",
+            "updated": "2025-07-09T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-06-30T00:06:12+0000",
-            "vcs_last_commit": "2025-06-29T19:06:24+0000",
-            "vcs_last_fetch": "2025-06-30T00:06:12+0000",
-            "vcs_last_rev": "2e8a366649faa4920f896427149123a9880181ad",
+            "updated": "2025-07-07T23:07:03+0000",
+            "vcs_last_commit": "2025-07-07T22:07:36+0000",
+            "vcs_last_fetch": "2025-07-07T23:07:03+0000",
+            "vcs_last_rev": "32012f6a05acb5259922c12d2b28fb1c2ea18110",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -692,10 +692,10 @@
             "id": 1037148,
             "layer": 482,
             "local_path": "",
-            "updated": "2025-06-22T23:06:11+0000",
-            "vcs_last_commit": "2025-06-16T00:06:15+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:11+0000",
-            "vcs_last_rev": "a7e2bc4c24654896b2596e500b3d6afc9c9e3639",
+            "updated": "2025-07-02T01:07:01+0000",
+            "vcs_last_commit": "2025-07-02T00:07:52+0000",
+            "vcs_last_fetch": "2025-07-02T01:07:01+0000",
+            "vcs_last_rev": "624951499cb40ebd7529e3339608baa9b5f2abf5",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44208
@@ -1058,7 +1058,7 @@
             "bbclassextend": "nativesdk native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=lib/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs  -DQT_APPMAN_SKIP_EXCLUDE_TOOLS_FROM_DEFAULT_TARGET=ON  -DQT_BUILD_EXAMPLES=OFF  -DFEATURE_am_multi_process=OFF -DQT_BUILD_TESTS=OFF  -DFEATURE_am_tools_only=OFF    -DQT_HOST_PATH:PATH=/tmp/tmp0yvcqxkf/tmp/work/core2-32-oe-linux/qtapplicationmanager/6.8.3/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -DQT_INSTALL_EXAMPLES_SOURCES=OFF     -D__harfbuzz_broken_config_file=TRUE ",
+            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=lib/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs  -DQT_APPMAN_SKIP_EXCLUDE_TOOLS_FROM_DEFAULT_TARGET=ON  -DFEATURE_am_bubblewrap_container=OFF -DQT_BUILD_EXAMPLES=OFF  -DFEATURE_am_multi_process=OFF -DQT_BUILD_TESTS=OFF  -DFEATURE_am_tools_only=OFF    -DQT_HOST_PATH:PATH=/tmp/tmps4sudcsy/tmp/work/core2-32-oe-linux/qtapplicationmanager/6.8.3/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -DQT_INSTALL_EXAMPLES_SOURCES=OFF     -D__harfbuzz_broken_config_file=TRUE ",
             "description": "Qt component for application lifecycle management",
             "filename": "qtapplicationmanager_git.bb",
             "filepath": "recipes-qt/qt6",
@@ -1075,7 +1075,7 @@
             "section": "base",
             "srcrev": "e8cacc0039858cf37ee3ed75e492152573b040b1",
             "summary": "",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-07-02T01:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1150,7 +1150,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=lib/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmp0yvcqxkf/tmp/work/core2-32-oe-linux/qtdeclarative/6.8.3/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -DQT_INSTALL_EXAMPLES_SOURCES=OFF     -D__harfbuzz_broken_config_file=TRUE ",
+            "configopts": "     -DQT_CMAKE_DEBUG_EXTEND_TARGET=ON     -DQT_BUILD_INTERNALS_NO_FORCE_SET_INSTALL_PREFIX=ON     -DCMAKE_MESSAGE_LOG_LEVEL=STATUS      -DINSTALL_ARCHDATADIR:PATH=lib     -DINSTALL_BINDIR:PATH=bin     -DINSTALL_DATADIR:PATH=share     -DINSTALL_DESCRIPTIONSDIR:PATH=lib/modules     -DINSTALL_DOCDIR:PATH=share/doc     -DINSTALL_EXAMPLESDIR:PATH=share/examples     -DINSTALL_INCLUDEDIR:PATH=include     -DINSTALL_LIBDIR:PATH=lib     -DINSTALL_LIBEXECDIR:PATH=libexec     -DINSTALL_PLUGINSDIR:PATH=lib/plugins     -DINSTALL_QMLDIR:PATH=lib/qml     -DINSTALL_SYSCONFDIR:PATH=../etc/xdg     -DINSTALL_TESTSDIR:PATH=tests     -DINSTALL_TRANSLATIONSDIR:PATH=share/translations     -DINSTALL_MKSPECSDIR:PATH=lib/mkspecs   -DQT_BUILD_EXAMPLES=OFF -DQT_BUILD_TESTS=OFF    -DQT_HOST_PATH:PATH=/tmp/tmps4sudcsy/tmp/work/core2-32-oe-linux/qtdeclarative/6.8.3/recipe-sysroot-native/usr/     -DQT_FORCE_BUILD_TOOLS=OFF     -DQT_INSTALL_EXAMPLES_SOURCES=OFF     -D__harfbuzz_broken_config_file=TRUE ",
             "description": "",
             "filename": "qtdeclarative_git.bb",
             "filepath": "recipes-qt/qt6",
@@ -1167,7 +1167,7 @@
             "section": "base",
             "srcrev": "2ec235a2235a119887683e55787b93f99dc5f12f",
             "summary": "",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-07-02T01:07:01+0000"
         },
         {
             "bbclassextend": "",
