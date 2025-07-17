@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-09T00:07:05+0000",
+            "updated": "2025-07-16T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +655,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-07T23:07:03+0000",
-            "vcs_last_commit": "2025-07-07T22:07:36+0000",
-            "vcs_last_fetch": "2025-07-07T23:07:03+0000",
-            "vcs_last_rev": "32012f6a05acb5259922c12d2b28fb1c2ea18110",
+            "updated": "2025-07-16T01:07:33+0000",
+            "vcs_last_commit": "2025-07-16T01:07:54+0000",
+            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
+            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -685,10 +685,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-07-08T07:07:21+0000",
-            "vcs_last_commit": "2025-07-08T07:07:16+0000",
-            "vcs_last_fetch": "2025-07-08T07:07:21+0000",
-            "vcs_last_rev": "5c61b81ab147b734ba0b47dd3b5e6e33bdac1115",
+            "updated": "2025-07-16T14:07:47+0000",
+            "vcs_last_commit": "2025-07-16T14:07:13+0000",
+            "vcs_last_fetch": "2025-07-16T14:07:47+0000",
+            "vcs_last_rev": "89c09ff7c123e069e2a1490e18e941da1ed81a84",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -850,7 +850,7 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2025-07-03T02:07:36+0000"
+            "updated": "2025-07-14T21:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -873,7 +873,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Boot svg files to tracing format",
-            "updated": "2025-07-03T02:07:36+0000"
+            "updated": "2025-07-14T21:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -896,7 +896,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2025-07-03T02:07:36+0000"
+            "updated": "2025-07-14T21:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -919,7 +919,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2025-07-03T02:07:36+0000"
+            "updated": "2025-07-14T21:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +942,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2025-07-03T02:07:36+0000"
+            "updated": "2025-07-14T21:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -965,7 +965,7 @@
             "section": "devel",
             "srcrev": "4a52d8c06635435b64e31a56eaf7ca5dc912a71d",
             "summary": "Boost.Build",
-            "updated": "2025-07-03T02:07:36+0000"
+            "updated": "2025-07-14T21:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -988,7 +988,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1011,7 +1011,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1034,7 +1034,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1057,7 +1057,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1080,7 +1080,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,7 +1103,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1126,7 +1126,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2025-07-03T02:07:37+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1149,7 +1149,7 @@
             "section": "x11",
             "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
             "summary": "Chromium Virtual Keyboard",
-            "updated": "2025-07-03T02:07:38+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1172,7 +1172,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Kiosk",
-            "updated": "2025-07-03T02:07:38+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1195,7 +1195,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs for NFS boot",
-            "updated": "2025-07-03T02:07:38+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1218,7 +1218,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2025-07-03T02:07:38+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1241,7 +1241,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-03T02:07:38+0000"
+            "updated": "2025-07-14T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1264,7 +1264,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-03T02:07:38+0000"
+            "updated": "2025-07-14T21:07:04+0000"
         }
     ],
     "wrtemplates": [
@@ -1462,7 +1462,7 @@
             "id": 129464,
             "layerbranch": 1037167,
             "name": "feature/ostree",
-            "updated": "2025-06-22T23:06:43+0000"
+            "updated": "2025-07-13T22:07:04+0000"
         },
         {
             "description": "Add tensorflow to the image",

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-09T00:07:05+0000",
+            "updated": "2025-07-16T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 1037119,
             "layer": 58,
             "local_path": "",
-            "updated": "2025-06-30T00:06:25+0000",
-            "vcs_last_commit": "2025-06-29T19:06:51+0000",
-            "vcs_last_fetch": "2025-06-30T00:06:25+0000",
-            "vcs_last_rev": "a38a16c79b39793cf8c80efbccc46f7502dbb016",
+            "updated": "2025-07-14T21:07:39+0000",
+            "vcs_last_commit": "2025-07-13T19:07:12+0000",
+            "vcs_last_fetch": "2025-07-14T21:07:39+0000",
+            "vcs_last_rev": "31cbdb6616ba7ff2129fd4712cde335c78a05914",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
             "yp_compatible_version": 44204
@@ -684,7 +684,7 @@
             "id": 101105,
             "layerbranch": 1037119,
             "name": "genericarm64",
-            "updated": "2025-06-22T22:06:51+0000"
+            "updated": "2025-07-14T21:07:39+0000"
         },
         {
             "description": " generic x86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",

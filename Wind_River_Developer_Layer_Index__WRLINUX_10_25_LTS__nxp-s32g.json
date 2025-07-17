@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-09T00:07:05+0000",
+            "updated": "2025-07-16T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,13 +647,28 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-07T23:07:03+0000",
-            "vcs_last_commit": "2025-07-07T22:07:36+0000",
-            "vcs_last_fetch": "2025-07-07T23:07:03+0000",
-            "vcs_last_rev": "32012f6a05acb5259922c12d2b28fb1c2ea18110",
+            "updated": "2025-07-16T01:07:33+0000",
+            "vcs_last_commit": "2025-07-16T01:07:54+0000",
+            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
+            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "networking-layer",
+            "id": 1037151,
+            "layer": 11,
+            "local_path": "",
+            "updated": "2025-07-14T21:07:03+0000",
+            "vcs_last_commit": "2025-07-13T19:07:12+0000",
+            "vcs_last_fetch": "2025-07-14T21:07:03+0000",
+            "vcs_last_rev": "3ad752265402ae88f71b06d1a9d7f07639be7ce2",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 44206
         },
         {
             "actual_branch": "",
@@ -677,10 +692,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-07-08T07:07:21+0000",
-            "vcs_last_commit": "2025-07-08T07:07:16+0000",
-            "vcs_last_fetch": "2025-07-08T07:07:21+0000",
-            "vcs_last_rev": "5c61b81ab147b734ba0b47dd3b5e6e33bdac1115",
+            "updated": "2025-07-16T14:07:47+0000",
+            "vcs_last_commit": "2025-07-16T14:07:13+0000",
+            "vcs_last_fetch": "2025-07-16T14:07:47+0000",
+            "vcs_last_rev": "89c09ff7c123e069e2a1490e18e941da1ed81a84",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42596
@@ -692,10 +707,10 @@
             "id": 1044837,
             "layer": 439,
             "local_path": "",
-            "updated": "2025-07-03T20:07:07+0000",
-            "vcs_last_commit": "2025-07-03T19:07:16+0000",
-            "vcs_last_fetch": "2025-07-03T20:07:07+0000",
-            "vcs_last_rev": "24a92cc2e317e35ccd01305836bcb4a90235c6c1",
+            "updated": "2025-07-12T23:07:16+0000",
+            "vcs_last_commit": "2025-07-12T07:07:37+0000",
+            "vcs_last_fetch": "2025-07-12T23:07:16+0000",
+            "vcs_last_rev": "cd551ae1074fdc10e58f4f357df9c791be14df9f",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -715,8 +730,14 @@
             "required": true
         },
         {
+            "dependency": 11,
+            "id": 146119,
+            "layerbranch": 1044837,
+            "required": true
+        },
+        {
             "dependency": 49,
-            "id": 145859,
+            "id": 146120,
             "layerbranch": 1044837,
             "required": true
         }
@@ -736,6 +757,25 @@
             "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "networking-layer",
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -991,7 +1031,7 @@
             "section": "base",
             "srcrev": "c9a7f81230064d21e403cfc315cbd3ffdc18752f",
             "summary": "",
-            "updated": "2025-06-25T10:06:26+0000"
+            "updated": "2025-07-10T00:07:09+0000"
         },
         {
             "bbclassextend": "",

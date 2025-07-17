@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-09T00:07:05+0000",
+            "updated": "2025-07-16T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-07T23:07:03+0000",
-            "vcs_last_commit": "2025-07-07T22:07:36+0000",
-            "vcs_last_fetch": "2025-07-07T23:07:03+0000",
-            "vcs_last_rev": "32012f6a05acb5259922c12d2b28fb1c2ea18110",
+            "updated": "2025-07-16T01:07:33+0000",
+            "vcs_last_commit": "2025-07-16T01:07:54+0000",
+            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
+            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -662,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-06-30T00:06:38+0000",
-            "vcs_last_commit": "2025-06-29T21:06:15+0000",
-            "vcs_last_fetch": "2025-06-30T00:06:38+0000",
-            "vcs_last_rev": "aa52e72f9d64bd29cfa14b7ba8fd07c2bb87e369",
+            "updated": "2025-07-14T21:07:07+0000",
+            "vcs_last_commit": "2025-07-13T19:07:12+0000",
+            "vcs_last_fetch": "2025-07-14T21:07:07+0000",
+            "vcs_last_rev": "3ad752265402ae88f71b06d1a9d7f07639be7ce2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -2475,7 +2475,7 @@
             "bugtracker": "https://github.com/jqlang/jq/issues",
             "configopts": "  --disable-docs --disable-maintainer-mode --with-oniguruma --disable-valgrind",
             "description": "jq is like sed for JSON data, you can use it to slice and                filter and map and transform structured data with the same                ease that sed, awk, grep and friends let you play with text.",
-            "filename": "jq_1.7.1.bb",
+            "filename": "jq_1.8.0.bb",
             "filepath": "recipes-devtools/jq",
             "homepage": "https://jqlang.github.io/jq/",
             "id": 2222267,
@@ -2486,11 +2486,11 @@
             "pn": "jq",
             "pr": "r0",
             "provides": "jq ",
-            "pv": "1.7.1",
+            "pv": "1.8.0",
             "section": "utils",
             "srcrev": "",
             "summary": "Lightweight and flexible command-line JSON processor",
-            "updated": "2025-06-22T22:06:21+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3372,22 +3372,22 @@
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=true ",
             "description": "",
-            "filename": "glade_3.22.2.bb",
+            "filename": "glade_3.36.0.bb",
             "filepath": "recipes-devtools/glade",
-            "homepage": "http://www.gnu.org/software/gnash",
+            "homepage": "https://glade.gnome.org",
             "id": 2222306,
-            "inherits": "autotools features_check gnomebase gobject-introspection gobject-introspection-data gtk-doc mime-xdg pkgconfig python3-dir python3native qemu siteinfo",
+            "inherits": "autotools features_check gettext gnomebase gobject-introspection gobject-introspection-data gtk-doc mime-xdg pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1037130,
             "license": "GPL-2.0-only & LGPL-2.0-only",
             "pe": "",
             "pn": "glade",
             "pr": "r0",
             "provides": "glade ",
-            "pv": "3.22.2",
+            "pv": "3.36.0",
             "section": "base",
             "srcrev": "",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2025-06-22T22:06:31+0000"
+            "updated": "2025-07-14T21:07:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6423,7 +6423,7 @@
             "section": "base",
             "srcrev": "18c9faf089e306ad6f3f51f5cb887a6b9aa08350",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2025-06-22T22:06:59+0000"
+            "updated": "2025-07-14T21:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -8637,7 +8637,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/opencv/4.11.0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/opencv/4.11.0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DWITH_FASTCV=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_PNG=ON -DPYTHON3_INCLUDE_PATH=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/include/python3.13 -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib/python3.13/site-packages/numpy/_core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DCPU_DISPATCH=SSE,SSE2,SSE3,SSSE3            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DWITH_FASTCV=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_PNG=ON -DPYTHON3_INCLUDE_PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/include/python3.13 -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib/python3.13/site-packages/numpy/_core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
             "description": "",
             "filename": "opencv_4.11.0.bb",
             "filepath": "recipes-support/opencv",
@@ -8654,7 +8654,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2025-06-22T22:06:22+0000"
+            "updated": "2025-07-11T02:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -9674,7 +9674,7 @@
             "bugtracker": "",
             "configopts": "-DCARES_STATIC=OFF  -DCARES_BUILD_TESTS=OFF",
             "description": "",
-            "filename": "c-ares_1.34.3.bb",
+            "filename": "c-ares_1.34.5.bb",
             "filepath": "recipes-support/c-ares",
             "homepage": "https://c-ares.org/",
             "id": 2222580,
@@ -9685,11 +9685,11 @@
             "pn": "c-ares",
             "pr": "r0",
             "provides": "c-ares ",
-            "pv": "1.34.3",
+            "pv": "1.34.5",
             "section": "libs",
             "srcrev": "",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2025-06-22T22:06:31+0000"
+            "updated": "2025-07-14T21:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -10161,7 +10161,7 @@
             "filepath": "recipes-support/smarty",
             "homepage": "https://smarty-php.github.io/smarty/",
             "id": 2222601,
-            "inherits": "allarch",
+            "inherits": "",
             "layerbranch": 1037130,
             "license": "GPL-3.0-only",
             "pe": "",
@@ -10172,7 +10172,7 @@
             "section": "base",
             "srcrev": "c6bff5795081ca5e60aabda59fb87daa511acd1e",
             "summary": "Template engine for PHP",
-            "updated": "2025-06-22T22:06:35+0000"
+            "updated": "2025-07-14T21:07:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13921,7 +13921,7 @@
             "section": "devel/lib",
             "srcrev": "b829b60d9ff049abb190f09a3b9a5fac648cd5a3",
             "summary": "",
-            "updated": "2025-06-22T22:06:10+0000"
+            "updated": "2025-07-14T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -14090,7 +14090,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_6.2.16.bb",
+            "filename": "redis_6.2.18.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 2222772,
@@ -14101,11 +14101,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "6.2.16",
+            "pv": "6.2.18",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2025-06-22T22:06:13+0000"
+            "updated": "2025-07-14T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -14113,7 +14113,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_7.2.7.bb",
+            "filename": "redis_7.2.8.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 2222773,
@@ -14124,11 +14124,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "7.2.7",
+            "pv": "7.2.8",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2025-06-22T22:06:13+0000"
+            "updated": "2025-07-14T21:07:04+0000"
         },
         {
             "bbclassextend": "",
@@ -14182,7 +14182,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A flexible distributed key-value datastore that supports both caching and beyond caching workloads.",
-            "filename": "valkey_8.1.0.bb",
+            "filename": "valkey_8.1.1.bb",
             "filepath": "recipes-extended/valkey",
             "homepage": "http://valkey.io",
             "id": 2222776,
@@ -14193,11 +14193,11 @@
             "pn": "valkey",
             "pr": "r0",
             "provides": "valkey ",
-            "pv": "8.1.0",
+            "pv": "8.1.1",
             "section": "libs",
-            "srcrev": "67c8683792fc9ab7e295f833478eca180c5e4691",
+            "srcrev": "fcd8bc3ee40f5d7841b7d5a8f3cd12252fec14e4",
             "summary": "Valkey key-value store",
-            "updated": "2025-06-22T22:06:14+0000"
+            "updated": "2025-07-14T21:07:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14266,7 +14266,7 @@
             "section": "console/network",
             "srcrev": "299dff7f5322bf0348dcdd60071958ebedf5f09d",
             "summary": "canutils (PTX flavour)",
-            "updated": "2025-06-22T22:06:15+0000"
+            "updated": "2025-07-14T21:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -14335,7 +14335,7 @@
             "section": "libs/network",
             "srcrev": "077def398ad303043d73339112968e5112d8d7c8",
             "summary": "Control basic functions in socketcan from userspace",
-            "updated": "2025-06-22T22:06:15+0000"
+            "updated": "2025-07-14T21:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -15401,7 +15401,7 @@
             "bugtracker": "",
             "configopts": " --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --with-icu --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --with-readline --without-systemd --without-tcl --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_17.4.bb",
+            "filename": "postgresql_17.5.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 2222829,
@@ -15412,11 +15412,11 @@
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "17.4",
+            "pv": "17.5",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2025-06-22T22:06:26+0000"
+            "updated": "2025-07-14T21:07:03+0000"
         },
         {
             "bbclassextend": "",
@@ -15474,7 +15474,7 @@
             "filepath": "recipes-security/spectre-meltdown-checker",
             "homepage": "https://github.com/speed47/spectre-meltdown-checker",
             "id": 2222832,
-            "inherits": "allarch",
+            "inherits": "",
             "layerbranch": 1037130,
             "license": "GPL-3.0-only",
             "pe": "",
@@ -15485,7 +15485,7 @@
             "section": "base",
             "srcrev": "b8f8c81d519435c0871b13f02b5c4a72c5bffd5e",
             "summary": "Hardware vulnerability and mitigation checker",
-            "updated": "2025-06-22T22:06:27+0000"
+            "updated": "2025-07-14T21:07:06+0000"
         },
         {
             "bbclassextend": "",
@@ -15669,7 +15669,7 @@
             "section": "base",
             "srcrev": "f4dbe258ff3d37489962ea9cf210192ae7ff9280",
             "summary": "A tool for checking the security hardening options of the Linux kernel",
-            "updated": "2025-06-22T22:06:28+0000"
+            "updated": "2025-07-14T21:07:05+0000"
         },
         {
             "bbclassextend": "",

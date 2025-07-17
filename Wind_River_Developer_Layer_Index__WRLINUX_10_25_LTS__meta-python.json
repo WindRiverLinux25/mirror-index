@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-09T00:07:05+0000",
+            "updated": "2025-07-16T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-07T23:07:03+0000",
-            "vcs_last_commit": "2025-07-07T22:07:36+0000",
-            "vcs_last_fetch": "2025-07-07T23:07:03+0000",
-            "vcs_last_rev": "32012f6a05acb5259922c12d2b28fb1c2ea18110",
+            "updated": "2025-07-16T01:07:33+0000",
+            "vcs_last_commit": "2025-07-16T01:07:54+0000",
+            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
+            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -662,10 +662,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-06-30T00:06:38+0000",
-            "vcs_last_commit": "2025-06-29T21:06:15+0000",
-            "vcs_last_fetch": "2025-06-30T00:06:38+0000",
-            "vcs_last_rev": "aa52e72f9d64bd29cfa14b7ba8fd07c2bb87e369",
+            "updated": "2025-07-14T21:07:07+0000",
+            "vcs_last_commit": "2025-07-13T19:07:12+0000",
+            "vcs_last_fetch": "2025-07-14T21:07:07+0000",
+            "vcs_last_rev": "3ad752265402ae88f71b06d1a9d7f07639be7ce2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -677,10 +677,10 @@
             "id": 1037132,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-07-01T07:07:10+0000",
-            "vcs_last_commit": "2025-07-01T06:07:37+0000",
-            "vcs_last_fetch": "2025-07-01T07:07:10+0000",
-            "vcs_last_rev": "c5ff7f3059136048b09d3cba440350120106da4a",
+            "updated": "2025-07-16T22:07:50+0000",
+            "vcs_last_commit": "2025-07-16T21:07:24+0000",
+            "vcs_last_fetch": "2025-07-16T22:07:50+0000",
+            "vcs_last_rev": "af81a523a7828757b341dafcb66ae33ed31554d5",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44206
@@ -5336,7 +5336,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python interface for c-ares",
-            "updated": "2025-06-22T22:06:07+0000"
+            "updated": "2025-07-14T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -8012,7 +8012,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-can_4.4.2.bb",
+            "filename": "python3-can_4.5.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/hardbyte/python-can",
             "id": 2223542,
@@ -8023,11 +8023,11 @@
             "pn": "python3-can",
             "pr": "r0",
             "provides": "python3-can ",
-            "pv": "4.4.2",
+            "pv": "4.5.0",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Controller Area Network (CAN) interface module for Python",
-            "updated": "2025-06-22T22:06:31+0000"
+            "updated": "2025-07-14T21:07:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8349,7 +8349,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Async http client/server framework",
-            "updated": "2025-06-22T22:06:33+0000"
+            "updated": "2025-07-16T22:07:50+0000"
         },
         {
             "bbclassextend": "",
@@ -10404,7 +10404,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-moteus_0.3.79.bb",
+            "filename": "python3-moteus_0.3.88.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mjbots/moteus",
             "id": 2223646,
@@ -10415,11 +10415,11 @@
             "pn": "python3-moteus",
             "pr": "r0",
             "provides": "python3-moteus ",
-            "pv": "0.3.79",
+            "pv": "0.3.88",
             "section": "devel/python",
             "srcrev": "",
             "summary": "moteus brushless controller library and tools",
-            "updated": "2025-06-22T22:06:54+0000"
+            "updated": "2025-07-14T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -12443,7 +12443,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python evdev lib",
-            "updated": "2025-06-22T22:06:13+0000"
+            "updated": "2025-07-14T21:07:27+0000"
         },
         {
             "bbclassextend": "",
