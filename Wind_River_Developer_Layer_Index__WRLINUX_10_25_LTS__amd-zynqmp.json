@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-16T00:07:06+0000",
+            "updated": "2025-07-22T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-16T01:07:33+0000",
-            "vcs_last_commit": "2025-07-16T01:07:54+0000",
-            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
-            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
+            "updated": "2025-07-22T19:07:59+0000",
+            "vcs_last_commit": "2025-07-22T00:07:26+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
+            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -677,13 +670,13 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-07-11T17:07:22+0000",
-            "vcs_last_commit": "2025-07-10T18:07:33+0000",
-            "vcs_last_fetch": "2025-07-11T17:07:22+0000",
-            "vcs_last_rev": "217759f14a28578a6ad8a151f0f3351065d2f79d",
+            "updated": "2025-07-22T19:07:06+0000",
+            "vcs_last_commit": "2025-07-22T00:07:49+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:06+0000",
+            "vcs_last_rev": "a535f39e3667c10b1a491c89c66487140ed76cfb",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
-            "yp_compatible_version": 44188
+            "yp_compatible_version": 44206
         },
         {
             "actual_branch": "",
@@ -692,13 +685,13 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-07-16T14:07:47+0000",
-            "vcs_last_commit": "2025-07-16T14:07:13+0000",
-            "vcs_last_fetch": "2025-07-16T14:07:47+0000",
-            "vcs_last_rev": "89c09ff7c123e069e2a1490e18e941da1ed81a84",
+            "updated": "2025-07-22T20:07:57+0000",
+            "vcs_last_commit": "2025-07-22T20:07:49+0000",
+            "vcs_last_fetch": "2025-07-22T20:07:57+0000",
+            "vcs_last_rev": "fc5ea1ea2aef068db8dc81b0cb1fc7cfc5fceefe",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": 42596
+            "yp_compatible_version": 44204
         },
         {
             "actual_branch": "",
@@ -707,13 +700,13 @@
             "id": 1037173,
             "layer": 357,
             "local_path": "",
-            "updated": "2025-06-22T23:06:51+0000",
-            "vcs_last_commit": "2025-06-18T01:06:29+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:51+0000",
-            "vcs_last_rev": "c6d102dd319ea54cda97f5ee6ab83c6553cf5a62",
+            "updated": "2025-07-22T19:07:35+0000",
+            "vcs_last_commit": "2025-07-22T00:07:49+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:35+0000",
+            "vcs_last_rev": "4d1528deae9af5ae7f5b9b448bb8c587aaa61dc8",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 44188
+            "yp_compatible_version": 44206
         },
         {
             "actual_branch": "",
@@ -722,10 +715,10 @@
             "id": 1037174,
             "layer": 555,
             "local_path": "",
-            "updated": "2025-07-15T20:07:51+0000",
-            "vcs_last_commit": "2025-07-15T18:07:04+0000",
-            "vcs_last_fetch": "2025-07-15T20:07:51+0000",
-            "vcs_last_rev": "0f19e8ae635eb4ab021fbb42a1392bc405440929",
+            "updated": "2025-07-21T23:07:55+0000",
+            "vcs_last_commit": "2025-07-20T20:07:00+0000",
+            "vcs_last_fetch": "2025-07-21T23:07:55+0000",
+            "vcs_last_rev": "8aa2d9fda364540b2b4ada1abd294f9236fe8268",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204

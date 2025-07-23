@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-16T00:07:06+0000",
+            "updated": "2025-07-22T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +648,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-16T01:07:33+0000",
-            "vcs_last_commit": "2025-07-16T01:07:54+0000",
-            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
-            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
+            "updated": "2025-07-22T19:07:59+0000",
+            "vcs_last_commit": "2025-07-22T00:07:26+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
+            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -670,13 +663,13 @@
             "id": 1037138,
             "layer": 55,
             "local_path": "",
-            "updated": "2025-06-22T23:06:26+0000",
-            "vcs_last_commit": "2025-06-09T07:06:25+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:26+0000",
-            "vcs_last_rev": "850b31f0e85944be0ac7995fad6318e628522fd6",
+            "updated": "2025-07-22T19:07:28+0000",
+            "vcs_last_commit": "2025-07-22T00:07:50+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:28+0000",
+            "vcs_last_rev": "5ad08c676079325192b092dcdbcf3d8fada446b3",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 42596
+            "yp_compatible_version": 44204
         },
         {
             "actual_branch": "",
@@ -685,13 +678,13 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-07-16T14:07:47+0000",
-            "vcs_last_commit": "2025-07-16T14:07:13+0000",
-            "vcs_last_fetch": "2025-07-16T14:07:47+0000",
-            "vcs_last_rev": "89c09ff7c123e069e2a1490e18e941da1ed81a84",
+            "updated": "2025-07-22T20:07:57+0000",
+            "vcs_last_commit": "2025-07-22T20:07:49+0000",
+            "vcs_last_fetch": "2025-07-22T20:07:57+0000",
+            "vcs_last_rev": "fc5ea1ea2aef068db8dc81b0cb1fc7cfc5fceefe",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": 42596
+            "yp_compatible_version": 44204
         }
     ],
     "layerDependencies": [
@@ -850,7 +843,7 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2025-07-14T21:07:00+0000"
+            "updated": "2025-07-22T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -873,7 +866,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Boot svg files to tracing format",
-            "updated": "2025-07-14T21:07:00+0000"
+            "updated": "2025-07-22T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -896,7 +889,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-22T20:07:52+0000"
         },
         {
             "bbclassextend": "",
@@ -919,7 +912,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-22T20:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +935,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-22T20:07:53+0000"
         },
         {
             "bbclassextend": "",
@@ -965,7 +958,7 @@
             "section": "devel",
             "srcrev": "4a52d8c06635435b64e31a56eaf7ca5dc912a71d",
             "summary": "Boost.Build",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-22T20:07:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -988,7 +981,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-22T20:07:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1011,7 +1004,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2025-07-14T21:07:02+0000"
+            "updated": "2025-07-22T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1034,7 +1027,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-14T21:07:02+0000"
+            "updated": "2025-07-22T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1057,7 +1050,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-14T21:07:02+0000"
+            "updated": "2025-07-22T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1080,7 +1073,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-14T21:07:02+0000"
+            "updated": "2025-07-22T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1103,7 +1096,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2025-07-14T21:07:02+0000"
+            "updated": "2025-07-22T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1126,7 +1119,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2025-07-14T21:07:03+0000"
+            "updated": "2025-07-22T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1149,7 +1142,7 @@
             "section": "x11",
             "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
             "summary": "Chromium Virtual Keyboard",
-            "updated": "2025-07-14T21:07:03+0000"
+            "updated": "2025-07-22T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1172,7 +1165,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Kiosk",
-            "updated": "2025-07-14T21:07:03+0000"
+            "updated": "2025-07-22T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1195,7 +1188,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs for NFS boot",
-            "updated": "2025-07-14T21:07:03+0000"
+            "updated": "2025-07-22T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1218,7 +1211,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2025-07-14T21:07:03+0000"
+            "updated": "2025-07-22T20:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1241,7 +1234,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-14T21:07:04+0000"
+            "updated": "2025-07-22T20:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1264,7 +1257,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-14T21:07:04+0000"
+            "updated": "2025-07-22T20:07:56+0000"
         }
     ],
     "wrtemplates": [

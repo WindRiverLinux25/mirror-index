@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-16T00:07:06+0000",
+            "updated": "2025-07-22T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-16T01:07:33+0000",
-            "vcs_last_commit": "2025-07-16T01:07:54+0000",
-            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
-            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
+            "updated": "2025-07-22T19:07:59+0000",
+            "vcs_last_commit": "2025-07-22T00:07:26+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
+            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -662,10 +655,10 @@
             "id": 1037146,
             "layer": 381,
             "local_path": "",
-            "updated": "2025-06-22T23:06:01+0000",
-            "vcs_last_commit": "2025-06-02T18:06:48+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:01+0000",
-            "vcs_last_rev": "968431c4e3ac3d0c25cb1087213e6c72f50c00b6",
+            "updated": "2025-07-18T01:07:41+0000",
+            "vcs_last_commit": "2025-07-17T23:07:11+0000",
+            "vcs_last_fetch": "2025-07-18T01:07:41+0000",
+            "vcs_last_rev": "5d47aeeb597ddb2967ddab773052d7e11a5fa40a",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44205
@@ -1856,11 +1849,11 @@
             "pn": "udev-rules-rpi",
             "pr": "r0",
             "provides": "udev-rules-rpi ",
-            "pv": "1.0",
+            "pv": "20230510",
             "section": "base",
             "srcrev": "5ce3ef2b7f377c23fea440ca9df0e30f3f8447cf",
             "summary": "",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-07-18T01:07:41+0000"
         },
         {
             "bbclassextend": "",

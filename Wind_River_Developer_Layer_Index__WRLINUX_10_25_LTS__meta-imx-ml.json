@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-16T00:07:06+0000",
+            "updated": "2025-07-22T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,13 +640,13 @@
             "id": 1039647,
             "layer": 551,
             "local_path": "",
-            "updated": "2025-07-16T00:07:35+0000",
-            "vcs_last_commit": "2025-07-15T23:07:46+0000",
-            "vcs_last_fetch": "2025-07-16T00:07:35+0000",
-            "vcs_last_rev": "8e1ec68c197addf5c036c38f00da8260aa1a7c3d",
+            "updated": "2025-07-22T19:07:09+0000",
+            "vcs_last_commit": "2025-07-22T00:07:48+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:09+0000",
+            "vcs_last_rev": "da345262170d26905ecc39457d56796340647da4",
             "vcs_subdir": "meta-imx-ml",
             "version": null,
-            "yp_compatible_version": 44210
+            "yp_compatible_version": 44206
         }
     ],
     "layerDependencies": [],
@@ -770,13 +763,13 @@
             "section": "devel",
             "srcrev": "3616ba2f9cd2b7b882252a95e171f0c0c0f1826f",
             "summary": "",
-            "updated": "2025-07-01T23:07:23+0000"
+            "updated": "2025-07-20T20:07:05+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpv9kmo0lq/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpv9kmo0lq/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmpv9kmo0lq/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpv9kmo0lq/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/sources-unpack/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpv9kmo0lq/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpv9kmo0lq/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpjblwnm6q/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpjblwnm6q/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot-native/usr/bin      -DTIM_VX_INSTALL=/tmp/tmpjblwnm6q/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpjblwnm6q/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/sources-unpack/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpjblwnm6q/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpjblwnm6q/tmp/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.18.0/git  ",
             "description": "TensorFlow Lite VX Delegate",
             "filename": "tensorflow-lite-vx-delegate_2.18.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -793,7 +786,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T22:06:25+0000"
+            "updated": "2025-07-20T20:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -822,7 +815,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmp85vyerle/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmp85vyerle/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmp85vyerle/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/sources-unpack/tfgit      -DTFLITE_LIB_LOC=/tmp/tmp85vyerle/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmp85vyerle/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpfth6j9iz/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpfth6j9iz/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/recipe-sysroot-native/usr/bin      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpfth6j9iz/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/sources-unpack/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpfth6j9iz/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpfth6j9iz/tmp/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.18.0/git  ",
             "description": "TensorFlow Lite Neutron Delegate",
             "filename": "tensorflow-lite-neutron-delegate_2.18.0.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -839,7 +832,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-16T00:07:35+0000"
+            "updated": "2025-07-19T06:07:21+0000"
         },
         {
             "bbclassextend": "",

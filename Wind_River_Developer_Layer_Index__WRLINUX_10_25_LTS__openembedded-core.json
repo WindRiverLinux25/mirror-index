@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-16T00:07:06+0000",
+            "updated": "2025-07-22T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +648,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-16T01:07:33+0000",
-            "vcs_last_commit": "2025-07-16T01:07:54+0000",
-            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
-            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
+            "updated": "2025-07-22T19:07:59+0000",
+            "vcs_last_commit": "2025-07-22T00:07:26+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
+            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1691,7 +1684,7 @@
             "section": "devel/ruby",
             "srcrev": "",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2025-06-22T22:06:32+0000"
+            "updated": "2025-07-17T02:07:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8959,7 +8952,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2025-06-22T22:06:15+0000"
+            "updated": "2025-07-17T02:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -14134,7 +14127,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2025-06-22T22:06:17+0000"
+            "updated": "2025-07-18T01:07:05+0000"
         },
         {
             "bbclassextend": "",
@@ -14399,7 +14392,7 @@
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 2221842,
-            "inherits": "kernel-arch linux-kernel-base module-base",
+            "inherits": "kernel-arch kernelsrc linux-kernel-base module-base",
             "layerbranch": 1037118,
             "license": "GPL-2.0-only",
             "pe": "",
@@ -14410,7 +14403,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel Development Source",
-            "updated": "2025-07-16T01:07:32+0000"
+            "updated": "2025-07-18T01:07:05+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -16785,7 +16778,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/KhronosGroup/Vulkan-ValidationLayers",
-            "configopts": "    -DBUILD_TESTS=OFF     -DUSE_ROBIN_HOOD_HASHING=OFF     -DGLSLANG_INSTALL_DIR=/tmp/tmpcteizrm0/tmp/work/core2-32-oe-linux/vulkan-validation-layers/1.4.309.0/recipe-sysroot/usr/lib     -DVULKAN_HEADERS_INSTALL_DIR=/tmp/tmpcteizrm0/tmp/work/core2-32-oe-linux/vulkan-validation-layers/1.4.309.0/recipe-sysroot/usr     -DSPIRV_HEADERS_INSTALL_DIR=/tmp/tmpcteizrm0/tmp/work/core2-32-oe-linux/vulkan-validation-layers/1.4.309.0/recipe-sysroot/usr        -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
+            "configopts": "    -DBUILD_TESTS=OFF     -DUSE_ROBIN_HOOD_HASHING=OFF     -DGLSLANG_INSTALL_DIR=/tmp/tmp7jbwpuc_/tmp/work/core2-32-oe-linux/vulkan-validation-layers/1.4.309.0/recipe-sysroot/usr/lib     -DVULKAN_HEADERS_INSTALL_DIR=/tmp/tmp7jbwpuc_/tmp/work/core2-32-oe-linux/vulkan-validation-layers/1.4.309.0/recipe-sysroot/usr     -DSPIRV_HEADERS_INSTALL_DIR=/tmp/tmp7jbwpuc_/tmp/work/core2-32-oe-linux/vulkan-validation-layers/1.4.309.0/recipe-sysroot/usr        -DBUILD_WSI_WAYLAND_SUPPORT=OFF -DBUILD_WSI_XLIB_SUPPORT=ON -DBUILD_WSI_XCB_SUPPORT=ON",
             "description": "Khronos official Vulkan validation layers to assist developers in verifying that their applications correctly use the Vulkan API",
             "filename": "vulkan-validation-layers_1.4.309.0.bb",
             "filepath": "recipes-graphics/vulkan",
@@ -16802,7 +16795,7 @@
             "section": "libs",
             "srcrev": "3ba0e590a2e76475b3eef4043355b498fb64e752",
             "summary": "Vulkan Validation layers",
-            "updated": "2025-06-22T22:06:43+0000"
+            "updated": "2025-07-17T01:07:42+0000"
         },
         {
             "bbclassextend": "",

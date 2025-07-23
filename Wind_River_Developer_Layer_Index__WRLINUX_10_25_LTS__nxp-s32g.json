@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-16T00:07:06+0000",
+            "updated": "2025-07-22T00:07:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-16T01:07:33+0000",
-            "vcs_last_commit": "2025-07-16T01:07:54+0000",
-            "vcs_last_fetch": "2025-07-16T01:07:33+0000",
-            "vcs_last_rev": "a5c106a89cd7129b14e7f544e61eda48e0bc9b19",
+            "updated": "2025-07-22T19:07:59+0000",
+            "vcs_last_commit": "2025-07-22T00:07:26+0000",
+            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
+            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -692,13 +685,13 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-07-16T14:07:47+0000",
-            "vcs_last_commit": "2025-07-16T14:07:13+0000",
-            "vcs_last_fetch": "2025-07-16T14:07:47+0000",
-            "vcs_last_rev": "89c09ff7c123e069e2a1490e18e941da1ed81a84",
+            "updated": "2025-07-22T20:07:57+0000",
+            "vcs_last_commit": "2025-07-22T20:07:49+0000",
+            "vcs_last_fetch": "2025-07-22T20:07:57+0000",
+            "vcs_last_rev": "fc5ea1ea2aef068db8dc81b0cb1fc7cfc5fceefe",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": 42596
+            "yp_compatible_version": 44204
         },
         {
             "actual_branch": "",
@@ -707,10 +700,10 @@
             "id": 1044837,
             "layer": 439,
             "local_path": "",
-            "updated": "2025-07-12T23:07:16+0000",
-            "vcs_last_commit": "2025-07-12T07:07:37+0000",
-            "vcs_last_fetch": "2025-07-12T23:07:16+0000",
-            "vcs_last_rev": "cd551ae1074fdc10e58f4f357df9c791be14df9f",
+            "updated": "2025-07-21T23:07:35+0000",
+            "vcs_last_commit": "2025-07-21T20:07:25+0000",
+            "vcs_last_fetch": "2025-07-21T23:07:35+0000",
+            "vcs_last_rev": "9d565e644232f28b852f74c17eb3fdd9f69c08ae",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -1008,7 +1001,7 @@
             "section": "base",
             "srcrev": "c9a7f81230064d21e403cfc315cbd3ffdc18752f",
             "summary": "",
-            "updated": "2025-06-26T03:06:08+0000"
+            "updated": "2025-07-21T02:07:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -1198,24 +1191,24 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
-            "description": "",
+            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_USE_PKGCONFIG=ON     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'   -DCFG_ENABLE_SYSTEMD=On -DSYSTEMD_UNIT_DIR=/lib/systemd/system/  -DCFG_ENABLE_UDEV=On -DUDEV_UDEV_DIR=/lib/udev/rules.d/  -DCFG_TEE_GROUP=tee -DCFG_TEEPRIV_GROUP=teepriv ",
+            "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
             "filename": "optee-client_4.0.0.bb",
             "filepath": "recipes-security/optee",
-            "homepage": "",
+            "homepage": "https://www.op-tee.org/",
             "id": 2277668,
-            "inherits": "",
+            "inherits": "cmake pkgconfig systemd update-rc.d useradd useradd_base",
             "layerbranch": 1044837,
-            "license": "",
+            "license": "BSD-2-Clause",
             "pe": "",
             "pn": "optee-client",
-            "pr": "",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2025-07-03T20:07:07+0000"
+            "pr": "r0",
+            "provides": "optee-client ",
+            "pv": "4.0.0",
+            "section": "base",
+            "srcrev": "acb0885c117e73cb6c5c9b1dd9054cb3f93507ee",
+            "summary": "OP-TEE Client API",
+            "updated": "2025-07-20T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1259,9 +1252,9 @@
             "provides": "optee-os ",
             "pv": "4.0.0",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "5bc04d55cc67a75824cad7a8ee4b29090ee11187",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2025-07-03T20:07:07+0000"
+            "updated": "2025-07-20T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1282,9 +1275,9 @@
             "provides": "optee-test ",
             "pv": "4.0.0",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "79e49f95474d05a028f58a75c6c643f88e9b9295",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2025-07-03T20:07:07+0000"
+            "updated": "2025-07-20T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1305,9 +1298,9 @@
             "provides": "optee-examples ",
             "pv": "4.0.0",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "378dc0db2d5dd279f58a3b6cb3f78ffd6b165035",
             "summary": "OP-TEE examples",
-            "updated": "2025-07-03T20:07:07+0000"
+            "updated": "2025-07-20T20:07:08+0000"
         }
     ],
     "wrtemplates": [
