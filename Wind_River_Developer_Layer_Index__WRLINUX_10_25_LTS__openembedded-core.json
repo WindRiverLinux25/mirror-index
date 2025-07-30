@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-22T00:07:05+0000",
+            "updated": "2025-07-29T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -648,10 +648,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-22T19:07:59+0000",
-            "vcs_last_commit": "2025-07-22T00:07:26+0000",
-            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
-            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
+            "updated": "2025-07-29T01:07:46+0000",
+            "vcs_last_commit": "2025-07-29T00:07:50+0000",
+            "vcs_last_fetch": "2025-07-29T01:07:46+0000",
+            "vcs_last_rev": "4cc659ef3bbf60988457531013e843e2a3a46ed1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1163,7 +1163,7 @@
             "bugtracker": "",
             "configopts": "--without-x  ac_cv_lib_bsd_main=no",
             "description": "Mtools is a collection of utilities to access MS-DOS disks from GNU and Unix without mounting them.",
-            "filename": "mtools_4.0.48.bb",
+            "filename": "mtools_4.0.49.bb",
             "filepath": "recipes-devtools/mtools",
             "homepage": "http://www.gnu.org/software/mtools/",
             "id": 2221264,
@@ -1174,11 +1174,11 @@
             "pn": "mtools",
             "pr": "r0",
             "provides": "mtools ",
-            "pv": "4.0.48",
+            "pv": "4.0.49",
             "section": "optional",
             "srcrev": "",
             "summary": "Utilities to access MS-DOS disks without mounting them",
-            "updated": "2025-06-22T22:06:26+0000"
+            "updated": "2025-07-27T19:07:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -10223,7 +10223,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpgra0w712/tmp/work/core2-32-oe-linux/libsoup/3.6.5/soup.cross",
+            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpp2nggl5a/tmp/work/core2-32-oe-linux/libsoup/3.6.5/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup_3.6.5.bb",
             "filepath": "recipes-support/libsoup",
@@ -10240,13 +10240,13 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-29T01:07:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpgra0w712/tmp/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
+            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpp2nggl5a/tmp/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup-2.4_2.74.3.bb",
             "filepath": "recipes-support/libsoup",
@@ -10263,7 +10263,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2025-07-14T21:07:01+0000"
+            "updated": "2025-07-29T01:07:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10384,7 +10384,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-cross-build=/tmp/tmpcteizrm0/tmp/work/core2-32-oe-linux/icu/76-1/recipe-sysroot-native/usr/share/icu/76-1 --disable-icu-config ac_cv_path_install='install -c' ",
+            "configopts": "--with-cross-build=/tmp/tmpe7avw4g4/tmp/work/core2-32-oe-linux/icu/76-1/recipe-sysroot-native/usr/share/icu/76-1 --disable-icu-config ac_cv_path_install='install -c' ",
             "description": "The International Component for Unicode (ICU) is a mature, portable set of C/C++ and Java libraries for Unicode support, software internationalization (I18N) and globalization (G11N), giving applications the same results on all platforms.",
             "filename": "icu_76-1.bb",
             "filepath": "recipes-support/icu",
@@ -10401,7 +10401,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "International Component for Unicode libraries",
-            "updated": "2025-06-22T22:06:33+0000"
+            "updated": "2025-07-28T03:07:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11873,7 +11873,7 @@
             "section": "console/utils",
             "srcrev": "a7c31dff7edc089a32e990765e12952cc4d7666a",
             "summary": "Linux Test Project",
-            "updated": "2025-06-22T22:06:53+0000"
+            "updated": "2025-07-27T20:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -13805,7 +13805,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Compact getty terminal handler for virtual consoles only",
-            "updated": "2025-06-22T22:06:13+0000"
+            "updated": "2025-07-29T01:07:44+0000"
         },
         {
             "bbclassextend": "",
@@ -14127,7 +14127,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2025-07-18T01:07:05+0000"
+            "updated": "2025-07-28T07:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -20866,7 +20866,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2025-06-26T01:06:06+0000"
+            "updated": "2025-07-28T20:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -21004,7 +21004,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2025-07-14T21:07:03+0000"
+            "updated": "2025-07-28T20:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -21970,7 +21970,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2025-07-14T21:07:07+0000"
+            "updated": "2025-07-27T21:07:38+0000"
         },
         {
             "bbclassextend": "",

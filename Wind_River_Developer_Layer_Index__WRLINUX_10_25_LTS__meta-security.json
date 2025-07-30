@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-22T00:07:05+0000",
+            "updated": "2025-07-29T00:07:06+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-22T19:07:59+0000",
-            "vcs_last_commit": "2025-07-22T00:07:26+0000",
-            "vcs_last_fetch": "2025-07-22T19:07:59+0000",
-            "vcs_last_rev": "0d1518cb024c1c53d5ed99c6f527acdf4824361b",
+            "updated": "2025-07-29T01:07:46+0000",
+            "vcs_last_commit": "2025-07-29T00:07:50+0000",
+            "vcs_last_fetch": "2025-07-29T01:07:46+0000",
+            "vcs_last_rev": "4cc659ef3bbf60988457531013e843e2a3a46ed1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +655,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-07-14T21:07:07+0000",
-            "vcs_last_commit": "2025-07-13T19:07:12+0000",
-            "vcs_last_fetch": "2025-07-14T21:07:07+0000",
-            "vcs_last_rev": "3ad752265402ae88f71b06d1a9d7f07639be7ce2",
+            "updated": "2025-07-29T03:07:01+0000",
+            "vcs_last_commit": "2025-07-29T02:07:13+0000",
+            "vcs_last_fetch": "2025-07-29T03:07:01+0000",
+            "vcs_last_rev": "5fc6e187608cf5236b20217110bd591d247c30bf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -670,10 +670,10 @@
             "id": 1037135,
             "layer": 18,
             "local_path": "",
-            "updated": "2025-07-21T23:07:00+0000",
-            "vcs_last_commit": "2025-07-21T23:07:11+0000",
-            "vcs_last_fetch": "2025-07-21T23:07:00+0000",
-            "vcs_last_rev": "c7adca1ef7e172e014d0054294dbc9ba6cec0bb4",
+            "updated": "2025-07-22T23:07:36+0000",
+            "vcs_last_commit": "2025-07-22T22:07:58+0000",
+            "vcs_last_fetch": "2025-07-22T23:07:36+0000",
+            "vcs_last_rev": "55ed9016648df37f5c832cbf0258b557f0e4db03",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44205
@@ -844,7 +844,7 @@
             "section": "base",
             "srcrev": "616d4363527acb61c6494a97f3ceb47ec90f65fd",
             "summary": "",
-            "updated": "2025-07-21T23:07:00+0000"
+            "updated": "2025-07-22T23:07:36+0000"
         },
         {
             "bbclassextend": "native",
