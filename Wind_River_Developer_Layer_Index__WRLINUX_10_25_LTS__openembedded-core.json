@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-29T00:07:06+0000",
+            "updated": "2025-08-06T00:08:06+0000",
             "updates_enabled": true
         }
     ],
@@ -648,10 +648,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-29T01:07:46+0000",
-            "vcs_last_commit": "2025-07-29T00:07:50+0000",
-            "vcs_last_fetch": "2025-07-29T01:07:46+0000",
-            "vcs_last_rev": "4cc659ef3bbf60988457531013e843e2a3a46ed1",
+            "updated": "2025-08-06T02:08:01+0000",
+            "vcs_last_commit": "2025-08-06T00:08:37+0000",
+            "vcs_last_fetch": "2025-08-06T02:08:01+0000",
+            "vcs_last_rev": "50b16ab97dcadc2a66a70592ac0c784fa5c6b5f6",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1155,7 +1155,7 @@
             "section": "base",
             "srcrev": "ee7e9118d0a9581cb00c5ce02dccd561b3096387",
             "summary": "Package maintenance system from Debian",
-            "updated": "2025-06-22T22:06:26+0000"
+            "updated": "2025-07-30T02:07:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1669,7 +1669,7 @@
             "bugtracker": "",
             "configopts": "    --disable-versioned-paths     --disable-rpath     --disable-dtrace     --enable-shared     --enable-load-relative     --with-pkg-config=pkg-config     --with-static-linked-ext     --with-mantype=man    --with-gmp=no --enable-ipv6 --disable-install-rdoc  --with-valgrind=no",
             "description": "Ruby is an interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible. ",
-            "filename": "ruby_3.4.3.bb",
+            "filename": "ruby_3.4.4.bb",
             "filepath": "recipes-devtools/ruby",
             "homepage": "http://www.ruby-lang.org/",
             "id": 2221286,
@@ -1680,11 +1680,11 @@
             "pn": "ruby",
             "pr": "r0",
             "provides": "ruby ",
-            "pv": "3.4.3",
+            "pv": "3.4.4",
             "section": "devel/ruby",
             "srcrev": "",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2025-07-17T02:07:32+0000"
+            "updated": "2025-08-04T03:08:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5761,9 +5761,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-perl=/tmp/tmpcteizrm0/tmp/work/core2-32-oe-linux/git/2.49.0/recipe-sysroot-native/usr/bin/perl-native/perl \t\t--without-tcltk \t\t--without-iconv  ac_cv_snprintf_returns_bogus=no                  ac_cv_fread_reads_directories=${ac_cv_fread_reads_directories=yes}                    --with-curl --with-expat",
+            "configopts": "--with-perl=/tmp/tmp2fu55er0/tmp/work/core2-32-oe-linux/git/2.49.1/recipe-sysroot-native/usr/bin/perl-native/perl \t\t--without-tcltk \t\t--without-iconv  ac_cv_snprintf_returns_bogus=no                  ac_cv_fread_reads_directories=${ac_cv_fread_reads_directories=yes}                    --with-curl --with-expat",
             "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
-            "filename": "git_2.49.0.bb",
+            "filename": "git_2.49.1.bb",
             "filepath": "recipes-devtools/git",
             "homepage": "http://git-scm.com",
             "id": 2221464,
@@ -5774,11 +5774,11 @@
             "pn": "git",
             "pr": "r0",
             "provides": "git ",
-            "pv": "2.49.0",
+            "pv": "2.49.1",
             "section": "console/utils",
             "srcrev": "",
             "summary": "Distributed version control system",
-            "updated": "2025-06-22T22:06:32+0000"
+            "updated": "2025-08-03T20:08:12+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -6399,13 +6399,13 @@
             "section": "devel",
             "srcrev": "819d713b6340ed3657e00ad0bc8d5f2b73094a0f",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-14T21:07:19+0000"
+            "updated": "2025-08-06T02:08:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --disable-gold                  --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpgra0w712/tmp/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.44/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --disable-gold                  --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpikguqgpg/tmp/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.44/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-crosssdk_2.44.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6422,13 +6422,13 @@
             "section": "devel",
             "srcrev": "819d713b6340ed3657e00ad0bc8d5f2b73094a0f",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-14T21:07:19+0000"
+            "updated": "2025-08-06T02:08:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --disable-gold                                   --with-sysroot=/tmp/tmpgra0w712/tmp/work/x86_64-linux/binutils-cross-i686/2.44/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --disable-gold                                   --with-sysroot=/tmp/tmpikguqgpg/tmp/work/x86_64-linux/binutils-cross-i686/2.44/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-cross_2.44.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6445,7 +6445,7 @@
             "section": "devel",
             "srcrev": "819d713b6340ed3657e00ad0bc8d5f2b73094a0f",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-14T21:07:19+0000"
+            "updated": "2025-08-06T02:08:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6468,7 +6468,7 @@
             "section": "devel",
             "srcrev": "819d713b6340ed3657e00ad0bc8d5f2b73094a0f",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-14T21:07:20+0000"
+            "updated": "2025-08-06T02:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6491,7 +6491,7 @@
             "section": "devel",
             "srcrev": "819d713b6340ed3657e00ad0bc8d5f2b73094a0f",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2025-07-14T21:07:20+0000"
+            "updated": "2025-08-06T02:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8423,7 +8423,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Image loading library for GTK+",
-            "updated": "2025-06-22T22:06:05+0000"
+            "updated": "2025-08-04T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -8937,7 +8937,7 @@
             "bugtracker": "https://bugs.webkit.org/",
             "configopts": "-Dgtk_doc=false -Dintrospection=true ",
             "description": "",
-            "filename": "webkitgtk_2.48.1.bb",
+            "filename": "webkitgtk_2.48.2.bb",
             "filepath": "recipes-sato/webkit",
             "homepage": "https://www.webkitgtk.org/",
             "id": 2221602,
@@ -8948,11 +8948,11 @@
             "pn": "webkitgtk",
             "pr": "r0",
             "provides": "webkitgtk ",
-            "pv": "2.48.1",
+            "pv": "2.48.2",
             "section": "base",
             "srcrev": "",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2025-07-17T02:07:32+0000"
+            "updated": "2025-08-04T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -12364,7 +12364,7 @@
             "bugtracker": "https://fedorahosted.org/linux-pam/newticket",
             "configopts": "-Ddocs=disabled -Dsecuredir=/lib/security  -Daudit=disabled -Dselinux=disabled -Dpam_userdb=disabled",
             "description": "Linux-PAM (Pluggable Authentication Modules for Linux), a flexible mechanism for authenticating users",
-            "filename": "libpam_1.7.0.bb",
+            "filename": "libpam_1.7.1.bb",
             "filepath": "recipes-extended/pam",
             "homepage": "https://fedorahosted.org/linux-pam/",
             "id": 2221751,
@@ -12375,11 +12375,11 @@
             "pn": "libpam",
             "pr": "r0",
             "provides": "libpam ",
-            "pv": "1.7.0",
+            "pv": "1.7.1",
             "section": "base",
             "srcrev": "",
             "summary": "Linux-PAM (Pluggable Authentication Modules)",
-            "updated": "2025-07-14T21:07:11+0000"
+            "updated": "2025-08-04T03:08:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -12663,7 +12663,7 @@
             "bugtracker": "http://www.sudo.ws/bugs/",
             "configopts": "--with-editor=/bin/vi --with-env-editor               --without-pam              --disable-tmpfiles.d              --with-rundir=/run/sudo              --with-vardir=/var/lib/sudo              --libexecdir=/usr/lib                --without-linux-audit --without-selinux --disable-zlib",
             "description": "Sudo (superuser do) allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root while logging all commands and arguments.",
-            "filename": "sudo_1.9.16p2.bb",
+            "filename": "sudo_1.9.17p1.bb",
             "filepath": "recipes-extended/sudo",
             "homepage": "http://www.sudo.ws",
             "id": 2221764,
@@ -12674,11 +12674,11 @@
             "pn": "sudo",
             "pr": "r0",
             "provides": "sudo ",
-            "pv": "1.9.16p2",
+            "pv": "1.9.17p1",
             "section": "admin",
             "srcrev": "",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2025-06-22T22:06:01+0000"
+            "updated": "2025-08-03T20:08:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12709,7 +12709,7 @@
             "bugtracker": "https://savannah.gnu.org/bugs/?func=additem&group=screen",
             "configopts": "--with-pty-mode=0620 --with-pty-group=5 --with-system_screenrc=/etc/screenrc                --disable-pam  ac_cv_header_utempter_h=no",
             "description": "Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.",
-            "filename": "screen_5.0.0.bb",
+            "filename": "screen_5.0.1.bb",
             "filepath": "recipes-extended/screen",
             "homepage": "http://www.gnu.org/software/screen/",
             "id": 2221766,
@@ -12720,11 +12720,11 @@
             "pn": "screen",
             "pr": "r0",
             "provides": "screen ",
-            "pv": "5.0.0",
+            "pv": "5.0.1",
             "section": "console/utils",
             "srcrev": "",
             "summary": "Multiplexing terminal manager",
-            "updated": "2025-06-22T22:06:02+0000"
+            "updated": "2025-08-04T03:08:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14127,7 +14127,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2025-07-28T07:07:25+0000"
+            "updated": "2025-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -14403,7 +14403,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel Development Source",
-            "updated": "2025-07-18T01:07:05+0000"
+            "updated": "2025-07-30T02:07:36+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -15998,7 +15998,7 @@
             "bugtracker": "",
             "configopts": "  -Ddri3=false -Dglamor=false -Dglx=false -Dlibdecor=false -Dsha1=libcrypto -Dlibunwind=false -Dxinerama=false -Dxwayland_ei=false",
             "description": "XWayland is an X Server running as a Wayland client, and thus is capable of displaying native X11 client applications in a Wayland compositor environment. The goal of XWayland is to facilitate the transition from X Window System to Wayland environments, providing a way to run unported applications in the meantime.",
-            "filename": "xwayland_24.1.6.bb",
+            "filename": "xwayland_24.1.8.bb",
             "filepath": "recipes-graphics/xwayland",
             "homepage": "https://fedoraproject.org/wiki/Changes/XwaylandStandalone",
             "id": 2221912,
@@ -16009,11 +16009,11 @@
             "pn": "xwayland",
             "pr": "r0",
             "provides": "xwayland ",
-            "pv": "24.1.6",
+            "pv": "24.1.8",
             "section": "base",
             "srcrev": "",
             "summary": "XWayland is an X Server that runs under Wayland.",
-            "updated": "2025-07-14T21:07:59+0000"
+            "updated": "2025-08-04T03:08:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -16274,7 +16274,7 @@
             "bugtracker": "",
             "configopts": "                   -Dxnest=false                  -Ddtrace=false                  -Dint10=x86emu                  -Dxkb_output_dir=/var/lib/xkb   -Ddga=true -Ddri1=false -Ddri2=true -Ddri3=false -Dglamor=false -Dglx=false -Dsha1=libcrypto -Dsystemd_logind=false -Dudev=true -Dlibunwind=false -Dxinerama=false -Dxvfb=false",
             "description": "",
-            "filename": "xserver-xorg_21.1.16.bb",
+            "filename": "xserver-xorg_21.1.18.bb",
             "filepath": "recipes-graphics/xorg-xserver",
             "homepage": "http://www.x.org",
             "id": 2221924,
@@ -16285,11 +16285,11 @@
             "pn": "xserver-xorg",
             "pr": "r0",
             "provides": "xserver-xorg virtual/xserver-xf86 virtual/xserver",
-            "pv": "21.1.16",
+            "pv": "21.1.18",
             "section": "x11/base",
             "srcrev": "",
             "summary": "The X.Org X server",
-            "updated": "2025-06-22T22:06:39+0000"
+            "updated": "2025-08-04T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -19078,7 +19078,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org/buglist.cgi?product=libxml2",
-            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma  --enable-ipv6 --with-python=/tmp/tmpcteizrm0/tmp/work/core2-32-oe-linux/libxml2/2.13.8/recipe-sysroot-native/usr/bin/python3-native/python3",
+            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma  --enable-ipv6 --with-python=/tmp/tmpw83ta7vi/tmp/work/core2-32-oe-linux/libxml2/2.13.8/recipe-sysroot-native/usr/bin/python3-native/python3",
             "description": "The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.",
             "filename": "libxml2_2.13.8.bb",
             "filepath": "recipes-core/libxml",
@@ -19095,7 +19095,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2025-06-22T22:06:06+0000"
+            "updated": "2025-08-04T03:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -21539,9 +21539,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-auto-validation                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmpgra0w712/tmp/work/core2-32-oe-linux/bind/9.20.9/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
+            "configopts": " --disable-auto-validation                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmp2fu55er0/tmp/work/core2-32-oe-linux/bind/9.20.11/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
             "description": "BIND 9 provides a full-featured Domain Name Server system",
-            "filename": "bind_9.20.9.bb",
+            "filename": "bind_9.20.11.bb",
             "filepath": "recipes-connectivity/bind",
             "homepage": "https://www.isc.org/bind/",
             "id": 2222154,
@@ -21552,11 +21552,11 @@
             "pn": "bind",
             "pr": "r0",
             "provides": "bind ",
-            "pv": "9.20.9",
+            "pv": "9.20.11",
             "section": "console/network",
             "srcrev": "",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2025-07-14T21:07:53+0000"
+            "updated": "2025-08-03T20:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -21587,7 +21587,7 @@
             "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
             "configopts": "no-tests",
             "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
-            "filename": "openssl_3.4.1.bb",
+            "filename": "openssl_3.4.2.bb",
             "filepath": "recipes-connectivity/openssl",
             "homepage": "http://www.openssl.org/",
             "id": 2222156,
@@ -21598,11 +21598,11 @@
             "pn": "openssl",
             "pr": "r0",
             "provides": "openssl ",
-            "pv": "3.4.1",
+            "pv": "3.4.2",
             "section": "libs/network",
             "srcrev": "",
             "summary": "Secure Socket Layer",
-            "updated": "2025-06-22T22:06:30+0000"
+            "updated": "2025-08-04T03:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -21970,7 +21970,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2025-07-27T21:07:38+0000"
+            "updated": "2025-08-06T02:08:58+0000"
         },
         {
             "bbclassextend": "",

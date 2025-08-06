@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-07-29T00:07:06+0000",
+            "updated": "2025-08-06T00:08:06+0000",
             "updates_enabled": true
         }
     ],
@@ -648,10 +648,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-29T01:07:46+0000",
-            "vcs_last_commit": "2025-07-29T00:07:50+0000",
-            "vcs_last_fetch": "2025-07-29T01:07:46+0000",
-            "vcs_last_rev": "4cc659ef3bbf60988457531013e843e2a3a46ed1",
+            "updated": "2025-08-06T02:08:01+0000",
+            "vcs_last_commit": "2025-08-06T00:08:37+0000",
+            "vcs_last_fetch": "2025-08-06T02:08:01+0000",
+            "vcs_last_rev": "50b16ab97dcadc2a66a70592ac0c784fa5c6b5f6",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -678,10 +678,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-07-29T19:07:46+0000",
-            "vcs_last_commit": "2025-07-29T19:07:09+0000",
-            "vcs_last_fetch": "2025-07-29T19:07:46+0000",
-            "vcs_last_rev": "327a06c2429db6cb81676896ca1c8d1270f08839",
+            "updated": "2025-08-06T03:08:47+0000",
+            "vcs_last_commit": "2025-08-06T03:08:18+0000",
+            "vcs_last_fetch": "2025-08-06T03:08:47+0000",
+            "vcs_last_rev": "b5a54e3d7da57f33654873bd94b826b257579052",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -843,7 +843,7 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2025-07-29T19:07:42+0000"
+            "updated": "2025-08-06T03:08:44+0000"
         },
         {
             "bbclassextend": "",
@@ -866,7 +866,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Boot svg files to tracing format",
-            "updated": "2025-07-29T19:07:42+0000"
+            "updated": "2025-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -889,7 +889,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2025-07-29T19:07:42+0000"
+            "updated": "2025-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -912,7 +912,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2025-07-29T19:07:42+0000"
+            "updated": "2025-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -935,7 +935,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2025-07-29T19:07:42+0000"
+            "updated": "2025-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "",
@@ -958,7 +958,7 @@
             "section": "devel",
             "srcrev": "4a52d8c06635435b64e31a56eaf7ca5dc912a71d",
             "summary": "Boost.Build",
-            "updated": "2025-07-29T19:07:42+0000"
+            "updated": "2025-08-06T03:08:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -981,7 +981,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2025-07-29T19:07:43+0000"
+            "updated": "2025-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1004,7 +1004,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2025-07-29T19:07:43+0000"
+            "updated": "2025-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1027,7 +1027,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-29T19:07:44+0000"
+            "updated": "2025-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1050,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-29T19:07:44+0000"
+            "updated": "2025-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1073,7 +1073,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-29T19:07:44+0000"
+            "updated": "2025-08-06T03:08:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,7 +1096,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2025-07-29T19:07:44+0000"
+            "updated": "2025-08-06T03:08:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1119,53 +1119,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2025-07-29T19:07:44+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Virtual Keyboard Extension for Chromium",
-            "filename": "chrome-virtual-keyboard_git.bb",
-            "filepath": "recipes-graphics/wr-kiosk",
-            "homepage": "https://apps.xontab.com/VirtualKeyboard",
-            "id": 2225249,
-            "inherits": "",
-            "layerbranch": 1037167,
-            "license": "MIT",
-            "pe": "",
-            "pn": "chrome-virtual-keyboard",
-            "pr": "r0",
-            "provides": "chrome-virtual-keyboard ",
-            "pv": "1.11.3+gitX",
-            "section": "x11",
-            "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
-            "summary": "Chromium Virtual Keyboard",
-            "updated": "2025-07-29T19:07:44+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Enable kiosk mode for Chromium",
-            "filename": "wr-kiosk_1.0.bb",
-            "filepath": "recipes-graphics/wr-kiosk",
-            "homepage": "http://www.windriver.com",
-            "id": 2225250,
-            "inherits": "features_check systemd useradd useradd_base",
-            "layerbranch": 1037167,
-            "license": "MIT",
-            "pe": "",
-            "pn": "wr-kiosk",
-            "pr": "r0",
-            "provides": "wr-kiosk ",
-            "pv": "1.0",
-            "section": "x11",
-            "srcrev": "",
-            "summary": "Wind River Linux Kiosk",
-            "updated": "2025-07-29T19:07:44+0000"
+            "updated": "2025-08-06T03:08:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1188,7 +1142,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs for NFS boot",
-            "updated": "2025-07-29T19:07:45+0000"
+            "updated": "2025-08-06T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1211,7 +1165,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2025-07-29T19:07:45+0000"
+            "updated": "2025-08-06T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1234,7 +1188,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-29T19:07:45+0000"
+            "updated": "2025-08-06T03:08:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1257,7 +1211,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-07-29T19:07:45+0000"
+            "updated": "2025-08-06T03:08:43+0000"
         }
     ],
     "wrtemplates": [
@@ -1276,24 +1230,10 @@
             "updated": "2025-06-22T23:06:43+0000"
         },
         {
-            "description": "Add kiosk mode to chromium",
-            "id": 129439,
-            "layerbranch": 1037167,
-            "name": "feature/chromium-web-kiosk",
-            "updated": "2025-06-22T23:06:43+0000"
-        },
-        {
             "description": "Add aws to the filesystem",
             "id": 129440,
             "layerbranch": 1037167,
             "name": "feature/aws",
-            "updated": "2025-06-22T23:06:43+0000"
-        },
-        {
-            "description": "Add chromium to the image",
-            "id": 129441,
-            "layerbranch": 1037167,
-            "name": "feature/chromium",
             "updated": "2025-06-22T23:06:43+0000"
         },
         {
@@ -1736,6 +1676,13 @@
             "layerbranch": 1037167,
             "name": "feature/purl",
             "updated": "2025-06-25T02:06:17+0000"
+        },
+        {
+            "description": "Set aarch64's max-page-size to ${AARCH64_LINKER_MAX_PAGE_SIZE}",
+            "id": 130219,
+            "layerbranch": 1037167,
+            "name": "feature/aarch64-linker-max-page-size",
+            "updated": "2025-07-29T22:07:04+0000"
         }
     ]
 }
