@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-08-06T00:08:06+0000",
+            "updated": "2025-08-15T00:08:04+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-08-06T02:08:01+0000",
-            "vcs_last_commit": "2025-08-06T00:08:37+0000",
-            "vcs_last_fetch": "2025-08-06T02:08:01+0000",
-            "vcs_last_rev": "50b16ab97dcadc2a66a70592ac0c784fa5c6b5f6",
+            "updated": "2025-08-14T08:08:30+0000",
+            "vcs_last_commit": "2025-08-14T08:08:32+0000",
+            "vcs_last_fetch": "2025-08-14T08:08:30+0000",
+            "vcs_last_rev": "f061a331e7dd1e698e9c30536b94cdc84af43b62",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +655,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-08-04T03:08:00+0000",
-            "vcs_last_commit": "2025-08-04T03:08:10+0000",
-            "vcs_last_fetch": "2025-08-04T03:08:00+0000",
-            "vcs_last_rev": "774a96529ed2887054a45236f6954731786f37b7",
+            "updated": "2025-08-14T05:08:59+0000",
+            "vcs_last_commit": "2025-08-14T05:08:58+0000",
+            "vcs_last_fetch": "2025-08-14T05:08:59+0000",
+            "vcs_last_rev": "39f332395f5dde12e85a0d55c15aa753a1bef79f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -1149,7 +1149,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Install a Debian system into a subdirectory",
-            "updated": "2025-06-22T22:06:06+0000"
+            "updated": "2025-08-06T20:08:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -5872,7 +5872,7 @@
             "bugtracker": "",
             "configopts": "     -DWITH_PCAP=1     -DWITH_SFTP=1     -DWITH_ZLIB=1     -DWITH_EXAMPLES=0       -DWITH_GCRYPT=1  -DWITH_GSSAPI=0  -DUNIT_TESTING=0",
             "description": "",
-            "filename": "libssh_0.11.1.bb",
+            "filename": "libssh_0.11.2.bb",
             "filepath": "recipes-support/libssh",
             "homepage": "http://www.libssh.org",
             "id": 2222415,
@@ -5883,11 +5883,11 @@
             "pn": "libssh",
             "pr": "r0",
             "provides": "libssh ",
-            "pv": "0.11.1",
+            "pv": "0.11.2",
             "section": "libs",
-            "srcrev": "854795c654eda518ed6de6c1ebb4e2107fcb2e73",
+            "srcrev": "dff6c0821ed54f6fbf5b755af43f54cbb723b1b1",
             "summary": "Multiplatform C library implementing the SSHv2 and SSHv1 protocol",
-            "updated": "2025-06-22T22:06:54+0000"
+            "updated": "2025-08-14T05:08:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11622,7 +11622,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=true ",
             "description": "",
-            "filename": "poppler_25.04.0.bb",
+            "filename": "poppler_25.08.0.bb",
             "filepath": "recipes-support/poppler",
             "homepage": "https://poppler.freedesktop.org/",
             "id": 2222665,
@@ -11633,11 +11633,11 @@
             "pn": "poppler",
             "pr": "r0",
             "provides": "poppler ",
-            "pv": "25.04.0",
+            "pv": "25.08.0",
             "section": "base",
             "srcrev": "",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2025-06-22T22:06:49+0000"
+            "updated": "2025-08-07T21:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -13429,9 +13429,9 @@
             "provides": "libconfig ",
             "pv": "1.7.3",
             "section": "libs",
-            "srcrev": "",
+            "srcrev": "525922a6b49ca19235cdf307376e7c9c539d1b93",
             "summary": "C/C++ Configuration File Library",
-            "updated": "2025-06-22T22:06:05+0000"
+            "updated": "2025-08-06T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -15348,7 +15348,7 @@
             "bugtracker": "",
             "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb_11.4.5.bb",
+            "filename": "mariadb_11.4.6.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2222827,
@@ -15359,19 +15359,19 @@
             "pn": "mariadb",
             "pr": "r0",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "11.4.5",
+            "pv": "11.4.6",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2025-06-22T22:06:24+0000"
+            "updated": "2025-08-13T23:08:58+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpo6usy3_2/tmp/work/x86_64-linux/mariadb-native/11.4.5/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpo6usy3_2/tmp/work/x86_64-linux/mariadb-native/11.4.5/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpkjhf0z_v/tmp/work/x86_64-linux/mariadb-native/11.4.6/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpkjhf0z_v/tmp/work/x86_64-linux/mariadb-native/11.4.6/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb-native_11.4.5.bb",
+            "filename": "mariadb-native_11.4.6.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2222828,
@@ -15382,11 +15382,11 @@
             "pn": "mariadb-native",
             "pr": "r0",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "11.4.5",
+            "pv": "11.4.6",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2025-06-22T22:06:25+0000"
+            "updated": "2025-08-13T23:08:57+0000"
         },
         {
             "bbclassextend": "",
@@ -15553,7 +15553,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --with-sqlite3=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/softhsm/2.6.1/recipe-sysroot/usr  --with-objectstore-backend-db    --without-botan --enable-ecc --enable-eddsa  --disable-fips --disable-gost --disable-non-paged-memory --with-openssl=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/softhsm/2.6.1/recipe-sysroot/usr --with-crypto-backend=openssl --enable-p11-kit --with-p11-kit=/usr/share/p11-kit/modules",
+            "configopts": "  --with-sqlite3=/tmp/tmpjn1tmnmf/tmp/work/core2-32-oe-linux/softhsm/2.6.1/recipe-sysroot/usr  --with-objectstore-backend-db    --without-botan --enable-ecc --enable-eddsa  --disable-fips --disable-gost --disable-non-paged-memory --with-openssl=/tmp/tmpjn1tmnmf/tmp/work/core2-32-oe-linux/softhsm/2.6.1/recipe-sysroot/usr --with-crypto-backend=openssl --enable-p11-kit --with-p11-kit=/usr/share/p11-kit/modules",
             "description": "",
             "filename": "softhsm_2.6.1.bb",
             "filepath": "recipes-security/softhsm",
@@ -15568,9 +15568,9 @@
             "provides": "softhsm ",
             "pv": "2.6.1",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "7f99bedae002f0dd04ceeb8d86d59fc4a68a69a0",
             "summary": "PKCS#11 HSM/Token Emulator",
-            "updated": "2025-06-22T22:06:27+0000"
+            "updated": "2025-08-06T20:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -15593,7 +15593,7 @@
             "section": "System Environment/Base",
             "srcrev": "",
             "summary": "A password/passphrase strength checking and enforcement toolset",
-            "updated": "2025-06-22T22:06:28+0000"
+            "updated": "2025-08-06T20:08:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -21372,7 +21372,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/esnet/iperf/issues",
-            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/iperf3/3.18/recipe-sysroot/usr",
+            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmp12anabtu/tmp/work/core2-32-oe-linux/iperf3/3.18/recipe-sysroot/usr",
             "description": "iperf is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the bandwidth, loss, and other parameters.",
             "filename": "iperf3_3.18.bb",
             "filepath": "recipes-benchmark/iperf3",
@@ -21389,7 +21389,7 @@
             "section": "console/network",
             "srcrev": "2a2984488d6de8f7a2d1f5938e03ca7be57e227c",
             "summary": "Network benchmark tool",
-            "updated": "2025-06-22T22:06:22+0000"
+            "updated": "2025-08-12T00:08:22+0000"
         },
         {
             "bbclassextend": "",

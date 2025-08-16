@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-08-06T00:08:06+0000",
+            "updated": "2025-08-15T00:08:04+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-08-06T02:08:01+0000",
-            "vcs_last_commit": "2025-08-06T00:08:37+0000",
-            "vcs_last_fetch": "2025-08-06T02:08:01+0000",
-            "vcs_last_rev": "50b16ab97dcadc2a66a70592ac0c784fa5c6b5f6",
+            "updated": "2025-08-14T08:08:30+0000",
+            "vcs_last_commit": "2025-08-14T08:08:32+0000",
+            "vcs_last_fetch": "2025-08-14T08:08:30+0000",
+            "vcs_last_rev": "f061a331e7dd1e698e9c30536b94cdc84af43b62",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -655,10 +655,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-08-06T03:08:47+0000",
-            "vcs_last_commit": "2025-08-06T03:08:18+0000",
-            "vcs_last_fetch": "2025-08-06T03:08:47+0000",
-            "vcs_last_rev": "b5a54e3d7da57f33654873bd94b826b257579052",
+            "updated": "2025-08-14T23:08:51+0000",
+            "vcs_last_commit": "2025-08-14T22:08:09+0000",
+            "vcs_last_fetch": "2025-08-14T23:08:51+0000",
+            "vcs_last_rev": "661a670c3f0a76774543c5ee7774b047babf764b",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -700,10 +700,10 @@
             "id": 1044818,
             "layer": 560,
             "local_path": "",
-            "updated": "2025-08-02T06:08:50+0000",
-            "vcs_last_commit": "2025-08-02T05:08:36+0000",
-            "vcs_last_fetch": "2025-08-02T06:08:50+0000",
-            "vcs_last_rev": "728ca46c191d90419f8df7fe66efaae798982745",
+            "updated": "2025-08-08T03:08:34+0000",
+            "vcs_last_commit": "2025-08-08T02:08:37+0000",
+            "vcs_last_fetch": "2025-08-08T03:08:34+0000",
+            "vcs_last_rev": "8ca6e6bf0e1b283eb951fa58b7441c3dab9de6be",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -838,14 +838,14 @@
             "id": 101365,
             "layerbranch": 1044818,
             "name": "nvidia-orin-nx",
-            "updated": "2025-08-02T06:08:50+0000"
+            "updated": "2025-08-06T09:08:00+0000"
         },
         {
             "description": "Nvidia Jetson Orin dev kit (P3701-0005 module in P3737-0000 carrier)",
             "id": 101366,
             "layerbranch": 1044818,
             "name": "nvidia-orin-agx",
-            "updated": "2025-07-14T01:07:45+0000"
+            "updated": "2025-08-06T09:08:00+0000"
         }
     ],
     "recipes": [],
