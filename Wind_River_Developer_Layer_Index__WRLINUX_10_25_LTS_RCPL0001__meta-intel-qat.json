@@ -1,0 +1,811 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_25_LTS_RCPL0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44199,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_25_LTS_RCPL0001",
+            "comparison": false,
+            "hidden": false,
+            "id": 465,
+            "name": "WRLINUX_10_25_LTS_RCPL0001",
+            "short_description": "WRLinux 10_25 LTS RCPL 0001",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2025-08-21T00:08:06+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 465,
+            "collection": "core",
+            "id": 1045115,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2025-08-21T03:08:47+0000",
+            "vcs_last_commit": "2025-08-21T02:08:22+0000",
+            "vcs_last_fetch": "2025-08-21T03:08:47+0000",
+            "vcs_last_rev": "217996b4f5f6d027fc46fe1f5f4b897dc87ad691",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 465,
+            "collection": "intel-qat",
+            "id": 1045143,
+            "layer": 193,
+            "local_path": "",
+            "updated": "2025-07-22T20:07:42+0000",
+            "vcs_last_commit": "2025-07-17T00:07:11+0000",
+            "vcs_last_fetch": "2025-07-22T20:07:42+0000",
+            "vcs_last_rev": "baa8c004842a4060da82648025f4aca9a3292673",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44209
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 145889,
+            "layerbranch": 1045143,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "intel-qat",
+            "comparison": false,
+            "description": "The Intel QuickAssist Adapter family provides customers with a scalable, flexible, and extendable way to offer Intel QuickAssist Technology crypto acceleration and compression capabilities to their existing product lines.",
+            "id": 193,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-intel-qat",
+            "status": "P",
+            "summary": "intel qat layer",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-qat",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "QATzip is a user space library built on top of the Intel QAT user space library, to offload the compression and decompression requests to the Intel Chipset Series.",
+            "filename": "qatzip_1.2.1.bb",
+            "filepath": "recipes-extended/qatzip",
+            "homepage": "https://github.com/intel/QATzip",
+            "id": 2275490,
+            "inherits": "autotools autotools-brokensep siteinfo",
+            "layerbranch": 1045143,
+            "license": "BSD-3-Clause & GPL-2.0-only",
+            "pe": "",
+            "pn": "qatzip",
+            "pr": "r0",
+            "provides": "qatzip ",
+            "pv": "1.2.1",
+            "section": "base",
+            "srcrev": "6d0cfe51892ea6fe93da73326b1d987905e197c8",
+            "summary": "",
+            "updated": "2025-06-25T03:06:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat17_4.28.0-00004.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://www.intel.com/content/www/us/en/developer/topic-technology/open/quick-assist-technology/overview.html",
+            "id": 2275491,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 1045143,
+            "license": "BSD-3-Clause & GPL-2.0-only",
+            "pe": "",
+            "pn": "qat17",
+            "pr": "r0",
+            "provides": "qat17  virtual/qat",
+            "pv": "4.28.0-00004",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-07-22T20:07:42+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat20_1.2.30-00090.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://www.intel.com/content/www/us/en/developer/topic-technology/open/quick-assist-technology/overview.html",
+            "id": 2275492,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 1045143,
+            "license": "BSD-3-Clause & GPL-2.0-only & Apache-2.0",
+            "pe": "",
+            "pn": "qat20",
+            "pr": "r0",
+            "provides": "qat20  virtual/qat",
+            "pv": "1.2.30-00090",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-25T03:06:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " systemdsystemunitdir=/lib/systemd/system cross_compiling=yes ",
+            "description": "Intel QuickAssist Technology Library (QATlib)",
+            "filename": "qatlib_24.09.0.bb",
+            "filepath": "recipes-extended/qatlib",
+            "homepage": "https://github.com/intel/qatlib",
+            "id": 2275493,
+            "inherits": "autotools autotools-brokensep siteinfo systemd useradd useradd_base",
+            "layerbranch": 1045143,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "qatlib",
+            "pr": "r0",
+            "provides": "qatlib  virtual/qat",
+            "pv": "24.09.0",
+            "section": "base",
+            "srcrev": "a9e5fcf212fcb9241b38a3a105c95b1f5b3593db",
+            "summary": "",
+            "updated": "2025-06-25T03:06:55+0000"
+        }
+    ],
+    "wrtemplates": []
+}
