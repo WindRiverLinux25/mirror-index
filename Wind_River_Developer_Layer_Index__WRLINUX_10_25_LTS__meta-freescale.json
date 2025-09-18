@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44199,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.1"
-        },
-        {
-            "description": "",
             "id": 44202,
             "image_url": "",
             "link_url": "",
@@ -615,6 +608,55 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44211,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44215,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44216,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
         }
     ],
     "branches": [
@@ -627,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-08-21T00:08:05+0000",
+            "updated": "2025-09-18T00:09:04+0000",
             "updates_enabled": true
         }
     ],
@@ -640,9 +682,9 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-08-21T03:08:31+0000",
+            "updated": "2025-09-18T02:09:51+0000",
             "vcs_last_commit": "2025-08-21T02:08:22+0000",
-            "vcs_last_fetch": "2025-08-21T03:08:31+0000",
+            "vcs_last_fetch": "2025-09-18T02:09:51+0000",
             "vcs_last_rev": "217996b4f5f6d027fc46fe1f5f4b897dc87ad691",
             "vcs_subdir": "meta",
             "version": "15",
@@ -655,13 +697,13 @@
             "id": 1039428,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-06-30T19:06:35+0000",
-            "vcs_last_commit": "2025-06-30T02:06:10+0000",
-            "vcs_last_fetch": "2025-06-30T19:06:35+0000",
-            "vcs_last_rev": "babf2ee9f56551329327c4aeb3773c3433799d26",
+            "updated": "2025-08-24T23:08:08+0000",
+            "vcs_last_commit": "2025-08-04T21:08:41+0000",
+            "vcs_last_fetch": "2025-08-24T23:08:08+0000",
+            "vcs_last_rev": "2dedf181045646e3cb4b6f26be54a958922266f3",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 44206
+            "yp_compatible_version": 44212
         }
     ],
     "layerDependencies": [
@@ -816,7 +858,7 @@
             "id": 101147,
             "layerbranch": 1039428,
             "name": "imx95-19x19-verdin",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-08-24T23:08:04+0000"
         },
         {
             "description": " NXP QorIQ LS1012AFRWY",
@@ -1040,7 +1082,7 @@
             "id": 101179,
             "layerbranch": 1039428,
             "name": "imx93-14x14-lpddr4x-evk",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-08-24T23:08:04+0000"
         },
         {
             "description": " NXP i.MX6SoloX Sabre SD",
@@ -1574,9 +1616,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/isp-imx/4.2.2.24.4/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev   -DTUNINGEXT=0",
+            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/isp-imx/4.2.2.25.1/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DTUNINGEXT=1     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev   -DTUNINGEXT=0",
             "description": "i.MX Verisilicon Software ISP",
-            "filename": "isp-imx_4.2.2.24.4.bb",
+            "filename": "isp-imx_4.2.2.25.1.bb",
             "filepath": "recipes-bsp/isp-imx",
             "homepage": "",
             "id": 2235205,
@@ -1587,11 +1629,11 @@
             "pn": "isp-imx",
             "pr": "r0",
             "provides": "isp-imx ",
-            "pv": "4.2.2.24.4",
+            "pv": "4.2.2.25.1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:33+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1599,7 +1641,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Basler camera binary drivers",
-            "filename": "basler-camera_4.2.2.24.0.bb",
+            "filename": "basler-camera_4.2.2.25.1.bb",
             "filepath": "recipes-bsp/isp-imx",
             "homepage": "",
             "id": 2235206,
@@ -1610,11 +1652,11 @@
             "pn": "basler-camera",
             "pr": "r0",
             "provides": "basler-camera ",
-            "pv": "4.2.2.24.0",
+            "pv": "4.2.2.25.1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:33+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1706,7 +1748,7 @@
             "section": "kernel",
             "srcrev": "eef7ef94bc44cacd3b068f66658ef33391547daa",
             "summary": "Wi-Fi firmware redistributed by NXP",
-            "updated": "2025-06-22T23:06:34+0000"
+            "updated": "2025-08-24T23:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1821,7 +1863,7 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:34+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2120,7 +2162,7 @@
             "section": "BSP",
             "srcrev": "78a14c75a06dea39036c44ae0f9d23acc7bcaef2",
             "summary": "",
-            "updated": "2025-06-22T23:06:36+0000"
+            "updated": "2025-08-24T23:08:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2235,7 +2277,7 @@
             "section": "multimedia",
             "srcrev": "8f124c3914d82019849fb697baeb730e4cb1b547",
             "summary": "",
-            "updated": "2025-06-22T23:06:37+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2256,9 +2298,9 @@
             "provides": "imx-test ",
             "pv": "7.0+X",
             "section": "base",
-            "srcrev": "8a1fa37664a1e470cf86f1185c08e265e4602a9b",
+            "srcrev": "92a497313016bfa536d561e13fcbad2d273ded4c",
             "summary": "Test programs for i.MX BSP",
-            "updated": "2025-06-22T23:06:37+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -2609,7 +2651,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.2+gitX  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.2+gitX  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.2+gitX  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.2+gitX  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/recipe-sysroot-native=  -pipe -I/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.2+gitX/recipe-sysroot/usr/include/imx\"  ",
+            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.3+gitX  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.3+gitX  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.3+gitX  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.3+gitX  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/recipe-sysroot-native=  -pipe -I/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.3+gitX/recipe-sysroot/usr/include/imx\"  ",
             "description": "Gstreamer freescale plugins",
             "filename": "imx-gst1.0-plugin_git.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2622,11 +2664,11 @@
             "pn": "imx-gst1.0-plugin",
             "pr": "r0",
             "provides": "imx-gst1.0-plugin ",
-            "pv": "4.9.2+gitX",
+            "pv": "4.9.3+gitX",
             "section": "multimedia",
-            "srcrev": "ef9c1a080e739e6f0be878148d9f4a050dc83bec",
+            "srcrev": "370510ef8137874339df18a2a35ec1d04d98fa0b",
             "summary": "",
-            "updated": "2025-06-22T23:06:40+0000"
+            "updated": "2025-08-24T23:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2670,15 +2712,15 @@
             "provides": "gstreamer1.0-plugins-good ",
             "pv": "1.24.7.imx",
             "section": "multimedia",
-            "srcrev": "33b2732b873758a302064818b35dcad41b5bbc14",
+            "srcrev": "626a972e9ef448f1017cfad07a3486a0fb340a0d",
             "summary": "'Good' GStreamer plugins",
-            "updated": "2025-06-22T23:06:40+0000"
+            "updated": "2025-08-24T23:08:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-base/-/issues",
-            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled                 -Dc_args=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot-native=  -pipe -I/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot/usr/include/imx\"  -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=disabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Ddoc=disabled                 -Dc_args=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-base/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot-native=  -pipe -I/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-base/1.24.7.imx/recipe-sysroot/usr/include/imx\"  -Dalsa=enabled -Dcdparanoia=disabled -Dgl-graphene=disabled -Dgl-jpeg=disabled -Dogg=enabled -Dopus=disabled -Dorc=enabled -Dpango=enabled -Dgl-png=enabled -Dqt5=disabled -Dtheora=enabled -Dtremor=disabled -Dlibvisual=disabled -Dvorbis=enabled -Dx11=enabled -Dxvideo=enabled -Dxshm=enabled",
             "description": "",
             "filename": "gstreamer1.0-plugins-base_1.24.7.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2693,15 +2735,15 @@
             "provides": "gstreamer1.0-plugins-base ",
             "pv": "1.24.7.imx",
             "section": "multimedia",
-            "srcrev": "031d262e65333e58b2ce01aaf47ab1012f93b21e",
+            "srcrev": "858ae5a1fb2bd2692ca7ebbd5bde2eee14e1842d",
             "summary": "'Base' GStreamer plugins and helper libraries",
-            "updated": "2025-06-22T23:06:40+0000"
+            "updated": "2025-08-24T23:08:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-bad/-/issues",
-            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled          -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled       -Dc_args=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot-native=  -pipe -I/tmp/tmp_vyn7orq/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot/usr/include/imx\"   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=disabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=disabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dtinycompress=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=disabled -Dwayland=disabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
+            "configopts": "-Dintrospection=enabled       -Dexamples=disabled     -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Daes=enabled     -Dcodecalpha=enabled     -Ddecklink=enabled     -Ddvb=enabled     -Dfbdev=enabled     -Dipcpipeline=enabled     -Dshm=enabled     -Dtranscode=enabled     -Dandroidmedia=disabled     -Dapplemedia=disabled     -Dasio=disabled     -Dbs2b=disabled     -Dchromaprint=disabled     -Dd3dvideosink=disabled     -Dd3d11=disabled     -Ddirectsound=disabled     -Ddts=disabled     -Dfdkaac=disabled     -Dflite=disabled     -Dgme=disabled     -Dgs=disabled     -Dgsm=disabled     -Diqa=disabled          -Dladspa=disabled     -Dldac=disabled     -Dlv2=disabled     -Dmagicleap=disabled     -Dmediafoundation=disabled     -Dmicrodns=disabled     -Dmpeg2enc=disabled     -Dmplex=disabled     -Dmusepack=disabled     -Dnvcodec=disabled     -Dopenexr=disabled     -Dopenni2=disabled     -Dopenaptx=disabled     -Dopensles=disabled     -Donnx=disabled     -Dqroverlay=disabled     -Dsoundtouch=disabled     -Dspandsp=disabled     -Dsvthevcenc=disabled     -Dteletext=disabled     -Dwasapi=disabled     -Dwasapi2=disabled     -Dwildmidi=disabled     -Dwinks=disabled     -Dwinscreencap=disabled     -Dwpe=disabled     -Dzxing=disabled       -Dc_args=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/git=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/build=/usr/src/debug/gstreamer1.0-plugins-bad/1.24.7.imx  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot-native=  -pipe -I/tmp/tmp8hk2axx9/tmp/work/core2-32-oe-linux/gstreamer1.0-plugins-bad/1.24.7.imx/recipe-sysroot/usr/include/imx\"   -Daom=disabled -Dassrender=disabled -Davtp=disabled -Dbluez=enabled -Dbz2=enabled -Dclosedcaption=enabled -Dcurl=enabled -Ddash=enabled -Ddc1394=disabled -Ddirectfb=disabled -Ddtls=disabled -Dfaac=disabled -Dfaad=disabled -Dfluidsynth=disabled -Dgl=disabled -Dhls=enabled -Dkms=disabled -Dcolormanagement=disabled -Dlibde265=disabled -Dcurl-ssh2=disabled -Dmodplug=disabled -Dmsdk=disabled -Dneon=disabled -Dopenal=disabled -Dopencv=disabled -Dopenh264=disabled -Dopenjpeg=disabled -Dopenmpt=disabled -Dhls-crypto=openssl -Dopus=disabled -Dorc=enabled -Dresindvd=disabled -Drsvg=enabled -Drtmp=disabled -Dsbc=enabled -Dsctp=disabled -Dsmoothstreaming=enabled -Dsndfile=enabled -Dsrt=disabled -Dsrtp=disabled -Dtinyalsa=disabled -Dtinycompress=disabled -Dttml=enabled -Duvch264=enabled -Dv4l2codecs=disabled -Dva=disabled -Dvoaacenc=disabled -Dvoamrwbenc=disabled -Dvulkan=disabled -Dwayland=disabled -Dwebp=enabled -Dwebrtc=disabled -Dwebrtcdsp=disabled -Dx11=enabled -Dx265=disabled -Dzbar=disabled",
             "description": "",
             "filename": "gstreamer1.0-plugins-bad_1.24.7.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2716,9 +2758,9 @@
             "provides": "gstreamer1.0-plugins-bad ",
             "pv": "1.24.7.imx",
             "section": "multimedia",
-            "srcrev": "bba296b75dfb3e7ae4c836255edbd2b3c085c269",
+            "srcrev": "7bb1254fcb0a0dcb1ecb4ac21efbc5068151943d",
             "summary": "'Bad' GStreamer plugins and helper libraries ",
-            "updated": "2025-06-22T23:06:41+0000"
+            "updated": "2025-08-24T23:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2795,7 +2837,7 @@
             "bugtracker": "",
             "configopts": "      -Dtests=disabled  ",
             "description": "Contains a GStreamer plugin for using the encoders, decoders, muxers, and demuxers provided by FFmpeg.",
-            "filename": "gstreamer1.0-libav_1.24.0.imx.bb",
+            "filename": "gstreamer1.0-libav_1.24.7.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "http://gstreamer.freedesktop.org/",
             "id": 2235258,
@@ -2806,11 +2848,11 @@
             "pn": "gstreamer1.0-libav",
             "pr": "r0",
             "provides": "gstreamer1.0-libav ",
-            "pv": "1.24.0.imx",
+            "pv": "1.24.7.imx",
             "section": "multimedia",
             "srcrev": "",
             "summary": "Libav-based GStreamer 1.x plugin",
-            "updated": "2025-06-22T23:06:42+0000"
+            "updated": "2025-08-24T23:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2877,9 +2919,9 @@
             "provides": "gstreamer1.0 ",
             "pv": "1.24.7.imx",
             "section": "multimedia",
-            "srcrev": "1a8f23da16cd224574ab2386803149c76f2cb628",
+            "srcrev": "e0d37a7d773a502956f54eced8cd701ec7fa5ff5",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2025-06-22T23:06:42+0000"
+            "updated": "2025-08-24T23:08:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2983,7 +3025,7 @@
             "filepath": "recipes-multimedia/libimxvpuapi",
             "homepage": "https://github.com/Freescale/libimxvpuapi",
             "id": 2235266,
-            "inherits": "pkgconfig waf",
+            "inherits": "pkgconfig python3-dir python3native waf",
             "layerbranch": 1039428,
             "license": "LGPL-2.1-only",
             "pe": "",
@@ -2994,19 +3036,19 @@
             "section": "multimedia",
             "srcrev": "3a1ee3a54fe93813868d38c3d32ea065b59e227e",
             "summary": "",
-            "updated": "2025-06-22T23:06:43+0000"
+            "updated": "2025-08-24T23:08:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--imx-platform=${IMX_PLATFORM} --libdir=/usr/lib --imx-headers=/tmp/tmp_vyn7orq/tmp/work/qemux86-oe-linux/libimxvpuapi2/2.3.1+gitX/recipe-sysroot/usr/include/imx --sysroot-path=/tmp/tmp_vyn7orq/tmp/work/qemux86-oe-linux/libimxvpuapi2/2.3.1+gitX/recipe-sysroot ",
+            "configopts": "--imx-platform=${IMX_PLATFORM} --libdir=/usr/lib --imx-headers=/tmp/tmp8hk2axx9/tmp/work/qemux86-oe-linux/libimxvpuapi2/2.3.1+gitX/recipe-sysroot/usr/include/imx --sysroot-path=/tmp/tmp8hk2axx9/tmp/work/qemux86-oe-linux/libimxvpuapi2/2.3.1+gitX/recipe-sysroot ",
             "description": "frontend for the i.MX6 / i.MX8 VPU hardware video engines",
             "filename": "libimxvpuapi2_2.3.1.bb",
             "filepath": "recipes-multimedia/libimxvpuapi",
             "homepage": "https://github.com/Freescale/libimxvpuapi",
             "id": 2235267,
-            "inherits": "pkgconfig use-imx-headers waf",
+            "inherits": "pkgconfig python3-dir python3native use-imx-headers waf",
             "layerbranch": 1039428,
             "license": "LGPL-2.1-only",
             "pe": "",
@@ -3017,7 +3059,7 @@
             "section": "multimedia",
             "srcrev": "37095a854aa176bb763a25ce98ceb6a787501271",
             "summary": "",
-            "updated": "2025-06-22T23:06:43+0000"
+            "updated": "2025-08-24T23:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -4060,7 +4102,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Kernel loadable module for ISP",
-            "filename": "kernel-module-isp-vvcam_4.2.2.24.2.bb",
+            "filename": "kernel-module-isp-vvcam_4.2.2.25.1.bb",
             "filepath": "recipes-kernel/kernel-modules",
             "homepage": "",
             "id": 2235313,
@@ -4071,11 +4113,11 @@
             "pn": "kernel-module-isp-vvcam",
             "pr": "r0",
             "provides": "kernel-module-isp-vvcam ",
-            "pv": "4.2.2.24.2",
+            "pv": "4.2.2.25.1",
             "section": "base",
-            "srcrev": "ab77b0521615d3f279263ba67439aed887d525d7",
+            "srcrev": "78d717bb22819df9d988ef1b4e3cca1acf61095d",
             "summary": "",
-            "updated": "2025-05-16T02:05:48+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4175,7 +4217,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Builds the Vivante GPU kernel driver as a loadable kernel module, allowing flexibility to use a newer graphics release with an older kernel.",
-            "filename": "kernel-module-imx-gpu-viv_6.4.11.p2.4.bb",
+            "filename": "kernel-module-imx-gpu-viv_6.4.11.p3.0.bb",
             "filepath": "recipes-kernel/kernel-modules",
             "homepage": "",
             "id": 2235318,
@@ -4186,11 +4228,11 @@
             "pn": "kernel-module-imx-gpu-viv",
             "pr": "r0",
             "provides": "kernel-module-imx-gpu-viv ",
-            "pv": "6.4.11.p2.4",
+            "pv": "6.4.11.p3.0",
             "section": "base",
-            "srcrev": "3571388e9660f96b65b5fdcc093cc973ee502949",
+            "srcrev": "d8c9f00d41b313a1ac122530524a62604c6871c9",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2025-05-16T02:05:49+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4370,11 +4412,11 @@
             "pn": "linux-fslc",
             "pr": "r0",
             "provides": "linux-fslc  virtual/kernel linux-mfgtool",
-            "pv": "6.12.20+gitX",
+            "pv": "6.12.28+gitX",
             "section": "base",
-            "srcrev": "844aa3471b97053b0a59f68d36dc6f796338b562",
+            "srcrev": "7a7717289cd3915e484b02c02557de380352b030",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2025-05-16T02:05:50+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4543,7 +4585,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "mali-imx_r50.2.bb",
+            "filename": "mali-imx_r53.0.bb",
             "filepath": "recipes-graphics/mali",
             "homepage": "",
             "id": 2235334,
@@ -4554,11 +4596,11 @@
             "pn": "mali-imx",
             "pr": "r0",
             "provides": "mali-imx      virtual/egl     virtual/libgbm     virtual/libgles1     virtual/libgles2     virtual/libgles3",
-            "pv": "r50.2",
+            "pv": "r53.0",
             "section": "libs",
             "srcrev": "",
             "summary": "Graphics libraries and driver for i.MX Mali GPU",
-            "updated": "2025-06-22T23:06:52+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4566,7 +4608,7 @@
             "bugtracker": "",
             "configopts": "  -Damdgpu=enabled -Dcairo-tests=disabled -Detnaviv=enabled -Dexynos=disabled -Dfreedreno=enabled -Dfreedreno-kgsl=false -Dinstall-test-programs=true -Dintel=enabled -Dman-pages=disabled -Dnouveau=enabled -Domap=enabled -Dradeon=enabled -Dtegra=disabled -Dtests=true -Dudev=false -Dvalgrind=disabled -Dvc4=enabled -Dvivante=false -Dvmwgfx=enabled",
             "description": "The runtime library for accessing the kernel DRM services.  DRM stands for \\\"Direct Rendering Manager\\\", which is the kernel portion of the \\\"Direct Rendering Infrastructure\\\" (DRI).  DRI is required for many hardware accelerated OpenGL drivers.",
-            "filename": "libdrm_2.4.116.imx.bb",
+            "filename": "libdrm_2.4.123.imx.bb",
             "filepath": "recipes-graphics/drm",
             "homepage": "http://dri.freedesktop.org",
             "id": 2235335,
@@ -4577,11 +4619,11 @@
             "pn": "libdrm",
             "pr": "r0",
             "provides": "libdrm drm",
-            "pv": "2.4.116.imx",
+            "pv": "2.4.123.imx",
             "section": "x11/base",
-            "srcrev": "2f1797674f94572ae8c365c8cbffb0263337ed57",
+            "srcrev": "c7c4953161a0f8f2cc7bee70284bf3263c9cfcf5",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2025-06-22T23:06:52+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4589,7 +4631,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "G2D library using i.MX GPU",
-            "filename": "imx-gpu-g2d_6.4.11.p2.10.bb",
+            "filename": "imx-gpu-g2d_6.4.11.p3.0.bb",
             "filepath": "recipes-graphics/imx-g2d",
             "homepage": "",
             "id": 2235336,
@@ -4600,11 +4642,11 @@
             "pn": "imx-gpu-g2d",
             "pr": "r0",
             "provides": "imx-gpu-g2d virtual/libg2d",
-            "pv": "6.4.11.p2.10",
+            "pv": "6.4.11.p3.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:52+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4612,7 +4654,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "G2D library using i.MX DPU",
-            "filename": "imx-dpu-g2d_2.2.2.bb",
+            "filename": "imx-dpu-g2d_2.3.0.bb",
             "filepath": "recipes-graphics/imx-g2d",
             "homepage": "",
             "id": 2235337,
@@ -4623,11 +4665,11 @@
             "pn": "imx-dpu-g2d",
             "pr": "r0",
             "provides": "imx-dpu-g2d  virtual/libg2d",
-            "pv": "2.2.2",
+            "pv": "2.3.0",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:52+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4646,11 +4688,11 @@
             "pn": "imx-g2d-samples",
             "pr": "r0",
             "provides": "imx-g2d-samples ",
-            "pv": "2.2+gitX",
+            "pv": "2.3+gitX",
             "section": "base",
-            "srcrev": "431f311a41ca052902ea0d6445e74defe0a4df2d",
+            "srcrev": "7d12c50c07d73650b4c97906ce917aff429238f8",
             "summary": "i.MX G2D Samples",
-            "updated": "2025-06-22T23:06:52+0000"
+            "updated": "2025-08-24T23:08:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4669,19 +4711,19 @@
             "pn": "imx-pxp-g2d",
             "pr": "r0",
             "provides": "imx-pxp-g2d  virtual/libg2d",
-            "pv": "2.2+gitX",
+            "pv": "2.3+gitX",
             "section": "base",
-            "srcrev": "5e633f895a84cec809ca98d77c879af3591b3b20",
+            "srcrev": "f3aabbcb7977a0a17c962c62b02bc829855f8edf",
             "summary": "",
-            "updated": "2025-06-22T23:06:52+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  -Ddri3=false -Dglamor=false -Dglx=false -Dsha1=libcrypto -Dlibunwind=false -Dxinerama=false",
+            "configopts": "  -Ddri3=false -Dglamor=false -Dglx=false -Dlibdecor=false -Dsha1=libcrypto -Dlibunwind=false -Dxinerama=false -Dxwayland_ei=false",
             "description": "XWayland is an X Server running as a Wayland client, and thus is capable of displaying native X11 client applications in a Wayland compositor environment. The goal of XWayland is to facilitate the transition from X Window System to Wayland environments, providing a way to run unported applications in the meantime.",
-            "filename": "xwayland_23.2.5.imx.bb",
+            "filename": "xwayland_24.1.6.imx.bb",
             "filepath": "recipes-graphics/xwayland",
             "homepage": "https://fedoraproject.org/wiki/Changes/XwaylandStandalone",
             "id": 2235340,
@@ -4692,19 +4734,19 @@
             "pn": "xwayland",
             "pr": "r0",
             "provides": "xwayland ",
-            "pv": "23.2.5.imx",
+            "pv": "24.1.6.imx",
             "section": "base",
             "srcrev": "",
             "summary": "XWayland is an X Server that runs under Wayland.",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Dpipewire=false  -Dsimple-clients= -Ddemo-clients=false -Ddeprecated-color-management-colord=false -Drenderer-gl=false -Dbackend-headless=false -Dimage-jpeg=true -Drenderer-g2d=false -Dbackend-drm=false -Dlauncher-libseat=true -Ddeprecated-launcher-logind=false -Dcolor-management-lcms=false -Dbackend-pipewire=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dshell-kiosk=true -Dsystemd=false -Dbackend-drm-screencast-vaapi=false -Dbackend-vnc=false -Dbackend-wayland=false -Dimage-webp=false -Dbackend-x11=false -Dxwayland=false",
+            "configopts": " -Dpipewire=false  -Dsimple-clients= -Ddemo-clients=false -Drenderer-gl=false -Dbackend-headless=false -Dimage-jpeg=true -Drenderer-g2d=false -Dbackend-drm=false -Dcolor-management-lcms=false -Dbackend-pipewire=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dshell-kiosk=true -Dsystemd=false -Dbackend-drm-screencast-vaapi=false -Dbackend-vnc=false -Dbackend-wayland=false -Dimage-webp=false -Dbackend-x11=false -Dxwayland=false",
             "description": "Weston is the reference implementation of a Wayland compositor",
-            "filename": "weston_12.0.4.imx.bb",
+            "filename": "weston_14.0.1.imx.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 2235341,
@@ -4715,11 +4757,11 @@
             "pn": "weston",
             "pr": "r0",
             "provides": "weston ",
-            "pv": "12.0.4.imx",
+            "pv": "14.0.1.imx",
             "section": "base",
-            "srcrev": "de7f8df4b4275e9bb345cacab6962d1a490d9eab",
+            "srcrev": "0fd5d3ab75346e525b565039a7b8bf5d9008be78",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4750,7 +4792,7 @@
             "bugtracker": "",
             "configopts": " -Dtests=false ",
             "description": "Wayland protocols that add functionality not available in the Wayland core protocol. Such protocols either add completely new functionality, or extend the functionality of some other protocol either in Wayland core, or some other protocol in wayland-protocols.",
-            "filename": "wayland-protocols_1.32.imx.bb",
+            "filename": "wayland-protocols_1.37.imx.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 2235343,
@@ -4761,11 +4803,11 @@
             "pn": "wayland-protocols",
             "pr": "r0",
             "provides": "wayland-protocols ",
-            "pv": "1.32.imx",
+            "pv": "1.37.imx",
             "section": "base",
-            "srcrev": "7ece577d467f8afb2f5a2f7fff3761a1e0ee9dad",
+            "srcrev": "831a5389062e56dcb1aac4a5419e55e3002aafaf",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-08-24T23:08:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4773,7 +4815,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p2.10-aarch64.bb",
+            "filename": "imx-gpu-viv_6.4.11.p3.0-aarch64.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 2235344,
@@ -4784,11 +4826,11 @@
             "pn": "imx-gpu-viv",
             "pr": "r0",
             "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd        ",
-            "pv": "6.4.11.p2.10-aarch64",
+            "pv": "6.4.11.p3.0-aarch64",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-08-24T23:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -4796,7 +4838,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p2.10-aarch32.bb",
+            "filename": "imx-gpu-viv_6.4.11.p3.0-aarch32.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 2235345,
@@ -4807,11 +4849,11 @@
             "pn": "imx-gpu-viv",
             "pr": "r0",
             "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd        ",
-            "pv": "6.4.11.p2.10-aarch32",
+            "pv": "6.4.11.p3.0-aarch32",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-08-24T23:08:08+0000"
         },
         {
             "bbclassextend": "",
@@ -4996,6 +5038,29 @@
             "srcrev": "c86d42cf9eb620eeac377e3bff46ae342c5cd664",
             "summary": "Vulkan Utilities and Tools",
             "updated": "2025-06-22T23:06:55+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-examples/-/issues",
+            "configopts": " ",
+            "description": "GStreamer example applications.",
+            "filename": "gst-examples_1.24.7.imx.bb",
+            "filepath": "recipes-multimedia/gstreamer",
+            "homepage": "https://gitlab.freedesktop.org/gstreamer/gst-examples",
+            "id": 2296917,
+            "inherits": "features_check meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1039428,
+            "license": "LGPL-2.0-or-later",
+            "pe": "",
+            "pn": "gst-examples",
+            "pr": "r0",
+            "provides": "gst-examples ",
+            "pv": "1.24.7.imx",
+            "section": "base",
+            "srcrev": "0f1e984e41ce8d6d0758265d35e8b10d5815fde2",
+            "summary": "GStreamer examples (including gtk-play, gst-play)",
+            "updated": "2025-08-24T23:08:08+0000"
         }
     ],
     "wrtemplates": []

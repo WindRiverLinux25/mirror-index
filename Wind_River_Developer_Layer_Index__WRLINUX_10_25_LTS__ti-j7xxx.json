@@ -708,14 +708,44 @@
         {
             "actual_branch": "",
             "branch": 454,
-            "collection": "wr-amd-x86",
-            "id": 1037552,
-            "layer": 481,
+            "collection": "meta-ti-bsp",
+            "id": 1042392,
+            "layer": 473,
             "local_path": "",
-            "updated": "2025-06-22T23:06:49+0000",
-            "vcs_last_commit": "2025-06-11T06:06:51+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:49+0000",
-            "vcs_last_rev": "f16d70b9778fee55b84fb3435367d9e50ac9172f",
+            "updated": "2025-09-10T18:09:58+0000",
+            "vcs_last_commit": "2025-09-09T19:09:34+0000",
+            "vcs_last_fetch": "2025-09-10T18:09:58+0000",
+            "vcs_last_rev": "4a03c718d9ec66391f3c314cf1c538bad940af5f",
+            "vcs_subdir": "meta-ti-bsp",
+            "version": null,
+            "yp_compatible_version": 44205
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "meta-edgeai",
+            "id": 1052709,
+            "layer": 527,
+            "local_path": "",
+            "updated": "2025-09-10T18:09:17+0000",
+            "vcs_last_commit": "2025-09-05T01:09:18+0000",
+            "vcs_last_fetch": "2025-09-10T18:09:17+0000",
+            "vcs_last_rev": "2bfd1669487196410d863c00c68de041451ce1a0",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "wr-ti-j7xxx",
+            "id": 1052711,
+            "layer": 486,
+            "local_path": "",
+            "updated": "2025-09-16T00:09:12+0000",
+            "vcs_last_commit": "2025-09-15T22:09:54+0000",
+            "vcs_last_fetch": "2025-09-16T00:09:12+0000",
+            "vcs_last_rev": "d33b6125ad7467b3d6a235455d364cb96c985d39",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -724,14 +754,26 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 143060,
-            "layerbranch": 1037552,
+            "id": 148077,
+            "layerbranch": 1052711,
+            "required": true
+        },
+        {
+            "dependency": 527,
+            "id": 148078,
+            "layerbranch": 1052711,
+            "required": true
+        },
+        {
+            "dependency": 473,
+            "id": 148079,
+            "layerbranch": 1052711,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 143061,
-            "layerbranch": 1037552,
+            "id": 148080,
+            "layerbranch": 1052711,
             "required": true
         }
     ],
@@ -775,20 +817,58 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-amd-x86",
+            "collection": "meta-ti-bsp",
             "comparison": false,
-            "description": "amd-x86 BSP provides a few carefully selected tune options and generic hardware support to cover the majority of current Intel CPUs and devices.  See the README.hardware for more information.",
-            "id": 481,
+            "description": "The official OpenEmbedded/Yocto BSP layer for Texas Instruments platforms.",
+            "id": 473,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "amd-x86",
+            "name": "meta-ti-bsp",
             "status": "P",
-            "summary": "BSP layer for AMD x86",
-            "updated": "2022-09-05T00:09:01+0000",
+            "summary": "The official OpenEmbedded/Yocto BSP layer for Texas Instruments platforms.",
+            "updated": "2022-05-31T02:05:52+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/amd-x86",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/amd-x86.git/commit/?id=%hash%",
+            "vcs_url": "#BASE_URL#/meta-ti",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-ti-j7xxx",
+            "comparison": false,
+            "description": "The BSP for TI J7XXX SOCs, it only supports machine ti-j78xx on the WRLINUX_10_22_LTS.  In the future, it will support machines ti-j72xx and ti-j78xx using the bsp layer ti-j7xxx.",
+            "id": 486,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "ti-j7xxx",
+            "status": "P",
+            "summary": "The BSP for TI J7XXX SOCs",
+            "updated": "2023-02-28T19:02:22+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/ti-j7xxx",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/ti-j7xxx.git/commit/?id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-edgeai",
+            "comparison": false,
+            "description": "The OpenEmbedded/Yocto Project layer for TI EdgeAI SDK",
+            "id": 527,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-edgeai",
+            "status": "P",
+            "summary": "The OpenEmbedded/Yocto Project layer for TI EdgeAI SDK",
+            "updated": "2023-12-04T22:12:10+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-edgeai",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-edgeai.git/commit/?id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -796,21 +876,21 @@
     ],
     "machines": [
         {
-            "description": " AMD snowyowl systems",
-            "id": 101363,
-            "layerbranch": 1037552,
-            "name": "amd-snowyowl-64",
-            "updated": "2025-06-22T23:06:49+0000"
+            "description": " TI J721E SoC",
+            "id": 104094,
+            "layerbranch": 1052711,
+            "name": "ti-j72xx",
+            "updated": "2025-09-10T18:09:09+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 129573,
-            "layerbranch": 1037552,
+            "id": 131273,
+            "layerbranch": 1052711,
             "name": "default",
-            "updated": "2025-06-22T23:06:49+0000"
+            "updated": "2025-09-10T18:09:09+0000"
         }
     ]
 }

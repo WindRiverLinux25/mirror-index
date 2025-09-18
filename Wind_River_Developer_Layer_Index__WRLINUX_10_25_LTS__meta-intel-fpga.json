@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44199,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.1"
-        },
-        {
-            "description": "",
             "id": 44202,
             "image_url": "",
             "link_url": "",
@@ -615,6 +608,55 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44211,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44215,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44216,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
         }
     ],
     "branches": [
@@ -627,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-08-21T00:08:05+0000",
+            "updated": "2025-09-18T00:09:04+0000",
             "updates_enabled": true
         }
     ],
