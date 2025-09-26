@@ -611,13 +611,6 @@
         },
         {
             "description": "",
-            "id": 44211,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.2 5.3"
-        },
-        {
-            "description": "",
             "id": 44212,
             "image_url": "",
             "link_url": "",
@@ -669,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-09-18T00:09:04+0000",
+            "updated": "2025-09-25T00:09:04+0000",
             "updates_enabled": true
         }
     ],
@@ -682,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-09-18T02:09:51+0000",
-            "vcs_last_commit": "2025-08-21T02:08:22+0000",
-            "vcs_last_fetch": "2025-09-18T02:09:51+0000",
-            "vcs_last_rev": "217996b4f5f6d027fc46fe1f5f4b897dc87ad691",
+            "updated": "2025-09-25T00:09:48+0000",
+            "vcs_last_commit": "2025-09-23T22:09:05+0000",
+            "vcs_last_fetch": "2025-09-25T00:09:48+0000",
+            "vcs_last_rev": "a73c7e8a096b7219bb47cf0c162ce1b5029e7117",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -697,10 +690,10 @@
             "id": 1037146,
             "layer": 381,
             "local_path": "",
-            "updated": "2025-07-18T01:07:41+0000",
-            "vcs_last_commit": "2025-07-17T23:07:11+0000",
-            "vcs_last_fetch": "2025-07-18T01:07:41+0000",
-            "vcs_last_rev": "5d47aeeb597ddb2967ddab773052d7e11a5fa40a",
+            "updated": "2025-09-25T00:09:16+0000",
+            "vcs_last_commit": "2025-09-23T19:09:22+0000",
+            "vcs_last_fetch": "2025-09-25T00:09:16+0000",
+            "vcs_last_rev": "3fa1e8ecc856662f283f6b08c74629f5423741fd",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44205
@@ -1097,7 +1090,7 @@
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "This repository contains the rpi4 bootloader and scripts for updating it in the spi eeprom",
+            "description": "This repository contains the rpi4/rpi5 bootloader and scripts for updating it in the spi eeprom",
             "filename": "rpi-eeprom_git.bb",
             "filepath": "recipes-bsp/rpi-eeprom",
             "homepage": "",
@@ -1109,11 +1102,11 @@
             "pn": "rpi-eeprom",
             "pr": "r0",
             "provides": "rpi-eeprom ",
-            "pv": "v.2024.02.16-2712",
+            "pv": "v2025.03.10-2712",
             "section": "base",
-            "srcrev": "36e58db5c2a2656e553441f4f48f32227809105d",
+            "srcrev": "1bd0a1052b2e74d7af04de18d30b5edb12d8a423",
             "summary": "Installation scripts and binaries for the Raspberry Pi 4 EEPROM",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-09-25T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1136,7 +1129,7 @@
             "section": "base",
             "srcrev": "6ac2d832c6c3b208e2669f50ec1abf2c20cb7ff4",
             "summary": "",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-09-25T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1155,11 +1148,11 @@
             "pn": "rpi-bootfiles",
             "pr": "r3",
             "provides": "rpi-bootfiles ",
-            "pv": "20240319",
+            "pv": "20250430",
             "section": "base",
-            "srcrev": "9f24f4bc2bdd07ffd158cfbb4bce88a2efc4c1f5",
+            "srcrev": "bc7f439c234e19371115e07b57c366df59cc1bc7",
             "summary": "",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-09-25T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1251,7 +1244,7 @@
             "section": "base",
             "srcrev": "439b6198a9b340de5998dd14a26a0d9d38a6bcac",
             "summary": "",
-            "updated": "2025-06-22T23:06:56+0000"
+            "updated": "2025-09-25T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1707,11 +1700,11 @@
             "pn": "linux-raspberrypi",
             "pr": "r0",
             "provides": "linux-raspberrypi  virtual/kernel",
-            "pv": "6.12.1+gitX",
+            "pv": "6.12.25+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-09-25T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1942,6 +1935,52 @@
             "srcrev": "fd4775bf90e037551532fc214a958074830bb80d",
             "summary": "Script to properly configure BT-HCI on Raspberry Pi",
             "updated": "2025-06-22T23:06:01+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "https://bugs.freedesktop.org",
+            "configopts": "     -Dglx-read-only-text=true     -Dplatforms='x11'    -Degl=disabled -Dgallium-drivers=softpipe,llvmpipe,r300,iris,nouveau,radeonsi,svga,r600,i915,crocus -Dllvm=enabled -Dshared-llvm=enabled -Dgbm=disabled  -Dgles1=disabled -Dgles2=disabled  -Dglvnd=disabled -Dimagination-srv=false -Dmesa-clc=system -Dinstall-mesa-clc=false -Dmesa-clc-bundle-headers=enabled -Dlmsensors=disabled  -Dgallium-rusticl=false  -Dopengl=false -Dperfetto=false  -Dteflon=false  -Dtools='' -Dlibunwind=disabled -Dgallium-va=disabled -Dgallium-vdpau=disabled -Dvideo-codecs=all_free  -Dvulkan-drivers='' -Dvulkan-beta=false",
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
+            "filename": "mesa_25.1.6.bb",
+            "filepath": "recipes-graphics/mesa",
+            "homepage": "http://mesa3d.org",
+            "id": 2312559,
+            "inherits": "features_check gettext meson meson-routines pkgconfig python3-dir python3native qemu rust rust-common rust-target-config siteinfo",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "2",
+            "pn": "mesa",
+            "pr": "r0",
+            "provides": "mesa                                virtual/mesa     ",
+            "pv": "25.1.6",
+            "section": "x11",
+            "srcrev": "",
+            "summary": "A free implementation of the OpenGL API",
+            "updated": "2025-09-25T00:09:16+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -Dtests=false ",
+            "description": "Wayland protocols that add functionality not available in the Wayland core protocol. Such protocols either add completely new functionality, or extend the functionality of some other protocol either in Wayland core, or some other protocol in wayland-protocols.",
+            "filename": "wayland-protocols_1.45.bb",
+            "filepath": "recipes-graphics/wayland",
+            "homepage": "http://wayland.freedesktop.org",
+            "id": 2312560,
+            "inherits": "allarch meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wayland-protocols",
+            "pr": "r0",
+            "provides": "wayland-protocols ",
+            "pv": "1.45",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Collection of additional Wayland protocols",
+            "updated": "2025-09-25T00:09:16+0000"
         }
     ],
     "wrtemplates": []

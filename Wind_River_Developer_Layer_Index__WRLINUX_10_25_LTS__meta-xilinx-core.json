@@ -611,13 +611,6 @@
         },
         {
             "description": "",
-            "id": 44211,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.2 5.3"
-        },
-        {
-            "description": "",
             "id": 44212,
             "image_url": "",
             "link_url": "",
@@ -669,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-09-18T00:09:04+0000",
+            "updated": "2025-09-25T00:09:04+0000",
             "updates_enabled": true
         }
     ],
@@ -682,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-09-18T02:09:51+0000",
-            "vcs_last_commit": "2025-08-21T02:08:22+0000",
-            "vcs_last_fetch": "2025-09-18T02:09:51+0000",
-            "vcs_last_rev": "217996b4f5f6d027fc46fe1f5f4b897dc87ad691",
+            "updated": "2025-09-25T00:09:48+0000",
+            "vcs_last_commit": "2025-09-23T22:09:05+0000",
+            "vcs_last_fetch": "2025-09-25T00:09:48+0000",
+            "vcs_last_rev": "a73c7e8a096b7219bb47cf0c162ce1b5029e7117",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -697,10 +690,10 @@
             "id": 1037157,
             "layer": 474,
             "local_path": "",
-            "updated": "2025-07-31T01:07:24+0000",
-            "vcs_last_commit": "2025-07-30T01:07:45+0000",
-            "vcs_last_fetch": "2025-07-31T01:07:24+0000",
-            "vcs_last_rev": "6c4a087801aceab4ba6affe3958854a852e76914",
+            "updated": "2025-09-25T00:09:24+0000",
+            "vcs_last_commit": "2025-09-23T19:09:23+0000",
+            "vcs_last_fetch": "2025-09-25T00:09:24+0000",
+            "vcs_last_rev": "140aa839ad03baf6bc3e594755219000f2c3fda2",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44205
@@ -712,10 +705,10 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-07-27T20:07:01+0000",
-            "vcs_last_commit": "2025-07-26T23:07:16+0000",
-            "vcs_last_fetch": "2025-07-27T20:07:01+0000",
-            "vcs_last_rev": "2a3347014c63609eed92540ca96d8033d0b71531",
+            "updated": "2025-09-25T03:09:15+0000",
+            "vcs_last_commit": "2025-09-25T02:09:59+0000",
+            "vcs_last_fetch": "2025-09-25T03:09:15+0000",
+            "vcs_last_rev": "e7883aa917295d2166e23f9d4a5edbcda4ef631f",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44206
@@ -826,7 +819,7 @@
             "id": 101283,
             "layerbranch": 1037164,
             "name": "amd-cortexa78-common",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "description": "",
@@ -875,14 +868,14 @@
             "id": 101290,
             "layerbranch": 1037164,
             "name": "amd-cortexa53-common",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "description": " a common AMD filesystem for devices with cortexa72",
             "id": 101291,
             "layerbranch": 1037164,
             "name": "amd-cortexa72-common",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "description": " zynq-generic devices",
@@ -952,7 +945,7 @@
             "id": 101301,
             "layerbranch": 1037164,
             "name": "amd-cortexa53-mali-common",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         }
     ],
     "recipes": [
@@ -1113,9 +1106,9 @@
             "provides": "qemu-devicetrees ",
             "pv": "2025.1+git",
             "section": "base",
-            "srcrev": "0d471f25f9eb338247efc5d3dea5115cc7e86fef",
+            "srcrev": "8f4830d1a54c2bcbf8b9ee1af2662a0c3d488ed6",
             "summary": "Xilinx's hardware device trees required for QEMU",
-            "updated": "2025-06-16T02:06:23+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1966,7 +1959,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates boot.bin using bootgen tool",
-            "updated": "2025-06-23T16:06:05+0000"
+            "updated": "2025-09-25T03:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3300,7 +3293,7 @@
             "section": "base",
             "srcrev": "799d61a092a317947e5965170d96286cbe1eacf2",
             "summary": "Python 3.3+'s frugy for Python 2.6, 2.7, 3.2.",
-            "updated": "2025-06-15T22:06:21+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3712,9 +3705,9 @@
             "provides": "libdfx ",
             "pv": "2025.1",
             "section": "base",
-            "srcrev": "af8d735fae286e7bc94c830a86c960598a4ac014",
+            "srcrev": "484f3bf2262d06cce67c9453308e72978fbb4565",
             "summary": "Xilinx libdfx library",
-            "updated": "2025-06-15T22:06:23+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -3870,12 +3863,12 @@
             "pe": "1",
             "pn": "u-boot-tools-xlnx",
             "pr": "r0",
-            "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools u-boot-tools-xlnx-mkfwumdata",
+            "provides": "u-boot-tools-xlnx u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools u-boot-tools-xlnx-mkfwumdata u-boot-tools-xlnx-efivars",
             "pv": "2025.01-xilinx-v2025.1+git",
             "section": "bootloaders",
-            "srcrev": "a09d2660433d3d1ade6a14a82b21a13c2bbb3821",
+            "srcrev": "95ca2579c337bc5f4d71127f51deb585c157ada8",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-06-16T02:06:20+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4128,7 +4121,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Firmware for ISP",
-            "updated": "2025-06-25T21:06:53+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4151,7 +4144,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ISP Media Server and Libraries",
-            "updated": "2025-06-25T21:06:53+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4172,9 +4165,9 @@
             "provides": "kernel-module-isp ",
             "pv": "6.12.0+git",
             "section": "kernel/modules",
-            "srcrev": "9ff4093620996a795b912a25fe08c55b263aa7f2",
+            "srcrev": "05a572d4f398dc195d85078910369d9f63a8b896",
             "summary": "Xilinx Versal2 ISP linux kernel module",
-            "updated": "2025-06-15T22:06:27+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4241,9 +4234,9 @@
             "provides": "linux-xlnx  virtual/kernel",
             "pv": "6.12.10+git",
             "section": "kernel",
-            "srcrev": "0a0f70e531c7c36d7ab42b374286b67b9fc2c660",
+            "srcrev": "297834623cf6d5195aab25a3ab3e5fd126f9b2d3",
             "summary": "Linux kernel",
-            "updated": "2025-06-16T02:06:21+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
@@ -4356,9 +4349,9 @@
             "provides": "optee-os-tadevkit ",
             "pv": "4.5.0-xlnx-v2025.1",
             "section": "base",
-            "srcrev": "ccf217901e380f470dabbe29cfa5073ef068e0d4",
+            "srcrev": "67d5cbba5b31d0c345fe09559fd35ae3ab0cf7b3",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2025-06-22T23:06:51+0000"
+            "updated": "2025-09-25T00:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -4402,9 +4395,9 @@
             "provides": "optee-os ",
             "pv": "4.5.0-xlnx-v2025.1",
             "section": "base",
-            "srcrev": "ccf217901e380f470dabbe29cfa5073ef068e0d4",
+            "srcrev": "67d5cbba5b31d0c345fe09559fd35ae3ab0cf7b3",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2025-06-22T23:06:51+0000"
+            "updated": "2025-09-25T00:09:13+0000"
         },
         {
             "bbclassextend": "",
