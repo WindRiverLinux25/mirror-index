@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-09-25T00:09:04+0000",
+            "updated": "2025-10-08T00:10:11+0000",
             "updates_enabled": true
         }
     ],
@@ -690,10 +690,10 @@
             "id": 1040738,
             "layer": 559,
             "local_path": "",
-            "updated": "2025-09-25T00:09:41+0000",
-            "vcs_last_commit": "2025-09-23T19:09:06+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:41+0000",
-            "vcs_last_rev": "f89a2227ad8226238f551604d333592bb3fdd3dc",
+            "updated": "2025-09-29T20:09:08+0000",
+            "vcs_last_commit": "2025-09-29T01:09:09+0000",
+            "vcs_last_fetch": "2025-09-29T20:09:08+0000",
+            "vcs_last_rev": "1c958461731a04538b7db115ba368722b011eda3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44206
@@ -829,9 +829,9 @@
     "recipes": [
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpg5ss7v_c/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/10.3.0/build/config.cache",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/usr/include/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit --cache-file=/tmp/tmpx00km6k7/tmp/work/core2-32-oe-linux/gcc-for-nvcc-runtime/10.3.0/build/config.cache",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-runtime_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -848,13 +848,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Runtime libraries from GCC",
-            "updated": "2025-06-22T23:06:25+0000"
+            "updated": "2025-09-29T20:09:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/x86_64-linux/gcc-for-nvcc-crosssdk-x86_64-oesdk-linux/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=x86_64-oesdk-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/x86_64-linux/gcc-for-nvcc-crosssdk-x86_64-oesdk-linux/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-crosssdk_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -871,13 +871,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2025-06-22T23:06:26+0000"
+            "updated": "2025-09-29T20:09:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/10.3.0     --with-build-time-tools=/tmp/tmpg5ss7v_c/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/10.3.0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/10.3.0     --with-build-time-tools=/tmp/tmpx00km6k7/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/10.3.0/recipe-sysroot-native/usr/i686-oe-linux/bin     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/x86_64-nativesdk-oesdk-linux/gcc-for-nvcc-cross-canadian-i686/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --enable-poison-system-directories  --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-cross-canadian_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -894,11 +894,11 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i686 target)",
-            "updated": "2025-06-22T23:06:26+0000"
+            "updated": "2025-09-29T20:09:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --disable-nls",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
@@ -917,13 +917,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2025-06-22T23:06:26+0000"
+            "updated": "2025-09-29T20:09:07+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/x86_64-linux/gcc-for-nvcc-cross-i686/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "    --enable-clocale=generic     --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=sysv     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist/usr/include/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/x86_64-linux/gcc-for-nvcc-cross-i686/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --enable-poison-system-directories=error     --with-system-zlib   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc-cross_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -940,13 +940,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2025-06-22T23:06:27+0000"
+            "updated": "2025-09-29T20:09:07+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/core2-32-oe-linux/gcc-for-nvcc/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0   --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --enable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/core2-32-oe-linux/gcc-for-nvcc/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0   --enable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "gcc-for-nvcc_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -963,13 +963,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2025-06-22T23:06:27+0000"
+            "updated": "2025-09-29T20:09:08+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/core2-32-oe-linux/libgcc-for-nvcc/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/core2-32-oe-linux/libgcc-for-nvcc/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0   --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc-for-nvcc_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -986,13 +986,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2025-06-22T23:06:27+0000"
+            "updated": "2025-09-29T20:09:08+0000"
         },
         {
             "bbclassextend": "nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpg5ss7v_c/tmp/work/core2-32-oe-linux/libgcc-for-nvcc-initial/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --disable-shared  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
+            "configopts": "         --with-gnu-ld     --enable-shared     --enable-languages=c,c++     --enable-threads=posix     --disable-multilib          --enable-c99     --enable-long-long     --enable-symvers=gnu     --enable-libstdcxx-pch     --program-prefix=i686-oe-linux-     --without-local-prefix     --disable-install-libiberty         --disable-libssp     --enable-libitm     --enable-lto     --disable-bootstrap     --with-system-zlib     --with-linker-hash-style=gnu     --enable-linker-build-id     --with-ppl=no     --with-cloog=no     --enable-checking=release     --enable-cheaders=c_global     --without-isl               --with-gxx-include-dir=/not/exist{target_includedir}/c++/10.3.0     --with-sysroot=/not/exist     --with-build-sysroot=/tmp/tmpx00km6k7/tmp/work/core2-32-oe-linux/libgcc-for-nvcc-initial/10.3.0/recipe-sysroot                 \t--enable-standard-branch-protection     --enable-version-specific-runtime-libs     --program-suffix=-10.3.0  --disable-shared  --disable-nls --with-glibc-version=2.28  --enable-initfini-array --enable-__cxa_atexit",
             "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system.",
             "filename": "libgcc-for-nvcc-initial_10.3.bb",
             "filepath": "recipes-devtools/gcc-for-nvcc",
@@ -1009,7 +1009,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2025-06-22T23:06:27+0000"
+            "updated": "2025-09-29T20:09:08+0000"
         },
         {
             "bbclassextend": "",
