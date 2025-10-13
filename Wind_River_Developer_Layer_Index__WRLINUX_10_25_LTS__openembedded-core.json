@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-08T00:10:11+0000",
+            "updated": "2025-10-13T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -683,10 +683,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-09-25T00:09:48+0000",
-            "vcs_last_commit": "2025-09-23T22:09:05+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:48+0000",
-            "vcs_last_rev": "a73c7e8a096b7219bb47cf0c162ce1b5029e7117",
+            "updated": "2025-10-12T21:10:08+0000",
+            "vcs_last_commit": "2025-10-12T09:10:39+0000",
+            "vcs_last_fetch": "2025-10-12T21:10:08+0000",
+            "vcs_last_rev": "f95cd01742c0d163a44c187083aa855b9f1fd366",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -12236,7 +12236,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "bug-gawk@gnu.org",
-            "configopts": "  --with-mpfr --with-readline --enable-nls",
+            "configopts": "  --with-mpfr --disable-pma --with-readline --enable-nls",
             "description": "The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.",
             "filename": "gawk_5.3.1.bb",
             "filepath": "recipes-extended/gawk",
@@ -12244,7 +12244,7 @@
             "id": 2312102,
             "inherits": "autotools gettext ptest siteinfo texinfo update-alternatives",
             "layerbranch": 1037118,
-            "license": "GPL-3.0-only",
+            "license": "GPL-3.0-or-later & AGPL-3.0-or-later",
             "pe": "",
             "pn": "gawk",
             "pr": "r0",
@@ -12253,7 +12253,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "GNU awk text processing utility",
-            "updated": "2025-09-18T02:09:16+0000"
+            "updated": "2025-10-12T21:10:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
