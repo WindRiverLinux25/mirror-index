@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-13T00:10:07+0000",
+            "updated": "2025-10-29T00:10:08+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-10-12T21:10:08+0000",
-            "vcs_last_commit": "2025-10-12T09:10:39+0000",
-            "vcs_last_fetch": "2025-10-12T21:10:08+0000",
-            "vcs_last_rev": "f95cd01742c0d163a44c187083aa855b9f1fd366",
+            "updated": "2025-10-28T21:10:05+0000",
+            "vcs_last_commit": "2025-10-28T20:10:21+0000",
+            "vcs_last_fetch": "2025-10-28T21:10:05+0000",
+            "vcs_last_rev": "ac4a620e60a40cb1954fc7e5ff28cb7f7d3f97ea",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -690,10 +690,10 @@
             "id": 1037146,
             "layer": 381,
             "local_path": "",
-            "updated": "2025-09-25T00:09:16+0000",
-            "vcs_last_commit": "2025-09-23T19:09:22+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:16+0000",
-            "vcs_last_rev": "3fa1e8ecc856662f283f6b08c74629f5423741fd",
+            "updated": "2025-10-28T23:10:47+0000",
+            "vcs_last_commit": "2025-10-18T18:10:22+0000",
+            "vcs_last_fetch": "2025-10-28T23:10:47+0000",
+            "vcs_last_rev": "6c1d0bc53819e6dac48f21ba06972a13195c50f7",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44205
@@ -750,121 +750,121 @@
     "machines": [
         {
             "description": " RaspberryPi Zero board (https://www.raspberrypi.org/blog/raspberry-pi-zero)",
-            "id": 101196,
+            "id": 105094,
             "layerbranch": 1037146,
             "name": "raspberrypi0",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi 4 in 64 bits mode",
-            "id": 101197,
+            "id": 105095,
             "layerbranch": 1037146,
             "name": "raspberrypi4-64",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi 5 in 64 bits mode",
-            "id": 101198,
+            "id": 105096,
             "layerbranch": 1037146,
             "name": "raspberrypi5",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi http://www.raspberrypi.org/ Board",
-            "id": 101199,
+            "id": 105097,
             "layerbranch": 1037146,
             "name": "raspberrypi",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi 2",
-            "id": 101200,
+            "id": 105098,
             "layerbranch": 1037146,
             "name": "raspberrypi2",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi 4 in 32 bit mode",
-            "id": 101201,
+            "id": 105099,
             "layerbranch": 1037146,
             "name": "raspberrypi4",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi 3 in 64 bits mode",
-            "id": 101202,
+            "id": 105100,
             "layerbranch": 1037146,
             "name": "raspberrypi3-64",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi Compute Module 3 (CM3)",
-            "id": 101203,
+            "id": 105101,
             "layerbranch": 1037146,
             "name": "raspberrypi-cm3",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi boards in 32 bit mode",
-            "id": 101204,
+            "id": 105102,
             "layerbranch": 1037146,
             "name": "raspberrypi-armv7",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi boards in 64 bit mode",
-            "id": 101205,
+            "id": 105103,
             "layerbranch": 1037146,
             "name": "raspberrypi-armv8",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 64 bits mode",
-            "id": 101206,
+            "id": 105104,
             "layerbranch": 1037146,
             "name": "raspberrypi0-2w-64",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi Zero  WiFi board (https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/)",
-            "id": 101207,
+            "id": 105105,
             "layerbranch": 1037146,
             "name": "raspberrypi0-wifi",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi 3 in 32 bits mode",
-            "id": 101208,
+            "id": 105106,
             "layerbranch": 1037146,
             "name": "raspberrypi3",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi Compute Module (CM1)",
-            "id": 101209,
+            "id": 105107,
             "layerbranch": 1037146,
             "name": "raspberrypi-cm",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         },
         {
             "description": " RaspberryPi0 2 Wifi in 32 bits mode",
-            "id": 101210,
+            "id": 105108,
             "layerbranch": 1037146,
             "name": "raspberrypi0-2w",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:43+0000"
         }
     ],
     "recipes": [
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
-            "configopts": " ",
+            "configopts": "",
             "description": "",
             "filename": "raspi-utils_git.bb",
             "filepath": "recipes-devtools/raspi-utils",
             "homepage": "",
-            "id": 2224196,
+            "id": 2326527,
             "inherits": "cmake",
             "layerbranch": 1037146,
             "license": "BSD-3-Clause",
@@ -876,7 +876,7 @@
             "section": "base",
             "srcrev": "b9c63214c535d7df2b0fa6743b7b3e508363c25a",
             "summary": "A collection of scripts and simple applications",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -887,7 +887,7 @@
             "filename": "raspi-gpio_git.bb",
             "filepath": "recipes-devtools/raspi-gpio",
             "homepage": "https://github.com/RPi-Distro/raspi-gpio",
-            "id": 2224197,
+            "id": 2326528,
             "inherits": "autotools siteinfo",
             "layerbranch": 1037146,
             "license": "BSD-3-Clause",
@@ -899,7 +899,7 @@
             "section": "devel/libs",
             "srcrev": "22b44e4765b4b78dc5b22394fff484e353d5914d",
             "summary": "",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -910,7 +910,7 @@
             "filename": "python3-adafruit-platformdetect_3.27.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_Python_PlatformDetect",
-            "id": 2224198,
+            "id": 2326529,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -922,7 +922,7 @@
             "section": "base",
             "srcrev": "e1460098eeca5ea573f92814691bb378e15530d9",
             "summary": "Platform detection for use by libraries like Adafruit-Blinka.",
-            "updated": "2025-06-22T23:06:53+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -933,7 +933,7 @@
             "filename": "rpio_0.10.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/metachris/RPIO",
-            "id": 2224199,
+            "id": 2326530,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "LGPL-3.0-or-later",
@@ -945,7 +945,7 @@
             "section": "devel/python",
             "srcrev": "be1942a69b2592ddacd9dc833d2668a19aafd8d2",
             "summary": "",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -956,7 +956,7 @@
             "filename": "python3-adafruit-pureio_1.1.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_Python_PureIO",
-            "id": 2224200,
+            "id": 2326531,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -968,7 +968,7 @@
             "section": "base",
             "srcrev": "383b615ce9ff5bbefdf77652799f380016fda353",
             "summary": "Pure python (i.e. no native extensions) access to Linux IO    including I2C and SPI. Drop in replacement for smbus and spidev modules.",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -979,7 +979,7 @@
             "filename": "python3-adafruit-circuitpython-register_1.9.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_Register",
-            "id": 2224201,
+            "id": 2326532,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -991,7 +991,7 @@
             "section": "base",
             "srcrev": "d1e8ac7ad9dcd65ab83749db3e5c96ffee80ebb7",
             "summary": "CircuitPython data descriptor classes to represent hardware registers on I2C and SPI devices.",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1002,7 +1002,7 @@
             "filename": "rpi-gpio_0.7.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://sourceforge.net/projects/raspberry-gpio-python/",
-            "id": 2224202,
+            "id": 2326533,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1014,7 +1014,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1025,7 +1025,7 @@
             "filename": "python3-rtimu_7.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/RPi-Distro/RTIMULib/",
-            "id": 2224203,
+            "id": 2326534,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1037,7 +1037,7 @@
             "section": "devel/python",
             "srcrev": "b949681af69b45f0f7f4bb53b6770037b5b02178",
             "summary": "",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1048,7 +1048,7 @@
             "filename": "bcm2835_1.73.bb",
             "filepath": "recipes-devtools/bcm2835",
             "homepage": "http://www.open.com.au/mikem/bcm2835",
-            "id": 2224204,
+            "id": 2326535,
             "inherits": "autotools siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-3.0-only",
@@ -1060,7 +1060,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T23:06:54+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1071,7 +1071,7 @@
             "filename": "pi-blaster_git.bb",
             "filepath": "recipes-devtools/pi-blaster",
             "homepage": "https://github.com/sarfata/pi-blaster/",
-            "id": 2224205,
+            "id": 2326536,
             "inherits": "autotools siteinfo update-rc.d",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1083,18 +1083,18 @@
             "section": "devel/libs",
             "srcrev": "fbba9a7dcef0f352a11f8a2a5f6cbc15b62c0829",
             "summary": "",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
             "description": "This repository contains the rpi4/rpi5 bootloader and scripts for updating it in the spi eeprom",
             "filename": "rpi-eeprom_git.bb",
             "filepath": "recipes-bsp/rpi-eeprom",
             "homepage": "",
-            "id": 2224206,
+            "id": 2326537,
             "inherits": "python3-dir python3native",
             "layerbranch": 1037146,
             "license": "BSD-3-Clause & Broadcom-RPi",
@@ -1106,7 +1106,7 @@
             "section": "base",
             "srcrev": "1bd0a1052b2e74d7af04de18d30b5edb12d8a423",
             "summary": "Installation scripts and binaries for the Raspberry Pi 4 EEPROM",
-            "updated": "2025-09-25T00:09:15+0000"
+            "updated": "2025-10-28T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1117,7 +1117,7 @@
             "filename": "rpi-config_git.bb",
             "filepath": "recipes-bsp/bootfiles",
             "homepage": "",
-            "id": 2224207,
+            "id": 2326538,
             "inherits": "deploy nopackages",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1129,7 +1129,7 @@
             "section": "base",
             "srcrev": "6ac2d832c6c3b208e2669f50ec1abf2c20cb7ff4",
             "summary": "",
-            "updated": "2025-09-25T00:09:15+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1140,7 +1140,7 @@
             "filename": "rpi-bootfiles.bb",
             "filepath": "recipes-bsp/bootfiles",
             "homepage": "",
-            "id": 2224208,
+            "id": 2326539,
             "inherits": "deploy nopackages",
             "layerbranch": 1037146,
             "license": "Broadcom-RPi",
@@ -1152,7 +1152,7 @@
             "section": "base",
             "srcrev": "bc7f439c234e19371115e07b57c366df59cc1bc7",
             "summary": "",
-            "updated": "2025-09-25T00:09:15+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1163,7 +1163,7 @@
             "filename": "rpi-cmdline.bb",
             "filepath": "recipes-bsp/bootfiles",
             "homepage": "",
-            "id": 2224209,
+            "id": 2326540,
             "inherits": "deploy nopackages",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1175,7 +1175,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "cmdline.txt file used to boot the kernel on a Raspberry Pi device",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1186,7 +1186,7 @@
             "filename": "gpio-shutdown.bb",
             "filepath": "recipes-bsp/gpio-shutdown",
             "homepage": "",
-            "id": 2224210,
+            "id": 2326541,
             "inherits": "update-rc.d",
             "layerbranch": 1037146,
             "license": "GPL-2.0-only",
@@ -1198,7 +1198,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GPIO shutdown bindings for SysV init",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1209,7 +1209,7 @@
             "filename": "rpi-u-boot-scr.bb",
             "filepath": "recipes-bsp/rpi-u-boot-scr",
             "homepage": "",
-            "id": 2224211,
+            "id": 2326542,
             "inherits": "deploy kernel-arch nopackages",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1221,7 +1221,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot scripts for Raspberry Pi",
-            "updated": "2025-06-22T23:06:55+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1232,7 +1232,7 @@
             "filename": "armstubs.bb",
             "filepath": "recipes-bsp/armstubs",
             "homepage": "",
-            "id": 2224212,
+            "id": 2326543,
             "inherits": "deploy nopackages",
             "layerbranch": 1037146,
             "license": "BSD-3-Clause",
@@ -1244,7 +1244,7 @@
             "section": "base",
             "srcrev": "439b6198a9b340de5998dd14a26a0d9d38a6bcac",
             "summary": "",
-            "updated": "2025-09-25T00:09:15+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1255,7 +1255,7 @@
             "filename": "picamera-libs.bb",
             "filepath": "recipes-multimedia/picamera-libs",
             "homepage": "",
-            "id": 2224213,
+            "id": 2326544,
             "inherits": "",
             "layerbranch": 1037146,
             "license": "Broadcom-RPi",
@@ -1267,7 +1267,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Raspberrypi firmware libraries which are required by picamera library",
-            "updated": "2025-06-22T23:06:56+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1278,7 +1278,7 @@
             "filename": "omxplayer_git.bb",
             "filepath": "recipes-multimedia/omxplayer",
             "homepage": "https://github.com/popcornmix/omxplayer",
-            "id": 2224214,
+            "id": 2326545,
             "inherits": "autotools autotools-brokensep pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-only",
@@ -1290,18 +1290,18 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "A commandline OMX player for the Raspberry Pi",
-            "updated": "2025-06-22T23:06:56+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
-            "configopts": "              --cross-prefix=i686-oe-linux-         --ld=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --cc=\"i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --cxx=\"i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --arch=i686     --target-os=\"linux\"     --enable-cross-compile     --extra-cflags=\" -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     --extra-ldflags=\"-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/git=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/build=/usr/src/debug/rpidistro-ffmpeg/5.1.4  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot-native= \"     --sysroot=\"/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-ffmpeg/5.1.4/recipe-sysroot\"     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --cpu=generic     --pkg-config=pkg-config   --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --enable-libdrm --disable-epoxy --disable-libfdk-aac --enable-ffplay --enable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --enable-libvorbis --enable-lzma --disable-libmfx --disable-mipsdsp --disable-mipsdspr2 --enable-omx --enable-omx-rpi --enable-mmal --disable-libmp3lame --disable-opengl --disable-openssl --enable-pic --enable-postproc --enable-pthreads --enable-sand --disable-sdl2 --enable-shared --disable-libsnappy --disable-libspeex --disable-libsrt --disable-stripping --enable-swresample --enable-swscale --enable-libtheora --enable-libudev --enable-libv4l2 --enable-v4l2-m2m --disable-vaapi --disable-vdpau --enable-vout-drm --disable-libvpx --enable-libx264 --enable-libxcb --enable-outdev=xv --enable-zlib",
+            "configopts": "",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
             "filename": "rpidistro-ffmpeg_5.1.4.bb",
             "filepath": "recipes-multimedia/rpidistro-ffmpeg",
             "homepage": "https://www.ffmpeg.org/",
-            "id": 2224215,
+            "id": 2326546,
             "inherits": "autotools pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3-Clause & IJG",
@@ -1313,7 +1313,7 @@
             "section": "libs",
             "srcrev": "1c363463c432c5ed492c7b759abb6e015b93b6b5",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2025-06-22T23:06:56+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1324,7 +1324,7 @@
             "filename": "python3-picamera_git.bb",
             "filepath": "recipes-multimedia/python3-picamera",
             "homepage": "https://github.com/waveform80/picamera",
-            "id": 2224216,
+            "id": 2326547,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "BSD-3-Clause",
@@ -1336,18 +1336,18 @@
             "section": "base",
             "srcrev": "7e4f1d379d698c44501fb84b886fadf3fc164b70",
             "summary": "Python interface to the Raspberry Pi camera module",
-            "updated": "2025-06-22T23:06:56+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-motor_3.2.6.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_Motor",
-            "id": 2224217,
+            "id": 2326548,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1359,18 +1359,18 @@
             "section": "base",
             "srcrev": "2251bfc0501d0acfb96c0a43f4f2b4c6a10ca14e",
             "summary": "CircuitPython helper library provides higher level objects to control motors and servos.",
-            "updated": "2025-06-22T23:06:57+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-pca9685_3.3.4.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_PCA9685",
-            "id": 2224218,
+            "id": 2326549,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1382,18 +1382,18 @@
             "section": "base",
             "srcrev": "2780c4102f4c23fbab252aa1198b61ba7e2d1b2c",
             "summary": "CircuitPython driver for motor, stepper, and servo based on PCA9685.",
-            "updated": "2025-06-22T23:06:57+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-blinka_6.2.2.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_Blinka",
-            "id": 2224219,
+            "id": 2326550,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1405,18 +1405,18 @@
             "section": "base",
             "srcrev": "dc688f354fe779c9267c208b99f310af87e79272",
             "summary": "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython.",
-            "updated": "2025-06-22T23:06:57+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-busdevice_5.0.5.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_BusDevice",
-            "id": 2224220,
+            "id": 2326551,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1428,18 +1428,18 @@
             "section": "base",
             "srcrev": "1bfe8005293205e2f7b2cc498ab5a946f1133b40",
             "summary": "CircuitPython bus device classes to manage bus sharing.",
-            "updated": "2025-06-22T23:06:57+0000"
+            "updated": "2025-10-28T23:10:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "python3-adafruit-circuitpython-motorkit_1.6.1.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/python",
             "homepage": "https://github.com/adafruit/Adafruit_CircuitPython_MotorKit",
-            "id": 2224221,
+            "id": 2326552,
             "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1451,18 +1451,18 @@
             "section": "base",
             "srcrev": "8c1462b4129b21f6db156d1517abb017bb74b982",
             "summary": "CircuitPython helper library for DC & Stepper Motor FeatherWing, Shield, and Pi Hat kits.",
-            "updated": "2025-06-22T23:06:57+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-lua     --disable-screen     --disable-caca     --enable-vlm     --enable-tremor     --disable-aa     --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     --disable-css       --enable-a52 --enable-alsa --disable-dc1394 --enable-dv1394 --enable-dvbpsi --disable-dvdnav --enable-fluidsynth --enable-fontconfig --enable-freetype --enable-fribidi --disable-gles2 --disable-gst-decode --enable-harfbuzz --enable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmpbn2v8n5m/tmp/work/core2-32-oe-linux/rpidistro-vlc/3.0.17/recipe-sysroot/usr --disable-mad --enable-omxil --enable-omxil-vout --enable-rpi-omxil --enable-mmal --enable-mmal-avcodec --disable-ncurses --enable-neon --enable-notify --disable-ogg --disable-opus --enable-png --disable-postproc --disable-pulse --disable-sftp --disable-speex --disable-svg --disable-svgdec --enable-udev --disable-upnp --enable-v4l2 --disable-vnc --disable-vorbis --disable-vpx --with-x --enable-xcb --enable-x264 --enable-nls",
+            "configopts": "",
             "description": "Video player and streamer - davinci edition",
             "filename": "rpidistro-vlc_3.0.17.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/rpidistro-vlc",
             "homepage": "http://www.videolan.org",
-            "id": 2224222,
+            "id": 2326553,
             "inherits": "autotools gettext mime-xdg pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-only",
@@ -1474,18 +1474,18 @@
             "section": "multimedia",
             "srcrev": "b276eb0d7bc3213363e97dbb681ef7c927be6c73",
             "summary": "",
-            "updated": "2025-06-22T23:06:58+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
+            "blacklisted": "",
             "bugtracker": "",
-            "configopts": "   -Denable_drm=true  -Denable_egl=false  -Denable_libav=false  -Denable_opencv=false  -Denable_qt=false  -Denable_tflite=false",
+            "configopts": "",
             "description": "This is a small suite of libcamera-based apps that aim to copy the functionality of the existing \\\"raspicam\\\" apps.",
             "filename": "libcamera-apps_git.bb",
             "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libcamera-apps",
             "homepage": "https://github.com/raspberrypi/libcamera-apps",
-            "id": 2224223,
+            "id": 2326554,
             "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1037146,
             "license": "BSD-2-Clause",
@@ -1497,7 +1497,30 @@
             "section": "console/utils",
             "srcrev": "9ae39f85ae6bee9761c36b9b5b80d675bc1fa369",
             "summary": "A suite of libcamera-based apps",
-            "updated": "2025-06-22T23:06:58+0000"
+            "updated": "2025-10-28T23:10:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "libpisp.bb",
+            "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libpisp",
+            "homepage": "",
+            "id": 2326555,
+            "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1037146,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "libpisp",
+            "pr": "r0",
+            "provides": "libpisp ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "9ba67e6680f03f31f2b1741a53e8fd549be82cbe",
+            "summary": "",
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1508,7 +1531,7 @@
             "filename": "python3-sense-hat_2.2.0.bb",
             "filepath": "dynamic-layers/meta-python/recipes-devtools/python",
             "homepage": "https://github.com/RPi-Distro/python-sense-hat",
-            "id": 2224224,
+            "id": 2326556,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 1037146,
             "license": "BSD-3-Clause",
@@ -1520,7 +1543,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python module to control the Raspberry Pi Sense HAT used in the Astro Pi mission",
-            "updated": "2025-06-22T23:06:59+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1531,7 +1554,7 @@
             "filename": "linux-firmware-rpidistro_git.bb",
             "filepath": "recipes-kernel/linux-firmware-rpidistro",
             "homepage": "https://github.com/RPi-Distro/firmware-nonfree",
-            "id": 2224225,
+            "id": 2326557,
             "inherits": "allarch",
             "layerbranch": 1037146,
             "license": "GPL-2.0-only & binary-redist-Cypress-rpidistro & Synaptics-rpidistro",
@@ -1543,7 +1566,7 @@
             "section": "kernel",
             "srcrev": "4b356e134e8333d073bd3802d767a825adec3807",
             "summary": "Linux kernel firmware files from Raspbian distribution",
-            "updated": "2025-06-22T23:06:59+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1554,7 +1577,7 @@
             "filename": "bluez-firmware-rpidistro_git.bb",
             "filepath": "recipes-kernel/bluez-firmware-rpidistro",
             "homepage": "https://github.com/RPi-Distro/bluez-firmware",
-            "id": 2224226,
+            "id": 2326558,
             "inherits": "allarch",
             "layerbranch": 1037146,
             "license": "Firmware-cypress-rpidistro",
@@ -1566,7 +1589,7 @@
             "section": "kernel",
             "srcrev": "78d6a07730e2d20c035899521ab67726dc028e1c",
             "summary": "Linux kernel Bluetooth firmware files from Raspbian distribution",
-            "updated": "2025-06-22T23:06:59+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1577,7 +1600,7 @@
             "filename": "linux-raspberrypi-v7_6.6.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224227,
+            "id": 2326559,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1589,7 +1612,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1600,7 +1623,7 @@
             "filename": "linux-raspberrypi-v7_6.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224228,
+            "id": 2326560,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1608,11 +1631,11 @@
             "pn": "linux-raspberrypi-v7",
             "pr": "r0",
             "provides": "linux-raspberrypi-v7  ",
-            "pv": "6.12.1+gitX",
+            "pv": "6.12.25+gitX",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1623,7 +1646,7 @@
             "filename": "linux-raspberrypi_6.6.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224229,
+            "id": 2326561,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1635,7 +1658,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1646,7 +1669,7 @@
             "filename": "linux-raspberrypi_6.1.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224230,
+            "id": 2326562,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1658,7 +1681,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:42+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1669,7 +1692,7 @@
             "filename": "linux-raspberrypi-v7_6.1.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224231,
+            "id": 2326563,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1681,7 +1704,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:43+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1692,7 +1715,7 @@
             "filename": "linux-raspberrypi_6.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224232,
+            "id": 2326564,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1704,7 +1727,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-09-25T00:09:15+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1715,7 +1738,7 @@
             "filename": "linux-raspberrypi-dev.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
-            "id": 2224233,
+            "id": 2326565,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base pkgconfig siteinfo",
             "layerbranch": 1037146,
             "license": "GPL-2.0-with-Linux-syscall-note",
@@ -1727,214 +1750,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-04-26T02:04:43+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "raspidmx_git.bb",
-            "filepath": "recipes-graphics/raspidmx",
-            "homepage": "https://github.com/AndrewFromMelbourne/raspidmx",
-            "id": 2224234,
-            "inherits": "pkgconfig",
-            "layerbranch": 1037146,
-            "license": "MIT",
-            "pe": "",
-            "pn": "raspidmx",
-            "pr": "r0",
-            "provides": "raspidmx ",
-            "pv": "0.0+gitX",
-            "section": "graphics",
-            "srcrev": "e2ee6faa0d01a5ece06bcc74a47f37d7e6837310",
-            "summary": "Some examples using the DispmanX API on the Raspberry Pi",
-            "updated": "2025-06-22T23:06:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "-DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FLAGS='-Wl,--no-as-needed'                  -DVMCS_INSTALL_PREFIX=/usr  ",
-            "description": "This repository contains the source code for the ARM side libraries used on Raspberry Pi. These typically are installed in /opt/vc/lib and includes source for the ARM side code to interface to: EGL, mmal, GLESv2,vcos, openmaxil, vchiq_arm, bcm_host, WFC, OpenVG.",
-            "filename": "userland_git.bb",
-            "filepath": "recipes-graphics/userland",
-            "homepage": "",
-            "id": 2224235,
-            "inherits": "cmake pkgconfig",
-            "layerbranch": 1037146,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "userland",
-            "pr": "r0",
-            "provides": "userland  virtual/libgles2 virtual/egl virtual/libomxil",
-            "pv": "20230419",
-            "section": "base",
-            "srcrev": "cc1ca18fb0689b01cc2ca2aa4b400dcee624a213",
-            "summary": "",
-            "updated": "2025-06-22T23:06:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Graphics libraries for BCM2835.",
-            "filename": "vc-graphics-hardfp.bb",
-            "filepath": "recipes-graphics/vc-graphics",
-            "homepage": "",
-            "id": 2224236,
-            "inherits": "pkgconfig update-rc.d",
-            "layerbranch": 1037146,
-            "license": "Broadcom-RPi",
-            "pe": "",
-            "pn": "vc-graphics-hardfp",
-            "pr": "r1.0",
-            "provides": "vc-graphics-hardfp virtual/libgles2 virtual/egl",
-            "pv": "20230509~buster",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2025-06-22T23:06:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Graphics libraries for BCM2835.",
-            "filename": "vc-graphics.bb",
-            "filepath": "recipes-graphics/vc-graphics",
-            "homepage": "",
-            "id": 2224237,
-            "inherits": "pkgconfig update-rc.d",
-            "layerbranch": 1037146,
-            "license": "Broadcom-RPi",
-            "pe": "",
-            "pn": "vc-graphics",
-            "pr": "r1.0",
-            "provides": "vc-graphics virtual/libgles2 virtual/egl",
-            "pv": "20230509~buster",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2025-06-22T23:06:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "RaspberryPi Test Packagegroup",
-            "filename": "packagegroup-rpi-test.bb",
-            "filepath": "recipes-core/packagegroups",
-            "homepage": "",
-            "id": 2224238,
-            "inherits": "packagegroup",
-            "layerbranch": 1037146,
-            "license": "MIT",
-            "pe": "",
-            "pn": "packagegroup-rpi-test",
-            "pr": "r0",
-            "provides": "packagegroup-rpi-test ",
-            "pv": "1.0",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2025-06-22T23:06:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "rpi-test-image.bb",
-            "filepath": "recipes-core/images",
-            "homepage": "",
-            "id": 2224239,
-            "inherits": "core-image create-spdx-image-3.0 create-spdx-sdk-3.0 image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs",
-            "layerbranch": 1037146,
-            "license": "MIT",
-            "pe": "",
-            "pn": "rpi-test-image",
-            "pr": "r0",
-            "provides": "rpi-test-image ",
-            "pv": "1.0",
-            "section": "base",
-            "srcrev": "",
-            "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2025-06-22T23:06:01+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "udev rules for Raspberry Pi Boards",
-            "filename": "udev-rules-rpi.bb",
-            "filepath": "recipes-core/udev",
-            "homepage": "",
-            "id": 2224240,
-            "inherits": "",
-            "layerbranch": 1037146,
-            "license": "MIT",
-            "pe": "",
-            "pn": "udev-rules-rpi",
-            "pr": "r0",
-            "provides": "udev-rules-rpi ",
-            "pv": "20230510",
-            "section": "base",
-            "srcrev": "5ce3ef2b7f377c23fea440ca9df0e30f3f8447cf",
-            "summary": "",
-            "updated": "2025-07-18T01:07:41+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "Not supported by Wind River Linux",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "add udisk/udev rule to hide boot partition from udev",
-            "filename": "udev-rules-udisks-rpi_1.0.bb",
-            "filepath": "recipes-core/udev",
-            "homepage": "",
-            "id": 2224241,
-            "inherits": "",
-            "layerbranch": 1037146,
-            "license": "MIT",
-            "pe": "",
-            "pn": "udev-rules-udisks-rpi",
-            "pr": "r0",
-            "provides": "udev-rules-udisks-rpi ",
-            "pv": "1.0",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2025-06-22T23:06:01+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "pi-bluetooth_0.1.17.bb",
-            "filepath": "recipes-connectivity/pi-bluetooth",
-            "homepage": "https://github.com/RPi-Distro/pi-bluetooth",
-            "id": 2224242,
-            "inherits": "update-rc.d",
-            "layerbranch": 1037146,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "pi-bluetooth",
-            "pr": "r0",
-            "provides": "pi-bluetooth ",
-            "pv": "0.1.17",
-            "section": "kernel",
-            "srcrev": "fd4775bf90e037551532fc214a958074830bb80d",
-            "summary": "Script to properly configure BT-HCI on Raspberry Pi",
-            "updated": "2025-06-22T23:06:01+0000"
+            "updated": "2025-10-28T23:10:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1945,7 +1761,7 @@
             "filename": "mesa_25.1.6.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
-            "id": 2312559,
+            "id": 2326566,
             "inherits": "features_check gettext meson meson-routines pkgconfig python3-dir python3native qemu rust rust-common rust-target-config siteinfo",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1957,7 +1773,99 @@
             "section": "x11",
             "srcrev": "",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2025-09-25T00:09:16+0000"
+            "updated": "2025-10-28T23:10:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "raspidmx_git.bb",
+            "filepath": "recipes-graphics/raspidmx",
+            "homepage": "https://github.com/AndrewFromMelbourne/raspidmx",
+            "id": 2326567,
+            "inherits": "pkgconfig",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "",
+            "pn": "raspidmx",
+            "pr": "r0",
+            "provides": "raspidmx ",
+            "pv": "0.0+gitX",
+            "section": "graphics",
+            "srcrev": "e2ee6faa0d01a5ece06bcc74a47f37d7e6837310",
+            "summary": "Some examples using the DispmanX API on the Raspberry Pi",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "-DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FLAGS='-Wl,--no-as-needed'                  -DVMCS_INSTALL_PREFIX=/usr  ",
+            "description": "This repository contains the source code for the ARM side libraries used on Raspberry Pi. These typically are installed in /opt/vc/lib and includes source for the ARM side code to interface to: EGL, mmal, GLESv2,vcos, openmaxil, vchiq_arm, bcm_host, WFC, OpenVG.",
+            "filename": "userland_git.bb",
+            "filepath": "recipes-graphics/userland",
+            "homepage": "",
+            "id": 2326568,
+            "inherits": "cmake pkgconfig",
+            "layerbranch": 1037146,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "userland",
+            "pr": "r0",
+            "provides": "userland  virtual/libgles2 virtual/egl virtual/libomxil",
+            "pv": "20230419",
+            "section": "base",
+            "srcrev": "cc1ca18fb0689b01cc2ca2aa4b400dcee624a213",
+            "summary": "",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Graphics libraries for BCM2835.",
+            "filename": "vc-graphics-hardfp.bb",
+            "filepath": "recipes-graphics/vc-graphics",
+            "homepage": "",
+            "id": 2326569,
+            "inherits": "pkgconfig update-rc.d",
+            "layerbranch": 1037146,
+            "license": "Broadcom-RPi",
+            "pe": "",
+            "pn": "vc-graphics-hardfp",
+            "pr": "r1.0",
+            "provides": "vc-graphics-hardfp virtual/libgles2 virtual/egl",
+            "pv": "20230509~buster",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Graphics libraries for BCM2835.",
+            "filename": "vc-graphics.bb",
+            "filepath": "recipes-graphics/vc-graphics",
+            "homepage": "",
+            "id": 2326570,
+            "inherits": "pkgconfig update-rc.d",
+            "layerbranch": 1037146,
+            "license": "Broadcom-RPi",
+            "pe": "",
+            "pn": "vc-graphics",
+            "pr": "r1.0",
+            "provides": "vc-graphics virtual/libgles2 virtual/egl",
+            "pv": "20230509~buster",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-28T23:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1968,7 +1876,7 @@
             "filename": "wayland-protocols_1.45.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
-            "id": 2312560,
+            "id": 2326571,
             "inherits": "allarch meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1037146,
             "license": "MIT",
@@ -1980,7 +1888,122 @@
             "section": "base",
             "srcrev": "",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2025-09-25T00:09:16+0000"
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "RaspberryPi Test Packagegroup",
+            "filename": "packagegroup-rpi-test.bb",
+            "filepath": "recipes-core/packagegroups",
+            "homepage": "",
+            "id": 2326572,
+            "inherits": "packagegroup",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-rpi-test",
+            "pr": "r0",
+            "provides": "packagegroup-rpi-test ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "rpi-test-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 2326573,
+            "inherits": "core-image create-spdx-image-3.0 create-spdx-sdk-3.0 image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "",
+            "pn": "rpi-test-image",
+            "pr": "r0",
+            "provides": "rpi-test-image ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A console-only image that fully supports the target device hardware.",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "udev rules for Raspberry Pi Boards",
+            "filename": "udev-rules-rpi.bb",
+            "filepath": "recipes-core/udev",
+            "homepage": "",
+            "id": 2326574,
+            "inherits": "",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "",
+            "pn": "udev-rules-rpi",
+            "pr": "r0",
+            "provides": "udev-rules-rpi ",
+            "pv": "20230510",
+            "section": "base",
+            "srcrev": "5ce3ef2b7f377c23fea440ca9df0e30f3f8447cf",
+            "summary": "",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "add udisk/udev rule to hide boot partition from udev",
+            "filename": "udev-rules-udisks-rpi_1.0.bb",
+            "filepath": "recipes-core/udev",
+            "homepage": "",
+            "id": 2326575,
+            "inherits": "",
+            "layerbranch": 1037146,
+            "license": "MIT",
+            "pe": "",
+            "pn": "udev-rules-udisks-rpi",
+            "pr": "r0",
+            "provides": "udev-rules-udisks-rpi ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-28T23:10:47+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "pi-bluetooth_0.1.17.bb",
+            "filepath": "recipes-connectivity/pi-bluetooth",
+            "homepage": "https://github.com/RPi-Distro/pi-bluetooth",
+            "id": 2326576,
+            "inherits": "update-rc.d",
+            "layerbranch": 1037146,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "pi-bluetooth",
+            "pr": "r0",
+            "provides": "pi-bluetooth ",
+            "pv": "0.1.17",
+            "section": "kernel",
+            "srcrev": "fd4775bf90e037551532fc214a958074830bb80d",
+            "summary": "Script to properly configure BT-HCI on Raspberry Pi",
+            "updated": "2025-10-28T23:10:47+0000"
         }
     ],
     "wrtemplates": []

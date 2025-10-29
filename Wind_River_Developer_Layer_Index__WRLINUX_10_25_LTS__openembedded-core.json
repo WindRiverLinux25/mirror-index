@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-13T00:10:07+0000",
+            "updated": "2025-10-29T00:10:08+0000",
             "updates_enabled": true
         }
     ],
@@ -683,10 +683,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-10-12T21:10:08+0000",
-            "vcs_last_commit": "2025-10-12T09:10:39+0000",
-            "vcs_last_fetch": "2025-10-12T21:10:08+0000",
-            "vcs_last_rev": "f95cd01742c0d163a44c187083aa855b9f1fd366",
+            "updated": "2025-10-28T21:10:05+0000",
+            "vcs_last_commit": "2025-10-28T20:10:21+0000",
+            "vcs_last_fetch": "2025-10-28T21:10:05+0000",
+            "vcs_last_rev": "ac4a620e60a40cb1954fc7e5ff28cb7f7d3f97ea",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -7262,7 +7262,7 @@
             "section": "bootloaders",
             "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-09-18T02:09:19+0000"
+            "updated": "2025-10-28T21:10:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -7308,7 +7308,7 @@
             "section": "bootloaders",
             "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-09-18T02:09:19+0000"
+            "updated": "2025-10-28T21:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -7423,7 +7423,7 @@
             "section": "bootloaders",
             "srcrev": "",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2025-09-18T02:09:21+0000"
+            "updated": "2025-10-26T23:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7446,7 +7446,7 @@
             "section": "bootloaders",
             "srcrev": "",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2025-09-18T02:09:21+0000"
+            "updated": "2025-10-26T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -7699,7 +7699,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2025-09-25T00:09:26+0000"
+            "updated": "2025-10-26T23:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -7883,7 +7883,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2025-09-25T00:09:26+0000"
+            "updated": "2025-10-26T23:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -8205,7 +8205,7 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "Sound server for Linux and Unix-like operating systems",
-            "updated": "2025-09-25T00:09:37+0000"
+            "updated": "2025-10-26T23:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -8234,9 +8234,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/ffmpeg-7.1.1=/usr/src/debug/ffmpeg/7.1.1  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/ffmpeg-7.1.1=/usr/src/debug/ffmpeg/7.1.1  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/build=/usr/src/debug/ffmpeg/7.1.1  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/build=/usr/src/debug/ffmpeg/7.1.1  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/ffmpeg-7.1.1=/usr/src/debug/ffmpeg/7.1.1  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/ffmpeg-7.1.1=/usr/src/debug/ffmpeg/7.1.1  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/build=/usr/src/debug/ffmpeg/7.1.1  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/build=/usr/src/debug/ffmpeg/7.1.1  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot-native= '     --sysroot='/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ffmpeg/7.1.1/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-libmp3lame --disable-openssl --enable-postproc --disable-sdl2 --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --disable-libv4l2 --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib --disable-asm",
+            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native= '     --sysroot='/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-libmp3lame --disable-openssl --enable-postproc --disable-sdl2 --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --disable-libv4l2 --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib --disable-asm",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
-            "filename": "ffmpeg_7.1.1.bb",
+            "filename": "ffmpeg_7.1.2.bb",
             "filepath": "recipes-multimedia/ffmpeg",
             "homepage": "https://www.ffmpeg.org/",
             "id": 2311928,
@@ -8247,11 +8247,11 @@
             "pn": "ffmpeg",
             "pr": "r0",
             "provides": "ffmpeg libav libpostproc",
-            "pv": "7.1.1",
+            "pv": "7.1.2",
             "section": "libs",
             "srcrev": "",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2025-09-18T02:09:28+0000"
+            "updated": "2025-10-26T23:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9723,7 +9723,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GNOME XSLT library",
-            "updated": "2025-09-18T02:09:47+0000"
+            "updated": "2025-10-26T23:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10166,7 +10166,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/curl/curl/issues",
-            "configopts": "     --disable-libcurl-option     --without-libpsl     --enable-optimize          WATT_ROOT=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/curl/8.12.1/recipe-sysroot/usr   --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipfs --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --disable-websockets --with-zlib=/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/curl/8.12.1/recipe-sysroot/usr/lib/../ --without-zstd     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt ",
+            "configopts": "     --disable-libcurl-option     --without-libpsl     --enable-optimize          WATT_ROOT=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/curl/8.12.1/recipe-sysroot/usr   --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipfs --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --disable-websockets --with-zlib=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/curl/8.12.1/recipe-sysroot/usr/lib/../ --without-zstd     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt ",
             "description": "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
             "filename": "curl_8.12.1.bb",
             "filepath": "recipes-support/curl",
@@ -10183,7 +10183,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2025-09-18T02:09:52+0000"
+            "updated": "2025-10-26T23:10:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11640,7 +11640,7 @@
             "bugtracker": "",
             "configopts": "    --enable-newline-is-lf     --with-link-size=2     --with-match-limit=10000000     --enable-pcre2-16     --enable-pcre2-32  ",
             "description": "There are two major versions of the PCRE library. The newest version is PCRE2, which is a re-working of the original PCRE library to provide an entirely new API. The original, very widely deployed PCRE library's API and feature are stable, future releases  will be for bugfixes only. All new future features will be to PCRE2, not the original PCRE 8.x series.",
-            "filename": "libpcre2_10.45.bb",
+            "filename": "libpcre2_10.46.bb",
             "filepath": "recipes-support/libpcre",
             "homepage": "http://www.pcre.org",
             "id": 2312076,
@@ -11651,11 +11651,11 @@
             "pn": "libpcre2",
             "pr": "r0",
             "provides": "libpcre2  pcre2",
-            "pv": "10.45",
+            "pv": "10.46",
             "section": "devel",
             "srcrev": "",
             "summary": "Perl Compatible Regular Expressions version 2",
-            "updated": "2025-09-18T02:09:10+0000"
+            "updated": "2025-10-26T23:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13110,7 +13110,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
+            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/cups-2.4.11=/usr/src/debug/cups/2.4.11  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/cups/2.4.11/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
             "description": "The Common UNIX Printing System is a printing system and general replacement for lpd and the like. It supports the Internet Printing Protocol (IPP), and has its own filtering driver model for handling various document types.",
             "filename": "cups_2.4.11.bb",
             "filepath": "recipes-extended/cups",
@@ -13127,7 +13127,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "An Internet printing system for Unix",
-            "updated": "2025-09-25T00:09:45+0000"
+            "updated": "2025-10-26T23:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -13317,7 +13317,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-jbig2dec                 --with-fontpath=/usr/share/fonts                 CUPSCONFIG=\"/tmp/tmp7966ll35/tmp/work/core2-32-oe-linux/ghostscript/10.05.1/recipe-sysroot/usr/bin/crossscripts/cups-config\"                 PKGCONFIG=pkg-config                   --disable-gtk --without-libidn --without-libpaper                        --without-x",
+            "configopts": "--with-jbig2dec                 --with-fontpath=/usr/share/fonts                 CUPSCONFIG=\"/tmp/tmpjysq4t_8/tmp/work/core2-32-oe-linux/ghostscript/10.05.1/recipe-sysroot/usr/bin/crossscripts/cups-config\"                 PKGCONFIG=pkg-config                   --disable-gtk --without-libidn --without-libpaper                        --without-x",
             "description": "Ghostscript is used for PostScript/PDF preview and printing.  Usually as a back-end to a program such as ghostview, it can display PostScript and PDF documents in an X11 environment. Furthermore, it can render PostScript and PDF files as graphics to be printed on non-PostScript printers. Supported printers include common dot-matrix, inkjet and laser models. ",
             "filename": "ghostscript_10.05.1.bb",
             "filepath": "recipes-extended/ghostscript",
@@ -13334,7 +13334,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "The GPL Ghostscript PostScript/PDF interpreter",
-            "updated": "2025-09-18T02:09:28+0000"
+            "updated": "2025-10-26T23:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14457,11 +14457,11 @@
             "pn": "linux-yocto",
             "pr": "r0",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "6.12.44+git",
+            "pv": "6.12.47+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-09-25T00:09:24+0000"
+            "updated": "2025-10-26T23:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14480,11 +14480,11 @@
             "pn": "linux-yocto-tiny",
             "pr": "r0",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "6.12.44+git",
+            "pv": "6.12.47+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-09-25T00:09:24+0000"
+            "updated": "2025-10-26T23:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14503,11 +14503,11 @@
             "pn": "linux-yocto-rt",
             "pr": "r0",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "6.12.44+git",
+            "pv": "6.12.47+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-09-25T00:09:24+0000"
+            "updated": "2025-10-26T23:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -18969,7 +18969,7 @@
             "section": "base/shell",
             "srcrev": "00a12c234e2506f5cab683460199575f13c454db",
             "summary": "A System and service manager",
-            "updated": "2025-09-25T00:09:36+0000"
+            "updated": "2025-10-19T23:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -20646,9 +20646,9 @@
             "provides": "build-appliance-image ",
             "pv": "15.0.0",
             "section": "base",
-            "srcrev": "675e3f2e3cd3ae2df67568d68c359b88c3860499",
+            "srcrev": "316baad50b45319057753fa698cd74aeb49a0a9f",
             "summary": "An image containing the build system itself",
-            "updated": "2025-09-25T00:09:21+0000"
+            "updated": "2025-10-26T23:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20817,7 +20817,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
-            "filename": "expat_2.7.1.bb",
+            "filename": "expat_2.7.2.bb",
             "filepath": "recipes-core/expat",
             "homepage": "https://github.com/libexpat/libexpat",
             "id": 2312475,
@@ -20828,11 +20828,11 @@
             "pn": "expat",
             "pr": "r0",
             "provides": "expat ",
-            "pv": "2.7.1",
+            "pv": "2.7.2",
             "section": "libs",
             "srcrev": "",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2025-09-18T02:09:38+0000"
+            "updated": "2025-10-26T23:10:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -21499,7 +21499,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2025-09-25T00:09:40+0000"
+            "updated": "2025-10-26T23:10:41+0000"
         },
         {
             "bbclassextend": "",

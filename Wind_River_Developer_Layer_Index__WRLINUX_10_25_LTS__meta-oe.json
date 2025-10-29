@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-13T00:10:07+0000",
+            "updated": "2025-10-29T00:10:08+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-10-12T21:10:08+0000",
-            "vcs_last_commit": "2025-10-12T09:10:39+0000",
-            "vcs_last_fetch": "2025-10-12T21:10:08+0000",
-            "vcs_last_rev": "f95cd01742c0d163a44c187083aa855b9f1fd366",
+            "updated": "2025-10-28T21:10:05+0000",
+            "vcs_last_commit": "2025-10-28T20:10:21+0000",
+            "vcs_last_fetch": "2025-10-28T21:10:05+0000",
+            "vcs_last_rev": "ac4a620e60a40cb1954fc7e5ff28cb7f7d3f97ea",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -690,10 +690,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-09-25T00:09:14+0000",
-            "vcs_last_commit": "2025-09-23T22:09:45+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:14+0000",
-            "vcs_last_rev": "1a338f1f595b1ebc1c9633f5ef4253df88989356",
+            "updated": "2025-10-26T23:10:23+0000",
+            "vcs_last_commit": "2025-10-24T01:10:44+0000",
+            "vcs_last_fetch": "2025-10-26T23:10:23+0000",
+            "vcs_last_rev": "ef287579cf5673a76bc0ddff5ecebb12742c00a1",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -1031,7 +1031,7 @@
             "bugtracker": "",
             "configopts": "     -DENABLE_CJSON_UTILS=On     -DENABLE_CUSTOM_COMPILER_FLAGS=OFF     -DBUILD_SHARED_AND_STATIC_LIBS=On  ",
             "description": "Ultralightweight JSON parser in ANSI C",
-            "filename": "cjson_1.7.18.bb",
+            "filename": "cjson_1.7.19.bb",
             "filepath": "recipes-devtools/cjson",
             "homepage": "https://github.com/DaveGamble/cJSON",
             "id": 2222203,
@@ -1042,11 +1042,11 @@
             "pn": "cjson",
             "pr": "r0",
             "provides": "cjson ",
-            "pv": "1.7.18",
+            "pv": "1.7.19",
             "section": "libs",
-            "srcrev": "acc76239bee01d8e9c858ae2cab296704e52d916",
+            "srcrev": "c859b25da02955fef659d658b8f324b5cde87be3",
             "summary": "",
-            "updated": "2025-06-22T22:06:05+0000"
+            "updated": "2025-10-26T23:10:12+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -1136,9 +1136,9 @@
             "provides": "ssd1306 ",
             "pv": "git",
             "section": "console/utils",
-            "srcrev": "34b42992a43fda69c6ba2557b718601cafe16251",
+            "srcrev": "19128ed4b6108408fea05b9d0551236b6d638dbc",
             "summary": "SSD1306 OLED I2C drive",
-            "updated": "2025-06-22T22:06:05+0000"
+            "updated": "2025-10-26T23:10:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1391,7 +1391,7 @@
             "section": "base",
             "srcrev": "b9cc7963051b2099795129450f9b70c81950d02f",
             "summary": "Shows and manipulates data structure layout",
-            "updated": "2025-06-22T22:06:08+0000"
+            "updated": "2025-10-26T23:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1445,7 +1445,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "IPTraf-ng is a console-based network monitoring utility.  IPTraf gathers data like TCP connection packet and byte counts, interface statistics and activity indicators, TCP/UDP traffic breakdowns, and LAN station packet and byte counts.  IPTraf-ng features include an IP traffic monitor which shows TCP flag information, packet and byte counts, ICMP details, OSPF packet types, and oversized IP packet warnings; interface statistics showing IP, TCP, UDP, ICMP, non-IP and other IP packet counts, IP checksum errors, interface activity and packet size counts; a TCP and UDP service monitor showing counts of incoming and outgoing packets for common TCP and UDP application ports, a LAN statistics module that discovers active hosts and displays statistics about their activity; TCP, UDP and other protocol display filters so you can view just the traffic you want; logging; support for Ethernet, FDDI, ISDN, SLIP, PPP, and loopback interfaces; and utilization of the built-in raw socket interface of the Linux kernel, so it can be used on a wide variety of supported network cards.",
-            "filename": "iptraf-ng_1.2.1.bb",
+            "filename": "iptraf-ng_1.2.2.bb",
             "filepath": "recipes-devtools/iptraf",
             "homepage": "https://fedorahosted.org/iptraf-ng/",
             "id": 2222221,
@@ -1456,11 +1456,11 @@
             "pn": "iptraf-ng",
             "pr": "r0",
             "provides": "iptraf-ng iptraf",
-            "pv": "1.2.1",
+            "pv": "1.2.2",
             "section": "base",
             "srcrev": "",
             "summary": "A console-based network monitoring utility",
-            "updated": "2025-06-22T22:06:09+0000"
+            "updated": "2025-10-26T23:10:12+0000"
         },
         {
             "bbclassextend": "native",
@@ -1575,7 +1575,7 @@
             "section": "base",
             "srcrev": "30172438cee64926dc41fdd9c11fb3ba5b2ba9de",
             "summary": "toml config parser and serializer for c++.",
-            "updated": "2025-06-22T22:06:10+0000"
+            "updated": "2025-10-26T23:10:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1583,7 +1583,7 @@
             "bugtracker": "",
             "configopts": "  -Dvalijson_EXCLUDE_BOOST=FALSE -Dvalijson_BUILD_EXAMPLES=FALSE -Dvalijson_BUILD_TESTS=FALSE",
             "description": "",
-            "filename": "valijson_1.0.4.bb",
+            "filename": "valijson_1.0.6.bb",
             "filepath": "recipes-devtools/valijson",
             "homepage": "https://github.com/tristanpenman/valijson",
             "id": 2222227,
@@ -1594,11 +1594,11 @@
             "pn": "valijson",
             "pr": "r0",
             "provides": "valijson ",
-            "pv": "1.0.4",
+            "pv": "1.0.6",
             "section": "base",
-            "srcrev": "7d59abf50cff4ee53e6584e6d6aa201a19fb5b51",
+            "srcrev": "4edda758546436462da479bb8c8514f8a95c35ad",
             "summary": "Header-only C++ library for JSON Schema validation",
-            "updated": "2025-06-22T22:06:10+0000"
+            "updated": "2025-10-26T23:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1859,7 +1859,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "sexpect_2.3.14.bb",
+            "filename": "sexpect_2.3.15.bb",
             "filepath": "recipes-devtools/sexpect",
             "homepage": "https://github.com/clarkwang/sexpect",
             "id": 2222239,
@@ -1870,11 +1870,11 @@
             "pn": "sexpect",
             "pr": "r0",
             "provides": "sexpect ",
-            "pv": "2.3.14",
+            "pv": "2.3.15",
             "section": "base",
-            "srcrev": "532a52d36aae442b7fe1ce20a59effd1dbc6e6fe",
+            "srcrev": "d3645392424d47532be90fcbc0abf3148324785b",
             "summary": "sexpect is another implementation of Expect which is specifically designed for Shell scripts",
-            "updated": "2025-06-22T22:06:13+0000"
+            "updated": "2025-10-26T23:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2110,9 +2110,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "    --enable-threads     --with-x     --with-tcl=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/tk8/8.6.15/recipe-sysroot/usr/bin/crossscripts     --libdir=/usr/lib   --enable-xft --disable-xss",
+            "configopts": "    --enable-threads     --with-x     --with-tcl=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/tk8/8.6.17/recipe-sysroot/usr/bin/crossscripts     --libdir=/usr/lib   --enable-xft --disable-xss",
             "description": "",
-            "filename": "tk8_8.6.15.bb",
+            "filename": "tk8_8.6.17.bb",
             "filepath": "recipes-devtools/tcltk",
             "homepage": "http://tcl.sourceforge.net",
             "id": 2222250,
@@ -2123,19 +2123,19 @@
             "pn": "tk8",
             "pr": "r0",
             "provides": "tk8 ",
-            "pv": "8.6.15",
+            "pv": "8.6.17",
             "section": "devel/tcltk",
             "srcrev": "",
             "summary": "Tool Command Language ToolKit Extension",
-            "updated": "2025-06-22T22:06:17+0000"
+            "updated": "2025-10-26T23:10:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --with-x     --with-tcl=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/tk/9.0.1/recipe-sysroot/usr/bin/crossscripts     --libdir=/usr/lib   --enable-xft --disable-xss",
+            "configopts": "    --with-x     --with-tcl=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/tk/9.0.2/recipe-sysroot/usr/bin/crossscripts     --libdir=/usr/lib   --enable-xft --disable-xss",
             "description": "",
-            "filename": "tk_9.0.1.bb",
+            "filename": "tk_9.0.2.bb",
             "filepath": "recipes-devtools/tcltk",
             "homepage": "http://tcl.sourceforge.net",
             "id": 2222251,
@@ -2146,11 +2146,11 @@
             "pn": "tk",
             "pr": "r0",
             "provides": "tk ",
-            "pv": "9.0.1",
+            "pv": "9.0.2",
             "section": "devel/tcltk",
             "srcrev": "",
             "summary": "Tool Command Language ToolKit Extension",
-            "updated": "2025-06-22T22:06:17+0000"
+            "updated": "2025-10-26T23:10:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -2892,7 +2892,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmp3j9cpm71/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmp3j9cpm71/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmp3j9cpm71/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmp3j9cpm71/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmp3j9cpm71/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmp3j9cpm71/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/php/8.4.10/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
             "filename": "php_8.4.10.bb",
             "filepath": "recipes-devtools/php",
@@ -2909,7 +2909,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2025-08-03T20:08:28+0000"
+            "updated": "2025-10-26T23:10:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -3415,7 +3415,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2025-07-14T21:07:07+0000"
+            "updated": "2025-10-26T23:10:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3998,7 +3998,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Userspace system daemon to enable security levels for Thunderbolt on GNU/Linux",
-            "filename": "bolt_0.9.6.bb",
+            "filename": "bolt_0.9.10.bb",
             "filepath": "recipes-bsp/bolt",
             "homepage": "https://gitlab.freedesktop.org/bolt/bolt",
             "id": 2222332,
@@ -4009,11 +4009,11 @@
             "pn": "bolt",
             "pr": "r0",
             "provides": "bolt ",
-            "pv": "0.9.6",
+            "pv": "0.9.10",
             "section": "base",
-            "srcrev": "f03c50b22ae3fda26711ddabd91e2c5dd8103478",
+            "srcrev": "c0d4cb2f4399e86417907a37c0d8ef3bb9fb406f",
             "summary": "Thunderbolt user-space management tool",
-            "updated": "2025-06-22T22:06:36+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4028,7 +4028,7 @@
             "inherits": "autotools siteinfo",
             "layerbranch": 1037130,
             "license": "GPL-2.0-only",
-            "pe": "",
+            "pe": "1",
             "pn": "lsscsi",
             "pr": "r0",
             "provides": "lsscsi ",
@@ -4036,7 +4036,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The lsscsi command lists information about SCSI devices in Linux",
-            "updated": "2025-06-30T00:06:38+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4065,9 +4065,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                   -Defi-includedir=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/fwupd-efi/1.6/recipe-sysroot/usr/include/efi                   -Defi-libdir=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/fwupd-efi/1.6/recipe-sysroot/usr/lib                   -Defi_sbat_distro_id=''                   -Defi_sbat_distro_summary='OpenEmbedded'                   -Defi_sbat_distro_url=''                   -Defi_sbat_distro_pkgname='fwupd-efi'                   -Defi_sbat_distro_version='1.6'                   ",
+            "configopts": "                   -Defi-includedir=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/fwupd-efi/1.7/recipe-sysroot/usr/include/efi                   -Defi-libdir=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/fwupd-efi/1.7/recipe-sysroot/usr/lib                   -Defi_sbat_distro_id=''                   -Defi_sbat_distro_summary='OpenEmbedded'                   -Defi_sbat_distro_url=''                   -Defi_sbat_distro_pkgname='fwupd-efi'                   -Defi_sbat_distro_version='1.7'                   ",
             "description": "",
-            "filename": "fwupd-efi_1.6.bb",
+            "filename": "fwupd-efi_1.7.bb",
             "filepath": "recipes-bsp/fwupd",
             "homepage": "",
             "id": 2222335,
@@ -4078,11 +4078,11 @@
             "pn": "fwupd-efi",
             "pr": "r0",
             "provides": "fwupd-efi ",
-            "pv": "1.6",
+            "pv": "1.7",
             "section": "base",
-            "srcrev": "58a2928f778278ab1f7f8fcddbab81ba587a8962",
+            "srcrev": "cfd0be286a9b050c1aa4bfa3f0820256903a264a",
             "summary": "EFI executable for fwupd",
-            "updated": "2025-06-22T22:06:37+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -5090,11 +5090,11 @@
             "pn": "malcontent-ui",
             "pr": "r0",
             "provides": "malcontent-ui ",
-            "pv": "0.13.0",
+            "pv": "0.13.1",
             "section": "base",
-            "srcrev": "21f3ef7b6f984710a23b607d2298fe16e554f0c3",
+            "srcrev": "090042fec5181621e2fd8cfef9fc446ed86db98b",
             "summary": "User-Interface for malcontent.",
-            "updated": "2025-06-22T22:06:46+0000"
+            "updated": "2025-10-26T23:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -5113,11 +5113,11 @@
             "pn": "malcontent",
             "pr": "r0",
             "provides": "malcontent ",
-            "pv": "0.13.0",
+            "pv": "0.13.1",
             "section": "base",
-            "srcrev": "21f3ef7b6f984710a23b607d2298fe16e554f0c3",
+            "srcrev": "090042fec5181621e2fd8cfef9fc446ed86db98b",
             "summary": "malcontent implements support for restricting the type of content.",
-            "updated": "2025-06-22T22:06:46+0000"
+            "updated": "2025-10-26T23:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -5232,7 +5232,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2025-06-22T22:06:47+0000"
+            "updated": "2025-10-26T23:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -5265,7 +5265,7 @@
             "description": "",
             "filename": "gnome-themes-extra_3.28.bb",
             "filepath": "recipes-gnome/gnome-themes",
-            "homepage": "http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/",
+            "homepage": "https://download.gnome.org/sources/gnome-themes-standard/",
             "id": 2222387,
             "inherits": "autotools features_check gettext gnomebase gtk-icon-cache pkgconfig siteinfo upstream-version-is-even",
             "layerbranch": 1037130,
@@ -5278,7 +5278,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GTK+2 standard themes",
-            "updated": "2025-06-22T22:06:47+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -5416,7 +5416,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Emacs is the extensible, customizable, self-documenting real-time display editor",
-            "updated": "2025-06-22T22:06:49+0000"
+            "updated": "2025-10-26T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -5646,7 +5646,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2025-06-22T22:06:51+0000"
+            "updated": "2025-10-26T23:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -5695,7 +5695,7 @@
             "updated": "2025-06-22T22:06:51+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "  -DBUILD_SHARED_LIBS=ON -DWITH_UNWIND=ON",
@@ -5715,7 +5715,7 @@
             "section": "base",
             "srcrev": "7b134a5c82c0c0b5698bb6bf7a835b230c5638e4",
             "summary": "",
-            "updated": "2025-06-22T22:06:52+0000"
+            "updated": "2025-10-26T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -5907,7 +5907,7 @@
             "bugtracker": "",
             "configopts": "     -DWITH_PCAP=1     -DWITH_SFTP=1     -DWITH_ZLIB=1     -DWITH_EXAMPLES=0       -DWITH_GCRYPT=1  -DWITH_GSSAPI=0  -DUNIT_TESTING=0",
             "description": "",
-            "filename": "libssh_0.11.2.bb",
+            "filename": "libssh_0.11.3.bb",
             "filepath": "recipes-support/libssh",
             "homepage": "http://www.libssh.org",
             "id": 2222415,
@@ -5918,11 +5918,11 @@
             "pn": "libssh",
             "pr": "r0",
             "provides": "libssh ",
-            "pv": "0.11.2",
+            "pv": "0.11.3",
             "section": "libs",
-            "srcrev": "dff6c0821ed54f6fbf5b755af43f54cbb723b1b1",
+            "srcrev": "301d0e16dfa8a5cac1cff956b6880ca90eb82864",
             "summary": "Multiplatform C library implementing the SSHv2 and SSHv1 protocol",
-            "updated": "2025-08-14T05:08:59+0000"
+            "updated": "2025-10-26T23:10:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6313,7 +6313,7 @@
             "section": "base",
             "srcrev": "ec0b01c03fdc7893997b7b32ec1c12c6103f62f3",
             "summary": "USB Gadget neXt Configfs Library",
-            "updated": "2025-06-22T22:06:57+0000"
+            "updated": "2025-10-26T23:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -6449,9 +6449,9 @@
             "provides": "udisks2 ",
             "pv": "2.10.1",
             "section": "base",
-            "srcrev": "18c9faf089e306ad6f3f51f5cb887a6b9aa08350",
+            "srcrev": "bc623acf9e7488dc105e4b00069d57e303e2616b",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2025-07-14T21:07:06+0000"
+            "updated": "2025-10-26T23:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -7601,7 +7601,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Implementation of XDG Sound Theme and Name Specifications",
-            "updated": "2025-06-22T22:06:13+0000"
+            "updated": "2025-10-26T23:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -7716,7 +7716,7 @@
             "section": "base",
             "srcrev": "a6a79ef064f131ffd03c110acce2d3edb84ffa2e",
             "summary": "Exif, Iptc and XMP metadata manipulation library and tools",
-            "updated": "2025-06-22T22:06:14+0000"
+            "updated": "2025-10-26T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -8144,7 +8144,7 @@
             "id": 2222512,
             "inherits": "autotools autotools-brokensep siteinfo",
             "layerbranch": 1037130,
-            "license": "GPL-2.0-only",
+            "license": "LGPL-2.1-only",
             "pe": "",
             "pn": "tokyocabinet",
             "pr": "r0",
@@ -8153,7 +8153,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A modern implementation of DBM",
-            "updated": "2025-06-22T22:06:17+0000"
+            "updated": "2025-10-26T23:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -8662,10 +8662,10 @@
             "updated": "2025-06-22T22:06:22+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DCPU_DISPATCH=SSE,SSE2,SSE3,SSSE3            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DWITH_FASTCV=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_PNG=ON -DPYTHON3_INCLUDE_PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/include/python3.13 -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp_nybpuzy/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib/python3.13/site-packages/numpy/_core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/opencv/4.11.0/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DWITH_IPP=OFF     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/opencv/4.11.0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DCPU_DISPATCH=SSE,SSE2,SSE3,SSSE3            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DWITH_FASTCV=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVINO=OFF -DWITH_PNG=ON -DPYTHON3_INCLUDE_PATH=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/include/python3.13 -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/opencv/4.11.0/recipe-sysroot/usr/lib/python3.13/site-packages/numpy/_core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
             "description": "",
             "filename": "opencv_4.11.0.bb",
             "filepath": "recipes-support/opencv",
@@ -8682,7 +8682,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2025-07-11T02:07:08+0000"
+            "updated": "2025-10-26T23:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -9056,7 +9056,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/hdf5/1.14.4-3/qemuwrapper      -DHDF5_INSTALL_CMAKE_DIR=/usr/lib/cmake     -DCMAKE_INSTALL_PREFIX='/usr'     -DHDF5_INSTALL_LIB_DIR='lib'  ",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/hdf5/1.14.4-3/qemuwrapper      -DHDF5_INSTALL_CMAKE_DIR=/usr/lib/cmake     -DCMAKE_INSTALL_PREFIX='/usr'     -DHDF5_INSTALL_LIB_DIR='lib'  ",
             "description": "Unique technology suite that makes possible the management of extremely large and complex data collections",
             "filename": "hdf5_1.14.4-3.bb",
             "filepath": "recipes-support/hdf5",
@@ -9073,7 +9073,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Management suite for extremely large and complex data collections",
-            "updated": "2025-06-22T22:06:26+0000"
+            "updated": "2025-10-26T23:10:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -9533,7 +9533,7 @@
             "section": "console/utils",
             "srcrev": "a2d96f40e707ba54b57e7d98c3277d3ea6611ace",
             "summary": "ImageMagick is an image conversion toolkit",
-            "updated": "2025-06-22T22:06:30+0000"
+            "updated": "2025-10-26T23:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -9761,9 +9761,9 @@
             "provides": "daemonize ",
             "pv": "1.7.8",
             "section": "base",
-            "srcrev": "18869a797dab12bf1c917ba3b4782fef484c407c",
+            "srcrev": "58237626e6999e68b9583ed1b4b08136f118f68c",
             "summary": "A tool to run a command as a daemon",
-            "updated": "2025-06-22T22:06:32+0000"
+            "updated": "2025-10-26T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -10292,7 +10292,7 @@
             "section": "base",
             "srcrev": "1ef70158d7fde1ced6aaddb0b9443c32a7121d3d",
             "summary": "raw image decoder",
-            "updated": "2025-06-22T22:06:36+0000"
+            "updated": "2025-10-26T23:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11611,7 +11611,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=false ",
             "description": "",
-            "filename": "libgpiod_2.2.1.bb",
+            "filename": "libgpiod_2.2.2.bb",
             "filepath": "recipes-support/libgpiod",
             "homepage": "",
             "id": 2222663,
@@ -11622,11 +11622,11 @@
             "pn": "libgpiod",
             "pr": "r0",
             "provides": "libgpiod ",
-            "pv": "2.2.1",
+            "pv": "2.2.2",
             "section": "base",
             "srcrev": "",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2025-06-22T22:06:49+0000"
+            "updated": "2025-10-26T23:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11672,7 +11672,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2025-08-07T21:08:37+0000"
+            "updated": "2025-10-22T01:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -13541,13 +13541,13 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "                 --with-fp-layout=nothing                 --disable-perl --with-libperl=no --with-perl-bindings=no                 --with-libgcrypt=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/collectd/5.12.0/recipe-sysroot/usr/bin/crossscripts/libgcrypt-config                 --disable-notify_desktop --disable-werror            --disable-amqp --with-librabbitmq=no --disable-dbi --without-libdpdk --disable-iptables --disable-openldap --without-libldap --without-libatasmart --without-libesmtp --without-libmemcached --without-libmnl --without-libowcapi --disable-virt --disable-modbus          --disable-mysql --with-libmysql=no --without-java --disable-pinba          --disable-postgresql --with-libpq=no --disable-python --disable-rrdcached --disable-rrdtool          --disable-sensors --with-libsensors=no --disable-snmp --with-libnetsnmp=no",
+            "configopts": "                 --with-fp-layout=nothing                 --disable-perl --with-libperl=no --with-perl-bindings=no                 --with-libgcrypt=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/collectd/5.12.0/recipe-sysroot/usr/bin/crossscripts/libgcrypt-config                 --disable-notify_desktop --disable-werror            --disable-amqp --with-librabbitmq=no --disable-dbi --without-libdpdk --disable-iptables --disable-openldap --without-libldap --without-libatasmart --without-libesmtp --without-libmemcached --without-libmnl --without-libowcapi --disable-virt --disable-modbus          --disable-mysql --with-libmysql=no --without-java --disable-pinba          --disable-postgresql --with-libpq=no --disable-python --disable-rrdcached --disable-rrdtool          --disable-sensors --with-libsensors=no --disable-snmp --with-libnetsnmp=no",
             "description": "collectd is a daemon which collects system performance statistics periodically and provides mechanisms to store the values in a variety of ways, for example in RRD files.",
             "filename": "collectd_5.12.0.bb",
             "filepath": "recipes-extended/collectd",
             "homepage": "https://collectd.org/",
             "id": 2222747,
-            "inherits": "autotools pkgconfig python3-dir python3native siteinfo systemd update-rc.d",
+            "inherits": "autotools github-releases pkgconfig python3-dir python3native siteinfo systemd update-rc.d",
             "layerbranch": 1037130,
             "license": "GPL-2.0-only & MIT",
             "pe": "",
@@ -13558,7 +13558,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Collects and summarises system performance statistics",
-            "updated": "2025-06-22T22:06:05+0000"
+            "updated": "2025-10-26T23:10:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14133,7 +14133,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2025-07-14T21:07:04+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14156,7 +14156,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2025-07-14T21:07:04+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14524,7 +14524,7 @@
             "section": "Applications/Text",
             "srcrev": "",
             "summary": "A GNU program for formatting C code",
-            "updated": "2025-06-22T22:06:16+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -14662,7 +14662,7 @@
             "section": "base",
             "srcrev": "d627b0d1e1108563658dabe3fb8d2a065e64df10",
             "summary": "Polkit Authorization Framework",
-            "updated": "2025-06-22T22:06:17+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -14823,7 +14823,7 @@
             "section": "base",
             "srcrev": "dc2c284664757fce6ef8f96f8b3ab667a53ef489",
             "summary": "",
-            "updated": "2025-06-22T22:06:19+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -14831,7 +14831,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "GNU Parallel is a command-line tool for executing jobs in parallel on one or more computers. It allows users to run multiple commands simultaneously, making it easier to process large batches of tasks.",
-            "filename": "parallel_20250322.bb",
+            "filename": "parallel_20250822.bb",
             "filepath": "recipes-extended/parallel",
             "homepage": "https://www.gnu.org/software/parallel/",
             "id": 2222803,
@@ -14842,11 +14842,11 @@
             "pn": "parallel",
             "pr": "r0",
             "provides": "parallel ",
-            "pv": "20250322",
+            "pv": "20250822",
             "section": "base",
             "srcrev": "",
             "summary": "GNU Parallel - A shell tool for executing jobs in parallel using one or more computers",
-            "updated": "2025-06-22T22:06:19+0000"
+            "updated": "2025-10-26T23:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -15197,7 +15197,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --enable-libraries     --enable-unicode     --enable-shared     --enable-dynamic-client-linkage     --enable-client     --disable-server     --disable-static     --disable-manager     --with-ssl=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/boinc-client/7.20.5/recipe-sysroot/usr     --without-wxdir     --without-x     --with-boinc-platform=i686-oe-linux     ac_cv_c_undeclared_builtin_options='none'  --enable-nls ",
+            "configopts": "     --enable-libraries     --enable-unicode     --enable-shared     --enable-dynamic-client-linkage     --enable-client     --disable-server     --disable-static     --disable-manager     --with-ssl=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/boinc-client/7.20.5/recipe-sysroot/usr     --without-wxdir     --without-x     --with-boinc-platform=i686-oe-linux     ac_cv_c_undeclared_builtin_options='none'  --enable-nls ",
             "description": "The Berkeley Open Infrastructure for Network Computing (BOINC) is an open- source software platform which supports distributed computing, primarily in the form of volunteer computing and desktop Grid computing.  It is well suited for problems which are often described as trivially parallel.  BOINC is the underlying software used by projects such as SETI@home, Einstein@Home, ClimatePrediciton.net, the World Community Grid, and many other distributed computing projects. This package installs the BOINC client software, which will allow your computer to participate in one or more BOINC projects, using your spare computer time to search for cures for diseases, model protein folding, study global warming, discover sources of gravitational waves, and many other types of scientific and mathematical research.",
             "filename": "boinc-client_7.20.5.bb",
             "filepath": "recipes-extended/boinc",
@@ -15214,7 +15214,7 @@
             "section": "applications",
             "srcrev": "4774e1cbe0ad13cb9a6f7fffbb626a417316f61d",
             "summary": "Open-source software for volunteer computing",
-            "updated": "2025-06-22T22:06:22+0000"
+            "updated": "2025-10-26T23:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -15703,7 +15703,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-libdnet=included --with-liblinear=included --without-subversion --with-liblua=included --without-zenmap   --without-libz --without-ndiff --with-pcap=linux --with-libpcre=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/nmap/7.95/recipe-sysroot/usr/lib/..  --without-openssh2  --without-openssl --without-nmap-update",
+            "configopts": "--with-libdnet=included --with-liblinear=included --without-subversion --with-liblua=included --without-zenmap   --without-libz --without-ndiff --with-pcap=linux --with-libpcre=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/nmap/7.95/recipe-sysroot/usr/lib/..  --without-openssh2  --without-openssl --without-nmap-update",
             "description": "Nmap (Network Mapper) is a free and open source (license) utility for network discovery and security auditing.\\nGui support via appending to IMAGE_FEATURES x11-base in local.conf",
             "filename": "nmap_7.95.bb",
             "filepath": "recipes-security/nmap",
@@ -15711,7 +15711,7 @@
             "id": 2222841,
             "inherits": "autotools autotools-brokensep pkgconfig python3-dir python3native siteinfo",
             "layerbranch": 1037130,
-            "license": "GPL-2.0-only",
+            "license": "NPSL",
             "pe": "",
             "pn": "nmap",
             "pr": "r0",
@@ -15720,7 +15720,7 @@
             "section": "security",
             "srcrev": "",
             "summary": "network auditing tool",
-            "updated": "2025-06-22T22:06:28+0000"
+            "updated": "2025-10-26T23:10:20+0000"
         },
         {
             "bbclassextend": "",
@@ -16433,7 +16433,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel selftest for Linux",
-            "updated": "2025-06-22T22:06:39+0000"
+            "updated": "2025-10-26T23:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -16686,7 +16686,7 @@
             "section": "devel",
             "srcrev": "f13853cef53f5c5463a51021edbc81977e2b1405",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2025-06-22T22:06:41+0000"
+            "updated": "2025-10-26T23:10:23+0000"
         },
         {
             "bbclassextend": "native cross",
@@ -16709,7 +16709,7 @@
             "section": "devel",
             "srcrev": "f13853cef53f5c5463a51021edbc81977e2b1405",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2025-06-22T22:06:41+0000"
+            "updated": "2025-10-26T23:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -16924,7 +16924,7 @@
             "bugtracker": "",
             "configopts": "--without-doc --disable-test PERL=/usr/bin/perl  --enable-nls",
             "description": "Gutenprint printer drivers",
-            "filename": "gutenprint_5.3.4.bb",
+            "filename": "gutenprint_5.3.5.bb",
             "filepath": "recipes-printing/gutenprint",
             "homepage": "http://gimp-print.sourceforge.net/",
             "id": 2222894,
@@ -16935,11 +16935,11 @@
             "pn": "gutenprint",
             "pr": "r0",
             "provides": "gutenprint ",
-            "pv": "5.3.4",
+            "pv": "5.3.5",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T22:06:43+0000"
+            "updated": "2025-10-26T23:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -17008,7 +17008,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-26T23:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -17077,7 +17077,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-26T23:10:19+0000"
         },
         {
             "bbclassextend": "",
@@ -17307,7 +17307,7 @@
             "section": "base",
             "srcrev": "05710ec5032be4c8edafb4109d4d908d31243906",
             "summary": "",
-            "updated": "2025-06-22T22:06:46+0000"
+            "updated": "2025-10-26T23:10:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -17698,7 +17698,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Jpeg 2000 implementation",
-            "updated": "2025-06-22T22:06:49+0000"
+            "updated": "2025-10-26T23:10:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -21407,7 +21407,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/esnet/iperf/issues",
-            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmp12anabtu/tmp/work/core2-32-oe-linux/iperf3/3.18/recipe-sysroot/usr",
+            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/iperf3/3.18/recipe-sysroot/usr",
             "description": "iperf is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the bandwidth, loss, and other parameters.",
             "filename": "iperf3_3.18.bb",
             "filepath": "recipes-benchmark/iperf3",
@@ -21424,7 +21424,7 @@
             "section": "console/network",
             "srcrev": "2a2984488d6de8f7a2d1f5938e03ca7be57e227c",
             "summary": "Network benchmark tool",
-            "updated": "2025-08-12T00:08:22+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -21499,7 +21499,7 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--exec-prefix=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/iperf2/2.2.1/recipe-sysroot${layout_exec_prefix}  --enable-ipv6",
+            "configopts": "--exec-prefix=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/iperf2/2.2.1/recipe-sysroot${layout_exec_prefix}  --enable-ipv6",
             "description": "Iperf is a tool to measure maximum TCP bandwidth, allowing the tuning of various parameters and UDP characteristics",
             "filename": "iperf2_2.2.1.bb",
             "filepath": "recipes-benchmark/iperf2",
@@ -21516,7 +21516,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-06-22T22:06:23+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -21792,7 +21792,7 @@
             "section": "lib",
             "srcrev": "f9add9245b97c7bda6e28cceb0ee37fb7e254fd8",
             "summary": "Safe C Library",
-            "updated": "2025-06-22T22:06:25+0000"
+            "updated": "2025-10-26T23:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -22308,7 +22308,7 @@
             "description": "",
             "filename": "proxy-libintl_20100902.bb",
             "filepath": "recipes-core/proxy-libintl",
-            "homepage": "http://ftp.gnome.org/pub/GNOME/binaries/win32/dependencies/",
+            "homepage": "https://download.gnome.org/binaries/win32/dependencies/",
             "id": 2223128,
             "inherits": "",
             "layerbranch": 1037130,
@@ -22321,7 +22321,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Proxy libintl",
-            "updated": "2025-06-22T22:06:34+0000"
+            "updated": "2025-10-26T23:10:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -22344,7 +22344,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A library for loose coupling of C++ method calls",
-            "updated": "2025-06-22T22:06:34+0000"
+            "updated": "2025-10-26T23:10:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -22367,7 +22367,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A library for loose coupling of C++ method calls",
-            "updated": "2025-06-22T22:06:34+0000"
+            "updated": "2025-10-26T23:10:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -22467,7 +22467,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "mm-common_1.0.6.bb",
+            "filename": "mm-common_1.0.7.bb",
             "filepath": "recipes-core/mm-common",
             "homepage": "",
             "id": 2223135,
@@ -22478,11 +22478,11 @@
             "pn": "mm-common",
             "pr": "r0",
             "provides": "mm-common ",
-            "pv": "1.0.6",
+            "pv": "1.0.7",
             "section": "base",
             "srcrev": "",
             "summary": "Common GNOME build files for C++ bindings",
-            "updated": "2025-06-22T22:06:35+0000"
+            "updated": "2025-10-26T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -23178,9 +23178,9 @@
             "bbclassextend": "",
             "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "--without-python  --with-openssl=/tmp/tmpo6usy3_2/tmp/work/core2-32-oe-linux/gensio/2.8.7/recipe-sysroot/usr --without-swig --with-tcp-wrappers",
+            "configopts": "--without-python  --with-openssl=/tmp/tmpj3hvyi37/tmp/work/core2-32-oe-linux/gensio/2.8.15/recipe-sysroot/usr --without-swig --with-tcp-wrappers",
             "description": "",
-            "filename": "gensio_2.8.7.bb",
+            "filename": "gensio_2.8.15.bb",
             "filepath": "recipes-connectivity/gensio",
             "homepage": "https://github.com/cminyard/gensio",
             "id": 2223166,
@@ -23191,11 +23191,11 @@
             "pn": "gensio",
             "pr": "r0",
             "provides": "gensio ",
-            "pv": "2.8.7",
+            "pv": "2.8.15",
             "section": "base",
-            "srcrev": "e4dbb9687bd5e887fa98a4cdcec012ea85da1ef2",
+            "srcrev": "5ffe39f4a247ff001661a4c283305a3abe823fe3",
             "summary": "A library to abstract stream I/O like serial port, TCP, telnet, etc",
-            "updated": "2025-06-22T22:06:42+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -23483,7 +23483,7 @@
             "filepath": "recipes-connectivity/mosh",
             "homepage": "http://mosh.mit.edu",
             "id": 2223179,
-            "inherits": "autotools pkgconfig siteinfo",
+            "inherits": "autotools github-releases pkgconfig siteinfo",
             "layerbranch": 1037130,
             "license": "GPL-3.0-or-later",
             "pe": "",
@@ -23494,7 +23494,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Remote shell supporting roaming and high-latency connections",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-26T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -23893,7 +23893,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "libimobiledevice-glue_1.3.1.bb",
+            "filename": "libimobiledevice-glue_1.3.2.bb",
             "filepath": "recipes-connectivity/libimobiledevice-glue",
             "homepage": "http://www.libimobiledevice.org/",
             "id": 2223197,
@@ -23904,11 +23904,11 @@
             "pn": "libimobiledevice-glue",
             "pr": "r0",
             "provides": "libimobiledevice-glue ",
-            "pv": "1.3.1",
+            "pv": "1.3.2",
             "section": "base",
-            "srcrev": "a4ec1cf9cc7084cbe5571e31640ef773701e5f51",
+            "srcrev": "aef2bf0f5bfe961ad83d224166462d87b1df2b00",
             "summary": "Library with common code used by the libraries and tools around the libimobiledevice project",
-            "updated": "2025-06-22T22:06:48+0000"
+            "updated": "2025-10-26T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -23977,7 +23977,7 @@
             "section": "kernel/userland",
             "srcrev": "",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2025-06-22T22:06:48+0000"
+            "updated": "2025-10-26T23:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -24123,7 +24123,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "ser2net_4.6.4.bb",
+            "filename": "ser2net_4.6.5.bb",
             "filepath": "recipes-connectivity/ser2net",
             "homepage": "http://sourceforge.net/projects/ser2net/",
             "id": 2223207,
@@ -24134,11 +24134,11 @@
             "pn": "ser2net",
             "pr": "r0",
             "provides": "ser2net ",
-            "pv": "4.6.4",
+            "pv": "4.6.5",
             "section": "console/network",
             "srcrev": "",
             "summary": "A serial to network proxy",
-            "updated": "2025-06-22T22:06:50+0000"
+            "updated": "2025-10-26T23:10:11+0000"
         },
         {
             "bbclassextend": "",

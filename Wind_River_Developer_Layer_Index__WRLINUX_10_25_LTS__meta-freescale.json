@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-13T00:10:07+0000",
+            "updated": "2025-10-29T00:10:08+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-10-12T21:10:08+0000",
-            "vcs_last_commit": "2025-10-12T09:10:39+0000",
-            "vcs_last_fetch": "2025-10-12T21:10:08+0000",
-            "vcs_last_rev": "f95cd01742c0d163a44c187083aa855b9f1fd366",
+            "updated": "2025-10-28T21:10:05+0000",
+            "vcs_last_commit": "2025-10-28T20:10:21+0000",
+            "vcs_last_fetch": "2025-10-28T21:10:05+0000",
+            "vcs_last_rev": "ac4a620e60a40cb1954fc7e5ff28cb7f7d3f97ea",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -690,10 +690,10 @@
             "id": 1039428,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-09-25T00:09:57+0000",
-            "vcs_last_commit": "2025-09-23T19:09:20+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:57+0000",
-            "vcs_last_rev": "bca3032ca5ac28df57ea8c7daab5d0a4c9b11432",
+            "updated": "2025-10-26T23:10:51+0000",
+            "vcs_last_commit": "2025-10-23T22:10:47+0000",
+            "vcs_last_fetch": "2025-10-26T23:10:51+0000",
+            "vcs_last_rev": "52d4d3f7a3c50e079c8e76130db8ade101b662e0",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44212
@@ -4823,7 +4823,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-09-25T00:09:56+0000"
+            "updated": "2025-10-26T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -4846,7 +4846,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-09-25T00:09:56+0000"
+            "updated": "2025-10-26T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5076,7 +5076,7 @@
             "section": "graphics",
             "srcrev": "a91631b260cba3f22858d6c6827511e636c2458a",
             "summary": "OpenGL / OpenGL ES Reference Compiler",
-            "updated": "2025-09-25T00:09:56+0000"
+            "updated": "2025-10-26T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -5215,6 +5215,29 @@
             "srcrev": "87964807d80baf1dcfd89cafc66de34a1cf16bf3",
             "summary": "OP-TEE Trusted OS TA devkit",
             "updated": "2025-09-25T00:09:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries",
+            "configopts": "    -DBUILD_TESTS=OFF      ",
+            "description": "Common libraries created to share code across various Vulkan repositories, solving long standing issues for Vulkan SDK developers and users.",
+            "filename": "vulkan-utility-libraries_1.3.275.0.imx.bb",
+            "filepath": "recipes-downgrade/vulkan",
+            "homepage": "https://www.khronos.org/vulkan/",
+            "id": 2320570,
+            "inherits": "cmake features_check pkgconfig",
+            "layerbranch": 1039428,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "vulkan-utility-libraries",
+            "pr": "r0",
+            "provides": "vulkan-utility-libraries ",
+            "pv": "1.3.275.0.imx",
+            "section": "libs",
+            "srcrev": "4cfc176e3242b4dbdfd3f6c5680c5d8f2cb7db45",
+            "summary": "Vulkan Utility Libraries",
+            "updated": "2025-10-26T23:10:51+0000"
         }
     ],
     "wrtemplates": []

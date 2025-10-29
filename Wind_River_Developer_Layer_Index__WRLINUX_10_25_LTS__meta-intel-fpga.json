@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-13T00:10:07+0000",
+            "updated": "2025-10-29T00:10:08+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1043650,
             "layer": 380,
             "local_path": "",
-            "updated": "2025-06-22T22:06:44+0000",
-            "vcs_last_commit": "2025-06-11T06:06:41+0000",
-            "vcs_last_fetch": "2025-06-22T22:06:44+0000",
-            "vcs_last_rev": "dcacd8e149ad63e14fa618b952959268fe90c66e",
+            "updated": "2025-10-28T20:10:06+0000",
+            "vcs_last_commit": "2025-10-28T20:10:33+0000",
+            "vcs_last_fetch": "2025-10-28T20:10:06+0000",
+            "vcs_last_rev": "e867e5319ad8eeb2ee77e81ddd292c123b16aec6",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44206
@@ -719,112 +719,77 @@
             "id": 101110,
             "layerbranch": 1043650,
             "name": "agilex5_dk_a5e065bb32aes1",
-            "updated": "2025-06-22T22:06:44+0000"
-        },
-        {
-            "description": " Agilex7 DK-SI-AGI027FA (LINEAR) SoCFPGA",
-            "id": 101111,
-            "layerbranch": 1043650,
-            "name": "agilex7_dk_si_agi027fa",
-            "updated": "2025-06-22T22:06:44+0000"
-        },
-        {
-            "description": " Stratix 10 SoCFPGA",
-            "id": 101112,
-            "layerbranch": 1043650,
-            "name": "stratix10",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex5 SoCFPGA",
             "id": 101113,
             "layerbranch": 1043650,
             "name": "agilex5_dk_a5e013bb32aes_5s",
-            "updated": "2025-06-22T22:06:44+0000"
-        },
-        {
-            "description": " Agilex5 SoCFPGA",
-            "id": 101114,
-            "layerbranch": 1043650,
-            "name": "agilex5_dk_a5e013bb32aesi0",
-            "updated": "2025-06-22T22:06:44+0000"
-        },
-        {
-            "description": " Agilex7 DK-DEV-AGF027F1ES SoCFPGA",
-            "id": 101115,
-            "layerbranch": 1043650,
-            "name": "agilex7_dk_dev_agf027f1es",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex5 SoCFPGA",
             "id": 101116,
             "layerbranch": 1043650,
             "name": "agilex5",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " N5X eASIC devices",
             "id": 101117,
             "layerbranch": 1043650,
             "name": "n5x",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Stratix 10 SoCFPGA",
             "id": 101118,
             "layerbranch": 1043650,
             "name": "stratix10_htile",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex3",
             "id": 101119,
             "layerbranch": 1043650,
             "name": "agilex3",
-            "updated": "2025-06-22T22:06:44+0000"
-        },
-        {
-            "description": " Agilex5 SoCFPGA",
-            "id": 101120,
-            "layerbranch": 1043650,
-            "name": "agilex5_mudv_cvr",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex5 SoCFPGA",
             "id": 101121,
             "layerbranch": 1043650,
             "name": "agilex5_dk_a5e013bb32aes",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex7 DK-SI-AGF014EB (LINEAR) SoCFPGA",
             "id": 101122,
             "layerbranch": 1043650,
             "name": "agilex7_dk_si_agf014eb",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Arria 10 SoCFPGA",
             "id": 101123,
             "layerbranch": 1043650,
             "name": "arria10",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex7 DK-SI-AGI027FC (LINEAR) SoCFPGA",
             "id": 101124,
             "layerbranch": 1043650,
             "name": "agilex7_dk_si_agi027fc",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Agilex5 SoCFPGA",
             "id": 101125,
             "layerbranch": 1043650,
             "name": "agilex5_mk_a5e065bb32aes1",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " nios2 machines",
@@ -834,25 +799,18 @@
             "updated": "2025-06-22T22:06:44+0000"
         },
         {
-            "description": " Agilex5 SoCFPGA",
+            "description": " Agilex5",
             "id": 101127,
             "layerbranch": 1043650,
-            "name": "agilex5_mucv",
-            "updated": "2025-06-22T22:06:44+0000"
+            "name": "agilex5_dk_a5e013bm16aea",
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
-            "description": " Agilex7 DK-SI-AGF014EA SoCFPGA",
+            "description": " Agilex7 DK-SI-AGF014EB (LINEAR) SoCFPGA",
             "id": 101128,
             "layerbranch": 1043650,
-            "name": "agilex7_dk_si_agf014ea",
-            "updated": "2025-06-22T22:06:44+0000"
-        },
-        {
-            "description": " Agilex7 DK-SI-AGI027FB SoCFPGA",
-            "id": 101129,
-            "layerbranch": 1043650,
-            "name": "agilex7_dk_si_agi027fb",
-            "updated": "2025-06-22T22:06:44+0000"
+            "name": "agilex7_dk_dev_agf023fa",
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "description": " Cyclone V SoC\"",
@@ -873,7 +831,14 @@
             "id": 101132,
             "layerbranch": 1043650,
             "name": "agilex7_dk_dev_agm039fes",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2025-10-28T20:10:01+0000"
+        },
+        {
+            "description": " Agilex7 DK-DEV-AGM039EA SoCFPGA",
+            "id": 105058,
+            "layerbranch": 1043650,
+            "name": "agilex7_dk_dev_agm039ea",
+            "updated": "2025-10-28T20:10:01+0000"
         }
     ],
     "recipes": [
@@ -898,7 +863,7 @@
             "section": "bootloaders",
             "srcrev": "24e26ba4a0d8fe816e32e760537a3f356823ba7b",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:07+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -921,7 +886,7 @@
             "section": "bootloaders",
             "srcrev": "cd3a9044d66128bc67c4ce60eb752ac528620f54",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:07+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -944,7 +909,7 @@
             "section": "bootloaders",
             "srcrev": "29063bb1047f9f3dd85fd49e7745e0eef2200dfa",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:07+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -967,7 +932,7 @@
             "section": "bootloaders",
             "srcrev": "d2d95a62e33767d29cd4fb1b7689042327addfc0",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:07+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -990,7 +955,7 @@
             "section": "bootloaders",
             "srcrev": "bdc9a4409de9cef4408eebd81196fd63887ac78f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:07+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1013,7 +978,7 @@
             "section": "bootloaders",
             "srcrev": "157b759210e2024649081657b56adfc41fb56f34",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:08+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1036,7 +1001,7 @@
             "section": "bootloaders",
             "srcrev": "c11f4e161a2d86a3657fbbc21f87bc4afb815eb9",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:08+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1057,9 +1022,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2024.07+gitX",
             "section": "bootloaders",
-            "srcrev": "c13fb267004c4c79d3573360f033f4a32e8a3c79",
+            "srcrev": "0dad0a0a4781fdcf8a3abcecdf563bff7f07606e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:08+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1082,7 +1047,7 @@
             "section": "bootloaders",
             "srcrev": "bd5ba31770d191ba3cd64f3c431e205b1f8d89b3",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:08+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1105,7 +1070,7 @@
             "section": "bootloaders",
             "srcrev": "0fa4e757b5b31173f3e063430d72ef2ff30412b2",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:08+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1128,7 +1093,7 @@
             "section": "bootloaders",
             "srcrev": "e7beb4cb47f1f0563b2c63c80ca8a329d9f31226",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:09+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1151,7 +1116,7 @@
             "section": "bootloaders",
             "srcrev": "698d4137f7712e99eeff4ed844b774342457f13a",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:09+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1174,7 +1139,7 @@
             "section": "bootloaders",
             "srcrev": "dab86d36f17b8c920acfd2349e657b00f0443c83",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:09+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1197,7 +1162,7 @@
             "section": "bootloaders",
             "srcrev": "fcf317324c5a9118a0d6d261f5a657a78ec31fa0",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:09+0000"
+            "updated": "2025-10-28T20:10:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1220,7 +1185,7 @@
             "section": "bootloaders",
             "srcrev": "61ae22e548ebda525d5216d107e45f20eca70537",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1243,7 +1208,7 @@
             "section": "bootloaders",
             "srcrev": "123cc7934a82d162d6d505339ca8efb11e170030",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1266,7 +1231,7 @@
             "section": "bootloaders",
             "srcrev": "69d5338be07fba0c7c94579f38cc3c4014d1d355",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1289,7 +1254,7 @@
             "section": "base",
             "srcrev": "4837356693ede42b849ed72f1864cc9c76c53a46",
             "summary": "",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1312,7 +1277,7 @@
             "section": "base",
             "srcrev": "c841485a3730ba9193afc35b88b161ab0b30eaf7",
             "summary": "",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1335,7 +1300,7 @@
             "section": "base",
             "srcrev": "fbf2b01a916c14e86ee1a95926fb99c6d0005dd7",
             "summary": "",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1356,9 +1321,9 @@
             "provides": "arm-trusted-firmware arm-trusted-firmware",
             "pv": "v2.12",
             "section": "base",
-            "srcrev": "58e71a6f67a332c9e3cecf7fdaab80fbc3d40238",
+            "srcrev": "b51695f4f8ee345738bf7c6e0a8edc1d4d637cdf",
             "summary": "",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1381,7 +1346,7 @@
             "section": "base",
             "srcrev": "7009a0d7a0a0c7c8fa5834958dfdd8ee60cbf21d",
             "summary": "",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1404,7 +1369,7 @@
             "section": "base",
             "srcrev": "7d55643fada91159353734a371d4f6005df5fefe",
             "summary": "",
-            "updated": "2025-06-12T20:06:10+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1427,7 +1392,7 @@
             "section": "base",
             "srcrev": "03a5d54432629af63bc203187825fbe7cdb8e37c",
             "summary": "",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1450,7 +1415,7 @@
             "section": "base",
             "srcrev": "f8cd53053ed7065f083ba89a99e5404a0b8b8194",
             "summary": "",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1473,7 +1438,7 @@
             "section": "base",
             "srcrev": "adf62fd4d254238539413c11b4af1be4c80f31f5",
             "summary": "",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1496,14 +1461,14 @@
             "section": "base",
             "srcrev": "6fd554cdd10b9b68b1409b1b9aeb1af52f9edae6",
             "summary": "",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.13.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1519,14 +1484,14 @@
             "section": "kernel",
             "srcrev": "d3040907268d4d1f71d1b918d4f6ac1b86ce4611",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:04+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_6.6.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1542,14 +1507,14 @@
             "section": "kernel",
             "srcrev": "8e56f4dd61552e0c33b6b36107457188c2cc0406",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga-lts_6.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1561,18 +1526,18 @@
             "pn": "linux-socfpga-lts",
             "pr": "r0",
             "provides": "linux-socfpga-lts  virtual/kernel",
-            "pv": "6.12.11-lts+gitX",
+            "pv": "6.12.33-lts+gitX",
             "section": "kernel",
-            "srcrev": "2f0b0270dbabe9acc602bd269b4f85253e8a6e6d",
+            "srcrev": "3234b1ed89566a5e8b6c22c68bdfd36347174267",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:02+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_6.1.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1588,14 +1553,14 @@
             "section": "kernel",
             "srcrev": "d345a46074e9b94be5a30a6d8f0df66b47cb59f1",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:11+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.16.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1611,14 +1576,14 @@
             "section": "kernel",
             "srcrev": "813cb0d24cd0cef4da36aa6d0f9d154291ac15e1",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.15.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1634,14 +1599,14 @@
             "section": "kernel",
             "srcrev": "ad617140bb242ff9971717f61489c7bb785a1483",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga-lts_6.1.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1657,14 +1622,14 @@
             "section": "kernel",
             "srcrev": "e9428cbd99911700bd94f0647c8bba2f2326922e",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga-lts_5.15.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1680,14 +1645,14 @@
             "section": "kernel",
             "srcrev": "7ad67e37e1cc7b12ad58b0a487028e73ab170713",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.17.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1703,14 +1668,14 @@
             "section": "kernel",
             "srcrev": "accb8ba6a1f5b0da836ea96dab9a92fb9b84317c",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga-lts_6.6.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1726,14 +1691,14 @@
             "section": "kernel",
             "srcrev": "7dddbad0a3a725b140b8fc4621159cd4628374a8",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.18.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1749,14 +1714,14 @@
             "section": "kernel",
             "srcrev": "71067430fcc18c5cd7c21d3395a5f802d80ced10",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:12+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1772,14 +1737,14 @@
             "section": "kernel",
             "srcrev": "4b159443997466eb36133c59e7aaef4e76f62f4a",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:13+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga-lts_5.10.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1795,14 +1760,14 @@
             "section": "kernel",
             "srcrev": "47109d445dc0f922f6612ed1f5a229ea3f62f97e",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:13+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.11.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1818,14 +1783,14 @@
             "section": "kernel",
             "srcrev": "27e8b9142bfe1aab0494e08692214f3438a4ea67",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:13+0000"
+            "updated": "2025-10-28T20:10:05+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga_5.14.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1841,14 +1806,14 @@
             "section": "kernel",
             "srcrev": "73c8c03ffdea4aaed3e100349af967d8c9faeea0",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:13+0000"
+            "updated": "2025-10-28T20:10:06+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
+            "description": "Linux Kernel for Altera SoCFPGA",
             "filename": "linux-socfpga-lts_5.4.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
@@ -1864,7 +1829,76 @@
             "section": "kernel",
             "srcrev": "85d7cb262602855c4f22ff5e96b14d6147d1ab80",
             "summary": "Linux kernel",
-            "updated": "2025-06-12T20:06:13+0000"
+            "updated": "2025-10-28T20:10:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_v2.13.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 2326473,
+            "inherits": "deploy",
+            "layerbranch": 1043650,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "arm-trusted-firmware",
+            "pr": "r0",
+            "provides": "arm-trusted-firmware arm-trusted-firmware",
+            "pv": "v2.13",
+            "section": "base",
+            "srcrev": "116f2f97fa533e3540be97a2d9ec828f2a2b68aa",
+            "summary": "",
+            "updated": "2025-10-28T20:10:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2025.04.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2326474,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 1043650,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2025.04+gitX",
+            "section": "bootloaders",
+            "srcrev": "08197d3d7344b6d32f3ac6154771f2412a50d967",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2025-10-28T20:10:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-socfpga_v2025.07.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2326475,
+            "inherits": "cml1 deploy kernel-arch python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 1043650,
+            "license": "GPL-2.0-or-later",
+            "pe": "1",
+            "pn": "u-boot-socfpga",
+            "pr": "r0",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2025.07+gitX",
+            "section": "bootloaders",
+            "srcrev": "e5f40a8ed1ec65f20c4e2491bfe8e738efce6d94",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2025-10-28T20:10:06+0000"
         }
     ],
     "wrtemplates": []
