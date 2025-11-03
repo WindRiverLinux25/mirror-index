@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-29T00:10:08+0000",
+            "updated": "2025-11-02T00:11:11+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-10-28T21:10:05+0000",
-            "vcs_last_commit": "2025-10-28T20:10:21+0000",
-            "vcs_last_fetch": "2025-10-28T21:10:05+0000",
-            "vcs_last_rev": "ac4a620e60a40cb1954fc7e5ff28cb7f7d3f97ea",
+            "updated": "2025-11-02T21:11:07+0000",
+            "vcs_last_commit": "2025-11-02T20:11:30+0000",
+            "vcs_last_fetch": "2025-11-02T21:11:07+0000",
+            "vcs_last_rev": "9a25181594d7e4ebe94ee5a7ee525736a484b5a0",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -735,10 +735,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-10-27T22:10:26+0000",
-            "vcs_last_commit": "2025-10-27T22:10:38+0000",
-            "vcs_last_fetch": "2025-10-27T22:10:26+0000",
-            "vcs_last_rev": "93cd5be1210ecc8e9e1873f8b347a61cfe4638ae",
+            "updated": "2025-11-02T21:11:30+0000",
+            "vcs_last_commit": "2025-11-02T21:11:02+0000",
+            "vcs_last_fetch": "2025-11-02T21:11:30+0000",
+            "vcs_last_rev": "33dfc166759c6d07621b1f4147f1ea90fec57e1d",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -780,10 +780,10 @@
             "id": 1057205,
             "layer": 572,
             "local_path": "",
-            "updated": "2025-10-24T00:10:52+0000",
-            "vcs_last_commit": "2025-10-23T03:10:25+0000",
-            "vcs_last_fetch": "2025-10-24T00:10:52+0000",
-            "vcs_last_rev": "c78551a62c181bf4691c60b14f58efc89651b1e4",
+            "updated": "2025-10-31T00:10:14+0000",
+            "vcs_last_commit": "2025-10-30T23:10:17+0000",
+            "vcs_last_fetch": "2025-10-31T00:10:14+0000",
+            "vcs_last_rev": "d31e08bfc6dc9537cada1edb623496301e06c3ee",
             "vcs_subdir": "meta-xilinx-standalone-sdt",
             "version": null,
             "yp_compatible_version": 44206
@@ -810,10 +810,10 @@
             "id": 1057218,
             "layer": 563,
             "local_path": "",
-            "updated": "2025-10-24T17:10:41+0000",
-            "vcs_last_commit": "2025-10-24T00:10:45+0000",
-            "vcs_last_fetch": "2025-10-24T17:10:41+0000",
-            "vcs_last_rev": "3c8b7bef1d94f40a6b35e80eee30e340ea942a0e",
+            "updated": "2025-10-31T00:10:26+0000",
+            "vcs_last_commit": "2025-10-30T23:10:37+0000",
+            "vcs_last_fetch": "2025-10-31T00:10:26+0000",
+            "vcs_last_rev": "5abe524f4dab83a6778a64f10bb5455948c2a2bb",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -1073,10 +1073,34 @@
             "id": 104764,
             "layerbranch": 1057218,
             "name": "amd-versal",
-            "updated": "2025-10-24T00:10:04+0000"
+            "updated": "2025-10-29T02:10:11+0000"
         }
     ],
-    "recipes": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "versal-fw-demo.bb",
+            "filepath": "recipes-firmware/versal-fw-demo",
+            "homepage": "",
+            "id": 2326666,
+            "inherits": "deploy devicetree dfx_user_dts kernel-arch",
+            "layerbranch": 1057218,
+            "license": "MIT",
+            "pe": "",
+            "pn": "versal-fw-demo",
+            "pr": "r0",
+            "provides": "versal-fw-demo ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Full Bitstream loading app firmware using dfx_user_dts bbclass",
+            "updated": "2025-10-29T02:10:11+0000"
+        }
+    ],
     "wrtemplates": [
         {
             "description": "",

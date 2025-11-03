@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-10-29T00:10:08+0000",
+            "updated": "2025-11-02T00:11:11+0000",
             "updates_enabled": true
         }
     ],
@@ -683,10 +683,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-10-28T21:10:05+0000",
-            "vcs_last_commit": "2025-10-28T20:10:21+0000",
-            "vcs_last_fetch": "2025-10-28T21:10:05+0000",
-            "vcs_last_rev": "ac4a620e60a40cb1954fc7e5ff28cb7f7d3f97ea",
+            "updated": "2025-11-02T21:11:07+0000",
+            "vcs_last_commit": "2025-11-02T20:11:30+0000",
+            "vcs_last_fetch": "2025-11-02T21:11:07+0000",
+            "vcs_last_rev": "9a25181594d7e4ebe94ee5a7ee525736a484b5a0",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -922,7 +922,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-runtime_1.24.6.bb",
+            "filename": "go-runtime_1.24.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2311610,
@@ -933,11 +933,11 @@
             "pn": "go-runtime",
             "pr": "r0",
             "provides": "go-runtime virtual/i686-oe-linux-go-runtime",
-            "pv": "1.24.6",
+            "pv": "1.24.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-09-18T02:09:52+0000"
+            "updated": "2025-11-02T21:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -945,7 +945,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "go-binary-native_1.24.6.bb",
+            "filename": "go-binary-native_1.24.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2311611,
@@ -956,11 +956,11 @@
             "pn": "go-binary-native",
             "pr": "r0",
             "provides": "go-binary-native go-native",
-            "pv": "1.24.6",
+            "pv": "1.24.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler (upstream binary for bootstrap)",
-            "updated": "2025-09-18T02:09:52+0000"
+            "updated": "2025-11-02T21:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -968,7 +968,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-crosssdk_1.24.6.bb",
+            "filename": "go-crosssdk_1.24.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2311612,
@@ -983,7 +983,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-09-18T02:09:52+0000"
+            "updated": "2025-11-02T21:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -991,7 +991,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross-canadian_1.24.6.bb",
+            "filename": "go-cross-canadian_1.24.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2311613,
@@ -1006,7 +1006,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-09-18T02:09:52+0000"
+            "updated": "2025-11-02T21:11:06+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1014,7 +1014,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go_1.24.6.bb",
+            "filename": "go_1.24.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2311614,
@@ -1025,11 +1025,11 @@
             "pn": "go",
             "pr": "r0",
             "provides": "go ",
-            "pv": "1.24.6",
+            "pv": "1.24.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-09-18T02:09:53+0000"
+            "updated": "2025-11-02T21:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,7 +1037,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross_1.24.6.bb",
+            "filename": "go-cross_1.24.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2311615,
@@ -1052,7 +1052,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-09-18T02:09:53+0000"
+            "updated": "2025-11-02T21:11:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1794,7 +1794,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr     --bindir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib                         -L/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,loongarch64-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr     --bindir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-system-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --enable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=arm-softmmu,aarch64-softmmu,i386-softmmu,loongarch64-softmmu,mips-softmmu,mipsel-softmmu,mips64-softmmu,mips64el-softmmu,ppc-softmmu,ppc64-softmmu,riscv32-softmmu,riscv64-softmmu,sh4-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-system-native_9.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1811,13 +1811,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2025-09-25T00:09:45+0000"
+            "updated": "2025-10-30T01:10:22+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native= '     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native=  -pipe '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/qemu-9.2.0=/usr/src/debug/qemu/9.2.0  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/build=/usr/src/debug/qemu/9.2.0  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpevdq8y52/tmp/work/core2-32-oe-linux/qemu/9.2.0/recipe-sysroot-native= '     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --audio-drv-list=default --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --enable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --enable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --enable-pa --disable-rbd --disable-rdma --enable-sdl --enable-seccomp --disable-selinux --enable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --cross-prefix=i686-oe-linux- --target-list=ppc64le-linux-user,arm-linux-user,arm-softmmu,aarch64-linux-user,aarch64-softmmu,i386-linux-user,i386-softmmu,loongarch64-linux-user,loongarch64-softmmu,mips-linux-user,mips-softmmu,mipsel-linux-user,mipsel-softmmu,mips64-linux-user,mips64-softmmu,mips64el-linux-user,mips64el-softmmu,ppc-linux-user,ppc-softmmu,ppc64-linux-user,ppc64-softmmu,riscv32-linux-user,riscv32-softmmu,riscv64-linux-user,riscv64-softmmu,sh4-linux-user,sh4-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu_9.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1834,7 +1834,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2025-09-25T00:09:46+0000"
+            "updated": "2025-10-30T01:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1863,7 +1863,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr     --bindir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib                         -L/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmp_5qh2mga/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,loongarch64-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr     --bindir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/share/doc/qemu     --sysconfdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/var     --with-suffix=qemu     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpevdq8y52/tmp/work/x86_64-linux/qemu-native/9.2.0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --disable-download     --disable-docs     --host-cc='gcc '     --disable-af-xdp      --disable-linux-aio --disable-attr --disable-bpf --disable-brlapi --disable-bzip2 --disable-capstone --disable-curses --disable-libdaxctl --disable-dbus-display --disable-libdw --disable-opengl --disable-fdt --disable-fuse --disable-fuse-lseek --disable-gcrypt --disable-glusterfs --disable-gnutls --disable-gtk --disable-jack --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libnfs --disable-libudev --disable-libusb --disable-lzo --disable-nettle --disable-smartcard --disable-numa --enable-pie --disable-pipewire --disable-libpmem --disable-png --disable-pa --disable-rbd --disable-rdma --disable-sdl --disable-seccomp --disable-selinux --disable-slirp --disable-snappy --disable-sndio --disable-spice --disable-libssh --disable-linux-io-uring --disable-usb-redir --disable-vde --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-sasl --disable-vte --disable-xen --disable-xkbcommon      --target-list=ppc64le-linux-user,arm-linux-user,aarch64-linux-user,i386-linux-user,loongarch64-linux-user,mips-linux-user,mipsel-linux-user,mips64-linux-user,mips64el-linux-user,ppc-linux-user,ppc64-linux-user,riscv32-linux-user,riscv64-linux-user,sh4-linux-user,x86_64-linux-user --disable-tools --disable-install-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-native_9.2.0.bb",
             "filepath": "recipes-devtools/qemu",
@@ -1880,7 +1880,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Fast open source processor emulator",
-            "updated": "2025-09-25T00:09:46+0000"
+            "updated": "2025-10-30T01:10:23+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -7699,7 +7699,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2025-10-26T23:10:43+0000"
+            "updated": "2025-10-30T01:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -21574,9 +21574,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-auto-validation                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmp_5qh2mga/tmp/work/core2-32-oe-linux/bind/9.20.11/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
+            "configopts": " --disable-auto-validation                  --with-gssapi=no --with-lmdb=no --with-zlib                  --sysconfdir=/etc/bind                  --with-openssl=/tmp/tmp1p5eihey/tmp/work/core2-32-oe-linux/bind/9.20.15/recipe-sysroot/usr                  --disable-doh --without-libxml2 --with-readline=readline",
             "description": "BIND 9 provides a full-featured Domain Name Server system",
-            "filename": "bind_9.20.11.bb",
+            "filename": "bind_9.20.15.bb",
             "filepath": "recipes-connectivity/bind",
             "homepage": "https://www.isc.org/bind/",
             "id": 2312508,
@@ -21587,11 +21587,11 @@
             "pn": "bind",
             "pr": "r0",
             "provides": "bind ",
-            "pv": "9.20.11",
+            "pv": "9.20.15",
             "section": "console/network",
             "srcrev": "",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2025-09-25T00:09:40+0000"
+            "updated": "2025-11-02T21:11:07+0000"
         },
         {
             "bbclassextend": "",
