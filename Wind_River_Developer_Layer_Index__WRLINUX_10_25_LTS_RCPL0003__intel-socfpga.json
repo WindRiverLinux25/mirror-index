@@ -1,0 +1,965 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_25_LTS_RCPL0003",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44215,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44216,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_25_LTS_RCPL0003",
+            "comparison": false,
+            "hidden": false,
+            "id": 474,
+            "name": "WRLINUX_10_25_LTS_RCPL0003",
+            "short_description": "WRLinux 10_25 LTS RCPL 0003",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2025-11-07T23:11:12+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "core",
+            "id": 1057698,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2025-11-02T21:11:28+0000",
+            "vcs_last_commit": "2025-11-02T20:11:30+0000",
+            "vcs_last_fetch": "2025-11-02T21:11:28+0000",
+            "vcs_last_rev": "9a25181594d7e4ebe94ee5a7ee525736a484b5a0",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "wrlinux",
+            "id": 1057760,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2025-11-08T20:11:18+0000",
+            "vcs_last_commit": "2025-11-08T19:11:01+0000",
+            "vcs_last_fetch": "2025-11-08T20:11:18+0000",
+            "vcs_last_rev": "b64a39a1d9dd606ae34501853563e52b0d1b0f13",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "meta-intel-fpga",
+            "id": 1057914,
+            "layer": 380,
+            "local_path": "",
+            "updated": "2025-10-29T00:10:56+0000",
+            "vcs_last_commit": "2025-10-28T20:10:33+0000",
+            "vcs_last_fetch": "2025-10-29T00:10:56+0000",
+            "vcs_last_rev": "e867e5319ad8eeb2ee77e81ddd292c123b16aec6",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "intel-socfpga",
+            "id": 1057916,
+            "layer": 118,
+            "local_path": "",
+            "updated": "2025-10-28T22:10:49+0000",
+            "vcs_last_commit": "2025-09-28T01:09:59+0000",
+            "vcs_last_fetch": "2025-10-28T22:10:49+0000",
+            "vcs_last_rev": "1ed1f370704381eb9e4eea5ceea928c7cf3f9842",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44204
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 148949,
+            "layerbranch": 1057916,
+            "required": true
+        },
+        {
+            "dependency": 380,
+            "id": 148950,
+            "layerbranch": 1057916,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 148951,
+            "layerbranch": 1057916,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "intel-socfpga",
+            "comparison": false,
+            "description": "Intel socfpga BSP",
+            "id": 118,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "intel-socfpga",
+            "status": "P",
+            "summary": "Intel socfpga BSP",
+            "updated": "2018-05-30T22:05:42+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/intel-socfpga",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-intel-fpga",
+            "comparison": false,
+            "description": "This is a layer used by BSP intel-socfpga",
+            "id": 380,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel-fpga",
+            "status": "P",
+            "summary": "This is a layer used by BSP intel-socfpga",
+            "updated": "2021-04-21T00:04:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-fpga",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Intel Stratix 10 SoC",
+            "id": 105078,
+            "layerbranch": 1057916,
+            "name": "intel-socfpga-64",
+            "updated": "2025-10-28T22:10:48+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "GHRD(Golden Hardware Reference Design) is a reference design for Intel System On Chip (SoC) FPGA.",
+            "filename": "ghrd-socfpga_git.bb",
+            "filepath": "recipes-bsp/ghrd-socfpga",
+            "homepage": "https://github.com/altera-opensource/ghrd-socfpga",
+            "id": 2326522,
+            "inherits": "deploy",
+            "layerbranch": 1057916,
+            "license": "MIT & BSD-2-Clause & Proprietary",
+            "pe": "",
+            "pn": "ghrd-socfpga",
+            "pr": "r0",
+            "provides": "ghrd-socfpga ",
+            "pv": "QPDS23.2+gitX",
+            "section": "base",
+            "srcrev": "0544b4c3e85ea3423780cf715edcac48d5b61f9c",
+            "summary": "",
+            "updated": "2025-10-28T22:10:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "s10-u-boot-scr.bb",
+            "filepath": "recipes-bsp/s10-u-boot-scr",
+            "homepage": "",
+            "id": 2326523,
+            "inherits": "deploy nopackages",
+            "layerbranch": 1057916,
+            "license": "MIT",
+            "pe": "",
+            "pn": "s10-u-boot-scr",
+            "pr": "r0",
+            "provides": "s10-u-boot-scr ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "U-boot boot scripts for stratix10",
+            "updated": "2025-10-28T22:10:48+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "intel-rsu_git.bb",
+            "filepath": "recipes-bsp/intel-rsu",
+            "homepage": "https://github.com/altera-fpga/intel-rsu",
+            "id": 2326524,
+            "inherits": "autotools siteinfo",
+            "layerbranch": 1057916,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "intel-rsu",
+            "pr": "r0",
+            "provides": "intel-rsu ",
+            "pv": "1.0.0",
+            "section": "intel-rsu",
+            "srcrev": "f6e0f1e15e8e77c0c1150e2df34a13d9a5bd9771",
+            "summary": "Intel Remote System Update Tool",
+            "updated": "2025-10-28T22:10:48+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "FCS certificate generator is a userspace application for creating the                unsigned certificates for VAB image validation, VAB Counter Set, and VAB Key Cancellation.",
+            "filename": "fcs-prepare_git.bb",
+            "filepath": "recipes-bsp/intel-fcs",
+            "homepage": "https://github.com/altera-fpga/fcs_apps.git",
+            "id": 2326525,
+            "inherits": "",
+            "layerbranch": 1057916,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "fcs-prepare",
+            "pr": "r0",
+            "provides": "fcs-prepare ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "srcrev": "d88b31c679750800cb39910a24cbbdc32d003b4e",
+            "summary": "",
+            "updated": "2025-10-28T22:10:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "FCS certificate client is a userspace application for interacting                with the SDM VAB and SDOS functionality",
+            "filename": "fcs-client_git.bb",
+            "filepath": "recipes-bsp/intel-fcs",
+            "homepage": "https://github.com/altera-fpga/fcs_apps.git",
+            "id": 2326526,
+            "inherits": "",
+            "layerbranch": 1057916,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "fcs-client",
+            "pr": "r0",
+            "provides": "fcs-client ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "srcrev": "6c7098bf5a973d7045831b607497d8d6ae82ba59",
+            "summary": "",
+            "updated": "2025-10-28T22:10:49+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 131795,
+            "layerbranch": 1057916,
+            "name": "default",
+            "updated": "2025-10-28T22:10:48+0000"
+        }
+    ]
+}

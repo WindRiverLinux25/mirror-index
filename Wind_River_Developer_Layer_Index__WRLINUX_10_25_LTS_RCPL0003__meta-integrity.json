@@ -1,0 +1,978 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_25_LTS_RCPL0003",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44215,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44216,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_25_LTS_RCPL0003",
+            "comparison": false,
+            "hidden": false,
+            "id": 474,
+            "name": "WRLINUX_10_25_LTS_RCPL0003",
+            "short_description": "WRLinux 10_25 LTS RCPL 0003",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2025-11-07T23:11:12+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "core",
+            "id": 1057698,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2025-11-02T21:11:28+0000",
+            "vcs_last_commit": "2025-11-02T20:11:30+0000",
+            "vcs_last_fetch": "2025-11-02T21:11:28+0000",
+            "vcs_last_rev": "9a25181594d7e4ebe94ee5a7ee525736a484b5a0",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "openembedded-layer",
+            "id": 1057712,
+            "layer": 7,
+            "local_path": "",
+            "updated": "2025-11-02T21:11:36+0000",
+            "vcs_last_commit": "2025-10-30T01:10:35+0000",
+            "vcs_last_fetch": "2025-11-02T21:11:36+0000",
+            "vcs_last_rev": "40b46be8289e73133dc1908e84c3f23e23320904",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "signing-key",
+            "id": 1057722,
+            "layer": 129,
+            "local_path": "",
+            "updated": "2025-10-27T20:10:10+0000",
+            "vcs_last_commit": "2025-09-22T23:09:41+0000",
+            "vcs_last_fetch": "2025-10-27T20:10:10+0000",
+            "vcs_last_rev": "5bebd90b277ecc908de78001eae6aace464b7665",
+            "vcs_subdir": "meta-signing-key",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 474,
+            "collection": "integrity-layer",
+            "id": 1057742,
+            "layer": 128,
+            "local_path": "",
+            "updated": "2025-10-27T20:10:38+0000",
+            "vcs_last_commit": "2025-07-18T01:07:15+0000",
+            "vcs_last_fetch": "2025-10-27T20:10:38+0000",
+            "vcs_last_rev": "243281acbb4d3839b80b795030a7f4900e254735",
+            "vcs_subdir": "meta-integrity",
+            "version": null,
+            "yp_compatible_version": 44206
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 148736,
+            "layerbranch": 1057742,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 148737,
+            "layerbranch": 1057742,
+            "required": true
+        },
+        {
+            "dependency": 129,
+            "id": 148738,
+            "layerbranch": 1057742,
+            "required": true
+        },
+        {
+            "dependency": 152,
+            "id": 148739,
+            "layerbranch": 1057742,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "openembedded-layer",
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "integrity-layer",
+            "comparison": false,
+            "description": "This layer provides the IMA components",
+            "id": 128,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-integrity",
+            "status": "P",
+            "summary": "IMA components",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "signing-key",
+            "comparison": false,
+            "description": "This layer provides sample keys, by default, are used by build system to sign bootloader,\r\nkernel, IMA signature, RPM and so on. It is used for development and demonstration. The user must know what the risk is to use the sample keys in the product.",
+            "id": 129,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-signing-key",
+            "status": "P",
+            "summary": "User Key Store",
+            "updated": "2018-05-30T22:05:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "The default external IMA policy",
+            "filename": "ima-policy_0.1.bb",
+            "filepath": "recipes-support/ima-policy",
+            "homepage": "",
+            "id": 2324438,
+            "inherits": "",
+            "layerbranch": 1057742,
+            "license": "MIT",
+            "pe": "",
+            "pn": "ima-policy",
+            "pr": "r0",
+            "provides": "ima-policy ",
+            "pv": "0.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-27T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "--with-kernel-headers=/tmp/tmp02_pkarh/tmp/work-shared/qemux86/kernel-source MANPAGE_DOCBOOK_XSL=0 ",
+            "description": "The evmctl utility can be used for producing and verifying digital signatures, which are used by Linux kernel integrity subsystem (IMA/EVM). It can be also used to import keys into the kernel keyring",
+            "filename": "ima-evm-utils_1.5.bb",
+            "filepath": "recipes-support/ima-evm-utils",
+            "homepage": "https://sourceforge.net/projects/linux-ima/",
+            "id": 2324439,
+            "inherits": "autotools pkgconfig siteinfo",
+            "layerbranch": 1057742,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "ima-evm-utils",
+            "pr": "r0",
+            "provides": "ima-evm-utils ",
+            "pv": "1.5",
+            "section": "base",
+            "srcrev": "1803accc3ff8a4e347f9a93e68b14ed9cbbb56f7",
+            "summary": "IMA/EVM signing utility",
+            "updated": "2025-10-27T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "ima_inspect is a small program that allows to give a human-readable representation of the contents of the extended attributes (xattrs) that the Linux IMA security subsystem creates and manages for files.",
+            "filename": "ima-inspect_0.15.bb",
+            "filepath": "recipes-support/ima-inspect",
+            "homepage": "https://github.com/mgerstner/ima-inspect",
+            "id": 2324440,
+            "inherits": "autotools pkgconfig siteinfo",
+            "layerbranch": 1057742,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "ima-inspect",
+            "pr": "r0",
+            "provides": "ima-inspect ",
+            "pv": "0.15",
+            "section": "base",
+            "srcrev": "2e248ce53728f5b2bfc34a934a19636b84f8eb88",
+            "summary": "Tool to get a human-readable representation of IMA file attributes",
+            "updated": "2025-10-27T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "The initrd script for Linux Integrity Measurement Architecture (IMA)",
+            "filename": "initrdscripts-ima.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 2324441,
+            "inherits": "",
+            "layerbranch": 1057742,
+            "license": "MIT",
+            "pe": "",
+            "pn": "initrdscripts-ima",
+            "pr": "r0",
+            "provides": "initrdscripts-ima ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-27T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Integrity Measurement Architecture (IMA) subsystem",
+            "filename": "packagegroup-ima.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 2324442,
+            "inherits": "",
+            "layerbranch": 1057742,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ima",
+            "pr": "r0",
+            "provides": "packagegroup-ima ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-27T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Integrity Measurement Architecture (IMA) subsystem for initramfs",
+            "filename": "packagegroup-ima-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 2324443,
+            "inherits": "",
+            "layerbranch": 1057742,
+            "license": "MIT",
+            "pe": "",
+            "pn": "packagegroup-ima-initramfs",
+            "pr": "r0",
+            "provides": "packagegroup-ima-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-10-27T20:10:38+0000"
+        }
+    ],
+    "wrtemplates": []
+}
