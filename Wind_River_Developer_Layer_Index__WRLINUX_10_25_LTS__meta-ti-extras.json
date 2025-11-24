@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-11-07T23:11:11+0000",
+            "updated": "2025-11-22T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -675,13 +675,13 @@
             "id": 1042392,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-10-22T02:10:16+0000",
-            "vcs_last_commit": "2025-10-22T00:10:53+0000",
-            "vcs_last_fetch": "2025-10-22T02:10:16+0000",
-            "vcs_last_rev": "02cf797fa36a77b4cb21c595ac69971fadce57dc",
+            "updated": "2025-11-22T01:11:34+0000",
+            "vcs_last_commit": "2025-11-21T18:11:24+0000",
+            "vcs_last_fetch": "2025-11-22T01:11:34+0000",
+            "vcs_last_rev": "3aa0b578bd44d443d8d3a4d15b7efa6d3542c237",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44212
         },
         {
             "actual_branch": "",
@@ -690,13 +690,13 @@
             "id": 1042393,
             "layer": 529,
             "local_path": "",
-            "updated": "2025-06-22T23:06:47+0000",
-            "vcs_last_commit": "2025-06-08T21:06:30+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:47+0000",
-            "vcs_last_rev": "30d3190cd18bfa59d2bdf4e10d72827870933364",
+            "updated": "2025-11-21T00:11:46+0000",
+            "vcs_last_commit": "2025-11-20T22:11:09+0000",
+            "vcs_last_fetch": "2025-11-21T00:11:46+0000",
+            "vcs_last_rev": "aecdf0bb6b64522c0f979cd365e72a137d329c2d",
             "vcs_subdir": "meta-ti-extras",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44212
         }
     ],
     "layerDependencies": [
@@ -770,7 +770,7 @@
             "section": "base",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "Interface for GDB to commincate witha TI C66X DSP",
-            "updated": "2025-06-09T06:06:18+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -793,7 +793,7 @@
             "section": "base",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "TI gdb-server to be used with c6xgdb.",
-            "updated": "2025-06-09T06:06:18+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -816,7 +816,7 @@
             "section": "devel",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "GNU debugger for TI C6X DSP.",
-            "updated": "2025-06-09T06:06:18+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -839,7 +839,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI Unified Instrumentation Architecture in C (cUIA)",
-            "updated": "2025-06-09T06:06:18+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -866,7 +866,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -881,15 +881,15 @@
             "pn": "cc33xx-fw",
             "pr": "r0",
             "provides": "cc33xx-fw ",
-            "pv": "1.7.0.120",
+            "pv": "1.7.0.323",
             "section": "base",
-            "srcrev": "988ded3a7d4d0e46de62e9ebfcb685c502bd9edf",
+            "srcrev": "0b4f850d6c0fd8e0fe0ae1d3e80ac6733aced29b",
             "summary": "Firmware files for use with TI cc33xx",
-            "updated": "2025-06-09T06:06:18+0000"
+            "updated": "2025-11-21T00:11:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -908,11 +908,11 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "TI Usage & Load Monitor Implementation",
-            "updated": "2025-06-09T06:06:18+0000"
+            "updated": "2025-11-21T00:11:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -931,11 +931,11 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "TI dsptop utility.",
-            "updated": "2025-06-09T06:06:19+0000"
+            "updated": "2025-11-21T00:11:44+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -954,7 +954,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "Debug Sub-System (DebugSS) driver for Keystone and DRA7xx devices",
-            "updated": "2025-06-09T06:06:19+0000"
+            "updated": "2025-11-21T00:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1004,7 +1004,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1019,11 +1019,11 @@
             "pn": "pru-icss",
             "pr": "r0",
             "provides": "pru-icss ",
-            "pv": "6.3.0",
+            "pv": "6.5.0",
             "section": "base",
-            "srcrev": "00a5efa5157feb84cb2e4bf50b481f7082acca82",
+            "srcrev": "5584926fa3721274e61c5473593cfb7f9f4284d4",
             "summary": "Programmable Real-time Unit Software Package",
-            "updated": "2025-06-09T06:06:19+0000"
+            "updated": "2025-11-21T00:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1081,7 @@
             "filepath": "recipes-ti/ipc",
             "homepage": "http://processors.wiki.ti.com/index.php/Category:IPC",
             "id": 2249376,
-            "inherits": "deploy update-alternatives",
+            "inherits": "update-alternatives",
             "layerbranch": 1042393,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1090,9 +1090,9 @@
             "provides": "ti-ipc-rtos ",
             "pv": "3.51.00.00",
             "section": "base",
-            "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
+            "srcrev": "7f76e5cc15c634b70efee18d1aa0474d603224a6",
             "summary": "TI Inter Process Communication (IPC) Mechanisms",
-            "updated": "2025-06-09T06:06:19+0000"
+            "updated": "2025-11-21T00:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1161,7 +1161,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI SYS/BIOS v6 Kernel",
-            "updated": "2025-06-09T06:06:20+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1306,29 +1306,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "The AETLIB library provides programmatic access to the Advanced Event Triggering capability on C6x processor cores",
-            "filename": "libaet_git.bb",
-            "filepath": "recipes-ti/ctoolslib",
-            "homepage": "",
-            "id": 2249386,
-            "inherits": "",
-            "layerbranch": 1042393,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "libaet",
-            "pr": "r0",
-            "provides": "libaet ",
-            "pv": "4.19.0.0",
-            "section": "base",
-            "srcrev": "de7954abab0f0caa8a2c7b53095c30226d901a31",
-            "summary": "TI Emulation CTools AET library",
-            "updated": "2025-06-09T06:06:21+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
             "description": "",
             "filename": "ti-xdais_6.26.01.03.bb",
             "filepath": "recipes-ti/xdais",
@@ -1437,7 +1414,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI XDCtools (RTSC - Real Time Software Components",
-            "updated": "2025-06-09T06:06:22+0000"
+            "updated": "2025-11-21T00:11:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1483,7 +1460,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI CG_XML",
-            "updated": "2025-06-09T06:06:22+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1506,7 +1483,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Baremetal GCC for ARM",
-            "updated": "2025-06-09T06:06:22+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1529,7 +1506,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2025-06-09T06:06:22+0000"
+            "updated": "2025-11-21T00:11:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1552,7 +1529,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2025-06-09T06:06:23+0000"
+            "updated": "2025-11-21T00:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1598,7 +1575,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI PRU Code Generation Tools",
-            "updated": "2025-06-09T06:06:23+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1621,7 +1598,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI ARM Code Generation Tools",
-            "updated": "2025-06-09T06:06:23+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1713,11 +1690,11 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Codec Engine for TI ARM/DSP processors",
-            "updated": "2025-06-09T06:06:24+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1736,7 +1713,7 @@
             "section": "base",
             "srcrev": "a2f84140b8d67cfc94472cf92676a409d1e47d86",
             "summary": "Configuration utility for TI CC33xx wireless devices",
-            "updated": "2025-06-09T06:06:24+0000"
+            "updated": "2025-11-21T00:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1832,7 +1809,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1851,7 +1828,7 @@
             "section": "base",
             "srcrev": "89d7e55b40972cbfc84f0734c35a7a6b4f7f5b31",
             "summary": "The calibrator utility for TI wireless solution based on cc33xx driver",
-            "updated": "2025-06-09T06:06:24+0000"
+            "updated": "2025-11-21T00:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1875,6 +1852,29 @@
             "srcrev": "4371c93ea01b339f6f73f77d6d6bfcc185def8c0",
             "summary": "Scripts and configuration files for TI cc33xx wireless drivers",
             "updated": "2025-06-09T06:06:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "TI Inter Processor Communication (IPC) MessageQ Application for Linux Host",
+            "filename": "ti-ipc-examples-linux_git.bb",
+            "filepath": "recipes-ti/ipc",
+            "homepage": "",
+            "id": 2343008,
+            "inherits": "",
+            "layerbranch": 1042393,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "ti-ipc-examples-linux",
+            "pr": "r0.r0",
+            "provides": "ti-ipc-examples-linux ",
+            "pv": "3.51.00.00",
+            "section": "base",
+            "srcrev": "",
+            "summary": "TI IPC MessageQ Application for Linux Host",
+            "updated": "2025-11-21T00:11:46+0000"
         }
     ],
     "wrtemplates": []

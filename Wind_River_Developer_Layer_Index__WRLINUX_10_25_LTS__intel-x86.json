@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-11-07T23:11:11+0000",
+            "updated": "2025-11-22T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-11-02T21:11:07+0000",
-            "vcs_last_commit": "2025-11-02T20:11:30+0000",
-            "vcs_last_fetch": "2025-11-02T21:11:07+0000",
-            "vcs_last_rev": "9a25181594d7e4ebe94ee5a7ee525736a484b5a0",
+            "updated": "2025-11-21T00:11:21+0000",
+            "vcs_last_commit": "2025-11-20T23:11:36+0000",
+            "vcs_last_fetch": "2025-11-21T00:11:21+0000",
+            "vcs_last_rev": "c11166f6d98cd90808039eddd0755fc18875d230",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -720,10 +720,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-11-03T23:11:20+0000",
-            "vcs_last_commit": "2025-11-03T19:11:35+0000",
-            "vcs_last_fetch": "2025-11-03T23:11:20+0000",
-            "vcs_last_rev": "51f56b69fec850fd6abb88c91afd75a78d35a022",
+            "updated": "2025-11-23T02:11:07+0000",
+            "vcs_last_commit": "2025-11-23T01:11:39+0000",
+            "vcs_last_fetch": "2025-11-23T02:11:07+0000",
+            "vcs_last_rev": "fdf33650e637a1c99402f6f6c86756fe7eaafe57",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -735,10 +735,10 @@
             "id": 1037172,
             "layer": 32,
             "local_path": "",
-            "updated": "2025-09-15T02:09:08+0000",
-            "vcs_last_commit": "2025-09-15T01:09:36+0000",
-            "vcs_last_fetch": "2025-09-15T02:09:08+0000",
-            "vcs_last_rev": "906c10d2c348ef63bf03360abaea6e10d374b081",
+            "updated": "2025-11-12T18:11:08+0000",
+            "vcs_last_commit": "2025-11-12T03:11:33+0000",
+            "vcs_last_fetch": "2025-11-12T18:11:08+0000",
+            "vcs_last_rev": "ae8d15f106ecd078a1a958eeef795cca874f78a8",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -899,6 +899,52 @@
             "srcrev": "",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
             "updated": "2025-06-25T09:06:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "IOTG Time-Sensitive Networking Reference Software",
+            "filename": "iotg-tsn-ref-sw.bb",
+            "filepath": "recipes-connectivity/iotg-tsn-ref-sw",
+            "homepage": "https://github.com/intel/iotg_tsn_ref_sw",
+            "id": 2336078,
+            "inherits": "autotools pkgconfig siteinfo",
+            "layerbranch": 1037172,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "iotg-tsn-ref-sw",
+            "pr": "r0",
+            "provides": "iotg-tsn-ref-sw ",
+            "pv": "1.0-gitX",
+            "section": "base",
+            "srcrev": "d03a8f751ce7206a91ad4c597dead6b324460e48",
+            "summary": "IOTG TSN Reference Software",
+            "updated": "2025-11-11T23:11:23+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Library for BPF handling",
+            "filename": "libbpf-iotg_0.7.0.bb",
+            "filepath": "recipes-kernel/libbpf-iotg",
+            "homepage": "https://github.com/libbpf/libbpf",
+            "id": 2336080,
+            "inherits": "pkgconfig",
+            "layerbranch": 1037172,
+            "license": "LGPL-2.1-or-later",
+            "pe": "",
+            "pn": "libbpf-iotg",
+            "pr": "r0",
+            "provides": "libbpf-iotg ",
+            "pv": "0.7.0",
+            "section": "libs",
+            "srcrev": "2cd2d03f63242c048a896179398c68d2dbefe3d6",
+            "summary": "Library for BPF handling",
+            "updated": "2025-11-12T18:11:08+0000"
         }
     ],
     "wrtemplates": [
@@ -936,6 +982,13 @@
             "layerbranch": 1037172,
             "name": "default",
             "updated": "2025-06-25T09:06:41+0000"
+        },
+        {
+            "description": "Add TSN support to the image",
+            "id": 132203,
+            "layerbranch": 1037172,
+            "name": "feature/intel-tsn",
+            "updated": "2025-11-11T23:11:23+0000"
         }
     ]
 }

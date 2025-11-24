@@ -662,7 +662,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-11-07T23:11:11+0000",
+            "updated": "2025-11-22T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -675,10 +675,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-11-02T21:11:07+0000",
-            "vcs_last_commit": "2025-11-02T20:11:30+0000",
-            "vcs_last_fetch": "2025-11-02T21:11:07+0000",
-            "vcs_last_rev": "9a25181594d7e4ebe94ee5a7ee525736a484b5a0",
+            "updated": "2025-11-21T00:11:21+0000",
+            "vcs_last_commit": "2025-11-20T23:11:36+0000",
+            "vcs_last_fetch": "2025-11-21T00:11:21+0000",
+            "vcs_last_rev": "c11166f6d98cd90808039eddd0755fc18875d230",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -690,13 +690,13 @@
             "id": 1042392,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-10-22T02:10:16+0000",
-            "vcs_last_commit": "2025-10-22T00:10:53+0000",
-            "vcs_last_fetch": "2025-10-22T02:10:16+0000",
-            "vcs_last_rev": "02cf797fa36a77b4cb21c595ac69971fadce57dc",
+            "updated": "2025-11-22T01:11:34+0000",
+            "vcs_last_commit": "2025-11-21T18:11:24+0000",
+            "vcs_last_fetch": "2025-11-22T01:11:34+0000",
+            "vcs_last_rev": "3aa0b578bd44d443d8d3a4d15b7efa6d3542c237",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44212
         },
         {
             "actual_branch": "",
@@ -705,13 +705,13 @@
             "id": 1042393,
             "layer": 529,
             "local_path": "",
-            "updated": "2025-06-22T23:06:47+0000",
-            "vcs_last_commit": "2025-06-08T21:06:30+0000",
-            "vcs_last_fetch": "2025-06-22T23:06:47+0000",
-            "vcs_last_rev": "30d3190cd18bfa59d2bdf4e10d72827870933364",
+            "updated": "2025-11-21T00:11:46+0000",
+            "vcs_last_commit": "2025-11-20T22:11:09+0000",
+            "vcs_last_fetch": "2025-11-21T00:11:46+0000",
+            "vcs_last_rev": "aecdf0bb6b64522c0f979cd365e72a137d329c2d",
             "vcs_subdir": "meta-ti-extras",
             "version": null,
-            "yp_compatible_version": 44205
+            "yp_compatible_version": 44212
         },
         {
             "actual_branch": "",
@@ -720,10 +720,10 @@
             "id": 1052709,
             "layer": 527,
             "local_path": "",
-            "updated": "2025-09-22T01:09:09+0000",
-            "vcs_last_commit": "2025-09-21T23:09:57+0000",
-            "vcs_last_fetch": "2025-09-22T01:09:09+0000",
-            "vcs_last_rev": "bb163291dbfcacc9bb5406c0471e8d4bc787cf1b",
+            "updated": "2025-11-11T23:11:38+0000",
+            "vcs_last_commit": "2025-11-05T22:11:51+0000",
+            "vcs_last_fetch": "2025-11-11T23:11:38+0000",
+            "vcs_last_rev": "79449a9123a3736d5e8954fcd8a44e72847a4856",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44206
@@ -935,7 +935,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Open Source DL/ML runtime Modules like TF-LITE and ONNX Runtime, NEO-AI-DLR. Supports both Python and CPP APIs",
@@ -954,7 +954,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Open Source DL/ML runtime Modules",
-            "updated": "2025-09-10T18:09:15+0000"
+            "updated": "2025-11-11T23:11:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1372,9 +1372,9 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": "-DTARGET_FS=/tmp/tmp6jiq5xb_/tmp/work/core2-32-oe-linux/edgeai-dl-inferer/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmp6jiq5xb_/tmp/work/core2-32-oe-linux/edgeai-dl-inferer/1.0.0/out ",
             "description": "A Linux based CPP library for abstracting Open Source Runtime (OSRT) API",
             "filename": "edgeai-dl-inferer.bb",
             "filepath": "recipes-tisdk/edgeai-components",
@@ -1391,7 +1391,7 @@
             "section": "base",
             "srcrev": "f1592e41f8f859fc345865fa4e15efb85d06d3ec",
             "summary": "EdgeAI DL Inferer",
-            "updated": "2025-09-10T18:09:17+0000"
+            "updated": "2025-11-11T23:11:37+0000"
         },
         {
             "bbclassextend": "",
