@@ -1,0 +1,1136 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_25_LTS_RCPL0004",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44215,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44216,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_25_LTS_RCPL0004",
+            "comparison": false,
+            "hidden": false,
+            "id": 477,
+            "name": "WRLINUX_10_25_LTS_RCPL0004",
+            "short_description": "WRLinux 10_25 LTS RCPL 0004",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2025-11-30T23:11:09+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "core",
+            "id": 1060520,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2025-12-01T20:12:35+0000",
+            "vcs_last_commit": "2025-11-25T23:11:08+0000",
+            "vcs_last_fetch": "2025-12-01T20:12:35+0000",
+            "vcs_last_rev": "519187e36587f36d8471e519cbf71cd3bc1c8357",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "xilinx-microblaze",
+            "id": 1060553,
+            "layer": 438,
+            "local_path": "",
+            "updated": "2025-11-19T23:11:39+0000",
+            "vcs_last_commit": "2025-10-24T02:10:00+0000",
+            "vcs_last_fetch": "2025-11-19T23:11:39+0000",
+            "vcs_last_rev": "2175be32cfa2a2bbb1da66456db1a0b743bf3f87",
+            "vcs_subdir": "meta-microblaze",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "meta-arm",
+            "id": 1060567,
+            "layer": 474,
+            "local_path": "",
+            "updated": "2025-11-19T23:11:47+0000",
+            "vcs_last_commit": "2025-09-23T19:09:23+0000",
+            "vcs_last_fetch": "2025-11-19T23:11:47+0000",
+            "vcs_last_rev": "140aa839ad03baf6bc3e594755219000f2c3fda2",
+            "vcs_subdir": "meta-arm",
+            "version": null,
+            "yp_compatible_version": 44205
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "xilinx",
+            "id": 1060577,
+            "layer": 436,
+            "local_path": "",
+            "updated": "2025-12-01T20:12:14+0000",
+            "vcs_last_commit": "2025-11-26T23:11:52+0000",
+            "vcs_last_fetch": "2025-12-01T20:12:14+0000",
+            "vcs_last_rev": "b4b16567ae132d4b7d946d0360ba2714f96e3217",
+            "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "xilinx-bsp",
+            "id": 1060578,
+            "layer": 437,
+            "local_path": "",
+            "updated": "2025-11-19T23:11:20+0000",
+            "vcs_last_commit": "2025-07-22T00:07:49+0000",
+            "vcs_last_fetch": "2025-11-19T23:11:20+0000",
+            "vcs_last_rev": "a535f39e3667c10b1a491c89c66487140ed76cfb",
+            "vcs_subdir": "meta-xilinx-bsp",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "wrlinux",
+            "id": 1060582,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2025-12-01T20:12:05+0000",
+            "vcs_last_commit": "2025-12-01T19:12:27+0000",
+            "vcs_last_fetch": "2025-12-01T20:12:05+0000",
+            "vcs_last_rev": "9bf0790daf20a4811e9e8c713398563a5f87f889",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "xilinx-standalone",
+            "id": 1060593,
+            "layer": 435,
+            "local_path": "",
+            "updated": "2025-11-19T23:11:54+0000",
+            "vcs_last_commit": "2025-10-21T18:10:48+0000",
+            "vcs_last_fetch": "2025-11-19T23:11:54+0000",
+            "vcs_last_rev": "778197806e299c495dd75f89ce8438a28e1176f0",
+            "vcs_subdir": "meta-xilinx-standalone",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "xilinx-standalone-sdt",
+            "id": 1060602,
+            "layer": 572,
+            "local_path": "",
+            "updated": "2025-11-19T23:11:01+0000",
+            "vcs_last_commit": "2025-10-30T23:10:17+0000",
+            "vcs_last_fetch": "2025-11-19T23:11:01+0000",
+            "vcs_last_rev": "d31e08bfc6dc9537cada1edb623496301e06c3ee",
+            "vcs_subdir": "meta-xilinx-standalone-sdt",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "xilinx-tools",
+            "id": 1060604,
+            "layer": 357,
+            "local_path": "",
+            "updated": "2025-11-19T23:11:26+0000",
+            "vcs_last_commit": "2025-09-23T19:09:23+0000",
+            "vcs_last_fetch": "2025-11-19T23:11:26+0000",
+            "vcs_last_rev": "479361da87059f72c5763f83399baa3541e3a075",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 477,
+            "collection": "wr-amd-versal",
+            "id": 1060608,
+            "layer": 563,
+            "local_path": "",
+            "updated": "2025-11-23T01:11:52+0000",
+            "vcs_last_commit": "2025-11-20T23:11:34+0000",
+            "vcs_last_fetch": "2025-11-23T01:11:52+0000",
+            "vcs_last_rev": "45b7829668b6e80e790458b857571ab84cdaa72c",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44204
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 149824,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 474,
+            "id": 149825,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 149826,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 436,
+            "id": 149827,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 437,
+            "id": 149828,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 438,
+            "id": 149829,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 435,
+            "id": 149830,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 572,
+            "id": 149831,
+            "layerbranch": 1060608,
+            "required": true
+        },
+        {
+            "dependency": 357,
+            "id": 149832,
+            "layerbranch": 1060608,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-tools",
+            "comparison": false,
+            "description": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
+            "id": 357,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-tools",
+            "status": "P",
+            "summary": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2020-07-06T01:07:38+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx-tools",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone",
+            "comparison": false,
+            "description": "This layer is meant to augment Yocto/OE functionality to provide a\r\nBaremetal/Standalone Toolchain as well as a generic version of various\r\nfirmware that is required to boot a ZynqMP or Versal system.\r\n\r\nFor optimized versions of the firmware and additional components you must\r\nuse the meta-xilinx-tools layer.",
+            "id": 435,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone",
+            "status": "P",
+            "summary": "This layer provides a Baremetal/Standalone Toolchain as well as a generic version of various firmware that is required to boot a ZynqMP or Versal system.",
+            "updated": "2022-03-03T00:03:58+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx",
+            "comparison": false,
+            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "id": 436,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-core",
+            "status": "P",
+            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
+            "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-bsp",
+            "comparison": false,
+            "description": "Meta xilnx BSPs.",
+            "id": 437,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-bsp",
+            "status": "P",
+            "summary": "meta-xilinx-bsp",
+            "updated": "2022-03-04T01:03:21+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-microblaze",
+            "comparison": false,
+            "description": "This layer provides support specific to the MicroBlaze architecture",
+            "id": 438,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-microblaze",
+            "status": "P",
+            "summary": "This layer provides support specific to the MicroBlaze architecture",
+            "updated": "2025-10-24T00:10:04+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-arm",
+            "comparison": false,
+            "description": "This repository contains the Arm layers for OpenEmbedded.",
+            "id": 474,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-arm",
+            "status": "P",
+            "summary": "This repository contains the Arm layers for OpenEmbedded.",
+            "updated": "2022-05-31T02:05:06+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-arm",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-amd-versal",
+            "comparison": false,
+            "description": "BSP for AMD ZCU102 board",
+            "id": 563,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "amd-versal",
+            "status": "P",
+            "summary": "BSP for AMD ZCU102 board",
+            "updated": "2024-12-12T00:12:22+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/amd-versal",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone-sdt",
+            "comparison": false,
+            "description": "This layer contains System Device Tree build metadata such as multiconfig operating\r\nenvironment(baremetal, freertos etc) boot firmware drivers, libraries and \r\napplications recipes.",
+            "id": 572,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone-sdt",
+            "status": "P",
+            "summary": "meta-xilinx-standalone-sdt",
+            "updated": "2025-10-24T00:10:51+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " AMD Versal",
+            "id": 105976,
+            "layerbranch": 1060608,
+            "name": "amd-versal",
+            "updated": "2025-11-19T23:11:12+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "wrlinux-versal-common_v2025.1.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 2342074,
+            "inherits": "deploy",
+            "layerbranch": 1060608,
+            "license": "MIT",
+            "pe": "",
+            "pn": "wrlinux-versal-common",
+            "pr": "r0",
+            "provides": "wrlinux-versal-common ",
+            "pv": "v2025.1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "A recipe to pack up necessary files into tar.gz for Vitis to use",
+            "updated": "2025-11-19T23:11:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "versal-fw-demo.bb",
+            "filepath": "recipes-firmware/versal-fw-demo",
+            "homepage": "",
+            "id": 2342075,
+            "inherits": "deploy devicetree dfx_user_dts kernel-arch",
+            "layerbranch": 1060608,
+            "license": "MIT",
+            "pe": "",
+            "pn": "versal-fw-demo",
+            "pr": "r0",
+            "provides": "versal-fw-demo ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Full Bitstream loading app firmware using dfx_user_dts bbclass",
+            "updated": "2025-11-19T23:11:12+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 132368,
+            "layerbranch": 1060608,
+            "name": "default",
+            "updated": "2025-11-19T23:11:12+0000"
+        }
+    ]
+}
