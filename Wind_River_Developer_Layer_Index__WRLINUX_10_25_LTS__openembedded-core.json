@@ -650,6 +650,20 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44221,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 4.0 4.2 5.0 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44222,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.2 5.3 6.0"
         }
     ],
     "branches": [
@@ -662,7 +676,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-11-30T23:11:08+0000",
+            "updated": "2025-12-14T23:12:07+0000",
             "updates_enabled": true
         }
     ],
@@ -683,10 +697,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-11-26T00:11:10+0000",
-            "vcs_last_commit": "2025-11-25T23:11:08+0000",
-            "vcs_last_fetch": "2025-11-26T00:11:10+0000",
-            "vcs_last_rev": "519187e36587f36d8471e519cbf71cd3bc1c8357",
+            "updated": "2025-12-11T01:12:45+0000",
+            "vcs_last_commit": "2025-12-11T01:12:56+0000",
+            "vcs_last_fetch": "2025-12-11T01:12:45+0000",
+            "vcs_last_rev": "e7d1be02458c3dc7b779656aac1363852d97aa66",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1190,7 +1204,7 @@
             "section": "base",
             "srcrev": "ee7e9118d0a9581cb00c5ce02dccd561b3096387",
             "summary": "Package maintenance system from Debian",
-            "updated": "2025-11-20T00:11:18+0000"
+            "updated": "2025-12-11T01:12:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4640,7 +4654,7 @@
             "section": "base",
             "srcrev": "aebdfb188e368c690ea55cf6c9c9ffa1a52def65",
             "summary": "Modules to make unittest and pytest look like Automake output, for ptest",
-            "updated": "2025-11-20T00:11:53+0000"
+            "updated": "2025-12-11T01:12:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6256,9 +6270,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_LINK_LLVM_DYLIB=ON                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_RTTI=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;X86'                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DCMAKE_BUILD_TYPE=Release                    -DPY_PYGMENTS_FOUND=OFF -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF -DPY_YAML_FOUND=OFF                  -DCMAKE_CROSSCOMPILING:BOOL=ON                   -DLLVM_HOST_TRIPLE=i686-oe-linux                   -DLLVM_TABLEGEN=/tmp/tmpfzzjrvna/tmp/work/core2-32-oe-linux/llvm/20.1.0/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_CONFIG_PATH=/tmp/tmpfzzjrvna/tmp/work/core2-32-oe-linux/llvm/20.1.0/recipe-sysroot-native/usr/bin/llvm-config                  ",
+            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_LINK_LLVM_DYLIB=ON                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_RTTI=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;X86'                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DCMAKE_BUILD_TYPE=Release                    -DPY_PYGMENTS_FOUND=OFF -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF -DPY_YAML_FOUND=OFF                  -DCMAKE_CROSSCOMPILING:BOOL=ON                   -DLLVM_HOST_TRIPLE=i686-oe-linux                   -DLLVM_TABLEGEN=/tmp/tmplqpwr6gu/tmp/work/core2-32-oe-linux/llvm/20.1.8/recipe-sysroot-native/usr/bin/llvm-tblgen                   -DLLVM_CONFIG_PATH=/tmp/tmplqpwr6gu/tmp/work/core2-32-oe-linux/llvm/20.1.8/recipe-sysroot-native/usr/bin/llvm-config                  ",
             "description": "",
-            "filename": "llvm_20.1.0.bb",
+            "filename": "llvm_20.1.8.bb",
             "filepath": "recipes-devtools/llvm",
             "homepage": "http://llvm.org",
             "id": 2342313,
@@ -6269,11 +6283,11 @@
             "pn": "llvm",
             "pr": "r0",
             "provides": "llvm ",
-            "pv": "20.1.0",
+            "pv": "20.1.8",
             "section": "devel",
             "srcrev": "",
             "summary": "The LLVM Compiler Infrastructure",
-            "updated": "2025-11-20T00:11:08+0000"
+            "updated": "2025-12-02T23:12:32+0000"
         },
         {
             "bbclassextend": "",
@@ -11494,7 +11508,7 @@
             "section": "base",
             "srcrev": "7037f03fabeb2b18b5efa84403f5a6d7a990f460",
             "summary": "C/C++ port of the Sass CSS precompiler",
-            "updated": "2025-11-20T00:11:57+0000"
+            "updated": "2025-12-11T01:12:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -11517,7 +11531,7 @@
             "section": "base",
             "srcrev": "66f0ef37e7f0ad3a65d2f481eff09d09408f42d0",
             "summary": "libsass command line driver ",
-            "updated": "2025-11-20T00:11:58+0000"
+            "updated": "2025-12-11T01:12:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12644,7 +12658,7 @@
             "section": "utils",
             "srcrev": "",
             "summary": "Tool that measures CPU resources",
-            "updated": "2025-11-20T00:11:10+0000"
+            "updated": "2025-12-11T01:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -13564,7 +13578,7 @@
             "section": "base/utils",
             "srcrev": "",
             "summary": "Tools to change and administer password and group data",
-            "updated": "2025-11-20T00:11:18+0000"
+            "updated": "2025-12-02T19:12:15+0000"
         },
         {
             "bbclassextend": "",
