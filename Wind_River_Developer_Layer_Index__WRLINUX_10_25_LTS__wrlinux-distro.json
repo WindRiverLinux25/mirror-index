@@ -690,7 +690,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-12-20T23:12:04+0000",
+            "updated": "2025-12-27T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -732,10 +732,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-12-19T00:12:13+0000",
-            "vcs_last_commit": "2025-12-18T23:12:09+0000",
-            "vcs_last_fetch": "2025-12-19T00:12:13+0000",
-            "vcs_last_rev": "650cb1e0d327a8e81bf83fc835faf009f1192c77",
+            "updated": "2025-12-28T18:12:02+0000",
+            "vcs_last_commit": "2025-12-28T18:12:53+0000",
+            "vcs_last_fetch": "2025-12-28T18:12:02+0000",
+            "vcs_last_rev": "3d1e4fdbccddbf840c9493840f7fcf3c58f80eab",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -777,10 +777,10 @@
             "id": 1037131,
             "layer": 10,
             "local_path": "",
-            "updated": "2025-10-26T23:10:32+0000",
-            "vcs_last_commit": "2025-10-24T01:10:44+0000",
-            "vcs_last_fetch": "2025-10-26T23:10:32+0000",
-            "vcs_last_rev": "ef287579cf5673a76bc0ddff5ecebb12742c00a1",
+            "updated": "2025-12-23T19:12:56+0000",
+            "vcs_last_commit": "2025-12-23T18:12:02+0000",
+            "vcs_last_fetch": "2025-12-23T19:12:56+0000",
+            "vcs_last_rev": "5e71b257008a5f25176fa3f4cdd96ec610fd3b34",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 44206
@@ -927,10 +927,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-12-21T18:12:04+0000",
-            "vcs_last_commit": "2025-12-21T18:12:20+0000",
-            "vcs_last_fetch": "2025-12-21T18:12:04+0000",
-            "vcs_last_rev": "6ff493e13669f03586cb79b7aab01d3fe36bd44b",
+            "updated": "2025-12-28T18:12:23+0000",
+            "vcs_last_commit": "2025-12-28T18:12:19+0000",
+            "vcs_last_fetch": "2025-12-28T18:12:23+0000",
+            "vcs_last_rev": "d3826d03b7b1ab12531820a157247b5b2fe3425f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -942,10 +942,10 @@
             "id": 1037175,
             "layer": 164,
             "local_path": "",
-            "updated": "2025-12-03T00:12:47+0000",
-            "vcs_last_commit": "2025-12-03T00:12:53+0000",
-            "vcs_last_fetch": "2025-12-03T00:12:47+0000",
-            "vcs_last_rev": "229db6c17922760a35e8b84c104a20a3c8c98c46",
+            "updated": "2025-12-21T19:12:47+0000",
+            "vcs_last_commit": "2025-12-21T18:12:44+0000",
+            "vcs_last_fetch": "2025-12-21T19:12:47+0000",
+            "vcs_last_rev": "042b506db74f76fd98a1b31c0dd99b2c393a9e04",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 44204
@@ -1407,7 +1407,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Imports container images into Docker",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1430,7 +1430,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs kernel boot",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1453,7 +1453,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1476,7 +1476,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "tiny init",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "mcextend:x86 mcextend:x86_64",
@@ -1499,7 +1499,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1522,7 +1522,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1545,7 +1545,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1568,7 +1568,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2025-12-02T23:12:44+0000"
+            "updated": "2025-12-21T19:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1591,7 +1591,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2025-12-02T23:12:44+0000"
+            "updated": "2025-12-21T19:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1614,7 +1614,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1637,7 +1637,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1660,7 +1660,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1683,7 +1683,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1706,7 +1706,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1729,7 +1729,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1752,7 +1752,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1775,7 +1775,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1798,7 +1798,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:40+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1821,7 +1821,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1844,7 +1844,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Packages required by bsp",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1867,7 +1867,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1890,7 +1890,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1913,7 +1913,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1936,7 +1936,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1959,7 +1959,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1982,7 +1982,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:41+0000"
+            "updated": "2025-12-21T19:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2005,7 +2005,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:42+0000"
+            "updated": "2025-12-21T19:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2028,7 +2028,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny image capable of booting a device.",
-            "updated": "2025-12-02T23:12:42+0000"
+            "updated": "2025-12-21T19:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2051,7 +2051,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:42+0000"
+            "updated": "2025-12-21T19:12:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2074,7 +2074,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device.",
-            "updated": "2025-12-02T23:12:42+0000"
+            "updated": "2025-12-21T19:12:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2097,7 +2097,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-12-02T23:12:43+0000"
+            "updated": "2025-12-21T19:12:45+0000"
         }
     ],
     "wrtemplates": [

@@ -690,7 +690,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-12-20T23:12:04+0000",
+            "updated": "2025-12-27T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -703,10 +703,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-12-19T00:12:13+0000",
-            "vcs_last_commit": "2025-12-18T23:12:09+0000",
-            "vcs_last_fetch": "2025-12-19T00:12:13+0000",
-            "vcs_last_rev": "650cb1e0d327a8e81bf83fc835faf009f1192c77",
+            "updated": "2025-12-28T18:12:02+0000",
+            "vcs_last_commit": "2025-12-28T18:12:53+0000",
+            "vcs_last_fetch": "2025-12-28T18:12:02+0000",
+            "vcs_last_rev": "3d1e4fdbccddbf840c9493840f7fcf3c58f80eab",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -733,10 +733,10 @@
             "id": 1037131,
             "layer": 10,
             "local_path": "",
-            "updated": "2025-10-26T23:10:32+0000",
-            "vcs_last_commit": "2025-10-24T01:10:44+0000",
-            "vcs_last_fetch": "2025-10-26T23:10:32+0000",
-            "vcs_last_rev": "ef287579cf5673a76bc0ddff5ecebb12742c00a1",
+            "updated": "2025-12-23T19:12:56+0000",
+            "vcs_last_commit": "2025-12-23T18:12:02+0000",
+            "vcs_last_fetch": "2025-12-23T19:12:56+0000",
+            "vcs_last_rev": "5e71b257008a5f25176fa3f4cdd96ec610fd3b34",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 44206
@@ -1030,7 +1030,7 @@
             "bugtracker": "",
             "configopts": "    --enable-layout=Debian     --prefix=     --exec_prefix=/usr     --includedir=/usr/include/apache2     --sysconfdir=/etc/apache2     --datadir=/usr/share/apache2     --libdir=/usr/lib     --libexecdir=/usr/libexec/apache2/modules     --localstatedir=/var     --enable-ssl     --with-dbm=sdbm     --with-gdbm=no     --with-ndbm=no     --with-berkeley-db=no     --enable-info     --enable-rewrite     --with-mpm=prefork     --enable-mpms-shared     ap_cv_void_ptr_lt_long=no     ac_cv_have_threadsafe_pollset=no       --disable-ldap --disable-authnz-ldap --disable-selinux",
             "description": "The Apache HTTP Server is a powerful, efficient, and extensible web server.",
-            "filename": "apache2_2.4.65.bb",
+            "filename": "apache2_2.4.66.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
             "id": 2223217,
@@ -1041,11 +1041,11 @@
             "pn": "apache2",
             "pr": "r0",
             "provides": "apache2 ",
-            "pv": "2.4.65",
+            "pv": "2.4.66",
             "section": "net",
             "srcrev": "",
             "summary": "Apache HTTP Server",
-            "updated": "2025-08-13T23:08:13+0000"
+            "updated": "2025-12-23T19:12:56+0000"
         },
         {
             "bbclassextend": "",
