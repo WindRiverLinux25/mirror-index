@@ -639,24 +639,10 @@
         },
         {
             "description": "",
-            "id": 44216,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.3"
-        },
-        {
-            "description": "",
             "id": 44217,
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.2"
-        },
-        {
-            "description": "",
-            "id": 44221,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.3 4.0 4.2 5.0 5.3 6.0"
         },
         {
             "description": "",
@@ -683,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-03T23:01:12+0000",
+            "updated": "2026-01-14T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -696,10 +682,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-03T19:01:03+0000",
-            "vcs_last_commit": "2026-01-03T18:01:29+0000",
-            "vcs_last_fetch": "2026-01-03T19:01:03+0000",
-            "vcs_last_rev": "e6f5b200e199cd6f4a6628f261e514edbd4c1543",
+            "updated": "2026-01-14T05:01:57+0000",
+            "vcs_last_commit": "2026-01-14T04:01:46+0000",
+            "vcs_last_fetch": "2026-01-14T05:01:57+0000",
+            "vcs_last_rev": "304296170d0713404fa637ef60c67711a476f3e0",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -711,10 +697,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-12-30T02:12:08+0000",
-            "vcs_last_commit": "2025-12-30T02:12:46+0000",
-            "vcs_last_fetch": "2025-12-30T02:12:08+0000",
-            "vcs_last_rev": "ec6c1d234bc45b28c7f9dda142cf5851547a1ec7",
+            "updated": "2026-01-14T19:01:58+0000",
+            "vcs_last_commit": "2026-01-14T18:01:26+0000",
+            "vcs_last_fetch": "2026-01-14T19:01:58+0000",
+            "vcs_last_rev": "8cad27eb5564d9a9c0bb615839cb594b2a7ad9c9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -1228,7 +1214,7 @@
             "section": "base",
             "srcrev": "121ab150b3577b666c79a79f4a511798d7ad2432",
             "summary": "x86 (SSE) assembler supporting NASM and GAS-syntaxes",
-            "updated": "2025-06-22T22:06:06+0000"
+            "updated": "2026-01-12T00:01:28+0000"
         },
         {
             "bbclassextend": "",
@@ -9723,7 +9709,7 @@
             "bugtracker": "",
             "configopts": "-DCARES_STATIC=OFF  -DCARES_BUILD_TESTS=OFF",
             "description": "",
-            "filename": "c-ares_1.34.5.bb",
+            "filename": "c-ares_1.34.6.bb",
             "filepath": "recipes-support/c-ares",
             "homepage": "https://c-ares.org/",
             "id": 2222580,
@@ -9734,11 +9720,11 @@
             "pn": "c-ares",
             "pr": "r0",
             "provides": "c-ares ",
-            "pv": "1.34.5",
+            "pv": "1.34.6",
             "section": "libs",
             "srcrev": "",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2025-09-25T00:09:13+0000"
+            "updated": "2026-01-14T19:01:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12414,7 +12400,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "7zip_24.09.bb",
+            "filename": "7zip_25.01.bb",
             "filepath": "recipes-extended/7zip",
             "homepage": "http://www.7-zip.org/",
             "id": 2222697,
@@ -12425,11 +12411,11 @@
             "pn": "7zip",
             "pr": "r0",
             "provides": "7zip  p7zip",
-            "pv": "24.09",
+            "pv": "25.01",
             "section": "base",
-            "srcrev": "e5431fa6f5505e385c6f9367260717e9c47dc2ee",
+            "srcrev": "5e96a8279489832924056b1fa82f29d5837c9469",
             "summary": "7-zip is a commandline utility handling 7z archives.",
-            "updated": "2025-06-22T22:06:56+0000"
+            "updated": "2026-01-12T19:01:59+0000"
         },
         {
             "bbclassextend": "",
@@ -15404,7 +15390,7 @@
             "bugtracker": "",
             "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb_11.4.6.bb",
+            "filename": "mariadb_11.4.9.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2222827,
@@ -15415,19 +15401,19 @@
             "pn": "mariadb",
             "pr": "r0",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "11.4.6",
+            "pv": "11.4.9",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2025-08-13T23:08:58+0000"
+            "updated": "2026-01-04T19:01:03+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpkjhf0z_v/tmp/work/x86_64-linux/mariadb-native/11.4.6/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpkjhf0z_v/tmp/work/x86_64-linux/mariadb-native/11.4.6/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpbxm010nd/tmp/work/x86_64-linux/mariadb-native/11.4.9/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpbxm010nd/tmp/work/x86_64-linux/mariadb-native/11.4.9/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb-native_11.4.6.bb",
+            "filename": "mariadb-native_11.4.9.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2222828,
@@ -15438,11 +15424,11 @@
             "pn": "mariadb-native",
             "pr": "r0",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "11.4.6",
+            "pv": "11.4.9",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2025-08-13T23:08:57+0000"
+            "updated": "2026-01-04T19:01:04+0000"
         },
         {
             "bbclassextend": "",
@@ -15465,7 +15451,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2025-09-25T00:09:11+0000"
+            "updated": "2026-01-04T23:01:34+0000"
         },
         {
             "bbclassextend": "",

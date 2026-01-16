@@ -639,24 +639,10 @@
         },
         {
             "description": "",
-            "id": 44216,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.3"
-        },
-        {
-            "description": "",
             "id": 44217,
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.2"
-        },
-        {
-            "description": "",
-            "id": 44221,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.3 4.0 4.2 5.0 5.3 6.0"
         },
         {
             "description": "",
@@ -683,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-03T23:01:12+0000",
+            "updated": "2026-01-14T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -696,10 +682,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-03T19:01:03+0000",
-            "vcs_last_commit": "2026-01-03T18:01:29+0000",
-            "vcs_last_fetch": "2026-01-03T19:01:03+0000",
-            "vcs_last_rev": "e6f5b200e199cd6f4a6628f261e514edbd4c1543",
+            "updated": "2026-01-14T05:01:57+0000",
+            "vcs_last_commit": "2026-01-14T04:01:46+0000",
+            "vcs_last_fetch": "2026-01-14T05:01:57+0000",
+            "vcs_last_rev": "304296170d0713404fa637ef60c67711a476f3e0",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -711,10 +697,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-12-30T02:12:08+0000",
-            "vcs_last_commit": "2025-12-30T02:12:46+0000",
-            "vcs_last_fetch": "2025-12-30T02:12:08+0000",
-            "vcs_last_rev": "ec6c1d234bc45b28c7f9dda142cf5851547a1ec7",
+            "updated": "2026-01-14T19:01:58+0000",
+            "vcs_last_commit": "2026-01-14T18:01:26+0000",
+            "vcs_last_fetch": "2026-01-14T19:01:58+0000",
+            "vcs_last_rev": "8cad27eb5564d9a9c0bb615839cb594b2a7ad9c9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -726,10 +712,10 @@
             "id": 1037132,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-11-03T20:11:00+0000",
-            "vcs_last_commit": "2025-11-03T19:11:34+0000",
-            "vcs_last_fetch": "2025-11-03T20:11:00+0000",
-            "vcs_last_rev": "686da63691069fd27acfc6e89b87ee8b51884cbe",
+            "updated": "2026-01-13T23:01:20+0000",
+            "vcs_last_commit": "2026-01-13T23:01:56+0000",
+            "vcs_last_fetch": "2026-01-13T23:01:20+0000",
+            "vcs_last_rev": "727005376c5bba569cb111dd6c74f04c45c28785",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44206
@@ -741,10 +727,10 @@
             "id": 1037149,
             "layer": 562,
             "local_path": "",
-            "updated": "2025-07-16T22:07:23+0000",
-            "vcs_last_commit": "2025-07-16T20:07:01+0000",
-            "vcs_last_fetch": "2025-07-16T22:07:23+0000",
-            "vcs_last_rev": "91ab7688a3eeb0102eca3e77b37a1a328738863b",
+            "updated": "2026-01-08T19:01:55+0000",
+            "vcs_last_commit": "2026-01-08T17:01:46+0000",
+            "vcs_last_fetch": "2026-01-08T19:01:55+0000",
+            "vcs_last_rev": "accc99348d23d60ca58df630451d429e71fd8ed1",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 44205
@@ -877,7 +863,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                    -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpxb_fuw6t/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.1.0/qemuwrapper                   -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpxb_fuw6t/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.1.0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                   -DENABLE_SYSTEM_FLATBUFFERS=ON                   -DENABLE_SYSTEM_SNAPPY=ON                   -DFETCHCONTENT_BASE_DIR=\"/tmp/tmpxb_fuw6t/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.1.0/git\"                   -DENABLE_INTEL_NPU=OFF                   -DPYTHON3_CONFIG=\"python3-config\"                   -DENABLE_OV_JAX_FRONTEND=OFF                      -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0",
+            "configopts": "                    -DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpwkct8r0m/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.1.0/qemuwrapper                   -DENABLE_OPENCV=OFF                   -DENABLE_INTEL_GNA=OFF                   -DENABLE_SYSTEM_TBB=ON                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DTHREADING=TBB -DTBB_DIR=\"/tmp/tmpwkct8r0m/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.1.0/recipe-sysroot/usr/lib/cmake/TBB\"                   -DTREAT_WARNING_AS_ERROR=FALSE                   -DENABLE_DATA=FALSE                   -DENABLE_SYSTEM_PUGIXML=TRUE                   -DENABLE_OV_ONNX_FRONTEND=FALSE                   -DUSE_BUILD_TYPE_SUBFOLDER=OFF                   -DENABLE_FUZZING=OFF                   -DENABLE_TBBBIND_2_5=OFF                   -DCPACK_GENERATOR=RPM                   -DENABLE_SYSTEM_FLATBUFFERS=ON                   -DENABLE_SYSTEM_SNAPPY=ON                   -DFETCHCONTENT_BASE_DIR=\"/tmp/tmpwkct8r0m/tmp/work/core2-32-oe-linux/openvino-inference-engine/2025.1.0/git\"                   -DPYTHON3_CONFIG=\"python3-config\"                   -DENABLE_OV_JAX_FRONTEND=OFF                      -DENABLE_INTEL_NPU=OFF  -DENABLE_INTEL_GPU=FALSE  -DENABLE_PYTHON=OFF -DENABLE_SAMPLES=ON -DENABLE_COMPILE_TOOL=ON -DVERBOSE_BUILD=0",
             "description": "This toolkit allows developers to deploy pre-trained deep learning models through a high-level C++ Inference Engine API integrated with application logic.",
             "filename": "openvino-inference-engine_2025.1.0.bb",
             "filepath": "recipes-core/opencv",
@@ -894,7 +880,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "OpenVINO(TM) Toolkit - Deep Learning Deployment Toolkit",
-            "updated": "2025-07-16T22:07:23+0000"
+            "updated": "2026-01-08T19:01:55+0000"
         },
         {
             "bbclassextend": "",

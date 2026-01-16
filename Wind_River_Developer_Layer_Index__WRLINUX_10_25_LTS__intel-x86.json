@@ -639,24 +639,10 @@
         },
         {
             "description": "",
-            "id": 44216,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.3"
-        },
-        {
-            "description": "",
             "id": 44217,
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.2"
-        },
-        {
-            "description": "",
-            "id": 44221,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.3 4.0 4.2 5.0 5.3 6.0"
         },
         {
             "description": "",
@@ -683,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-03T23:01:12+0000",
+            "updated": "2026-01-14T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -696,10 +682,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-03T19:01:03+0000",
-            "vcs_last_commit": "2026-01-03T18:01:29+0000",
-            "vcs_last_fetch": "2026-01-03T19:01:03+0000",
-            "vcs_last_rev": "e6f5b200e199cd6f4a6628f261e514edbd4c1543",
+            "updated": "2026-01-14T05:01:57+0000",
+            "vcs_last_commit": "2026-01-14T04:01:46+0000",
+            "vcs_last_fetch": "2026-01-14T05:01:57+0000",
+            "vcs_last_rev": "304296170d0713404fa637ef60c67711a476f3e0",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -722,14 +708,29 @@
         {
             "actual_branch": "",
             "branch": 454,
+            "collection": "openvino",
+            "id": 1037149,
+            "layer": 562,
+            "local_path": "",
+            "updated": "2026-01-08T19:01:55+0000",
+            "vcs_last_commit": "2026-01-08T17:01:46+0000",
+            "vcs_last_fetch": "2026-01-08T19:01:55+0000",
+            "vcs_last_rev": "accc99348d23d60ca58df630451d429e71fd8ed1",
+            "vcs_subdir": "",
+            "version": "5",
+            "yp_compatible_version": 44205
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
             "collection": "intel",
             "id": 1037156,
             "layer": 166,
             "local_path": "",
-            "updated": "2025-09-25T00:09:37+0000",
-            "vcs_last_commit": "2025-09-23T19:09:22+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:37+0000",
-            "vcs_last_rev": "d3e9213ab1c191acff508a9293f9858bc7ce86de",
+            "updated": "2026-01-11T19:01:31+0000",
+            "vcs_last_commit": "2026-01-10T02:01:49+0000",
+            "vcs_last_fetch": "2026-01-11T19:01:31+0000",
+            "vcs_last_rev": "f18c20de8e711127bc776858174a199fbdf986b0",
             "vcs_subdir": "",
             "version": "5",
             "yp_compatible_version": 44207
@@ -741,10 +742,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-01-04T18:01:19+0000",
-            "vcs_last_commit": "2026-01-04T18:01:53+0000",
-            "vcs_last_fetch": "2026-01-04T18:01:19+0000",
-            "vcs_last_rev": "6318a7e8754853ac09945c54d37e32316f7f6d5f",
+            "updated": "2026-01-15T20:01:12+0000",
+            "vcs_last_commit": "2026-01-15T19:01:41+0000",
+            "vcs_last_fetch": "2026-01-15T20:01:12+0000",
+            "vcs_last_rev": "a9ddce68807ecd2eb2b055dd0513cbccc592381c",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -756,10 +757,10 @@
             "id": 1037172,
             "layer": 32,
             "local_path": "",
-            "updated": "2025-12-25T18:12:05+0000",
-            "vcs_last_commit": "2025-12-09T20:12:25+0000",
-            "vcs_last_fetch": "2025-12-25T18:12:05+0000",
-            "vcs_last_rev": "9da3a0ffbb60eb0c3510ccf2e7ea2a358ebc26e8",
+            "updated": "2026-01-13T00:01:11+0000",
+            "vcs_last_commit": "2026-01-12T22:01:26+0000",
+            "vcs_last_fetch": "2026-01-13T00:01:11+0000",
+            "vcs_last_rev": "106f4964b441ce29d818bfbe37017a8af9239635",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -787,6 +788,12 @@
         {
             "dependency": 49,
             "id": 146092,
+            "layerbranch": 1037172,
+            "required": true
+        },
+        {
+            "dependency": 562,
+            "id": 151839,
             "layerbranch": 1037172,
             "required": true
         }
@@ -822,7 +829,7 @@
             "name": "intel-x86",
             "status": "P",
             "summary": "Common Intel x86 BSP",
-            "updated": "2025-05-20T23:05:10+0000",
+            "updated": "2026-01-08T22:01:36+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/intel-x86",
             "vcs_web_commit_url": "",
@@ -886,15 +893,34 @@
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
+        },
+        {
+            "collection": "openvino",
+            "comparison": false,
+            "description": "This layer provides Intel Visual Inference and Neural network Optimization (OpenVINO).",
+            "id": 562,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-openvino",
+            "status": "P",
+            "summary": "This layer provides Intel Visual Inference and Neural network Optimization (OpenVINO)",
+            "updated": "2024-11-26T20:11:43+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-openvino",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-openvino/commit/?id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
         }
     ],
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 101816,
+            "id": 107759,
             "layerbranch": 1037172,
             "name": "intel-x86-64",
-            "updated": "2025-06-25T09:06:41+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         }
     ],
     "recipes": [
@@ -919,13 +945,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2025-06-25T09:06:41+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " ",
             "description": "IOTG Time-Sensitive Networking Reference Software",
             "filename": "iotg-tsn-ref-sw.bb",
             "filepath": "recipes-connectivity/iotg-tsn-ref-sw",
@@ -942,7 +968,7 @@
             "section": "base",
             "srcrev": "d03a8f751ce7206a91ad4c597dead6b324460e48",
             "summary": "IOTG TSN Reference Software",
-            "updated": "2025-11-11T23:11:23+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -965,51 +991,58 @@
             "section": "libs",
             "srcrev": "2cd2d03f63242c048a896179398c68d2dbefe3d6",
             "summary": "Library for BPF handling",
-            "updated": "2025-11-12T18:11:08+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Install \"require\" features together such as: edac/kdump/intel-qat/intel-sst ... to rootfs or image.",
-            "id": 129922,
+            "id": 134176,
             "layerbranch": 1037172,
             "name": "feature/intel-x86-dev",
-            "updated": "2025-06-25T09:06:41+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         },
         {
             "description": "Install intel-speed-select to rootfs",
-            "id": 129923,
+            "id": 134177,
             "layerbranch": 1037172,
             "name": "feature/intel-sst",
-            "updated": "2025-06-25T09:06:41+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         },
         {
             "description": "Add QAT drivers to the image",
-            "id": 129924,
+            "id": 134178,
             "layerbranch": 1037172,
             "name": "feature/intel-qat",
-            "updated": "2025-06-25T09:06:41+0000"
-        },
-        {
-            "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
-            "id": 129925,
-            "layerbranch": 1037172,
-            "name": "feature/intel-persistent-memory",
-            "updated": "2025-06-25T09:06:41+0000"
-        },
-        {
-            "description": "",
-            "id": 129926,
-            "layerbranch": 1037172,
-            "name": "default",
-            "updated": "2025-06-25T09:06:41+0000"
+            "updated": "2026-01-08T23:01:04+0000"
         },
         {
             "description": "Add TSN support to the image",
-            "id": 132203,
+            "id": 134179,
             "layerbranch": 1037172,
             "name": "feature/intel-tsn",
-            "updated": "2025-11-11T23:11:23+0000"
+            "updated": "2026-01-08T23:01:04+0000"
+        },
+        {
+            "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
+            "id": 134180,
+            "layerbranch": 1037172,
+            "name": "feature/intel-persistent-memory",
+            "updated": "2026-01-08T23:01:04+0000"
+        },
+        {
+            "description": "Add Intel NPU support to the image",
+            "id": 134181,
+            "layerbranch": 1037172,
+            "name": "feature/intel-npu",
+            "updated": "2026-01-11T19:01:12+0000"
+        },
+        {
+            "description": "",
+            "id": 134182,
+            "layerbranch": 1037172,
+            "name": "default",
+            "updated": "2026-01-08T23:01:04+0000"
         }
     ]
 }
