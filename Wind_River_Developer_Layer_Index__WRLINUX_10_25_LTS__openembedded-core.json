@@ -669,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-14T23:01:05+0000",
+            "updated": "2026-01-20T23:01:09+0000",
             "updates_enabled": true
         }
     ],
@@ -690,10 +690,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-14T05:01:57+0000",
-            "vcs_last_commit": "2026-01-14T04:01:46+0000",
-            "vcs_last_fetch": "2026-01-14T05:01:57+0000",
-            "vcs_last_rev": "304296170d0713404fa637ef60c67711a476f3e0",
+            "updated": "2026-01-21T04:01:14+0000",
+            "vcs_last_commit": "2026-01-21T03:01:25+0000",
+            "vcs_last_fetch": "2026-01-21T04:01:14+0000",
+            "vcs_last_rev": "093bf64aa8d3f939ee2c6db8f064585020f81540",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -19120,9 +19120,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org/buglist.cgi?product=libxml2",
-            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma  --enable-ipv6 --with-python=/tmp/tmpfzzjrvna/tmp/work/core2-32-oe-linux/libxml2/2.13.8/recipe-sysroot-native/usr/bin/python3-native/python3",
+            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma  --enable-ipv6 --with-python=/tmp/tmpdwf1dcrn/tmp/work/core2-32-oe-linux/libxml2/2.13.9/recipe-sysroot-native/usr/bin/python3-native/python3",
             "description": "The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.",
-            "filename": "libxml2_2.13.8.bb",
+            "filename": "libxml2_2.13.9.bb",
             "filepath": "recipes-core/libxml",
             "homepage": "https://gitlab.gnome.org/GNOME/libxml2",
             "id": 2342872,
@@ -19133,11 +19133,11 @@
             "pn": "libxml2",
             "pr": "r0",
             "provides": "libxml2 ",
-            "pv": "2.13.8",
+            "pv": "2.13.9",
             "section": "libs",
             "srcrev": "",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2025-11-20T00:11:01+0000"
+            "updated": "2026-01-21T04:01:13+0000"
         },
         {
             "bbclassextend": "",
@@ -20310,7 +20310,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Zlib Compression Library",
-            "updated": "2025-11-20T00:11:06+0000"
+            "updated": "2026-01-18T18:01:15+0000"
         },
         {
             "bbclassextend": "",

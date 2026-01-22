@@ -669,7 +669,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-14T23:01:05+0000",
+            "updated": "2026-01-20T23:01:09+0000",
             "updates_enabled": true
         }
     ],
@@ -682,10 +682,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-14T05:01:57+0000",
-            "vcs_last_commit": "2026-01-14T04:01:46+0000",
-            "vcs_last_fetch": "2026-01-14T05:01:57+0000",
-            "vcs_last_rev": "304296170d0713404fa637ef60c67711a476f3e0",
+            "updated": "2026-01-21T04:01:14+0000",
+            "vcs_last_commit": "2026-01-21T03:01:25+0000",
+            "vcs_last_fetch": "2026-01-21T04:01:14+0000",
+            "vcs_last_rev": "093bf64aa8d3f939ee2c6db8f064585020f81540",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -697,10 +697,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-01-14T19:01:58+0000",
-            "vcs_last_commit": "2026-01-14T18:01:26+0000",
-            "vcs_last_fetch": "2026-01-14T19:01:58+0000",
-            "vcs_last_rev": "8cad27eb5564d9a9c0bb615839cb594b2a7ad9c9",
+            "updated": "2026-01-16T00:01:04+0000",
+            "vcs_last_commit": "2026-01-15T23:01:54+0000",
+            "vcs_last_fetch": "2026-01-16T00:01:04+0000",
+            "vcs_last_rev": "c2f2be272a04759b2903ba18122b683b9c84c0de",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -16831,7 +16831,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The Sodium crypto library",
-            "updated": "2025-06-22T22:06:42+0000"
+            "updated": "2026-01-16T00:01:04+0000"
         },
         {
             "bbclassextend": "",
