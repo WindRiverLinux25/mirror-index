@@ -657,6 +657,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
         }
     ],
     "branches": [
@@ -669,7 +676,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-26T23:01:05+0000",
+            "updated": "2026-02-12T23:02:06+0000",
             "updates_enabled": true
         }
     ],
@@ -682,10 +689,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-26T23:01:56+0000",
-            "vcs_last_commit": "2026-01-26T23:01:59+0000",
-            "vcs_last_fetch": "2026-01-26T23:01:56+0000",
-            "vcs_last_rev": "676e3d515f317534439c25285b8d447079ba9e0e",
+            "updated": "2026-02-13T04:02:03+0000",
+            "vcs_last_commit": "2026-02-10T21:02:12+0000",
+            "vcs_last_fetch": "2026-02-13T04:02:03+0000",
+            "vcs_last_rev": "6fa415697ca508b689f0da8ad6b0dcd70005b608",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -697,10 +704,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-01-16T00:01:04+0000",
-            "vcs_last_commit": "2026-01-15T23:01:54+0000",
-            "vcs_last_fetch": "2026-01-16T00:01:04+0000",
-            "vcs_last_rev": "c2f2be272a04759b2903ba18122b683b9c84c0de",
+            "updated": "2026-02-11T22:02:20+0000",
+            "vcs_last_commit": "2026-02-11T21:02:23+0000",
+            "vcs_last_fetch": "2026-02-11T22:02:20+0000",
+            "vcs_last_rev": "2fe62273cf4ba39e11f01df83258f19d2f9ed072",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -3384,7 +3391,7 @@
             "bugtracker": "",
             "configopts": "     -Dprotobuf_BUILD_SHARED_LIBS=ON     -Dprotobuf_BUILD_LIBPROTOC=ON     -Dprotobuf_BUILD_TESTS=OFF     -Dprotobuf_BUILD_EXAMPLES=OFF     -Dprotobuf_ABSL_PROVIDER=\"package\"     -Dprotobuf_JSONCPP_PROVIDER=\"package\"   -Dprotobuf_BUILD_PROTOC_BINARIES=OFF",
             "description": "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
-            "filename": "protobuf_5.29.5.bb",
+            "filename": "protobuf_5.29.6.bb",
             "filepath": "recipes-devtools/protobuf",
             "homepage": "https://github.com/google/protobuf",
             "id": 2222305,
@@ -3395,11 +3402,11 @@
             "pn": "protobuf",
             "pr": "r0",
             "provides": "protobuf ",
-            "pv": "5.29.5",
+            "pv": "5.29.6",
             "section": "console/tools",
-            "srcrev": "f5de0a0495faa63b4186fc767324f8b9a7bf4fc4",
+            "srcrev": "e9e7dd6d624098aea6b41f220361cc5d1eadf59f",
             "summary": "Protocol Buffers - structured data serialisation mechanism",
-            "updated": "2025-09-25T00:09:11+0000"
+            "updated": "2026-02-11T22:02:20+0000"
         },
         {
             "bbclassextend": "",
@@ -9063,7 +9070,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpt302di18/tmp/work/core2-32-oe-linux/hdf5/1.14.4-3/qemuwrapper      -DHDF5_INSTALL_CMAKE_DIR=/usr/lib/cmake     -DCMAKE_INSTALL_PREFIX='/usr'     -DHDF5_INSTALL_LIB_DIR='lib'  ",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp3eve75wq/tmp/work/core2-32-oe-linux/hdf5/1.14.4-3/qemuwrapper      -DHDF5_INSTALL_CMAKE_DIR=/usr/lib/cmake     -DCMAKE_INSTALL_PREFIX='/usr'     -DHDF5_INSTALL_LIB_DIR='lib'  ",
             "description": "Unique technology suite that makes possible the management of extremely large and complex data collections",
             "filename": "hdf5_1.14.4-3.bb",
             "filepath": "recipes-support/hdf5",
@@ -9080,7 +9087,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Management suite for extremely large and complex data collections",
-            "updated": "2025-11-14T00:11:02+0000"
+            "updated": "2026-02-03T23:02:09+0000"
         },
         {
             "bbclassextend": "native",

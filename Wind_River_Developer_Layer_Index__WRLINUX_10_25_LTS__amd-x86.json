@@ -657,6 +657,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
         }
     ],
     "branches": [
@@ -669,7 +676,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-26T23:01:05+0000",
+            "updated": "2026-02-12T23:02:06+0000",
             "updates_enabled": true
         }
     ],
@@ -682,10 +689,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-26T23:01:56+0000",
-            "vcs_last_commit": "2026-01-26T23:01:59+0000",
-            "vcs_last_fetch": "2026-01-26T23:01:56+0000",
-            "vcs_last_rev": "676e3d515f317534439c25285b8d447079ba9e0e",
+            "updated": "2026-02-13T04:02:03+0000",
+            "vcs_last_commit": "2026-02-10T21:02:12+0000",
+            "vcs_last_fetch": "2026-02-13T04:02:03+0000",
+            "vcs_last_rev": "6fa415697ca508b689f0da8ad6b0dcd70005b608",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -697,10 +704,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-01-21T22:01:19+0000",
-            "vcs_last_commit": "2026-01-21T21:01:43+0000",
-            "vcs_last_fetch": "2026-01-21T22:01:19+0000",
-            "vcs_last_rev": "3d9b8eca03d264abcf1e79131d91d24bf1470859",
+            "updated": "2026-02-13T05:02:38+0000",
+            "vcs_last_commit": "2026-02-13T05:02:37+0000",
+            "vcs_last_fetch": "2026-02-13T05:02:38+0000",
+            "vcs_last_rev": "db8ac3dcfbc53e4cac30aeb4793f97a3ddd0a6f4",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204

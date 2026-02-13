@@ -657,6 +657,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
         }
     ],
     "branches": [
@@ -669,7 +676,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-01-26T23:01:05+0000",
+            "updated": "2026-02-12T23:02:06+0000",
             "updates_enabled": true
         }
     ],
@@ -682,10 +689,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-01-26T23:01:56+0000",
-            "vcs_last_commit": "2026-01-26T23:01:59+0000",
-            "vcs_last_fetch": "2026-01-26T23:01:56+0000",
-            "vcs_last_rev": "676e3d515f317534439c25285b8d447079ba9e0e",
+            "updated": "2026-02-13T04:02:03+0000",
+            "vcs_last_commit": "2026-02-10T21:02:12+0000",
+            "vcs_last_fetch": "2026-02-13T04:02:03+0000",
+            "vcs_last_rev": "6fa415697ca508b689f0da8ad6b0dcd70005b608",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -712,11 +719,26 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2026-01-11T19:01:45+0000",
-            "vcs_last_commit": "2026-01-11T18:01:37+0000",
-            "vcs_last_fetch": "2026-01-11T19:01:45+0000",
-            "vcs_last_rev": "6ccb8f5499ecef75da52832da5d09144be289e1b",
+            "updated": "2026-02-01T19:02:46+0000",
+            "vcs_last_commit": "2026-02-01T18:02:53+0000",
+            "vcs_last_fetch": "2026-02-01T19:02:46+0000",
+            "vcs_last_rev": "82db460e572e1e00ee4649a2040b74097519c010",
             "vcs_subdir": "meta-xilinx-core",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "xilinx-bsp",
+            "id": 1037165,
+            "layer": 437,
+            "local_path": "",
+            "updated": "2026-01-29T23:01:28+0000",
+            "vcs_last_commit": "2026-01-14T19:01:41+0000",
+            "vcs_last_fetch": "2026-01-29T23:01:28+0000",
+            "vcs_last_rev": "9e80735770bfe8317e4cd90bdce65e3f4b77635e",
+            "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
             "yp_compatible_version": 44206
         },
@@ -727,10 +749,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-01-21T22:01:19+0000",
-            "vcs_last_commit": "2026-01-21T21:01:43+0000",
-            "vcs_last_fetch": "2026-01-21T22:01:19+0000",
-            "vcs_last_rev": "3d9b8eca03d264abcf1e79131d91d24bf1470859",
+            "updated": "2026-02-13T05:02:38+0000",
+            "vcs_last_commit": "2026-02-13T05:02:37+0000",
+            "vcs_last_fetch": "2026-02-13T05:02:38+0000",
+            "vcs_last_rev": "db8ac3dcfbc53e4cac30aeb4793f97a3ddd0a6f4",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -738,15 +760,15 @@
         {
             "actual_branch": "",
             "branch": 454,
-            "collection": "xilinx-tools",
-            "id": 1037173,
-            "layer": 357,
+            "collection": "xilinx-standalone",
+            "id": 1037170,
+            "layer": 435,
             "local_path": "",
-            "updated": "2025-09-25T00:09:48+0000",
-            "vcs_last_commit": "2025-09-23T19:09:23+0000",
-            "vcs_last_fetch": "2025-09-25T00:09:48+0000",
-            "vcs_last_rev": "479361da87059f72c5763f83399baa3541e3a075",
-            "vcs_subdir": "",
+            "updated": "2026-02-13T04:02:27+0000",
+            "vcs_last_commit": "2026-02-04T18:02:05+0000",
+            "vcs_last_fetch": "2026-02-13T04:02:27+0000",
+            "vcs_last_rev": "f28797d1155456cd7f62ba7b37740ed9fd9be2ae",
+            "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
             "yp_compatible_version": 44206
         },
@@ -757,43 +779,112 @@
             "id": 1037174,
             "layer": 555,
             "local_path": "",
-            "updated": "2025-07-31T02:07:56+0000",
-            "vcs_last_commit": "2025-07-31T00:07:00+0000",
-            "vcs_last_fetch": "2025-07-31T02:07:56+0000",
-            "vcs_last_rev": "b9d7576cfc248859d5f6ff011d16661ec40fdc02",
+            "updated": "2026-02-10T01:02:35+0000",
+            "vcs_last_commit": "2026-02-09T23:02:32+0000",
+            "vcs_last_fetch": "2026-02-10T01:02:35+0000",
+            "vcs_last_rev": "8b62f8a33a4f2ac998354e179bae8d4e80390ebd",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "xilinx-standalone-sdt",
+            "id": 1057205,
+            "layer": 572,
+            "local_path": "",
+            "updated": "2026-02-01T18:02:53+0000",
+            "vcs_last_commit": "2026-01-30T06:01:57+0000",
+            "vcs_last_fetch": "2026-02-01T18:02:53+0000",
+            "vcs_last_rev": "fea48ca5f5635da5cecf9eaa803b1c57b0663f6a",
+            "vcs_subdir": "meta-xilinx-standalone-sdt",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "xilinx-microblaze",
+            "id": 1057213,
+            "layer": 438,
+            "local_path": "",
+            "updated": "2026-01-29T23:01:41+0000",
+            "vcs_last_commit": "2026-01-14T19:01:41+0000",
+            "vcs_last_fetch": "2026-01-29T23:01:41+0000",
+            "vcs_last_rev": "9e80735770bfe8317e4cd90bdce65e3f4b77635e",
+            "vcs_subdir": "meta-microblaze",
+            "version": null,
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 454,
+            "collection": "amd-adaptive-socs-bsp",
+            "id": 1067876,
+            "layer": 576,
+            "local_path": "",
+            "updated": "2026-02-02T19:02:03+0000",
+            "vcs_last_commit": "2026-02-02T18:02:35+0000",
+            "vcs_last_fetch": "2026-02-02T19:02:03+0000",
+            "vcs_last_rev": "39ca3797b41458ded1a8168a5205a07d57d3a448",
+            "vcs_subdir": "meta-amd-adaptive-socs-bsp",
+            "version": null,
+            "yp_compatible_version": 44225
         }
     ],
     "layerDependencies": [
         {
+            "dependency": 576,
+            "id": 152152,
+            "layerbranch": 1037174,
+            "required": true
+        },
+        {
             "dependency": 1,
-            "id": 142730,
+            "id": 152153,
             "layerbranch": 1037174,
             "required": true
         },
         {
             "dependency": 474,
-            "id": 142731,
+            "id": 152154,
             "layerbranch": 1037174,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 142732,
+            "id": 152155,
             "layerbranch": 1037174,
             "required": true
         },
         {
             "dependency": 436,
-            "id": 142733,
+            "id": 152156,
             "layerbranch": 1037174,
             "required": true
         },
         {
-            "dependency": 357,
-            "id": 142736,
+            "dependency": 437,
+            "id": 152157,
+            "layerbranch": 1037174,
+            "required": true
+        },
+        {
+            "dependency": 438,
+            "id": 152158,
+            "layerbranch": 1037174,
+            "required": true
+        },
+        {
+            "dependency": 435,
+            "id": 152159,
+            "layerbranch": 1037174,
+            "required": true
+        },
+        {
+            "dependency": 572,
+            "id": 152160,
             "layerbranch": 1037174,
             "required": true
         }
@@ -838,19 +929,19 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "xilinx-tools",
+            "collection": "xilinx-standalone",
             "comparison": false,
-            "description": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
-            "id": 357,
+            "description": "This layer is meant to augment Yocto/OE functionality to provide a\r\nBaremetal/Standalone Toolchain as well as a generic version of various\r\nfirmware that is required to boot a ZynqMP or Versal system.\r\n\r\nFor optimized versions of the firmware and additional components you must\r\nuse the meta-xilinx-tools layer.",
+            "id": 435,
             "index_preference": 0,
-            "layer_type": "S",
+            "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-xilinx-tools",
+            "name": "meta-xilinx-standalone",
             "status": "P",
-            "summary": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
-            "updated": "2020-07-06T01:07:38+0000",
+            "summary": "This layer provides a Baremetal/Standalone Toolchain as well as a generic version of various firmware that is required to boot a ZynqMP or Versal system.",
+            "updated": "2022-03-03T00:03:58+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-xilinx-tools",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -868,6 +959,44 @@
             "status": "P",
             "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
             "updated": "2022-03-03T00:03:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-bsp",
+            "comparison": false,
+            "description": "Meta xilnx BSPs.",
+            "id": 437,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-bsp",
+            "status": "P",
+            "summary": "meta-xilinx-bsp",
+            "updated": "2022-03-04T01:03:21+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-microblaze",
+            "comparison": false,
+            "description": "This layer provides support specific to the MicroBlaze architecture",
+            "id": 438,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-microblaze",
+            "status": "P",
+            "summary": "This layer provides support specific to the MicroBlaze architecture",
+            "updated": "2025-10-24T00:10:04+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-xilinx",
             "vcs_web_commit_url": "",
@@ -912,6 +1041,44 @@
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
+        },
+        {
+            "collection": "xilinx-standalone-sdt",
+            "comparison": false,
+            "description": "This layer contains System Device Tree build metadata such as multiconfig operating\r\nenvironment(baremetal, freertos etc) boot firmware drivers, libraries and \r\napplications recipes.",
+            "id": 572,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-xilinx-standalone-sdt",
+            "status": "P",
+            "summary": "meta-xilinx-standalone-sdt",
+            "updated": "2025-10-24T00:10:51+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "amd-adaptive-socs-bsp",
+            "comparison": false,
+            "description": "This layer enables AMD Adaptive SoC's bsp features such as evaluation board\r\nsystem device tree build metadata such as machine configurations files, multiconfig\r\nfiles, system device tree files, boot pdi, kernel configuration fragments, series\r\nconfiguration compiler(.scc) files etc. This layer also supports to enable Xen \r\nhypervisor.",
+            "id": 576,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-amd-adaptive-socs-bsp",
+            "status": "P",
+            "summary": "meta-amd-adaptive-socs-bsp",
+            "updated": "2025-12-25T01:12:32+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-amd-adaptive-socs",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
         }
     ],
     "machines": [
@@ -920,17 +1087,41 @@
             "id": 101819,
             "layerbranch": 1037174,
             "name": "amd-zynqmp",
-            "updated": "2025-07-31T02:07:56+0000"
+            "updated": "2026-02-10T01:02:35+0000"
         }
     ],
-    "recipes": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "zynqmp-fw-demo.bb",
+            "filepath": "recipes-firmware/zynqmp-fw-demo",
+            "homepage": "",
+            "id": 2381892,
+            "inherits": "deploy devicetree dfx_user_dts kernel-arch",
+            "layerbranch": 1037174,
+            "license": "MIT",
+            "pe": "",
+            "pn": "zynqmp-fw-demo",
+            "pr": "r0",
+            "provides": "zynqmp-fw-demo ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Full Bitstream loading app firmware using dfx_user_dts bbclass",
+            "updated": "2026-02-01T21:02:35+0000"
+        }
+    ],
     "wrtemplates": [
         {
             "description": "",
             "id": 129934,
             "layerbranch": 1037174,
             "name": "default",
-            "updated": "2025-06-25T09:06:52+0000"
+            "updated": "2026-02-09T19:02:59+0000"
         }
     ]
 }
