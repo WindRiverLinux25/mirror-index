@@ -676,7 +676,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-02-24T23:02:13+0000",
+            "updated": "2026-03-04T23:03:13+0000",
             "updates_enabled": true
         }
     ],
@@ -697,10 +697,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-02-13T04:02:03+0000",
-            "vcs_last_commit": "2026-02-10T21:02:12+0000",
-            "vcs_last_fetch": "2026-02-13T04:02:03+0000",
-            "vcs_last_rev": "6fa415697ca508b689f0da8ad6b0dcd70005b608",
+            "updated": "2026-03-04T19:03:08+0000",
+            "vcs_last_commit": "2026-03-04T18:03:20+0000",
+            "vcs_last_fetch": "2026-03-04T19:03:08+0000",
+            "vcs_last_rev": "f5069c334545d21ad924e22b36725ec578447163",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -3481,7 +3481,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The official binary distribution format for Python ",
-            "updated": "2026-02-13T04:02:06+0000"
+            "updated": "2026-02-25T19:02:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7713,7 +7713,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2026-02-13T04:02:09+0000"
+            "updated": "2026-03-04T00:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -8273,7 +8273,7 @@
             "bugtracker": "",
             "configopts": " --enable-arm-neon=off ",
             "description": "An open source project to develop and maintain the reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. ",
-            "filename": "libpng_1.6.54.bb",
+            "filename": "libpng_1.6.55.bb",
             "filepath": "recipes-multimedia/libpng",
             "homepage": "http://www.libpng.org/",
             "id": 2342400,
@@ -8284,11 +8284,11 @@
             "pn": "libpng",
             "pr": "r0",
             "provides": "libpng ",
-            "pv": "1.6.54",
+            "pv": "1.6.55",
             "section": "libs",
             "srcrev": "",
             "summary": "PNG image format decoding library",
-            "updated": "2026-02-13T04:02:15+0000"
+            "updated": "2026-02-26T22:02:20+0000"
         },
         {
             "bbclassextend": "",
@@ -10082,7 +10082,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Embeddable SQL database engine",
-            "updated": "2026-02-13T04:02:39+0000"
+            "updated": "2026-02-26T00:02:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10124,11 +10124,11 @@
             "pn": "vim-tiny",
             "pr": "r0",
             "provides": "vim-tiny ",
-            "pv": "9.1.2144",
+            "pv": "9.1.2148",
             "section": "console/utils",
-            "srcrev": "55c12373f073bacfc97d757e8f4da3daf472e4ac",
+            "srcrev": "c5f312aad8e4179e437f81ad39a860cd0ef11970",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2026-02-13T04:02:40+0000"
+            "updated": "2026-03-01T18:03:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10147,11 +10147,11 @@
             "pn": "vim",
             "pr": "r0",
             "provides": "vim xxd",
-            "pv": "9.1.2144",
+            "pv": "9.1.2148",
             "section": "console/utils",
-            "srcrev": "55c12373f073bacfc97d757e8f4da3daf472e4ac",
+            "srcrev": "c5f312aad8e4179e437f81ad39a860cd0ef11970",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2026-02-13T04:02:40+0000"
+            "updated": "2026-03-01T18:03:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10272,7 +10272,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmp72zqru5w/tmp/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
+            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpded8o6s9/tmp/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup-2.4_2.74.3.bb",
             "filepath": "recipes-support/libsoup",
@@ -10289,13 +10289,13 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2026-02-13T04:02:42+0000"
+            "updated": "2026-03-01T23:03:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmp72zqru5w/tmp/work/core2-32-oe-linux/libsoup/3.6.5/soup.cross",
+            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpded8o6s9/tmp/work/core2-32-oe-linux/libsoup/3.6.5/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup_3.6.5.bb",
             "filepath": "recipes-support/libsoup",
@@ -10312,7 +10312,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2026-02-13T04:02:43+0000"
+            "updated": "2026-03-01T23:03:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10479,7 +10479,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmp72zqru5w/tmp/work/core2-32-oe-linux/gnupg/2.5.5/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmp72zqru5w/tmp/work/core2-32-oe-linux/gnupg/2.5.5/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmp72zqru5w/tmp/work/core2-32-oe-linux/gnupg/2.5.5/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--disable-tests \t\t--disable-doc                  --enable-gnutls  --disable-sqlite --enable-nls",
+            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmpded8o6s9/tmp/work/core2-32-oe-linux/gnupg/2.5.5/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmpded8o6s9/tmp/work/core2-32-oe-linux/gnupg/2.5.5/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmpded8o6s9/tmp/work/core2-32-oe-linux/gnupg/2.5.5/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--disable-tests \t\t--disable-doc                  --enable-gnutls  --disable-sqlite --enable-nls",
             "description": "A complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.",
             "filename": "gnupg_2.5.5.bb",
             "filepath": "recipes-support/gnupg",
@@ -10496,7 +10496,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2026-02-13T04:02:46+0000"
+            "updated": "2026-03-01T23:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -18868,7 +18868,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A general-purpose utility library",
-            "updated": "2026-02-13T04:02:27+0000"
+            "updated": "2026-03-04T00:03:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -18891,7 +18891,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A general-purpose utility library",
-            "updated": "2026-02-13T04:02:28+0000"
+            "updated": "2026-03-04T00:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -19127,7 +19127,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org/buglist.cgi?product=libxml2",
-            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma  --enable-ipv6 --with-python=/tmp/tmp72zqru5w/tmp/work/core2-32-oe-linux/libxml2/2.13.9/recipe-sysroot-native/usr/bin/python3-native/python3",
+            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma  --enable-ipv6 --with-python=/tmp/tmp8tqiqd80/tmp/work/core2-32-oe-linux/libxml2/2.13.9/recipe-sysroot-native/usr/bin/python3-native/python3",
             "description": "The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.",
             "filename": "libxml2_2.13.9.bb",
             "filepath": "recipes-core/libxml",
@@ -19144,7 +19144,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2026-02-13T04:02:30+0000"
+            "updated": "2026-02-25T20:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -20302,7 +20302,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.",
-            "filename": "zlib_1.3.1.bb",
+            "filename": "zlib_1.3.2.bb",
             "filepath": "recipes-core/zlib",
             "homepage": "http://zlib.net/",
             "id": 2342923,
@@ -20313,11 +20313,11 @@
             "pn": "zlib",
             "pr": "r0",
             "provides": "zlib ",
-            "pv": "1.3.1",
+            "pv": "1.3.2",
             "section": "libs",
             "srcrev": "",
             "summary": "Zlib Compression Library",
-            "updated": "2026-02-13T04:02:37+0000"
+            "updated": "2026-03-04T00:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -20846,7 +20846,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2026-02-13T04:02:47+0000"
+            "updated": "2026-03-04T19:03:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -21053,7 +21053,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2026-02-13T04:02:49+0000"
+            "updated": "2026-03-02T22:03:07+0000"
         },
         {
             "bbclassextend": "",
