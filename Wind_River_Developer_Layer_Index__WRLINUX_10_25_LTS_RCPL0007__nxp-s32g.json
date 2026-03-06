@@ -1,0 +1,1399 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_25_LTS_RCPL0007",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44215,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_25_LTS_RCPL0007",
+            "comparison": false,
+            "hidden": false,
+            "id": 486,
+            "name": "WRLINUX_10_25_LTS_RCPL0007",
+            "short_description": "WRLinux 10_25 LTS RCPL 0007",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-03-04T23:03:14+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 486,
+            "collection": "core",
+            "id": 1068958,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-03-05T19:03:25+0000",
+            "vcs_last_commit": "2026-03-04T18:03:20+0000",
+            "vcs_last_fetch": "2026-03-05T19:03:25+0000",
+            "vcs_last_rev": "f5069c334545d21ad924e22b36725ec578447163",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 486,
+            "collection": "networking-layer",
+            "id": 1069000,
+            "layer": 11,
+            "local_path": "",
+            "updated": "2026-03-05T19:03:49+0000",
+            "vcs_last_commit": "2026-03-02T19:03:04+0000",
+            "vcs_last_fetch": "2026-03-05T19:03:49+0000",
+            "vcs_last_rev": "2513edd31e3b3c60754e6dd74f3711664d05f511",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 44206
+        },
+        {
+            "actual_branch": "",
+            "branch": 486,
+            "collection": "meta-arm",
+            "id": 1069007,
+            "layer": 474,
+            "local_path": "",
+            "updated": "2026-02-13T01:02:22+0000",
+            "vcs_last_commit": "2025-09-23T19:09:23+0000",
+            "vcs_last_fetch": "2026-02-13T01:02:22+0000",
+            "vcs_last_rev": "140aa839ad03baf6bc3e594755219000f2c3fda2",
+            "vcs_subdir": "meta-arm",
+            "version": null,
+            "yp_compatible_version": 44205
+        },
+        {
+            "actual_branch": "",
+            "branch": 486,
+            "collection": "wrlinux",
+            "id": 1069022,
+            "layer": 49,
+            "local_path": "",
+            "updated": "2026-03-05T19:03:13+0000",
+            "vcs_last_commit": "2026-03-05T18:03:36+0000",
+            "vcs_last_fetch": "2026-03-05T19:03:13+0000",
+            "vcs_last_rev": "0c4218962549d423f820c960ccc3d0bc78456a3c",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 486,
+            "collection": "wr-nxp-s32g",
+            "id": 1069036,
+            "layer": 439,
+            "local_path": "",
+            "updated": "2026-02-13T01:02:13+0000",
+            "vcs_last_commit": "2026-01-27T21:01:59+0000",
+            "vcs_last_fetch": "2026-02-13T01:02:13+0000",
+            "vcs_last_rev": "6350822ebde542085f46fc12b25b15bdc7299f46",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44204
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 152713,
+            "layerbranch": 1069036,
+            "required": true
+        },
+        {
+            "dependency": 474,
+            "id": 152714,
+            "layerbranch": 1069036,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 152715,
+            "layerbranch": 1069036,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 152716,
+            "layerbranch": 1069036,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "networking-layer",
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wrlinux",
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-nxp-s32g",
+            "comparison": false,
+            "description": "NXP S32G BSP",
+            "id": 439,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "nxp-s32g",
+            "status": "P",
+            "summary": "The BSP for NXP S32G SOCs.",
+            "updated": "2022-03-31T01:03:03+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/nxp-s32g",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-s32g.git/commit/?id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-arm",
+            "comparison": false,
+            "description": "This repository contains the Arm layers for OpenEmbedded.",
+            "id": 474,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-arm",
+            "status": "P",
+            "summary": "This repository contains the Arm layers for OpenEmbedded.",
+            "updated": "2022-05-31T02:05:06+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-arm",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " NXP S32G2/G3 SoC",
+            "id": 108710,
+            "layerbranch": 1069036,
+            "name": "nxp-s32g",
+            "updated": "2026-02-13T01:02:08+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "native",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "python-fdt_1.0.bb",
+            "filepath": "recipes-extend/python-fdt",
+            "homepage": "https://github.com/molejar/pyFDT",
+            "id": 2392042,
+            "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 1069036,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "python-fdt",
+            "pr": "r0",
+            "provides": "python-fdt ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "907089ee05addba01f0f671aa8efea3b723934a1",
+            "summary": "Flattened Device Tree Python Module",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "NXP HSE PKCS#11 Module",
+            "filename": "pkcs11-hse_1.0.bb",
+            "filepath": "recipes-extend/pkcs11",
+            "homepage": "",
+            "id": 2392043,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "pkcs11-hse",
+            "pr": "r0",
+            "provides": "pkcs11-hse  pkcs11-hse",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "0542cc5a248cc2d35af339c38270e2059a927b31",
+            "summary": "",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "cortex-m-toolchain.bb",
+            "filepath": "recipes-devtools/cortex-m-toolchain",
+            "homepage": "",
+            "id": 2392044,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "GPL-3.0-with-GCC-exception & GPLv3",
+            "pe": "",
+            "pn": "cortex-m-toolchain",
+            "pr": "r0",
+            "provides": "cortex-m-toolchain ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Pre-built Cortex-M7 toolchain",
+            "updated": "2026-02-13T01:02:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "m7-sample.bb",
+            "filepath": "recipes-bsp/m7-sample",
+            "homepage": "",
+            "id": 2392045,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "m7-sample",
+            "pr": "r0",
+            "provides": "m7-sample ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "84cf69931d26e950d39ed8c01704275a7736effd",
+            "summary": "Sample M7 Bootloader",
+            "updated": "2026-02-13T01:02:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-boot provided by NXP with focus on S32 chipsets",
+            "filename": "u-boot-s32_2022.04.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2392046,
+            "inherits": "cml1 deploy kernel-arch nxp-u-boot-localversion pkgconfig python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 1069036,
+            "license": "GPL-2.0-only & BSD-3-Clause & BSD-2-Clause & LGPL-2.0-only & LGPL-2.1-only",
+            "pe": "",
+            "pn": "u-boot-s32",
+            "pr": "r0",
+            "provides": "u-boot-s32 virtual/bootloader u-boot",
+            "pv": "2022.04",
+            "section": "bootloaders",
+            "srcrev": "9a003232781ee9999d7e41a1cd62024400794560",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2026-02-13T01:02:10+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "U-Boot bootloader tools provided by NXP with focus on S32 chipsets",
+            "filename": "u-boot-tools_2022.04-s32.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 2392047,
+            "inherits": "pkgconfig python3-dir python3native",
+            "layerbranch": 1069036,
+            "license": "GPL-2.0-only & BSD-3-Clause & BSD-2-Clause & LGPL-2.0-only & LGPL-2.1-only",
+            "pe": "",
+            "pn": "u-boot-tools",
+            "pr": "r0",
+            "provides": "u-boot-tools u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools-scmi",
+            "pv": "2022.04-s32",
+            "section": "bootloaders",
+            "srcrev": "9a003232781ee9999d7e41a1cd62024400794560",
+            "summary": "U-Boot bootloader tools",
+            "updated": "2026-02-13T01:02:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "atf-s32g_2.10.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 2392048,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "atf-s32g",
+            "pr": "r0",
+            "provides": "atf-s32g ",
+            "pv": "2.10",
+            "section": "base",
+            "srcrev": "c9a7f81230064d21e403cfc315cbd3ffdc18752f",
+            "summary": "",
+            "updated": "2026-02-13T01:02:10+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware Tools",
+            "filename": "atf-s32g-tools_2.10.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 2392049,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "atf-s32g-tools",
+            "pr": "r0",
+            "provides": "atf-s32g-tools ",
+            "pv": "2.10",
+            "section": "base",
+            "srcrev": "c9a7f81230064d21e403cfc315cbd3ffdc18752f",
+            "summary": "",
+            "updated": "2026-02-13T01:02:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Test suite",
+            "filename": "optee-test_4.0.0.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2392050,
+            "inherits": "deploy ptest python3-dir python3native",
+            "layerbranch": 1069036,
+            "license": "BSD-2-Clause & GPL-2.0-only",
+            "pe": "",
+            "pn": "optee-test",
+            "pr": "r0",
+            "provides": "optee-test ",
+            "pv": "4.0.0",
+            "section": "base",
+            "srcrev": "79e49f95474d05a028f58a75c6c643f88e9b9295",
+            "summary": "OP-TEE sanity testsuite",
+            "updated": "2026-02-13T01:02:10+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Trusted side of the TEE",
+            "filename": "optee-os_4.0.0.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2392051,
+            "inherits": "deploy python3-dir python3native",
+            "layerbranch": 1069036,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os",
+            "pr": "r0",
+            "provides": "optee-os ",
+            "pv": "4.0.0",
+            "section": "base",
+            "srcrev": "5bc04d55cc67a75824cad7a8ee4b29090ee11187",
+            "summary": "OP-TEE Trusted OS",
+            "updated": "2026-02-13T01:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_USE_PKGCONFIG=ON     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'   -DCFG_ENABLE_SYSTEMD=On -DSYSTEMD_UNIT_DIR=/lib/systemd/system/  -DCFG_ENABLE_UDEV=On -DUDEV_UDEV_DIR=/lib/udev/rules.d/  -DCFG_TEE_GROUP=tee -DCFG_TEEPRIV_GROUP=teepriv ",
+            "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
+            "filename": "optee-client_4.0.0.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2392052,
+            "inherits": "cmake pkgconfig systemd update-rc.d useradd useradd_base",
+            "layerbranch": 1069036,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-client",
+            "pr": "r0",
+            "provides": "optee-client ",
+            "pv": "4.0.0",
+            "section": "base",
+            "srcrev": "acb0885c117e73cb6c5c9b1dd9054cb3f93507ee",
+            "summary": "OP-TEE Client API",
+            "updated": "2026-02-13T01:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Open Portable Trusted Execution Environment - Sample Applications",
+            "filename": "optee-examples_4.0.0.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://github.com/linaro-swg/optee_examples",
+            "id": 2392053,
+            "inherits": "python3-dir python3native",
+            "layerbranch": 1069036,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-examples",
+            "pr": "r0",
+            "provides": "optee-examples ",
+            "pv": "4.0.0",
+            "section": "base",
+            "srcrev": "378dc0db2d5dd279f58a3b6cb3f78ffd6b165035",
+            "summary": "OP-TEE examples",
+            "updated": "2026-02-13T01:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OP-TEE TA devkit for build TAs",
+            "filename": "optee-os-tadevkit_4.0.0.bb",
+            "filepath": "recipes-security/optee",
+            "homepage": "https://www.op-tee.org/",
+            "id": 2392054,
+            "inherits": "deploy python3-dir python3native",
+            "layerbranch": 1069036,
+            "license": "BSD-2-Clause",
+            "pe": "",
+            "pn": "optee-os-tadevkit",
+            "pr": "r0",
+            "provides": "optee-os-tadevkit ",
+            "pv": "4.0.0",
+            "section": "base",
+            "srcrev": "5bc04d55cc67a75824cad7a8ee4b29090ee11187",
+            "summary": "OP-TEE Trusted OS TA devkit",
+            "updated": "2026-02-13T01:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "NXP LLCE FIRMWARES",
+            "filename": "llce_1.0.bb",
+            "filepath": "recipes-kernel/llce",
+            "homepage": "",
+            "id": 2392055,
+            "inherits": "deploy",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "llce",
+            "pr": "r0",
+            "provides": "llce  llce",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2026-02-13T01:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "ipc-shm.bb",
+            "filepath": "recipes-kernel/ipc-shm",
+            "homepage": "",
+            "id": 2392056,
+            "inherits": "deploy kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "ipc-shm",
+            "pr": "r0",
+            "provides": "ipc-shm  kernel-module-ipc-shm-sample kernel-module-ipc-shm-dev kernel-module-ipc-shm-uio",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "e90d0a18eb6d53f1faa09739f3d1c00f6f4eed8c",
+            "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
+            "updated": "2026-02-13T01:02:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "sja1105_1.0.bb",
+            "filepath": "recipes-kernel/sja1105",
+            "homepage": "",
+            "id": 2392057,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig python3-dir python3native",
+            "layerbranch": 1069036,
+            "license": "GPLv2+ & MIT",
+            "pe": "",
+            "pn": "sja1105",
+            "pr": "r0",
+            "provides": "sja1105  kernel-module-sja1105pqrs",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "2083f642759d039f0e107bc856a29cc127aa67ca",
+            "summary": "Add support for SJA1105 switch for S32V234EVB, BB Mini, S32G-PROCEVB-S plus S32GRV-PLATEVB and S32G-VNP-RDB",
+            "updated": "2026-02-13T01:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "pfe_1.9.0.bb",
+            "filepath": "recipes-kernel/pfe",
+            "homepage": "",
+            "id": 2392058,
+            "inherits": "deploy kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1069036,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "pfe",
+            "pr": "r0",
+            "provides": "pfe ",
+            "pv": "1.9.0",
+            "section": "base",
+            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "summary": "Linux driver for the Packet Forwarding Engine hardware",
+            "updated": "2026-02-13T01:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "LibFCI Example: Command line tool for configuration of PFE",
+            "filename": "libfci-cli_1.8.0.bb",
+            "filepath": "recipes-kernel/pfe",
+            "homepage": "https://source.codeaurora.org/external/autobsps32/extra/pfeng",
+            "id": 2392059,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "libfci-cli",
+            "pr": "r0",
+            "provides": "libfci-cli ",
+            "pv": "1.8.0",
+            "section": "base",
+            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "summary": "Linux driver for the Packet Forwarding Engine hardware",
+            "updated": "2026-02-13T01:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "libFCI networking acceleration library",
+            "filename": "libfci_1.8.0.bb",
+            "filepath": "recipes-kernel/pfe",
+            "homepage": "https://source.codeaurora.org/external/autobsps32/extra/pfeng",
+            "id": 2392060,
+            "inherits": "",
+            "layerbranch": 1069036,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "libfci",
+            "pr": "r0",
+            "provides": "libfci ",
+            "pv": "1.8.0",
+            "section": "base",
+            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "summary": "Linux driver for the Packet Forwarding Engine hardware",
+            "updated": "2026-02-13T01:02:12+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "pfe-slave_1.9.0.bb",
+            "filepath": "recipes-kernel/pfe",
+            "homepage": "",
+            "id": 2392061,
+            "inherits": "deploy kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 1069036,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "pfe-slave",
+            "pr": "r0",
+            "provides": "pfe-slave ",
+            "pv": "1.9.0",
+            "section": "base",
+            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "summary": "Linux driver for the Packet Forwarding Engine hardware",
+            "updated": "2026-02-13T01:02:13+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 134691,
+            "layerbranch": 1069036,
+            "name": "feature/srm",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 134692,
+            "layerbranch": 1069036,
+            "name": "feature/m7_boot",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 134693,
+            "layerbranch": 1069036,
+            "name": "feature/secure-boot-parallel",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 134694,
+            "layerbranch": 1069036,
+            "name": "feature/omit_atf",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 134695,
+            "layerbranch": 1069036,
+            "name": "feature/s32g-optee",
+            "updated": "2026-02-13T01:02:08+0000"
+        },
+        {
+            "description": "",
+            "id": 134696,
+            "layerbranch": 1069036,
+            "name": "default",
+            "updated": "2026-02-13T01:02:08+0000"
+        }
+    ]
+}
