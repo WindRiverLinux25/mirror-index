@@ -676,7 +676,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-03-04T23:03:13+0000",
+            "updated": "2026-03-19T00:03:09+0000",
             "updates_enabled": true
         }
     ],
@@ -689,10 +689,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-03-04T19:03:08+0000",
-            "vcs_last_commit": "2026-03-04T18:03:20+0000",
-            "vcs_last_fetch": "2026-03-04T19:03:08+0000",
-            "vcs_last_rev": "f5069c334545d21ad924e22b36725ec578447163",
+            "updated": "2026-03-19T08:03:49+0000",
+            "vcs_last_commit": "2026-03-19T02:03:32+0000",
+            "vcs_last_fetch": "2026-03-19T08:03:49+0000",
+            "vcs_last_rev": "1b8c5f9d5cf48f495220bca2a8aba3cdca22244b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -734,10 +734,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-02-25T18:02:20+0000",
-            "vcs_last_commit": "2026-02-25T17:02:41+0000",
-            "vcs_last_fetch": "2026-02-25T18:02:20+0000",
-            "vcs_last_rev": "5a6852782946af9a922e18d6abb9df4d2dedc5c9",
+            "updated": "2026-03-19T23:03:19+0000",
+            "vcs_last_commit": "2026-03-19T23:03:38+0000",
+            "vcs_last_fetch": "2026-03-19T23:03:19+0000",
+            "vcs_last_rev": "b51e6dd7847728c7d8800aec4904b15acc8d760d",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -749,10 +749,10 @@
             "id": 1044837,
             "layer": 439,
             "local_path": "",
-            "updated": "2026-01-29T20:01:24+0000",
-            "vcs_last_commit": "2026-01-27T21:01:59+0000",
-            "vcs_last_fetch": "2026-01-29T20:01:24+0000",
-            "vcs_last_rev": "6350822ebde542085f46fc12b25b15bdc7299f46",
+            "updated": "2026-03-10T23:03:47+0000",
+            "vcs_last_commit": "2026-03-10T03:03:26+0000",
+            "vcs_last_fetch": "2026-03-10T23:03:47+0000",
+            "vcs_last_rev": "68acbf1aff5553dbcf9f0df5b01b20df050c6966",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -1303,7 +1303,7 @@
             "section": "base",
             "srcrev": "5bc04d55cc67a75824cad7a8ee4b29090ee11187",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-01-29T20:01:24+0000"
+            "updated": "2026-03-10T23:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1326,7 +1326,7 @@
             "section": "base",
             "srcrev": "79e49f95474d05a028f58a75c6c643f88e9b9295",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2025-07-20T20:07:08+0000"
+            "updated": "2026-03-10T23:03:47+0000"
         },
         {
             "bbclassextend": "",
