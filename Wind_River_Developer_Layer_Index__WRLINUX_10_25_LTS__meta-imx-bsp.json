@@ -632,13 +632,6 @@
         },
         {
             "description": "",
-            "id": 44215,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.1 5.2 5.3"
-        },
-        {
-            "description": "",
             "id": 44217,
             "image_url": "",
             "link_url": "",
@@ -711,7 +704,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-03-25T00:03:07+0000",
+            "updated": "2026-04-01T00:04:12+0000",
             "updates_enabled": true
         }
     ],
