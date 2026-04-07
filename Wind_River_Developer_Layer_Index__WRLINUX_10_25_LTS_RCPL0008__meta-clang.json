@@ -1,0 +1,1187 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_25_LTS_RCPL0008",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44208,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44212,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 5.3"
+        },
+        {
+            "description": "",
+            "id": 44213,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 44214,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3"
+        },
+        {
+            "description": "",
+            "id": 44217,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44223,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 5.0 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44224,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 5.0 5.2 5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44225,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.2"
+        },
+        {
+            "description": "",
+            "id": 44226,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44227,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44228,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44229,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.0"
+        },
+        {
+            "description": "",
+            "id": 44230,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2 5.3 6.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_25_LTS_RCPL0008",
+            "comparison": false,
+            "hidden": false,
+            "id": 489,
+            "name": "WRLINUX_10_25_LTS_RCPL0008",
+            "short_description": "WRLinux 10_25 LTS RCPL 0008",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2026-04-06T00:04:13+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 489,
+            "collection": "core",
+            "id": 1071985,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2026-04-06T21:04:23+0000",
+            "vcs_last_commit": "2026-04-02T20:04:43+0000",
+            "vcs_last_fetch": "2026-04-06T21:04:23+0000",
+            "vcs_last_rev": "ca54fd07c37f670df35254e685ba61dae55160ef",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44204
+        },
+        {
+            "actual_branch": "",
+            "branch": 489,
+            "collection": "clang-layer",
+            "id": 1072016,
+            "layer": 353,
+            "local_path": "",
+            "updated": "2026-03-19T00:03:01+0000",
+            "vcs_last_commit": "2025-12-02T22:12:54+0000",
+            "vcs_last_fetch": "2026-03-19T00:03:01+0000",
+            "vcs_last_rev": "781a410e866df36ec5160da0bd15657c97be2610",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44207
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 153428,
+            "layerbranch": 1072016,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "clang-layer",
+            "comparison": false,
+            "description": "This layer provides clang/llvm based cross compiler. Currently working on it for ARM and x86",
+            "id": 353,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-clang",
+            "status": "P",
+            "summary": "This layer provides clang/llvm based cross compiler. Currently working on it for ARM and x86",
+            "updated": "2020-05-06T00:05:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-clang",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "native",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "bindgen-cli_0.71.1.bb",
+            "filepath": "recipes-devtools/bindgen-cli",
+            "homepage": "https://rust-lang.github.io/rust-bindgen/",
+            "id": 2409634,
+            "inherits": "cargo cargo-update-recipe-crates cargo_common python3-dir python3native rust rust-common rust-target-config",
+            "layerbranch": 1072016,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "bindgen-cli",
+            "pr": "r0",
+            "provides": "bindgen-cli ",
+            "pv": "0.71.1",
+            "section": "base",
+            "srcrev": "af7fd38d5e80514406fb6a8bba2d407d252c30b9",
+            "summary": "Automatically generates Rust FFI bindings to C and C++ libraries.",
+            "updated": "2026-03-19T00:03:57+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "        -DBUILD_SHARED_LIBS=OFF         -DCMAKE_BUILD_TYPE=Release         -DCMAKE_POSITION_INDEPENDENT_CODE=ON         -DCMAKE_SKIP_RPATH=ON         -DLLVM_EXTERNAL_LIT=lit         -DLLVM_INCLUDE_TESTS=ON         -Wno-dev         -DCCACHE_ALLOWED=FALSE         -DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/spirv-llvm-translator/20.1.0+git/git/SPIRV-Headers  ",
+            "description": "",
+            "filename": "spirv-llvm-translator_git.bb",
+            "filepath": "recipes-devtools/spirv-llvm-translator",
+            "homepage": "",
+            "id": 2409635,
+            "inherits": "cmake pkgconfig python3-dir python3native",
+            "layerbranch": 1072016,
+            "license": "NCSA",
+            "pe": "",
+            "pn": "spirv-llvm-translator",
+            "pr": "r0",
+            "provides": "spirv-llvm-translator ",
+            "pv": "20.1.0+git",
+            "section": "base",
+            "srcrev": "08713deebeca2c202aa5429337e747d34d7a7866",
+            "summary": "",
+            "updated": "2026-03-19T00:03:57+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCOMPILER_RT_STANDALONE_BUILD=ON                   -DCOMPILER_RT_USE_BUILTINS_LIBRARY=ON                   -DCOMPILER_RT_BUILD_BUILTINS=OFF                   -DCOMPILER_RT_INCLUDE_TESTS=OFF                   -DSANITIZER_CXX_ABI_LIBNAME=libstdc++                   -DCOMPILER_RT_BUILD_XRAY=ON                   -DCOMPILER_RT_BUILD_SANITIZERS=ON                   -DCOMPILER_RT_BUILD_LIBFUZZER=ON                   -DCOMPILER_RT_BUILD_PROFILE=ON                   -DCOMPILER_RT_BUILD_MEMPROF=ON                   -DLLVM_ENABLE_RUNTIMES='compiler-rt'                   -DLLVM_LIBDIR_SUFFIX=                   -DLLVM_APPEND_VC_REV=OFF                   -S /tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/runtimes   -DCOMPILER_RT_BUILD_CRT:BOOL=OFF -DCOMPILER_RT_BUILD_CTX_PROFILE=OFF               -DCMAKE_RANLIB=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/compiler-rt-sanitizers/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                -DCMAKE_AR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/compiler-rt-sanitizers/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ar                -DCMAKE_NM=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/compiler-rt-sanitizers/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-nm                -DCMAKE_C_COMPILER_TARGET=i686-oe-linux                -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON                -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "description": "Runtime libraries that are required \t\t\t\tto run the code with sanitizer instrumentation",
+            "filename": "compiler-rt-sanitizers_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://compiler-rt.llvm.org/",
+            "id": 2409636,
+            "inherits": "cmake pkgconfig python3-dir python3native",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "compiler-rt-sanitizers",
+            "pr": "r0",
+            "provides": "compiler-rt-sanitizers ",
+            "pv": "20.1.8",
+            "section": "base",
+            "srcrev": "",
+            "summary": "LLVM based C/C++ compiler Sanitizers Runtime",
+            "updated": "2026-03-19T00:03:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "clang-crosssdk_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://clang.llvm.org/",
+            "id": 2409637,
+            "inherits": "cross crosssdk nopackages relocatable",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "clang-crosssdk-x86_64-oesdk-linux",
+            "pr": "r0",
+            "provides": "clang-crosssdk-x86_64-oesdk-linux ",
+            "pv": "20.1.8",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "SDK Cross compiler wrappers for LLVM based C/C++ compiler",
+            "updated": "2026-03-19T00:03:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "clang-cross_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://clang.llvm.org/",
+            "id": 2409638,
+            "inherits": "cross nopackages relocatable",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "clang-cross-i686",
+            "pr": "r0",
+            "provides": "clang-cross-i686 ",
+            "pv": "20.1.8",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "Cross compiler wrappers for LLVM based C/C++ compiler",
+            "updated": "2026-03-19T00:03:58+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "     -DLLVM_APPEND_VC_REV=OFF     -DLIBCLC_CUSTOM_LLVM_TOOLS_BINARY_DIR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libclc/20.1.8/recipe-sysroot-native/usr/bin     -DLLVM_CLANG=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libclc/20.1.8/recipe-sysroot-native/usr/bin/clang     -DLLVM_AS=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libclc/20.1.8/recipe-sysroot-native/usr/bin/llvm-as     -DLLVM_LINK=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libclc/20.1.8/recipe-sysroot-native/usr/bin/llvm-link     -DLLVM_OPT=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libclc/20.1.8/recipe-sysroot-native/usr/bin/opt     -DLLVM_SPIRV=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libclc/20.1.8/recipe-sysroot-native/usr/bin/llvm-spirv     -DCMAKE_BUILD_TYPE=RelWithDebInfo     -Dclc_comp_in:FILEPATH=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/libclc/cmake/CMakeCLCCompiler.cmake.in     -Dll_comp_in:FILEPATH=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/libclc/cmake/CMakeLLAsmCompiler.cmake.in     -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "description": "",
+            "filename": "libclc_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://libclc.llvm.org/",
+            "id": 2409639,
+            "inherits": "cmake cmake-qemu pkgconfig python3-dir python3native qemu",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "libclc",
+            "pr": "r0",
+            "provides": "libclc ",
+            "pv": "20.1.8",
+            "section": "libs",
+            "srcrev": "",
+            "summary": "Implementation of the library requirements of the OpenCL 1.1+ C programming language",
+            "updated": "2026-03-19T00:03:58+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_APPEND_VC_REV=OFF                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DOPENMP_LIBDIR_SUFFIX=                   -DOPENMP_STANDALONE_BUILD=ON                   -DCLANG_TOOL=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/openmp/20.1.8/recipe-sysroot-native/usr/bin/clang                   -DLINK_TOOL=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/openmp/20.1.8/recipe-sysroot-native/usr/bin/llvm-link                   -DOPT_TOOL=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/openmp/20.1.8/recipe-sysroot-native/usr/bin/opt                   -DOPENMP_LLVM_LIT_EXECUTABLE=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/openmp/20.1.8/recipe-sysroot-native/usr/bin/llvm-lit                   -DEXTRACT_TOOL=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/openmp/20.1.8/recipe-sysroot-native/usr/bin/llvm-extract                   -DPACKAGER_TOOL=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/openmp/20.1.8/recipe-sysroot-native/usr/bin/clang-offload-packager                   -DCMAKE_POSITION_INDEPENDENT_CODE=ON                     -DLIBOMP_INSTALL_ALIASES=OFF -DOPENMP_ENABLE_OMPT_TOOLS=ON",
+            "description": "",
+            "filename": "openmp_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "https://openmp.llvm.org/",
+            "id": 2409640,
+            "inherits": "cmake perlnative pkgconfig python3-dir python3native python3targetconfig",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "openmp",
+            "pr": "r0",
+            "provides": "openmp ",
+            "pv": "20.1.8",
+            "section": "libs",
+            "srcrev": "",
+            "summary": "LLVM OpenMP compiler Runtime",
+            "updated": "2026-03-19T00:03:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "nativesdk-clang-glue.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://clang.llvm.org/",
+            "id": 2409641,
+            "inherits": "nativesdk",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "nativesdk-clang-glue",
+            "pr": "r0",
+            "provides": "nativesdk-clang-glue",
+            "pv": "1.0",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "SDK Cross compiler wrappers for LLVM based C/C++ compiler",
+            "updated": "2026-03-19T00:03:58+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_APPEND_VC_REV=OFF                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DCLANG_DEFAULT_PIE_ON_LINUX=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_ZSTD=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_BUILD_EXTERNAL_COMPILER_RT=ON                   -DCMAKE_SYSTEM_NAME=Linux                   -DCMAKE_BUILD_TYPE=Release                   -DCMAKE_CXX_FLAGS_RELEASE=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src=/usr/src/debug/clang/20.1.8  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src=/usr/src/debug/clang/20.1.8  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/build=/usr/src/debug/clang/20.1.8  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/build=/usr/src/debug/clang/20.1.8  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native=  -pipe -fvisibility-inlines-hidden -DNDEBUG -g0'                   -DCMAKE_C_FLAGS_RELEASE=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src=/usr/src/debug/clang/20.1.8  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src=/usr/src/debug/clang/20.1.8  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/build=/usr/src/debug/clang/20.1.8  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/build=/usr/src/debug/clang/20.1.8  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native=  -pipe -DNDEBUG -g0'                   -DBUILD_SHARED_LIBS=OFF                   -DLLVM_ENABLE_PROJECTS='clang;clang-tools-extra;lld;lldb'                   -DLLVM_BINUTILS_INCDIR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot/usr/include                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;AArch64;ARM;BPF;Mips;PowerPC;RISCV;X86;LoongArch'                   -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=''   -DENABLE_LINKER_BUILD_ID=ON -DCLANG_ENABLE_CLANGD=OFF -DCLANGD_BUILD_DEXP=OFF -DCLANG_DEFAULT_RTLIB=compiler-rt -DLLVM_ENABLE_EH=ON -DCLANG_PYTHON_BINDINGS_VERSIONS=3.13 -DCLANG_DEFAULT_CXX_STDLIB=libc++ -DLLVM_ENABLE_LIBEDIT=ON -DLLDB_ENABLE_LIBEDIT=ON -DLLDB_ENABLE_LUA=OFF -DLLDB_EDITLINE_USE_WCHAR=1 -DLLVM_ENABLE_LIBPFM=OFF -DLLVM_ENABLE_RTTI=ON -DLLVM_BUILD_LLVM_DYLIB=ON -DLLVM_LINK_LLVM_DYLIB=ON -DLLVM_USE_SPLIT_DWARF=OFF -DLLVM_ENABLE_TERMINFO=ON -DCOMPILER_RT_TERMINFO_LIB=ON -DCLANG_DEFAULT_UNWINDLIB=libgcc                  -DLLVM_NATIVE_TOOL_DIR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native/usr/bin                   -DLLVM_HEADERS_TABLEGEN=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native/usr/bin/llvm-min-tblgen                   -DCMAKE_RANLIB=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/clang/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib      ",
+            "description": "Clang is an LLVM based C/C++/Objective-C compiler,                 which aims to deliver amazingly fast compiles,                 extremely useful error and warning messages and                 to provide a platform for building great source                 level tools. The Clang Static Analyzer and                 clang-tidy are tools that automatically find bugs                 in your code, and are great examples of the sort                 of tools that can be built using the Clang frontend                 as a library to parse C/C++ code",
+            "filename": "clang_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://clang.llvm.org/",
+            "id": 2409642,
+            "inherits": "cmake cmake-native pkgconfig python3-dir python3native python3targetconfig",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "clang",
+            "pr": "r0",
+            "provides": "clang  llvm",
+            "pv": "20.1.8",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "LLVM based C/C++ compiler",
+            "updated": "2026-03-19T00:03:59+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCOMPILER_RT_STANDALONE_BUILD=ON                   -DCOMPILER_RT_INCLUDE_TESTS=OFF                   -DCOMPILER_RT_BUILD_XRAY=OFF                   -DCOMPILER_RT_BUILD_SANITIZERS=OFF                   -DCOMPILER_RT_BUILD_MEMPROF=OFF                   -DCOMPILER_RT_BUILD_LIBFUZZER=OFF                   -DLLVM_ENABLE_RUNTIMES='compiler-rt'                   -DLLVM_LIBDIR_SUFFIX=                   -DLLVM_APPEND_VC_REV=OFF                   -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON                   -S /tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/runtimes   -DCOMPILER_RT_BUILD_CRT:BOOL=OFF -DCOMPILER_RT_BUILD_CTX_PROFILE=OFF -DCOMPILER_RT_BUILD_PROFILE=OFF               -DCMAKE_RANLIB=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/compiler-rt/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                -DCMAKE_AR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/compiler-rt/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ar                -DCMAKE_NM=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/compiler-rt/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-nm                -DCMAKE_C_COMPILER_TARGET=i686-oe-linux                -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "description": "",
+            "filename": "compiler-rt_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://compiler-rt.llvm.org/",
+            "id": 2409643,
+            "inherits": "cmake cmake-native pkgconfig python3-dir python3native",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "compiler-rt",
+            "pr": "r0",
+            "provides": "compiler-rt ",
+            "pv": "20.1.8",
+            "section": "base",
+            "srcrev": "",
+            "summary": "LLVM based C/C++ compiler Runtime",
+            "updated": "2026-03-19T00:03:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "llvm-project-source.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "https://github.com/llvm/llvm-project",
+            "id": 2409644,
+            "inherits": "nopackages",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "llvm-project-source-20.1.8",
+            "pr": "r0",
+            "provides": "llvm-project-source-20.1.8 ",
+            "pv": "20.1.8",
+            "section": "base",
+            "srcrev": "",
+            "summary": "This is the canonical git mirror of the LLVM subversion repository.",
+            "updated": "2026-03-19T00:03:59+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCMAKE_CROSSCOMPILING=ON                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DLLVM_ENABLE_RTTI=ON                   -DLIBUNWIND_ENABLE_CROSS_UNWINDING=ON                   -DLIBCXX_ENABLE_STATIC_ABI_LIBRARY=ON                   -DLIBCXXABI_INCLUDE_TESTS=OFF                   -DLIBCXXABI_ENABLE_SHARED=ON                   -DLIBCXXABI_LIBCXX_INCLUDES=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/libcxx/include                   -DLIBCXX_CXX_ABI=libcxxabi                   -DLIBCXX_CXX_ABI_INCLUDE_PATHS=/tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/libcxxabi/include                   -DLIBCXX_CXX_ABI_LIBRARY_PATH=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libcxx/20.1.8/build/lib                   -S /tmp/tmp8j4z5ee0/tmp/work-shared/llvm-project-source-20.1.8-r0/llvm-project-20.1.8.src/runtimes                   -DLLVM_ENABLE_RUNTIMES='libcxx;libcxxabi;libunwind'                   -DLLVM_RUNTIME_TARGETS=i686-oe-linux                   -DLLVM_LIBDIR_SUFFIX=                   -DLLVM_APPEND_VC_REV=OFF                   -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON   -DLIBCXX_USE_COMPILER_RT=ON -DLIBCXXABI_USE_COMPILER_RT=ON -DLIBUNWIND_USE_COMPILER_RT=ON -DLIBCXXABI_ENABLE_EXCEPTIONS=ON -DLIBCXX_ENABLE_EXCEPTIONS=ON -DLIBCXXABI_USE_LLVM_UNWINDER=OFF -DLIBUNWIND_ENABLE_SHARED=OFF                   -DCMAKE_AR=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libcxx/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar                   -DCMAKE_NM=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libcxx/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-nm                   -DCMAKE_RANLIB=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/libcxx/20.1.8/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib                   -DLLVM_DEFAULT_TARGET_TRIPLE=i686-oe-linux                   -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "description": "",
+            "filename": "libcxx_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://libcxx.llvm.org/",
+            "id": 2409645,
+            "inherits": "cmake cmake-native python3-dir python3native",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "libcxx",
+            "pr": "r0",
+            "provides": "libcxx ",
+            "pv": "20.1.8",
+            "section": "base",
+            "srcrev": "",
+            "summary": "libc++ is a new implementation of the C++ standard library, targeting C++11 and above",
+            "updated": "2026-03-19T00:03:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "clang-cross-canadian_git.bb",
+            "filepath": "recipes-devtools/clang",
+            "homepage": "http://clang.llvm.org/",
+            "id": 2409646,
+            "inherits": "cross-canadian",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0-with-LLVM-exception",
+            "pe": "",
+            "pn": "clang-cross-canadian-i686",
+            "pr": "r0",
+            "provides": "clang-cross-canadian-i686 ",
+            "pv": "20.1.8",
+            "section": "devel",
+            "srcrev": "",
+            "summary": "Clang/LLVM based C/C++ compiler (cross-canadian for i686 target)",
+            "updated": "2026-03-19T00:03:00+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "castxml_0.6.11.bb",
+            "filepath": "recipes-devtools/castxml",
+            "homepage": "",
+            "id": 2409647,
+            "inherits": "cmake cmake-native pkgconfig python3-dir python3native",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "castxml",
+            "pr": "r0",
+            "provides": "castxml ",
+            "pv": "0.6.11",
+            "section": "base",
+            "srcrev": "f38c024b395187814f14f77974d8f5240bb2e71f",
+            "summary": "C-family abstract syntax tree XML output tool.",
+            "updated": "2026-03-19T00:03:00+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "https://github.com/include-what-you-use/include-what-you-use/issues",
+            "configopts": "-DIWYU_RESOURCE_RELATIVE_TO=iwyu ",
+            "description": "For every symbol (type, function, variable, or macro) that you                use in foo.cc (or foo.cpp), either foo.cc or foo.h should                include a .h file that exports the declaration of that symbol.",
+            "filename": "include-what-you-use_0.23.bb",
+            "filepath": "recipes-devtools/include-what-you-use",
+            "homepage": "https://include-what-you-use.org",
+            "id": 2409648,
+            "inherits": "cmake python3-dir python3native",
+            "layerbranch": 1072016,
+            "license": "NCSA",
+            "pe": "",
+            "pn": "include-what-you-use",
+            "pr": "r0",
+            "provides": "include-what-you-use ",
+            "pv": "0.23+git",
+            "section": "base",
+            "srcrev": "fa1094c0b3848f82244778bc6153cc84f8a890f6",
+            "summary": "Include What You Use (IWYU) - Clang based checker for C/C++ header includes",
+            "updated": "2026-03-19T00:03:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DREVISION='0.33.0+git'     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DPY_SKIP_DEB_LAYOUT=ON     -DPYTHON_CMD=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/bcc/0.33.0+git/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.13/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
+            "description": "",
+            "filename": "bcc_0.33.0.bb",
+            "filepath": "dynamic-layers/meta-python/recipes-devtools/bcc",
+            "homepage": "https://github.com/iovisor/bcc",
+            "id": 2409649,
+            "inherits": "cmake manpages ptest python3-dir python3native qemu",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "bcc",
+            "pr": "r0",
+            "provides": "bcc ",
+            "pv": "0.33.0+git",
+            "section": "base",
+            "srcrev": "92e32ff8a06616779f3a3191b75da6881d59fd17",
+            "summary": "BPF Compiler Collection (BCC)",
+            "updated": "2026-03-19T00:03:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -DCMAKE_ENABLE_EXPORTS=1     -DCMAKE_BUILD_TYPE=Release     -DUSE_SYSTEM_BPF_BCC=ON     -DENABLE_MAN=OFF     -DBISON_FLAGS='--file-prefix-map=/tmp/tmp8j4z5ee0/tmp/work/core2-32-oe-linux/bpftrace/0.23.0+git='   -DENABLE_SYSTEMD=OFF -DBUILD_TESTING=OFF",
+            "description": "",
+            "filename": "bpftrace_0.23.0.bb",
+            "filepath": "dynamic-layers/meta-python/recipes-devtools/bpftrace",
+            "homepage": "https://github.com/iovisor/bpftrace",
+            "id": 2409650,
+            "inherits": "bash-completion cmake pkgconfig ptest",
+            "layerbranch": 1072016,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "bpftrace",
+            "pr": "r0",
+            "provides": "bpftrace ",
+            "pv": "0.23.0+git",
+            "section": "base",
+            "srcrev": "01e806d24c61f996f1809e1e991646311499db4f",
+            "summary": "bpftrace",
+            "updated": "2026-03-19T00:03:01+0000"
+        }
+    ],
+    "wrtemplates": []
+}
