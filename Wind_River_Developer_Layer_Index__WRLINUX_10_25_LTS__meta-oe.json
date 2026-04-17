@@ -692,6 +692,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44231,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0 5.1 5.2 5.3"
         }
     ],
     "branches": [
@@ -704,7 +711,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2026-04-06T00:04:12+0000",
+            "updated": "2026-04-16T00:04:13+0000",
             "updates_enabled": true
         }
     ],
@@ -717,10 +724,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-04-02T20:04:08+0000",
-            "vcs_last_commit": "2026-04-02T20:04:43+0000",
-            "vcs_last_fetch": "2026-04-02T20:04:08+0000",
-            "vcs_last_rev": "ca54fd07c37f670df35254e685ba61dae55160ef",
+            "updated": "2026-04-16T21:04:37+0000",
+            "vcs_last_commit": "2026-04-16T20:04:05+0000",
+            "vcs_last_fetch": "2026-04-16T21:04:37+0000",
+            "vcs_last_rev": "4755c45fd2d46ad6b456fb346fe290c0468bcb7f",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -732,10 +739,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-03-27T00:03:02+0000",
-            "vcs_last_commit": "2026-03-26T03:03:35+0000",
-            "vcs_last_fetch": "2026-03-27T00:03:02+0000",
-            "vcs_last_rev": "e8ab7f1c4dd8358c5aec784b28afc6b5b6c8580d",
+            "updated": "2026-04-14T00:04:06+0000",
+            "vcs_last_commit": "2026-04-14T00:04:14+0000",
+            "vcs_last_fetch": "2026-04-14T00:04:06+0000",
+            "vcs_last_rev": "3a7207c4bfe4810e4169b9f115f00da872242762",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -11055,7 +11062,7 @@
             "bugtracker": "",
             "configopts": " ac_cv_func_memcmp_working=yes --with-yielding-select=yes --enable-dynamic --enable-crypt  --enable-asyncmeta=mod --enable-dnssrv=mod --enable-dyngroup=no --with-tls=gnutls --enable-ipv6 --enable-ldap=mod --enable-mdb=yes --enable-meta=mod lt_cv_dlopen_self=yes --enable-modules --enable-null=mod --enable-passwd=mod --enable-perl=no --enable-proxycache=mod --enable-relay=no --without-cyrus-sasl --enable-sock=no --enable-sql=no --enable-wt=no",
             "description": "OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.",
-            "filename": "openldap_2.6.9.bb",
+            "filename": "openldap_2.6.13.bb",
             "filepath": "recipes-support/openldap",
             "homepage": "http://www.OpenLDAP.org/license.html",
             "id": 2222637,
@@ -11066,11 +11073,11 @@
             "pn": "openldap",
             "pr": "r0",
             "provides": "openldap ",
-            "pv": "2.6.9",
+            "pv": "2.6.13",
             "section": "libs",
             "srcrev": "",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2025-06-22T22:06:44+0000"
+            "updated": "2026-04-13T20:04:20+0000"
         },
         {
             "bbclassextend": " native",
@@ -14252,7 +14259,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A flexible distributed key-value datastore that supports both caching and beyond caching workloads.",
-            "filename": "valkey_8.1.5.bb",
+            "filename": "valkey_8.1.6.bb",
             "filepath": "recipes-extended/valkey",
             "homepage": "http://valkey.io",
             "id": 2222776,
@@ -14263,11 +14270,11 @@
             "pn": "valkey",
             "pr": "r0",
             "provides": "valkey ",
-            "pv": "8.1.5",
+            "pv": "8.1.6",
             "section": "libs",
-            "srcrev": "43561f89298820073ebfcff6ee7922d5670091a2",
+            "srcrev": "19b07dfcbb75b14a1ed1b0a48cb8a0efcc81d563",
             "summary": "Valkey key-value store",
-            "updated": "2025-12-19T00:12:22+0000"
+            "updated": "2026-04-13T20:04:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15425,7 +15432,7 @@
             "bugtracker": "",
             "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb_11.4.9.bb",
+            "filename": "mariadb_11.4.10.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2222827,
@@ -15436,19 +15443,19 @@
             "pn": "mariadb",
             "pr": "r0",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "11.4.9",
+            "pv": "11.4.10",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2026-01-04T19:01:03+0000"
+            "updated": "2026-04-06T22:04:27+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpbxm010nd/tmp/work/x86_64-linux/mariadb-native/11.4.9/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpbxm010nd/tmp/work/x86_64-linux/mariadb-native/11.4.9/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpxmopuidp/tmp/work/x86_64-linux/mariadb-native/11.4.10/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_PCDIR:PATH=lib/pkgconfig                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpxmopuidp/tmp/work/x86_64-linux/mariadb-native/11.4.10/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DLSTAT_FOLLOWS_SLASHED_SYMLINK_EXITCODE=0                  -DSTAT_EMPTY_STRING_BUG_EXITCODE=0                  -DMASK_LONGDOUBLE_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb-native_11.4.9.bb",
+            "filename": "mariadb-native_11.4.10.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2222828,
@@ -15459,11 +15466,11 @@
             "pn": "mariadb-native",
             "pr": "r0",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "11.4.9",
+            "pv": "11.4.10",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2026-01-04T19:01:04+0000"
+            "updated": "2026-04-06T22:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -18453,7 +18460,7 @@
             "section": "x11/utils",
             "srcrev": "8bdf8734ce12c8ed3c232496fc8a4ccdb04636b8",
             "summary": "",
-            "updated": "2025-06-22T22:06:58+0000"
+            "updated": "2026-04-14T00:04:05+0000"
         },
         {
             "bbclassextend": "",
@@ -19082,7 +19089,7 @@
             "bugtracker": "",
             "configopts": " -DOPENJPEG_INSTALL_LIB_DIR=lib ",
             "description": "OpenJPEG library is an open-source JPEG 2000 codec",
-            "filename": "openjpeg_2.5.3.bb",
+            "filename": "openjpeg_2.5.4.bb",
             "filepath": "recipes-graphics/openjpeg",
             "homepage": "http://www.openjpeg.org",
             "id": 2222986,
@@ -19093,11 +19100,11 @@
             "pn": "openjpeg",
             "pr": "r0",
             "provides": "openjpeg ",
-            "pv": "2.5.3",
+            "pv": "2.5.4",
             "section": "base",
-            "srcrev": "210a8a5690d0da66f02d49420d7176a21ef409dc",
+            "srcrev": "6c4a29b00211eb0430fa0e5e890f1ce5c80f409f",
             "summary": "",
-            "updated": "2025-09-25T00:09:13+0000"
+            "updated": "2026-04-13T20:04:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
