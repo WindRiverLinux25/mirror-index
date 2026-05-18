@@ -718,7 +718,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2026-05-07T00:05:16+0000",
+            "updated": "2026-05-18T00:05:07+0000",
             "updates_enabled": true
         }
     ],
@@ -739,10 +739,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-06T21:05:11+0000",
-            "vcs_last_commit": "2026-05-06T20:05:40+0000",
-            "vcs_last_fetch": "2026-05-06T21:05:11+0000",
-            "vcs_last_rev": "43333414c526655ab8abf550bbc8bb661d8f83d1",
+            "updated": "2026-05-17T21:05:37+0000",
+            "vcs_last_commit": "2026-05-17T20:05:20+0000",
+            "vcs_last_fetch": "2026-05-17T21:05:37+0000",
+            "vcs_last_rev": "e14a2683d53da9d5c43f843172dfb73c24f58e18",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -769,10 +769,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-05-07T01:05:19+0000",
-            "vcs_last_commit": "2026-05-06T23:05:41+0000",
-            "vcs_last_fetch": "2026-05-07T01:05:19+0000",
-            "vcs_last_rev": "d7ff6534c0e3b83de1f26414fa6fede76a5946a4",
+            "updated": "2026-05-17T23:05:17+0000",
+            "vcs_last_commit": "2026-05-17T22:05:11+0000",
+            "vcs_last_fetch": "2026-05-17T23:05:17+0000",
+            "vcs_last_rev": "6120df711ca2786726a5690709493332887b2bda",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -934,7 +934,7 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2026-04-26T19:04:23+0000"
+            "updated": "2026-05-17T23:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -957,7 +957,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Boot svg files to tracing format",
-            "updated": "2026-04-26T19:04:24+0000"
+            "updated": "2026-05-17T23:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -980,7 +980,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2026-04-26T19:04:24+0000"
+            "updated": "2026-05-17T23:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1003,7 +1003,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Service funtion to multiplex one or more serial ports and tty console devices",
-            "updated": "2026-04-26T19:04:24+0000"
+            "updated": "2026-05-17T23:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1026,7 +1026,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "ostree upgrade config manager",
-            "updated": "2026-04-26T19:04:24+0000"
+            "updated": "2026-05-17T23:05:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1049,7 +1049,7 @@
             "section": "devel",
             "srcrev": "4a52d8c06635435b64e31a56eaf7ca5dc912a71d",
             "summary": "Boost.Build",
-            "updated": "2026-04-26T19:04:24+0000"
+            "updated": "2026-05-17T23:05:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1072,7 +1072,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Free peer-reviewed portable C++ source libraries",
-            "updated": "2026-04-26T19:04:24+0000"
+            "updated": "2026-05-17T23:05:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1095,7 +1095,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2026-04-26T19:04:25+0000"
+            "updated": "2026-05-17T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1118,7 +1118,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-26T19:04:25+0000"
+            "updated": "2026-05-17T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1141,7 +1141,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-26T19:04:25+0000"
+            "updated": "2026-05-17T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1164,7 +1164,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-26T19:04:25+0000"
+            "updated": "2026-05-17T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1187,7 +1187,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2026-04-26T19:04:25+0000"
+            "updated": "2026-05-17T23:05:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1210,7 +1210,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2026-04-26T19:04:21+0000"
+            "updated": "2026-05-17T23:05:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1233,7 +1233,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs for NFS boot",
-            "updated": "2026-04-26T19:04:22+0000"
+            "updated": "2026-05-17T23:05:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1256,7 +1256,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2026-04-26T19:04:22+0000"
+            "updated": "2026-05-17T23:05:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1279,7 +1279,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-26T19:04:22+0000"
+            "updated": "2026-05-17T23:05:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1302,7 +1302,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-26T19:04:22+0000"
+            "updated": "2026-05-17T23:05:14+0000"
         }
     ],
     "wrtemplates": [

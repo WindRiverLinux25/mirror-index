@@ -718,7 +718,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2026-05-07T00:05:16+0000",
+            "updated": "2026-05-18T00:05:07+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +731,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-06T21:05:11+0000",
-            "vcs_last_commit": "2026-05-06T20:05:40+0000",
-            "vcs_last_fetch": "2026-05-06T21:05:11+0000",
-            "vcs_last_rev": "43333414c526655ab8abf550bbc8bb661d8f83d1",
+            "updated": "2026-05-17T21:05:37+0000",
+            "vcs_last_commit": "2026-05-17T20:05:20+0000",
+            "vcs_last_fetch": "2026-05-17T21:05:37+0000",
+            "vcs_last_rev": "e14a2683d53da9d5c43f843172dfb73c24f58e18",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -746,10 +746,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-05-07T01:05:44+0000",
-            "vcs_last_commit": "2026-05-06T23:05:37+0000",
-            "vcs_last_fetch": "2026-05-07T01:05:44+0000",
-            "vcs_last_rev": "ad717cd4329b2b675d13f34a3f4a15b667c14cf5",
+            "updated": "2026-05-14T22:05:23+0000",
+            "vcs_last_commit": "2026-05-14T20:05:40+0000",
+            "vcs_last_fetch": "2026-05-14T22:05:23+0000",
+            "vcs_last_rev": "9e320b33dff05d9f930a7ef7d9f733f851b3af05",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -1530,7 +1530,7 @@
             "id": 2222222,
             "inherits": "pkgconfig ptest python3-dir python3native qemu siteinfo",
             "layerbranch": 1037130,
-            "license": "MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0",
+            "license": "MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0 & BlueOak-1.0.0",
             "pe": "",
             "pn": "nodejs",
             "pr": "r0",
@@ -1539,7 +1539,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-05-07T01:05:44+0000"
+            "updated": "2026-05-14T22:05:23+0000"
         },
         {
             "bbclassextend": "",
@@ -6492,7 +6492,7 @@
             "bugtracker": "",
             "configopts": "-Dintrospection=true -Ddocs=false ",
             "description": "",
-            "filename": "udisks2_2.10.1.bb",
+            "filename": "udisks2_2.10.2.bb",
             "filepath": "recipes-support/udisks",
             "homepage": "",
             "id": 2222438,
@@ -6503,11 +6503,11 @@
             "pn": "udisks2",
             "pr": "r0",
             "provides": "udisks2 ",
-            "pv": "2.10.1",
+            "pv": "2.10.2",
             "section": "base",
             "srcrev": "bc623acf9e7488dc105e4b00069d57e303e2616b",
             "summary": "udisks provides dbus interfaces for disks and storage devices",
-            "updated": "2025-10-26T23:10:22+0000"
+            "updated": "2026-05-10T23:05:38+0000"
         },
         {
             "bbclassextend": "",
@@ -6576,7 +6576,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Little cms is a small-footprint, speed optimized color management engine",
-            "updated": "2026-04-27T20:04:01+0000"
+            "updated": "2026-05-14T03:05:27+0000"
         },
         {
             "bbclassextend": "",
@@ -19111,7 +19111,7 @@
             "section": "base",
             "srcrev": "6c4a29b00211eb0430fa0e5e890f1ce5c80f409f",
             "summary": "",
-            "updated": "2026-04-13T20:04:20+0000"
+            "updated": "2026-05-14T01:05:39+0000"
         },
         {
             "bbclassextend": "nativesdk",
