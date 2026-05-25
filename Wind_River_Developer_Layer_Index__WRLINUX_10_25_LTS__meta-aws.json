@@ -706,6 +706,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.3 5.0 5.1 5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44233,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3"
         }
     ],
     "branches": [
@@ -718,7 +725,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2026-05-18T00:05:07+0000",
+            "updated": "2026-05-25T00:05:15+0000",
             "updates_enabled": true
         }
     ],
@@ -731,10 +738,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-17T21:05:37+0000",
-            "vcs_last_commit": "2026-05-17T20:05:20+0000",
-            "vcs_last_fetch": "2026-05-17T21:05:37+0000",
-            "vcs_last_rev": "e14a2683d53da9d5c43f843172dfb73c24f58e18",
+            "updated": "2026-05-24T20:05:22+0000",
+            "vcs_last_commit": "2026-05-24T19:05:41+0000",
+            "vcs_last_fetch": "2026-05-24T20:05:22+0000",
+            "vcs_last_rev": "7e5847f5c40e16fa129aea0e7d75d75fe5b4fdcc",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -746,10 +753,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-05-14T22:05:23+0000",
-            "vcs_last_commit": "2026-05-14T20:05:40+0000",
-            "vcs_last_fetch": "2026-05-14T22:05:23+0000",
-            "vcs_last_rev": "9e320b33dff05d9f930a7ef7d9f733f851b3af05",
+            "updated": "2026-05-24T20:05:32+0000",
+            "vcs_last_commit": "2026-05-24T19:05:34+0000",
+            "vcs_last_fetch": "2026-05-24T20:05:32+0000",
+            "vcs_last_rev": "f19eb995517564a152e6d0af51a6c56346f46d40",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -761,10 +768,10 @@
             "id": 1037132,
             "layer": 12,
             "local_path": "",
-            "updated": "2026-05-07T22:05:15+0000",
-            "vcs_last_commit": "2026-05-07T22:05:50+0000",
-            "vcs_last_fetch": "2026-05-07T22:05:15+0000",
-            "vcs_last_rev": "c446557bd6556ba3d5f8f47b1ab84bf4970cae4d",
+            "updated": "2026-05-20T02:05:12+0000",
+            "vcs_last_commit": "2026-05-20T00:05:07+0000",
+            "vcs_last_fetch": "2026-05-20T02:05:12+0000",
+            "vcs_last_rev": "274321dc659472b98c0e998af234ca6c7301c023",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44206
@@ -806,10 +813,10 @@
             "id": 1037158,
             "layer": 517,
             "local_path": "",
-            "updated": "2025-10-26T23:10:46+0000",
-            "vcs_last_commit": "2025-10-23T22:10:48+0000",
-            "vcs_last_fetch": "2025-10-26T23:10:46+0000",
-            "vcs_last_rev": "952ba09ae9c2ac59cbb9adc4a22d5f086d7c3f2c",
+            "updated": "2026-05-21T22:05:51+0000",
+            "vcs_last_commit": "2026-05-21T20:05:05+0000",
+            "vcs_last_fetch": "2026-05-21T22:05:51+0000",
+            "vcs_last_rev": "a9f7c17990effb77eeb248710c7654fc8d02accb",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44206
@@ -1262,7 +1269,7 @@
             "bugtracker": "",
             "configopts": " -DUNSAFE_TREAT_WARNINGS_AS_ERRORS=OFF   -DS2N_ADDRESS_SANITIZER=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo",
             "description": "s2n is a C99 implementation of the TLS/SSL protocols that is designed to be simple, small, fast, and with security as a priority.",
-            "filename": "s2n_1.5.27.bb",
+            "filename": "s2n_1.7.0.bb",
             "filepath": "recipes-sdk/s2n",
             "homepage": "https://github.com/aws/s2n-tls",
             "id": 2224806,
@@ -1273,11 +1280,11 @@
             "pn": "s2n",
             "pr": "r0",
             "provides": "s2n  aws/s2n",
-            "pv": "1.5.27",
+            "pv": "1.7.0",
             "section": "base",
-            "srcrev": "30f40f2345a89570ed3c4cee2274942f1ebf85fa",
+            "srcrev": "f5e5e83031be60691f22442373fb8371274fcd56",
             "summary": "s2n",
-            "updated": "2025-10-26T23:10:45+0000"
+            "updated": "2026-05-19T19:05:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1630,7 +1637,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The low-level, core functionality of boto3 and the AWS CLI.",
-            "filename": "python3-botocore_1.40.49.bb",
+            "filename": "python3-botocore_1.42.51.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/botocore",
             "id": 2224822,
@@ -1641,11 +1648,11 @@
             "pn": "python3-botocore",
             "pr": "r0",
             "provides": "python3-botocore ",
-            "pv": "1.40.49",
+            "pv": "1.42.51",
             "section": "base",
-            "srcrev": "dc8eb09cd30fb3fe1259c98a2a2f7955dc700227",
+            "srcrev": "9d9af7311c4d4bc65e938c9f189e77f2b8a6ac64",
             "summary": "python3 botocore",
-            "updated": "2025-10-26T23:10:43+0000"
+            "updated": "2026-05-21T22:05:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -1676,7 +1683,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Amazon S3 Transfer Manager for Python",
-            "filename": "python3-s3transfer_0.14.0.bb",
+            "filename": "python3-s3transfer_0.16.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/s3transfer",
             "id": 2224824,
@@ -1687,11 +1694,11 @@
             "pn": "python3-s3transfer",
             "pr": "r0",
             "provides": "python3-s3transfer ",
-            "pv": "0.14.0",
+            "pv": "0.16.0",
             "section": "base",
-            "srcrev": "b4ee0a2cc675088f8419e4996a9c560e510afd37",
+            "srcrev": "8ebcc1eac88b944ad0b669fe6d22247ee132806c",
             "summary": "python3 s3 transfer",
-            "updated": "2025-10-26T23:10:43+0000"
+            "updated": "2026-05-21T22:05:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1722,7 +1729,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2.",
-            "filename": "python3-boto3_1.40.49.bb",
+            "filename": "python3-boto3_1.42.51.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/boto3",
             "id": 2224826,
@@ -1733,11 +1740,11 @@
             "pn": "python3-boto3",
             "pr": "r0",
             "provides": "python3-boto3 ",
-            "pv": "1.40.49",
+            "pv": "1.42.51",
             "section": "base",
-            "srcrev": "660a1ec6b8b97d109a8ab37ca5a79925844388f0",
+            "srcrev": "bf41321e5f7500eef5427df0aab2e8c39e581b5f",
             "summary": "Python Boto3",
-            "updated": "2025-10-26T23:10:42+0000"
+            "updated": "2026-05-21T22:05:50+0000"
         },
         {
             "bbclassextend": "",
