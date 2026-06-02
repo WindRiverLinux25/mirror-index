@@ -723,9 +723,9 @@
             "id": 454,
             "name": "WRLINUX_10_25_LTS",
             "short_description": "Wind River Linux 10_25 Long Term Support",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-05-25T00:05:15+0000",
+            "updated": "2026-06-02T00:06:09+0000",
             "updates_enabled": true
         }
     ],
@@ -746,10 +746,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-05-24T20:05:22+0000",
-            "vcs_last_commit": "2026-05-24T19:05:41+0000",
-            "vcs_last_fetch": "2026-05-24T20:05:22+0000",
-            "vcs_last_rev": "7e5847f5c40e16fa129aea0e7d75d75fe5b4fdcc",
+            "updated": "2026-06-02T00:06:30+0000",
+            "vcs_last_commit": "2026-06-01T22:06:15+0000",
+            "vcs_last_fetch": "2026-06-02T00:06:30+0000",
+            "vcs_last_rev": "9acf9ac0d58aa0fcc7689687b59e1921ff49fcc0",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1000,7 +1000,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2026-04-10T01:04:07+0000"
+            "updated": "2026-06-01T20:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1069,7 +1069,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2026-04-10T01:04:07+0000"
+            "updated": "2026-06-01T20:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -8295,11 +8295,11 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/ffmpeg-7.1.2=/usr/src/debug/ffmpeg/7.1.2  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/build=/usr/src/debug/ffmpeg/7.1.2  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot-native= '     --sysroot='/tmp/tmp0y92olz9/tmp/work/core2-32-oe-linux/ffmpeg/7.1.2/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-libmp3lame --disable-openssl --enable-postproc --disable-sdl2 --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --disable-libv4l2 --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib --disable-asm",
+            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -g -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/ffmpeg-7.1.4=/usr/src/debug/ffmpeg/7.1.4  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/ffmpeg-7.1.4=/usr/src/debug/ffmpeg/7.1.4  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/build=/usr/src/debug/ffmpeg/7.1.4  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/build=/usr/src/debug/ffmpeg/7.1.4  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot-native=  -pipe  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/ffmpeg-7.1.4=/usr/src/debug/ffmpeg/7.1.4  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/ffmpeg-7.1.4=/usr/src/debug/ffmpeg/7.1.4  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/build=/usr/src/debug/ffmpeg/7.1.4  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/build=/usr/src/debug/ffmpeg/7.1.4  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot-native= '     --sysroot='/tmp/tmpwka0rfiy/tmp/work/core2-32-oe-linux/ffmpeg/7.1.4/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-libmp3lame --disable-openssl --enable-postproc --disable-sdl2 --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --disable-libv4l2 --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib --disable-asm",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
-            "filename": "ffmpeg_7.1.2.bb",
+            "filename": "ffmpeg_7.1.4.bb",
             "filepath": "recipes-multimedia/ffmpeg",
             "homepage": "https://www.ffmpeg.org/",
             "id": 2413076,
@@ -8310,11 +8310,11 @@
             "pn": "ffmpeg",
             "pr": "r0",
             "provides": "ffmpeg libav libpostproc",
-            "pv": "7.1.2",
+            "pv": "7.1.4",
             "section": "libs",
             "srcrev": "",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2026-04-27T02:04:07+0000"
+            "updated": "2026-05-28T02:05:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8521,7 +8521,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Image loading library for GTK+",
-            "updated": "2026-03-19T08:03:26+0000"
+            "updated": "2026-05-25T02:05:18+0000"
         },
         {
             "bbclassextend": "",
@@ -10208,7 +10208,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "This package includes PEM files of CA certificates to allow SSL-based applications to check for the authenticity of SSL connections. This derived from Debian's CA Certificates.",
-            "filename": "ca-certificates_20241223.bb",
+            "filename": "ca-certificates_20260223.bb",
             "filepath": "recipes-support/ca-certificates",
             "homepage": "http://packages.debian.org/sid/ca-certificates",
             "id": 2413159,
@@ -10219,11 +10219,11 @@
             "pn": "ca-certificates",
             "pr": "r0",
             "provides": "ca-certificates ",
-            "pv": "20241223",
+            "pv": "20260223",
             "section": "misc",
             "srcrev": "",
             "summary": "Common CA certificates",
-            "updated": "2026-03-19T08:03:48+0000"
+            "updated": "2026-05-25T22:05:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10321,7 +10321,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmp65mbgq6d/tmp/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
+            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmphj6lfbre/tmp/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup-2.4_2.74.3.bb",
             "filepath": "recipes-support/libsoup",
@@ -10338,13 +10338,13 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2026-04-21T22:04:27+0000"
+            "updated": "2026-06-02T00:06:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpbvkw7lap/tmp/work/core2-32-oe-linux/libsoup/3.6.6/soup.cross",
+            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmphj6lfbre/tmp/work/core2-32-oe-linux/libsoup/3.6.6/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup_3.6.6.bb",
             "filepath": "recipes-support/libsoup",
@@ -10361,7 +10361,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2026-04-21T00:04:41+0000"
+            "updated": "2026-06-02T00:06:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -18762,7 +18762,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpuevz4iza/tmp/work/core2-32-oe-linux/glibc/2.41+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                     --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpdybekpos/tmp/work/core2-32-oe-linux/glibc/2.41+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                     --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc_2.41.bb",
             "filepath": "recipes-core/glibc",
@@ -18779,7 +18779,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2026-05-14T23:05:07+0000"
+            "updated": "2026-06-01T19:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -18808,7 +18808,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpuevz4iza/tmp/work/core2-32-oe-linux/glibc-testsuite/2.41+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                     --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpdybekpos/tmp/work/core2-32-oe-linux/glibc-testsuite/2.41+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                     --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-testsuite_2.41.bb",
             "filepath": "recipes-core/glibc",
@@ -18825,7 +18825,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2026-05-14T23:05:08+0000"
+            "updated": "2026-06-01T19:06:04+0000"
         },
         {
             "bbclassextend": "nativesdk",

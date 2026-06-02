@@ -723,9 +723,9 @@
             "id": 454,
             "name": "WRLINUX_10_25_LTS",
             "short_description": "Wind River Linux 10_25 Long Term Support",
-            "sort_priority": 6,
+            "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-05-25T00:05:15+0000",
+            "updated": "2026-06-02T00:06:09+0000",
             "updates_enabled": true
         }
     ],
