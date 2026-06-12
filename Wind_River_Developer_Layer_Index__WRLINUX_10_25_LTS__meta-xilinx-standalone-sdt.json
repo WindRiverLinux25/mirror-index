@@ -713,6 +713,27 @@
             "image_url": "",
             "link_url": "",
             "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
         }
     ],
     "branches": [
@@ -725,7 +746,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-06-02T00:06:09+0000",
+            "updated": "2026-06-11T00:06:16+0000",
             "updates_enabled": true
         }
     ],
@@ -746,10 +767,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-02T00:06:30+0000",
-            "vcs_last_commit": "2026-06-01T22:06:15+0000",
-            "vcs_last_fetch": "2026-06-02T00:06:30+0000",
-            "vcs_last_rev": "9acf9ac0d58aa0fcc7689687b59e1921ff49fcc0",
+            "updated": "2026-06-11T02:06:12+0000",
+            "vcs_last_commit": "2026-06-11T02:06:50+0000",
+            "vcs_last_fetch": "2026-06-11T02:06:12+0000",
+            "vcs_last_rev": "29070664a782ef4893833d4a23e6007065fb010a",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -761,10 +782,10 @@
             "id": 1037161,
             "layer": 45,
             "local_path": "",
-            "updated": "2026-05-27T01:05:18+0000",
-            "vcs_last_commit": "2026-05-26T23:05:36+0000",
-            "vcs_last_fetch": "2026-05-27T01:05:18+0000",
-            "vcs_last_rev": "d979624fea224a49bb27ce29b15bc482243696ba",
+            "updated": "2026-06-05T00:06:38+0000",
+            "vcs_last_commit": "2026-06-03T01:06:59+0000",
+            "vcs_last_fetch": "2026-06-05T00:06:38+0000",
+            "vcs_last_rev": "abb7b4bc957d11e0ef1a8d61ecde518e549157af",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44205
@@ -776,9 +797,9 @@
             "id": 1037164,
             "layer": 436,
             "local_path": "",
-            "updated": "2026-02-24T19:02:15+0000",
+            "updated": "2026-06-11T08:06:53+0000",
             "vcs_last_commit": "2026-02-24T19:02:36+0000",
-            "vcs_last_fetch": "2026-02-24T19:02:15+0000",
+            "vcs_last_fetch": "2026-06-11T08:06:53+0000",
             "vcs_last_rev": "bdae2a50e10d33d7a892aab66043de851c046009",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,

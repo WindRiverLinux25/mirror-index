@@ -713,6 +713,27 @@
             "image_url": "",
             "link_url": "",
             "name": "5.0 5.3"
+        },
+        {
+            "description": "",
+            "id": 44234,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44235,
+            "image_url": "",
+            "link_url": "",
+            "name": "6.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44236,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 6.0"
         }
     ],
     "branches": [
@@ -725,7 +746,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-06-02T00:06:09+0000",
+            "updated": "2026-06-11T00:06:16+0000",
             "updates_enabled": true
         }
     ],
@@ -746,10 +767,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-02T00:06:30+0000",
-            "vcs_last_commit": "2026-06-01T22:06:15+0000",
-            "vcs_last_fetch": "2026-06-02T00:06:30+0000",
-            "vcs_last_rev": "9acf9ac0d58aa0fcc7689687b59e1921ff49fcc0",
+            "updated": "2026-06-11T02:06:12+0000",
+            "vcs_last_commit": "2026-06-11T02:06:50+0000",
+            "vcs_last_fetch": "2026-06-11T02:06:12+0000",
+            "vcs_last_rev": "29070664a782ef4893833d4a23e6007065fb010a",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1437,7 +1458,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "General-purpose x86 assembler",
-            "updated": "2026-03-19T08:03:51+0000"
+            "updated": "2026-06-08T21:06:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4818,7 +4839,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2026-03-19T08:03:45+0000"
+            "updated": "2026-06-03T04:06:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5784,7 +5805,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2026-04-13T20:04:05+0000"
+            "updated": "2026-06-03T04:06:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -5807,7 +5828,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2026-04-13T20:04:05+0000"
+            "updated": "2026-06-03T04:06:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7762,7 +7783,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2026-03-19T08:03:20+0000"
+            "updated": "2026-06-11T02:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -12776,7 +12797,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2026-04-13T20:04:09+0000"
+            "updated": "2026-06-02T20:06:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13173,7 +13194,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fmacro-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmps6qs7yww/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
+            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
             "description": "The Common UNIX Printing System is a printing system and general replacement for lpd and the like. It supports the Internet Printing Protocol (IPP), and has its own filtering driver model for handling various document types.",
             "filename": "cups_2.4.16.bb",
             "filepath": "recipes-extended/cups",
@@ -13190,7 +13211,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "An Internet printing system for Unix",
-            "updated": "2026-04-28T18:04:59+0000"
+            "updated": "2026-06-02T03:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -14409,7 +14430,7 @@
             "section": "devel",
             "srcrev": "fbba0d790598b76ae39d1c1944ea0c0d04ecb5ee",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2026-03-19T08:03:36+0000"
+            "updated": "2026-06-08T02:06:09+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -14432,7 +14453,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Linux Trace Toolkit KERNEL MODULE",
-            "updated": "2026-03-19T08:03:36+0000"
+            "updated": "2026-06-08T02:06:08+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -15352,7 +15373,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Text shaping library",
-            "updated": "2026-03-19T08:03:48+0000"
+            "updated": "2026-06-02T23:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -19032,7 +19053,7 @@
             "section": "base/shell",
             "srcrev": "00a12c234e2506f5cab683460199575f13c454db",
             "summary": "A System and service manager",
-            "updated": "2026-03-19T08:03:24+0000"
+            "updated": "2026-06-05T00:06:23+0000"
         },
         {
             "bbclassextend": "",
@@ -21938,7 +21959,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Mobile Broadband Service Provider Database stores service provider specific information. When this Database is available the information can be fetched there",
-            "filename": "mobile-broadband-provider-info_git.bb",
+            "filename": "mobile-broadband-provider-info_20240407.bb",
             "filepath": "recipes-connectivity/mobile-broadband-provider-info",
             "homepage": "http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders",
             "id": 2413669,
@@ -21953,7 +21974,7 @@
             "section": "network",
             "srcrev": "55ba955d53305df96123534488fd160ea882b4dd",
             "summary": "Mobile Broadband Service Provider Database",
-            "updated": "2026-03-19T08:03:48+0000"
+            "updated": "2026-06-08T21:06:27+0000"
         },
         {
             "bbclassextend": "",
@@ -22115,6 +22136,29 @@
             "srcrev": "f6983c18dbf7989f43a2838beeaf62a54c53ff1d",
             "summary": "dhcpcd - a DHCP client",
             "updated": "2026-03-19T08:03:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "Mobile Broadband Service Provider Database stores service provider specific information. When this Database is available the information can be fetched there",
+            "filename": "mobile-broadband-provider-info_20251101.bb",
+            "filepath": "recipes-connectivity/mobile-broadband-provider-info",
+            "homepage": "http://live.gnome.org/NetworkManager/MobileBroadband/ServiceProviders",
+            "id": 2481449,
+            "inherits": "meson meson-routines python3-dir python3native qemu siteinfo",
+            "layerbranch": 1037118,
+            "license": "PD",
+            "pe": "1",
+            "pn": "mobile-broadband-provider-info",
+            "pr": "r0",
+            "provides": "mobile-broadband-provider-info ",
+            "pv": "20251101",
+            "section": "network",
+            "srcrev": "18cb97517d9c831e1d2ec057e62d04fd3665e10f",
+            "summary": "Mobile Broadband Service Provider Database",
+            "updated": "2026-06-08T21:06:27+0000"
         }
     ],
     "wrtemplates": []
