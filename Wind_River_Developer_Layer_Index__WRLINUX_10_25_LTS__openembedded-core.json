@@ -734,6 +734,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.0 6.0"
+        },
+        {
+            "description": "",
+            "id": 44237,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.3 6.0 6.1"
         }
     ],
     "branches": [
@@ -746,7 +753,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-06-11T00:06:16+0000",
+            "updated": "2026-06-21T00:06:09+0000",
             "updates_enabled": true
         }
     ],
@@ -767,10 +774,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-11T02:06:12+0000",
-            "vcs_last_commit": "2026-06-11T02:06:50+0000",
-            "vcs_last_fetch": "2026-06-11T02:06:12+0000",
-            "vcs_last_rev": "29070664a782ef4893833d4a23e6007065fb010a",
+            "updated": "2026-06-18T03:06:59+0000",
+            "vcs_last_commit": "2026-06-18T01:06:53+0000",
+            "vcs_last_fetch": "2026-06-18T03:06:59+0000",
+            "vcs_last_rev": "4c64a14819cffd2ebcab7798100ead32ac0fa7a1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -1021,7 +1028,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2026-06-01T20:06:04+0000"
+            "updated": "2026-06-17T01:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1090,7 +1097,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2026-06-01T20:06:04+0000"
+            "updated": "2026-06-17T01:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13194,7 +13201,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpa71lf9b_/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
+            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fmacro-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/cups-2.4.16=/usr/src/debug/cups/2.4.16  -fdebug-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native=  -fmacro-prefix-map=/tmp/tmpnbazu5y5/tmp/work/core2-32-oe-linux/cups/2.4.16/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
             "description": "The Common UNIX Printing System is a printing system and general replacement for lpd and the like. It supports the Internet Printing Protocol (IPP), and has its own filtering driver model for handling various document types.",
             "filename": "cups_2.4.16.bb",
             "filepath": "recipes-extended/cups",
@@ -13211,7 +13218,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "An Internet printing system for Unix",
-            "updated": "2026-06-02T03:06:10+0000"
+            "updated": "2026-06-18T03:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -16132,7 +16139,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XWayland is an X Server that runs under Wayland.",
-            "updated": "2026-03-19T08:03:54+0000"
+            "updated": "2026-06-17T01:06:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -16431,7 +16438,7 @@
             "section": "x11/base",
             "srcrev": "",
             "summary": "The X.Org X server",
-            "updated": "2026-03-19T08:03:57+0000"
+            "updated": "2026-06-17T01:06:03+0000"
         },
         {
             "bbclassextend": "",
