@@ -753,7 +753,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-06-21T00:06:09+0000",
+            "updated": "2026-08-13T00:08:10+0000",
             "updates_enabled": true
         }
     ],
@@ -795,10 +795,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-06-18T03:06:59+0000",
-            "vcs_last_commit": "2026-06-18T01:06:53+0000",
-            "vcs_last_fetch": "2026-06-18T03:06:59+0000",
-            "vcs_last_rev": "4c64a14819cffd2ebcab7798100ead32ac0fa7a1",
+            "updated": "2026-08-12T22:08:16+0000",
+            "vcs_last_commit": "2026-08-12T21:08:41+0000",
+            "vcs_last_fetch": "2026-08-12T22:08:16+0000",
+            "vcs_last_rev": "9818656994a7f13c972ed1e1347bb77e2d03d83a",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -825,10 +825,10 @@
             "id": 1037130,
             "layer": 7,
             "local_path": "",
-            "updated": "2026-06-10T06:06:20+0000",
-            "vcs_last_commit": "2026-06-09T23:06:10+0000",
-            "vcs_last_fetch": "2026-06-10T06:06:20+0000",
-            "vcs_last_rev": "08418ac544af89ff22ee3047a05a63888b2a4065",
+            "updated": "2026-08-13T01:08:12+0000",
+            "vcs_last_commit": "2026-08-12T22:08:34+0000",
+            "vcs_last_fetch": "2026-08-13T01:08:12+0000",
+            "vcs_last_rev": "a0b0f13208af8f8b889b0cf50a50ebd8e0b5fd45",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44206
@@ -840,10 +840,10 @@
             "id": 1037131,
             "layer": 10,
             "local_path": "",
-            "updated": "2026-06-02T00:06:39+0000",
-            "vcs_last_commit": "2026-06-01T22:06:39+0000",
-            "vcs_last_fetch": "2026-06-02T00:06:39+0000",
-            "vcs_last_rev": "2364432e6942c964f7057390258e02df91188b1b",
+            "updated": "2026-08-07T20:08:42+0000",
+            "vcs_last_commit": "2026-08-07T12:08:02+0000",
+            "vcs_last_fetch": "2026-08-07T20:08:42+0000",
+            "vcs_last_rev": "294b8516c64ea231136c91e879486f7caf368748",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 44206
@@ -915,10 +915,10 @@
             "id": 1037151,
             "layer": 11,
             "local_path": "",
-            "updated": "2026-06-17T09:06:05+0000",
-            "vcs_last_commit": "2026-06-17T09:06:32+0000",
-            "vcs_last_fetch": "2026-06-17T09:06:05+0000",
-            "vcs_last_rev": "5f1eeded6237ddf5e780d7c7fe4961137675bc75",
+            "updated": "2026-08-06T00:08:13+0000",
+            "vcs_last_commit": "2026-08-05T23:08:58+0000",
+            "vcs_last_fetch": "2026-08-06T00:08:13+0000",
+            "vcs_last_rev": "642a5a33c0ea7bb7e9ca9c720bdcccfe16922a3b",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44206
@@ -990,10 +990,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-06-11T22:06:15+0000",
-            "vcs_last_commit": "2026-06-11T19:06:34+0000",
-            "vcs_last_fetch": "2026-06-11T22:06:15+0000",
-            "vcs_last_rev": "117ebf588820dbcda6603de9c9cb174a67b7b75c",
+            "updated": "2026-08-12T11:08:31+0000",
+            "vcs_last_commit": "2026-08-12T10:08:15+0000",
+            "vcs_last_fetch": "2026-08-12T11:08:31+0000",
+            "vcs_last_rev": "e97597639a604d81cba7a3cf7d082e127f31894a",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -1005,10 +1005,10 @@
             "id": 1037175,
             "layer": 164,
             "local_path": "",
-            "updated": "2026-06-10T10:06:19+0000",
-            "vcs_last_commit": "2026-06-10T09:06:36+0000",
-            "vcs_last_fetch": "2026-06-10T10:06:19+0000",
-            "vcs_last_rev": "5d0f6bb085e3ac95a69d32b9be3a2f2febf0922d",
+            "updated": "2026-08-06T17:08:36+0000",
+            "vcs_last_commit": "2026-08-06T15:08:07+0000",
+            "vcs_last_fetch": "2026-08-06T17:08:36+0000",
+            "vcs_last_rev": "b2f763b1287692df0d363230948f9540b1cbd0b3",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 44204
@@ -1470,7 +1470,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Imports container images into Docker",
-            "updated": "2026-05-13T22:05:12+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1493,7 +1493,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs kernel boot",
-            "updated": "2026-04-09T21:04:05+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1516,7 +1516,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:06+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1539,7 +1539,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "tiny init",
-            "updated": "2026-04-09T21:04:06+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "mcextend:x86 mcextend:x86_64",
@@ -1562,7 +1562,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:06+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1585,7 +1585,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:06+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1608,7 +1608,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:06+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1631,7 +1631,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2026-04-09T21:04:06+0000"
+            "updated": "2026-08-06T17:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1654,7 +1654,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2026-04-09T21:04:07+0000"
+            "updated": "2026-08-06T17:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1677,7 +1677,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:02+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1700,7 +1700,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1723,7 +1723,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1746,7 +1746,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1769,7 +1769,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1792,7 +1792,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1815,7 +1815,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1838,7 +1838,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1861,7 +1861,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1884,7 +1884,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1907,7 +1907,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Packages required by bsp",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1930,7 +1930,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1953,7 +1953,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:03+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1976,7 +1976,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:04+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1999,7 +1999,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:04+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2022,7 +2022,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:04+0000"
+            "updated": "2026-08-06T17:08:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2045,7 +2045,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:04+0000"
+            "updated": "2026-08-06T17:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2068,7 +2068,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:04+0000"
+            "updated": "2026-08-06T17:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2091,7 +2091,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny image capable of booting a device.",
-            "updated": "2026-04-09T21:04:05+0000"
+            "updated": "2026-08-06T17:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2114,7 +2114,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:05+0000"
+            "updated": "2026-08-06T17:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2137,7 +2137,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device.",
-            "updated": "2026-04-09T21:04:05+0000"
+            "updated": "2026-08-06T17:08:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2160,7 +2160,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2026-04-09T21:04:05+0000"
+            "updated": "2026-08-06T17:08:35+0000"
         }
     ],
     "wrtemplates": [
