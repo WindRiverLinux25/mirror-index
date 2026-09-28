@@ -709,13 +709,6 @@
         },
         {
             "description": "",
-            "id": 44233,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.3"
-        },
-        {
-            "description": "",
             "id": 44234,
             "image_url": "",
             "link_url": "",
@@ -748,6 +741,13 @@
             "image_url": "",
             "link_url": "",
             "name": "5.2 5.3 6.0"
+        },
+        {
+            "description": "",
+            "id": 44239,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.3 6.0"
         }
     ],
     "branches": [
@@ -760,7 +760,7 @@
             "short_description": "Wind River Linux 10_25 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2026-09-16T00:09:17+0000",
+            "updated": "2026-09-28T00:09:10+0000",
             "updates_enabled": true
         }
     ],
@@ -773,10 +773,10 @@
             "id": 1037118,
             "layer": 1,
             "local_path": "",
-            "updated": "2026-09-11T13:09:11+0000",
-            "vcs_last_commit": "2026-09-11T08:09:35+0000",
-            "vcs_last_fetch": "2026-09-11T13:09:11+0000",
-            "vcs_last_rev": "e83aaf011aa58431c54bfcbd979773705f9ea06c",
+            "updated": "2026-09-28T08:09:11+0000",
+            "vcs_last_commit": "2026-09-28T07:09:23+0000",
+            "vcs_last_fetch": "2026-09-28T08:09:11+0000",
+            "vcs_last_rev": "fe9c1b461fd508563bb8d161beb15f3989158144",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44204
@@ -788,10 +788,10 @@
             "id": 1037151,
             "layer": 11,
             "local_path": "",
-            "updated": "2026-08-27T22:08:32+0000",
-            "vcs_last_commit": "2026-08-27T16:08:48+0000",
-            "vcs_last_fetch": "2026-08-27T22:08:32+0000",
-            "vcs_last_rev": "1f5dc8c4e944b1667668c055dff86a9791133eeb",
+            "updated": "2026-09-25T11:09:47+0000",
+            "vcs_last_commit": "2026-09-25T09:09:20+0000",
+            "vcs_last_fetch": "2026-09-25T11:09:47+0000",
+            "vcs_last_rev": "34365ed9a0abafc3338c2cfeb85544100f723463",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44206
@@ -818,10 +818,10 @@
             "id": 1037167,
             "layer": 49,
             "local_path": "",
-            "updated": "2026-09-15T18:09:28+0000",
-            "vcs_last_commit": "2026-09-15T14:09:27+0000",
-            "vcs_last_fetch": "2026-09-15T18:09:28+0000",
-            "vcs_last_rev": "5d5ae965eda15669d12345646b4a5216581d18b9",
+            "updated": "2026-09-26T11:09:15+0000",
+            "vcs_last_commit": "2026-09-26T11:09:04+0000",
+            "vcs_last_fetch": "2026-09-26T11:09:15+0000",
+            "vcs_last_rev": "393b3c499ecc6be094346f8854b12ef8e0eb10e4",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44204
@@ -833,10 +833,10 @@
             "id": 1044837,
             "layer": 439,
             "local_path": "",
-            "updated": "2026-08-25T00:08:35+0000",
-            "vcs_last_commit": "2026-08-20T03:08:34+0000",
-            "vcs_last_fetch": "2026-08-25T00:08:35+0000",
-            "vcs_last_rev": "265d6f3745373a7aebc5470211ff92165bdda201",
+            "updated": "2026-09-24T22:09:13+0000",
+            "vcs_last_commit": "2026-09-24T21:09:12+0000",
+            "vcs_last_fetch": "2026-09-24T22:09:13+0000",
+            "vcs_last_rev": "0c8ebae2be043eabf8ce51738b2db9233b4df8bc",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44204
@@ -971,7 +971,7 @@
             "id": 101820,
             "layerbranch": 1044837,
             "name": "nxp-s32g",
-            "updated": "2026-04-28T23:04:04+0000"
+            "updated": "2026-09-24T22:09:11+0000"
         }
     ],
     "recipes": [
@@ -1017,9 +1017,9 @@
             "provides": "pkcs11-hse  pkcs11-hse",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "0542cc5a248cc2d35af339c38270e2059a927b31",
+            "srcrev": "54f27518cc6a7fc17014345ee5daac71ccfd22c8",
             "summary": "",
-            "updated": "2025-06-25T10:06:26+0000"
+            "updated": "2026-09-24T22:09:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -1109,9 +1109,9 @@
             "provides": "u-boot-tools u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools-scmi",
             "pv": "2022.04-s32",
             "section": "bootloaders",
-            "srcrev": "9a003232781ee9999d7e41a1cd62024400794560",
+            "srcrev": "4144acbebe9d5bf7f492e05d2f66b43ebde0b081",
             "summary": "U-Boot bootloader tools",
-            "updated": "2026-01-11T20:01:13+0000"
+            "updated": "2026-09-24T22:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1132,9 +1132,9 @@
             "provides": "atf-s32g ",
             "pv": "2.10",
             "section": "base",
-            "srcrev": "c9a7f81230064d21e403cfc315cbd3ffdc18752f",
+            "srcrev": "c834244b9c54c79e80315aecc9807f5b0eb79342",
             "summary": "",
-            "updated": "2026-04-28T23:04:05+0000"
+            "updated": "2026-09-24T22:09:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -1201,9 +1201,9 @@
             "provides": "ipc-shm  kernel-module-ipc-shm-sample kernel-module-ipc-shm-dev kernel-module-ipc-shm-uio",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "e90d0a18eb6d53f1faa09739f3d1c00f6f4eed8c",
+            "srcrev": "92c3b834f3e175cf59782099d2b2df2b63177996",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2025-06-25T10:06:26+0000"
+            "updated": "2026-09-24T22:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1234,7 +1234,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "pfe_1.9.0.bb",
+            "filename": "pfe_1.10.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "",
             "id": 2277605,
@@ -1245,11 +1245,11 @@
             "pn": "pfe",
             "pr": "r0",
             "provides": "pfe ",
-            "pv": "1.9.0",
+            "pv": "1.10.0",
             "section": "base",
-            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "srcrev": "d41ea8bcbadd1e6ee8ab4b4dc9ae6b11c617a92d",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-06-25T10:06:27+0000"
+            "updated": "2026-09-24T22:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1257,7 +1257,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "LibFCI Example: Command line tool for configuration of PFE",
-            "filename": "libfci-cli_1.8.0.bb",
+            "filename": "libfci-cli_1.10.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "https://source.codeaurora.org/external/autobsps32/extra/pfeng",
             "id": 2277606,
@@ -1268,11 +1268,11 @@
             "pn": "libfci-cli",
             "pr": "r0",
             "provides": "libfci-cli ",
-            "pv": "1.8.0",
+            "pv": "1.10.0",
             "section": "base",
-            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "srcrev": "d41ea8bcbadd1e6ee8ab4b4dc9ae6b11c617a92d",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-06-25T10:06:27+0000"
+            "updated": "2026-09-24T22:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1280,7 +1280,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "libFCI networking acceleration library",
-            "filename": "libfci_1.8.0.bb",
+            "filename": "libfci_1.10.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "https://source.codeaurora.org/external/autobsps32/extra/pfeng",
             "id": 2277607,
@@ -1291,11 +1291,11 @@
             "pn": "libfci",
             "pr": "r0",
             "provides": "libfci ",
-            "pv": "1.8.0",
+            "pv": "1.10.0",
             "section": "base",
-            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "srcrev": "d41ea8bcbadd1e6ee8ab4b4dc9ae6b11c617a92d",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-06-25T10:06:27+0000"
+            "updated": "2026-09-24T22:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1303,7 +1303,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "pfe-slave_1.9.0.bb",
+            "filename": "pfe-slave_1.10.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "",
             "id": 2277608,
@@ -1314,11 +1314,11 @@
             "pn": "pfe-slave",
             "pr": "r0",
             "provides": "pfe-slave ",
-            "pv": "1.9.0",
+            "pv": "1.10.0",
             "section": "base",
-            "srcrev": "fedfb51726e1aaebffc49ab5871d09ec75a5b2b9",
+            "srcrev": "d41ea8bcbadd1e6ee8ab4b4dc9ae6b11c617a92d",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-06-25T10:06:27+0000"
+            "updated": "2026-09-24T22:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1387,7 +1387,7 @@
             "section": "base",
             "srcrev": "5bc04d55cc67a75824cad7a8ee4b29090ee11187",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2026-03-10T23:03:47+0000"
+            "updated": "2026-09-24T22:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1410,7 +1410,7 @@
             "section": "base",
             "srcrev": "79e49f95474d05a028f58a75c6c643f88e9b9295",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2026-03-10T23:03:47+0000"
+            "updated": "2026-09-24T22:09:12+0000"
         },
         {
             "bbclassextend": "",
